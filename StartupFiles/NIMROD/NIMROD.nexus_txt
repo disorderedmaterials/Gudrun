@@ -1,0 +1,19 @@
+title = /title
+username = /user_1/name
+starttime = /start_time
+timechannels = /monitor_1/time_of_flight
+periodspresent = yes
+goodframes = /good_frames
+spectrum = /monitor_1/data 0 1 -1
+spectrum = /monitor_2/data 0 1 -1
+spectrum = /monitor_3/data 0 1 -1
+spectrum = /monitor_4/data 0 1 -1
+spectrum = /monitor_5/data 0 1 -1
+spectrum = /monitor_6/data 0 1 -1
+spectrum = /monitor_7/data 0 1 -1
+spectrum = /monitor_8/data 0 1 -1
+spectrum = /monitor_9/data 0 1 -1
+spectrum = /detector_1/counts 4 198 -1  0 5 5 5 3 -1
+
+
+

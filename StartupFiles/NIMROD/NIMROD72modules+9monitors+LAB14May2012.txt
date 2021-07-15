@@ -1,0 +1,2592 @@
+'  '  '          '  '/'
+
+USER TABLE PANELS          {
+Azimuthal angle [deg.]          
+User table variable name          
+User table variable name          
+Azimuthal angle [deg.]          
+User table variable name          
+}
+
+DETECTOR FRAME ICON          {
+Monitors          
+1          Number of columns 
+6          Number of rows 
+false          First column upstream? 
+1          Bank no. of first column
+M          Frame initials
+false          Beam right to left
+true          Beam left to right
+0          No. of spectra per group
+0.0            Default module flight paths
+0.0            Default module scattering angles
+0.0            Default module rotation angles
+0.0  0.0  0.0  0.0  0.0  0.0            Default module azimuthal angles
+0  0  0  0  0  0            Row group numbers
+}
+
+DETECTOR FRAME ICON          {
+LAB          
+1          Number of columns 
+24          Number of rows 
+true          First column upstream? 
+1          Bank no. of first column
+LAB          Frame initials
+false          Beam right to left
+true          Beam left to right
+3          No. of spectra per group
+5.526            Default module flight paths
+0.492            Default module scattering angles
+90.0            Default module rotation angles
+-55.267  -69.16  -83.053  263.053  249.16  235.267  214.733  200.84  186.947  173.053  159.16  145.267  124.733  110.84  96.947  83.053  69.16  55.267  34.733  20.840  6.947  -6.947  -20.840  -34.733            Default module azimuthal angles
+0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0            Row group numbers
+}
+
+DETECTOR FRAME ICON          {
+NIMROD North          
+7          Number of columns 
+6          Number of rows 
+false          First column upstream? 
+2          Bank no. of first column
+N          Frame initials
+true          Beam right to left
+false          Beam left to right
+9          No. of spectra per group
+4.8067  4.3610  3.5885  2.7912  1.9243  1.5123  1.0953            Default module flight paths
+5.19  8.04  11.30  14.69  22.326  29.22  40.83            Default module scattering angles
+20.6  18.0  14.9  11.8  5.2  -0.9  0.9            Default module rotation angles
+102.87  128.48  154.29  180.0  205.71  231.42            Default module azimuthal angles
+1  1  1  1  1  1            Row group numbers
+}
+
+DETECTOR FRAME ICON          {
+NIMROD South          
+7          Number of columns 
+6          Number of rows 
+false          First column upstream? 
+2          Bank no. of first column
+S          Frame initials
+false          Beam right to left
+true          Beam left to right
+9          No. of spectra per group
+4.8067  4.3610  3.5885  2.7912  1.9243  1.5123  1.0953            Default module flight paths
+5.19  8.04  11.30  14.69  22.326  29.22  40.83            Default module scattering angles
+20.6  18.0  14.8  11.8  5.2  -0.9  0.9            Default module rotation angles
+77.13  51.42  25.71  0.0  -25.71  -51.42            Default module azimuthal angles
+1  1  1  1  1  1            Row group numbers
+}
+
+MODULE TYPE          {
+Monitors single  ModuleTypeTitle          
+1  NoOfElements          
+1  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+true  Centre          
+false  Downstream          
+0  DetectorHeight          
+0  ElementSpacing          
+1  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.1  UserTableValue004          
+}
+
+MODULE TYPE          {
+Monitors double  ModuleTypeTitle          
+2  NoOfElements          
+1  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+true  Centre          
+false  Downstream          
+0  DetectorHeight          
+0  ElementSpacing          
+1  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.1  UserTableValue004          
+}
+
+MODULE TYPE          {
+NIMROD standard  ModuleTypeTitle          
+18  NoOfElements          
+5  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+true  Upstream          
+false  Centre          
+false  Downstream          
+200  DetectorHeight          
+20  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE TYPE          {
+LAB-Seg-1  ModuleTypeTitle          
+3  NoOfElements          
+128  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+false  Centre          
+true  Downstream          
+12  DetectorHeight          
+5  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE TYPE          {
+LAB-Seg-2  ModuleTypeTitle          
+4  NoOfElements          
+128  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+false  Centre          
+true  Downstream          
+16  DetectorHeight          
+5  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE TYPE          {
+LAB-Seg-3  ModuleTypeTitle          
+3  NoOfElements          
+128  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+false  Centre          
+true  Downstream          
+21  DetectorHeight          
+5  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE TYPE          {
+LAB-Seg-4  ModuleTypeTitle          
+3  NoOfElements          
+128  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+false  Centre          
+true  Downstream          
+25  DetectorHeight          
+5  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE TYPE          {
+LAB-Seg-5  ModuleTypeTitle          
+3  NoOfElements          
+128  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+false  Centre          
+true  Downstream          
+28  DetectorHeight          
+5  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE TYPE          {
+LAB-Seg-6  ModuleTypeTitle          
+4  NoOfElements          
+128  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+false  Centre          
+true  Downstream          
+32  DetectorHeight          
+5  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE TYPE          {
+LAB-Seg-7  ModuleTypeTitle          
+3  NoOfElements          
+128  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+false  Centre          
+true  Downstream          
+37  DetectorHeight          
+5  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE TYPE          {
+LAB-Seg-8  ModuleTypeTitle          
+3  NoOfElements          
+128  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+false  Centre          
+true  Downstream          
+41  DetectorHeight          
+5  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE TYPE          {
+LAB-Seg-9  ModuleTypeTitle          
+4  NoOfElements          
+128  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+false  Centre          
+true  Downstream          
+44  DetectorHeight          
+5  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE TYPE          {
+LAB-Seg-10  ModuleTypeTitle          
+3  NoOfElements          
+128  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+false  Centre          
+true  Downstream          
+49  DetectorHeight          
+5  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE TYPE          {
+LAB whole segment-1  ModuleTypeTitle          
+33  NoOfElements          
+256  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+false  Centre          
+true  Downstream          
+10  DetectorHeight          
+5  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE TYPE          {
+LAB whole segment-2  ModuleTypeTitle          
+30  NoOfElements          
+256  NoOfElementsPerDAEModule          
+false  FirstElementUpstream          
+false  Upstream          
+true  Centre          
+false  Downstream          
+10  DetectorHeight          
+5  ElementSpacing          
+0  Prescaler          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+Monitors single  ModuleTypeTitle          
+Monitors  FrameNo          
+1  SlotNo          
+M1-M1  ModuleAbbrv          
+10  CrateNo          
+1  PositionNumberStep          
+-13.54200  DistanceFromSample          
+180.00000  ScattAngle          
+90.00000  RotAngle          
+1  DefaultDistanceFromSample          
+10  DefaultScattAngle          
+0  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.00000  UserTableValue003          
+0.1  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+Monitors single  ModuleTypeTitle          
+Monitors  FrameNo          
+2  SlotNo          
+M1-M2  ModuleAbbrv          
+10  CrateNo          
+1  PositionNumberStep          
+-11.92800  DistanceFromSample          
+180.00000  ScattAngle          
+90.00000  RotAngle          
+1  DefaultDistanceFromSample          
+10  DefaultScattAngle          
+0  DefaultRotAngle          
+1  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.00000  UserTableValue003          
+0.1  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+Monitors single  ModuleTypeTitle          
+Monitors  FrameNo          
+3  SlotNo          
+M1-M3  ModuleAbbrv          
+10  CrateNo          
+1  PositionNumberStep          
+-7.80800  DistanceFromSample          
+180.00000  ScattAngle          
+90.00000  RotAngle          
+1  DefaultDistanceFromSample          
+10  DefaultScattAngle          
+0  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.00000  UserTableValue003          
+0.1  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+Monitors double  ModuleTypeTitle          
+Monitors  FrameNo          
+4  SlotNo          
+M1-M4  ModuleAbbrv          
+10  CrateNo          
+1  PositionNumberStep          
+-4.56000  DistanceFromSample          
+180.00000  ScattAngle          
+90.00000  RotAngle          
+1  DefaultDistanceFromSample          
+10  DefaultScattAngle          
+0  DefaultRotAngle          
+2  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.00000  UserTableValue003          
+0.1  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+Monitors double  ModuleTypeTitle          
+Monitors  FrameNo          
+5  SlotNo          
+M1-M5  ModuleAbbrv          
+10  CrateNo          
+1  PositionNumberStep          
+-2.66000  DistanceFromSample          
+180.00000  ScattAngle          
+90.00000  RotAngle          
+1  DefaultDistanceFromSample          
+10  DefaultScattAngle          
+0  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.00000  UserTableValue003          
+0.1  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+Monitors double  ModuleTypeTitle          
+Monitors  FrameNo          
+6  SlotNo          
+M1-M6  ModuleAbbrv          
+10  CrateNo          
+1  PositionNumberStep          
+6.50000  DistanceFromSample          
+0.00000  ScattAngle          
+90.00000  RotAngle          
+1  DefaultDistanceFromSample          
+10  DefaultScattAngle          
+0  DefaultRotAngle          
+6  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.00000  UserTableValue003          
+0.1  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+1  SlotNo          
+LAB1-M1  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+0  FirstDAEModuleNo          
+1  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-55.26700  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+2  SlotNo          
+LAB1-M2  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+0  FirstDAEModuleNo          
+2  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-69.16000  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+3  SlotNo          
+LAB1-M3  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+0  FirstDAEModuleNo          
+3  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-83.05300  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+4  SlotNo          
+LAB1-M4  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+0  FirstDAEModuleNo          
+129  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+263.05301  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+5  SlotNo          
+LAB1-M5  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+0  FirstDAEModuleNo          
+130  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+249.16000  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+6  SlotNo          
+LAB1-M6  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+0  FirstDAEModuleNo          
+131  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+235.26700  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+7  SlotNo          
+LAB1-M7  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+4  FirstDAEModuleNo          
+1  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+214.73300  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+8  SlotNo          
+LAB1-M8  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+4  FirstDAEModuleNo          
+2  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+200.84000  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+9  SlotNo          
+LAB1-M9  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+4  FirstDAEModuleNo          
+3  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+186.94701  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+10  SlotNo          
+LAB1-M10  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+4  FirstDAEModuleNo          
+129  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+173.05299  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+11  SlotNo          
+LAB1-M11  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+4  FirstDAEModuleNo          
+130  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+159.16000  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+12  SlotNo          
+LAB1-M12  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+4  FirstDAEModuleNo          
+131  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+145.26700  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+13  SlotNo          
+LAB1-M13  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+8  FirstDAEModuleNo          
+1  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+124.73300  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+14  SlotNo          
+LAB1-M14  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+8  FirstDAEModuleNo          
+2  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+110.84000  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+15  SlotNo          
+LAB1-M15  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+8  FirstDAEModuleNo          
+3  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+96.94700  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+16  SlotNo          
+LAB1-M16  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+8  FirstDAEModuleNo          
+129  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+83.05300  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+17  SlotNo          
+LAB1-M17  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+8  FirstDAEModuleNo          
+130  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+69.16000  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+18  SlotNo          
+LAB1-M18  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+8  FirstDAEModuleNo          
+131  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+55.26700  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+19  SlotNo          
+LAB1-M19  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+12  FirstDAEModuleNo          
+1  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+34.73300  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+20  SlotNo          
+LAB1-M20  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+12  FirstDAEModuleNo          
+2  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+20.84000  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+21  SlotNo          
+LAB1-M21  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+12  FirstDAEModuleNo          
+3  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+6.94700  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+22  SlotNo          
+LAB1-M22  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+12  FirstDAEModuleNo          
+129  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-6.94700  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+23  SlotNo          
+LAB1-M23  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+12  FirstDAEModuleNo          
+130  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-20.84000  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+LAB whole segment-1  ModuleTypeTitle          
+LAB  FrameNo          
+24  SlotNo          
+LAB1-M24  ModuleAbbrv          
+107  CrateNo          
+3  PositionNumberStep          
+5.52600  DistanceFromSample          
+0.49200  ScattAngle          
+90.00000  RotAngle          
+5.526  DefaultDistanceFromSample          
+0.492  DefaultScattAngle          
+90.0  DefaultRotAngle          
+12  FirstDAEModuleNo          
+131  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-34.73300  UserTableValue003          
+0.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+4  SlotNo          
+N2-M4  ModuleAbbrv          
+1  CrateNo          
+1  PositionNumberStep          
+4.80670  DistanceFromSample          
+5.27893  ScattAngle          
+24.00000  RotAngle          
+4.8067  DefaultDistanceFromSample          
+5.19  DefaultScattAngle          
+20.6  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+180.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+180.00000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+6  SlotNo          
+N2-M6  ModuleAbbrv          
+1  CrateNo          
+1  PositionNumberStep          
+4.80670  DistanceFromSample          
+5.30343  ScattAngle          
+24.00000  RotAngle          
+4.8067  DefaultDistanceFromSample          
+5.19  DefaultScattAngle          
+20.6  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+231.42  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+231.42000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+7  SlotNo          
+N3-M1  ModuleAbbrv          
+108  CrateNo          
+1  PositionNumberStep          
+4.36100  DistanceFromSample          
+7.94134  ScattAngle          
+20.00000  RotAngle          
+4.3610  DefaultDistanceFromSample          
+8.04  DefaultScattAngle          
+18.0  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+102.87000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+8  SlotNo          
+N3-M2  ModuleAbbrv          
+108  CrateNo          
+1  PositionNumberStep          
+4.36100  DistanceFromSample          
+7.97709  ScattAngle          
+20.50000  RotAngle          
+4.3610  DefaultDistanceFromSample          
+8.04  DefaultScattAngle          
+18.0  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+128.48000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+9  SlotNo          
+N3-M3  ModuleAbbrv          
+109  CrateNo          
+1  PositionNumberStep          
+4.36100  DistanceFromSample          
+7.95770  ScattAngle          
+20.50000  RotAngle          
+4.3610  DefaultDistanceFromSample          
+8.04  DefaultScattAngle          
+18.0  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+154.28999  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+10  SlotNo          
+N3-M4  ModuleAbbrv          
+108  CrateNo          
+1  PositionNumberStep          
+4.36100  DistanceFromSample          
+7.98811  ScattAngle          
+20.50000  RotAngle          
+4.3610  DefaultDistanceFromSample          
+8.04  DefaultScattAngle          
+18.0  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+180.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+180.00000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+13  SlotNo          
+N4-M1  ModuleAbbrv          
+2  CrateNo          
+1  PositionNumberStep          
+3.58850  DistanceFromSample          
+11.51001  ScattAngle          
+17.80000  RotAngle          
+3.5885  DefaultDistanceFromSample          
+11.30  DefaultScattAngle          
+14.9  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+102.87  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+102.87000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+14  SlotNo          
+N4-M2  ModuleAbbrv          
+109  CrateNo          
+1  PositionNumberStep          
+3.58850  DistanceFromSample          
+11.49640  ScattAngle          
+17.80000  RotAngle          
+3.5885  DefaultDistanceFromSample          
+11.30  DefaultScattAngle          
+14.9  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+128.48000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+15  SlotNo          
+N4-M3  ModuleAbbrv          
+104  CrateNo          
+1  PositionNumberStep          
+3.58850  DistanceFromSample          
+11.50989  ScattAngle          
+17.80000  RotAngle          
+3.5885  DefaultDistanceFromSample          
+11.30  DefaultScattAngle          
+14.9  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+154.29  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+154.28999  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+16  SlotNo          
+N4-M4  ModuleAbbrv          
+2  CrateNo          
+1  PositionNumberStep          
+3.58850  DistanceFromSample          
+11.41179  ScattAngle          
+17.80000  RotAngle          
+3.5885  DefaultDistanceFromSample          
+11.30  DefaultScattAngle          
+14.9  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+180.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+180.00000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+17  SlotNo          
+N4-M5  ModuleAbbrv          
+2  CrateNo          
+1  PositionNumberStep          
+3.58850  DistanceFromSample          
+11.50059  ScattAngle          
+17.80000  RotAngle          
+3.5885  DefaultDistanceFromSample          
+11.30  DefaultScattAngle          
+14.9  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+205.71  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+205.71001  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+18  SlotNo          
+N4-M6  ModuleAbbrv          
+102  CrateNo          
+1  PositionNumberStep          
+3.58850  DistanceFromSample          
+11.58543  ScattAngle          
+17.80000  RotAngle          
+3.5885  DefaultDistanceFromSample          
+11.30  DefaultScattAngle          
+14.9  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+231.42  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+231.42000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+19  SlotNo          
+N5-M1  ModuleAbbrv          
+3  CrateNo          
+1  PositionNumberStep          
+2.79120  DistanceFromSample          
+14.89304  ScattAngle          
+14.80000  RotAngle          
+2.7912  DefaultDistanceFromSample          
+14.69  DefaultScattAngle          
+11.8  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+102.87  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+102.87000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+20  SlotNo          
+N5-M2  ModuleAbbrv          
+109  CrateNo          
+1  PositionNumberStep          
+2.79120  DistanceFromSample          
+14.87512  ScattAngle          
+14.80000  RotAngle          
+2.7912  DefaultDistanceFromSample          
+14.69  DefaultScattAngle          
+11.8  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+128.48000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+21  SlotNo          
+N5-M3  ModuleAbbrv          
+104  CrateNo          
+1  PositionNumberStep          
+2.79120  DistanceFromSample          
+14.90172  ScattAngle          
+14.80000  RotAngle          
+2.7912  DefaultDistanceFromSample          
+14.69  DefaultScattAngle          
+11.8  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+154.29  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+154.28999  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+22  SlotNo          
+N5-M4  ModuleAbbrv          
+3  CrateNo          
+1  PositionNumberStep          
+2.79120  DistanceFromSample          
+14.75912  ScattAngle          
+14.80000  RotAngle          
+2.7912  DefaultDistanceFromSample          
+14.69  DefaultScattAngle          
+11.8  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+180.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+180.00000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+23  SlotNo          
+N5-M5  ModuleAbbrv          
+4  CrateNo          
+1  PositionNumberStep          
+2.79120  DistanceFromSample          
+14.83215  ScattAngle          
+14.80000  RotAngle          
+2.7912  DefaultDistanceFromSample          
+14.69  DefaultScattAngle          
+11.8  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+205.71  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+205.71001  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+24  SlotNo          
+N5-M6  ModuleAbbrv          
+102  CrateNo          
+1  PositionNumberStep          
+2.79120  DistanceFromSample          
+14.93126  ScattAngle          
+14.80000  RotAngle          
+2.7912  DefaultDistanceFromSample          
+14.69  DefaultScattAngle          
+11.8  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+231.42  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+231.42000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+25  SlotNo          
+N6-M1  ModuleAbbrv          
+5  CrateNo          
+1  PositionNumberStep          
+1.92430  DistanceFromSample          
+22.56903  ScattAngle          
+8.20000  RotAngle          
+1.9243  DefaultDistanceFromSample          
+22.326  DefaultScattAngle          
+5.2  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+102.87  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+102.87000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+26  SlotNo          
+N6-M2  ModuleAbbrv          
+105  CrateNo          
+1  PositionNumberStep          
+1.92430  DistanceFromSample          
+22.51757  ScattAngle          
+8.20000  RotAngle          
+1.9243  DefaultDistanceFromSample          
+22.326  DefaultScattAngle          
+5.2  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+128.48  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+128.48000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+27  SlotNo          
+N6-M3  ModuleAbbrv          
+5  CrateNo          
+1  PositionNumberStep          
+1.92430  DistanceFromSample          
+22.45133  ScattAngle          
+8.20000  RotAngle          
+1.9243  DefaultDistanceFromSample          
+22.326  DefaultScattAngle          
+5.2  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+154.29  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+154.28999  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+28  SlotNo          
+N6-M4  ModuleAbbrv          
+5  CrateNo          
+1  PositionNumberStep          
+1.92430  DistanceFromSample          
+22.45722  ScattAngle          
+8.20000  RotAngle          
+1.9243  DefaultDistanceFromSample          
+22.326  DefaultScattAngle          
+5.2  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+180.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+180.00000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+29  SlotNo          
+N6-M5  ModuleAbbrv          
+5  CrateNo          
+1  PositionNumberStep          
+1.92430  DistanceFromSample          
+22.53013  ScattAngle          
+8.20000  RotAngle          
+1.9243  DefaultDistanceFromSample          
+22.326  DefaultScattAngle          
+5.2  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+205.71  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+205.71001  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+30  SlotNo          
+N6-M6  ModuleAbbrv          
+103  CrateNo          
+1  PositionNumberStep          
+1.92430  DistanceFromSample          
+22.54624  ScattAngle          
+8.20000  RotAngle          
+1.9243  DefaultDistanceFromSample          
+22.326  DefaultScattAngle          
+5.2  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+231.42  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+231.42000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+31  SlotNo          
+N7-M1  ModuleAbbrv          
+7  CrateNo          
+1  PositionNumberStep          
+1.51230  DistanceFromSample          
+29.40627  ScattAngle          
+2.00000  RotAngle          
+1.5123  DefaultDistanceFromSample          
+29.22  DefaultScattAngle          
+-0.9  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+102.87  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+102.87000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+32  SlotNo          
+N7-M2  ModuleAbbrv          
+105  CrateNo          
+1  PositionNumberStep          
+1.51230  DistanceFromSample          
+29.37712  ScattAngle          
+2.00000  RotAngle          
+1.5123  DefaultDistanceFromSample          
+29.22  DefaultScattAngle          
+-0.9  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+128.48  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+128.48000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+33  SlotNo          
+N7-M3  ModuleAbbrv          
+7  CrateNo          
+1  PositionNumberStep          
+1.51230  DistanceFromSample          
+29.27617  ScattAngle          
+2.00000  RotAngle          
+1.5123  DefaultDistanceFromSample          
+29.22  DefaultScattAngle          
+-0.9  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+154.29  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+154.28999  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+34  SlotNo          
+N7-M4  ModuleAbbrv          
+7  CrateNo          
+1  PositionNumberStep          
+1.51230  DistanceFromSample          
+29.31450  ScattAngle          
+2.00000  RotAngle          
+1.5123  DefaultDistanceFromSample          
+29.22  DefaultScattAngle          
+-0.9  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+180.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+180.00000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+35  SlotNo          
+N7-M5  ModuleAbbrv          
+7  CrateNo          
+1  PositionNumberStep          
+1.51230  DistanceFromSample          
+29.36177  ScattAngle          
+2.00000  RotAngle          
+1.5123  DefaultDistanceFromSample          
+29.22  DefaultScattAngle          
+-0.9  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+205.71  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+205.71001  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+36  SlotNo          
+N7-M6  ModuleAbbrv          
+103  CrateNo          
+1  PositionNumberStep          
+1.51230  DistanceFromSample          
+29.50969  ScattAngle          
+2.00000  RotAngle          
+1.5123  DefaultDistanceFromSample          
+29.22  DefaultScattAngle          
+-0.9  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+231.42  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+231.42000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+37  SlotNo          
+N8-M1  ModuleAbbrv          
+9  CrateNo          
+1  PositionNumberStep          
+1.09530  DistanceFromSample          
+41.12246  ScattAngle          
+5.00000  RotAngle          
+1.0953  DefaultDistanceFromSample          
+40.83  DefaultScattAngle          
+0.9  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+102.87  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+102.87000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+38  SlotNo          
+N8-M2  ModuleAbbrv          
+106  CrateNo          
+1  PositionNumberStep          
+1.09530  DistanceFromSample          
+40.85265  ScattAngle          
+5.00000  RotAngle          
+1.0953  DefaultDistanceFromSample          
+40.83  DefaultScattAngle          
+0.9  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+128.48  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+128.48000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+39  SlotNo          
+N8-M3  ModuleAbbrv          
+9  CrateNo          
+1  PositionNumberStep          
+1.09530  DistanceFromSample          
+40.78545  ScattAngle          
+5.00000  RotAngle          
+1.0953  DefaultDistanceFromSample          
+40.83  DefaultScattAngle          
+0.9  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+154.29  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+154.28999  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+40  SlotNo          
+N8-M4  ModuleAbbrv          
+9  CrateNo          
+1  PositionNumberStep          
+1.09530  DistanceFromSample          
+40.96935  ScattAngle          
+5.00000  RotAngle          
+1.0953  DefaultDistanceFromSample          
+40.83  DefaultScattAngle          
+0.9  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+180.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+180.00000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+41  SlotNo          
+N8-M5  ModuleAbbrv          
+9  CrateNo          
+1  PositionNumberStep          
+1.09530  DistanceFromSample          
+41.09083  ScattAngle          
+5.00000  RotAngle          
+1.0953  DefaultDistanceFromSample          
+40.83  DefaultScattAngle          
+0.9  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+205.71  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+205.71001  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD North  FrameNo          
+42  SlotNo          
+N8-M6  ModuleAbbrv          
+104  CrateNo          
+1  PositionNumberStep          
+1.09530  DistanceFromSample          
+41.14690  ScattAngle          
+5.00000  RotAngle          
+1.0953  DefaultDistanceFromSample          
+40.83  DefaultScattAngle          
+0.9  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+231.42  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+231.42000  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+4  SlotNo          
+S2-M4  ModuleAbbrv          
+1  CrateNo          
+1  PositionNumberStep          
+4.80670  DistanceFromSample          
+5.44305  ScattAngle          
+24.00000  RotAngle          
+4.8067  DefaultDistanceFromSample          
+5.19  DefaultScattAngle          
+20.6  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+6  SlotNo          
+S2-M6  ModuleAbbrv          
+1  CrateNo          
+1  PositionNumberStep          
+4.80670  DistanceFromSample          
+5.31811  ScattAngle          
+24.00000  RotAngle          
+4.8067  DefaultDistanceFromSample          
+5.19  DefaultScattAngle          
+20.6  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-51.42  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+7  SlotNo          
+S3-M1  ModuleAbbrv          
+109  CrateNo          
+1  PositionNumberStep          
+4.36100  DistanceFromSample          
+7.99649  ScattAngle          
+20.50000  RotAngle          
+4.3610  DefaultDistanceFromSample          
+8.04  DefaultScattAngle          
+18.0  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+77.13  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+8  SlotNo          
+S3-M2  ModuleAbbrv          
+110  CrateNo          
+1  PositionNumberStep          
+4.36100  DistanceFromSample          
+7.95269  ScattAngle          
+20.50000  RotAngle          
+4.3610  DefaultDistanceFromSample          
+8.04  DefaultScattAngle          
+18.0  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+51.42  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+9  SlotNo          
+S3-M3  ModuleAbbrv          
+110  CrateNo          
+1  PositionNumberStep          
+4.36100  DistanceFromSample          
+8.01501  ScattAngle          
+20.50000  RotAngle          
+4.3610  DefaultDistanceFromSample          
+8.04  DefaultScattAngle          
+18.0  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+25.71  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+10  SlotNo          
+S3-M4  ModuleAbbrv          
+108  CrateNo          
+1  PositionNumberStep          
+4.36100  DistanceFromSample          
+8.08352  ScattAngle          
+20.50000  RotAngle          
+4.3610  DefaultDistanceFromSample          
+8.04  DefaultScattAngle          
+18.0  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+13  SlotNo          
+S4-M1  ModuleAbbrv          
+2  CrateNo          
+1  PositionNumberStep          
+3.58850  DistanceFromSample          
+11.54833  ScattAngle          
+17.80000  RotAngle          
+3.5885  DefaultDistanceFromSample          
+11.30  DefaultScattAngle          
+14.8  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+77.13  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+14  SlotNo          
+S4-M2  ModuleAbbrv          
+110  CrateNo          
+1  PositionNumberStep          
+3.58850  DistanceFromSample          
+11.54009  ScattAngle          
+17.80000  RotAngle          
+3.5885  DefaultDistanceFromSample          
+11.30  DefaultScattAngle          
+14.8  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+51.42  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+15  SlotNo          
+S4-M3  ModuleAbbrv          
+110  CrateNo          
+1  PositionNumberStep          
+3.58850  DistanceFromSample          
+11.58964  ScattAngle          
+17.80000  RotAngle          
+3.5885  DefaultDistanceFromSample          
+11.30  DefaultScattAngle          
+14.8  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+25.71  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+16  SlotNo          
+S4-M4  ModuleAbbrv          
+3  CrateNo          
+1  PositionNumberStep          
+3.58850  DistanceFromSample          
+11.64846  ScattAngle          
+17.80000  RotAngle          
+3.5885  DefaultDistanceFromSample          
+11.30  DefaultScattAngle          
+14.8  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+17  SlotNo          
+S4-M5  ModuleAbbrv          
+3  CrateNo          
+1  PositionNumberStep          
+3.58850  DistanceFromSample          
+11.65975  ScattAngle          
+17.80000  RotAngle          
+3.5885  DefaultDistanceFromSample          
+11.30  DefaultScattAngle          
+14.8  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-25.71  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+18  SlotNo          
+S4-M6  ModuleAbbrv          
+102  CrateNo          
+1  PositionNumberStep          
+3.58850  DistanceFromSample          
+11.63233  ScattAngle          
+17.80000  RotAngle          
+3.5885  DefaultDistanceFromSample          
+11.30  DefaultScattAngle          
+14.8  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-51.42  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+19  SlotNo          
+S5-M1  ModuleAbbrv          
+4  CrateNo          
+1  PositionNumberStep          
+2.79120  DistanceFromSample          
+14.89772  ScattAngle          
+14.80000  RotAngle          
+2.7912  DefaultDistanceFromSample          
+14.69  DefaultScattAngle          
+11.8  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+77.13  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+20  SlotNo          
+S5-M2  ModuleAbbrv          
+106  CrateNo          
+1  PositionNumberStep          
+2.7912  DistanceFromSample          
+14.69  ScattAngle          
+11.8  RotAngle          
+2.7912  DefaultDistanceFromSample          
+14.69  DefaultScattAngle          
+11.8  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+51.42  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+21  SlotNo          
+S5-M3  ModuleAbbrv          
+105  CrateNo          
+1  PositionNumberStep          
+2.79120  DistanceFromSample          
+14.90399  ScattAngle          
+14.80000  RotAngle          
+2.7912  DefaultDistanceFromSample          
+14.69  DefaultScattAngle          
+11.8  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+25.71  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+22  SlotNo          
+S5-M4  ModuleAbbrv          
+4  CrateNo          
+1  PositionNumberStep          
+2.79120  DistanceFromSample          
+14.97769  ScattAngle          
+14.80000  RotAngle          
+2.7912  DefaultDistanceFromSample          
+14.69  DefaultScattAngle          
+11.8  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+23  SlotNo          
+S5-M5  ModuleAbbrv          
+4  CrateNo          
+1  PositionNumberStep          
+2.79120  DistanceFromSample          
+15.04811  ScattAngle          
+14.80000  RotAngle          
+2.7912  DefaultDistanceFromSample          
+14.69  DefaultScattAngle          
+11.8  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-25.71  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+24  SlotNo          
+S5-M6  ModuleAbbrv          
+102  CrateNo          
+1  PositionNumberStep          
+2.79120  DistanceFromSample          
+15.04639  ScattAngle          
+14.80000  RotAngle          
+2.7912  DefaultDistanceFromSample          
+14.69  DefaultScattAngle          
+11.8  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-51.42  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+25  SlotNo          
+S6-M1  ModuleAbbrv          
+6  CrateNo          
+1  PositionNumberStep          
+1.92430  DistanceFromSample          
+22.53215  ScattAngle          
+8.20000  RotAngle          
+1.9243  DefaultDistanceFromSample          
+22.326  DefaultScattAngle          
+5.2  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+77.13  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+26  SlotNo          
+S6-M2  ModuleAbbrv          
+105  CrateNo          
+1  PositionNumberStep          
+1.92430  DistanceFromSample          
+22.49405  ScattAngle          
+8.20000  RotAngle          
+1.9243  DefaultDistanceFromSample          
+22.326  DefaultScattAngle          
+5.2  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+51.42  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+27  SlotNo          
+S6-M3  ModuleAbbrv          
+6  CrateNo          
+1  PositionNumberStep          
+1.92430  DistanceFromSample          
+22.50210  ScattAngle          
+8.20000  RotAngle          
+1.9243  DefaultDistanceFromSample          
+22.326  DefaultScattAngle          
+5.2  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+25.71  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+28  SlotNo          
+S6-M4  ModuleAbbrv          
+6  CrateNo          
+1  PositionNumberStep          
+1.92430  DistanceFromSample          
+22.45135  ScattAngle          
+8.20000  RotAngle          
+1.9243  DefaultDistanceFromSample          
+22.326  DefaultScattAngle          
+5.2  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+29  SlotNo          
+S6-M5  ModuleAbbrv          
+6  CrateNo          
+1  PositionNumberStep          
+1.92430  DistanceFromSample          
+22.46403  ScattAngle          
+8.20000  RotAngle          
+1.9243  DefaultDistanceFromSample          
+22.326  DefaultScattAngle          
+5.2  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-25.71  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+30  SlotNo          
+S6-M6  ModuleAbbrv          
+103  CrateNo          
+1  PositionNumberStep          
+1.92430  DistanceFromSample          
+22.44802  ScattAngle          
+8.20000  RotAngle          
+1.9243  DefaultDistanceFromSample          
+22.326  DefaultScattAngle          
+5.2  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-51.42  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+31  SlotNo          
+S7-M1  ModuleAbbrv          
+8  CrateNo          
+1  PositionNumberStep          
+1.51230  DistanceFromSample          
+29.42730  ScattAngle          
+2.00000  RotAngle          
+1.5123  DefaultDistanceFromSample          
+29.22  DefaultScattAngle          
+-0.9  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+77.13  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+32  SlotNo          
+S7-M2  ModuleAbbrv          
+106  CrateNo          
+1  PositionNumberStep          
+1.51230  DistanceFromSample          
+29.37390  ScattAngle          
+2.00000  RotAngle          
+1.5123  DefaultDistanceFromSample          
+29.22  DefaultScattAngle          
+-0.9  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+51.42  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+33  SlotNo          
+S7-M3  ModuleAbbrv          
+8  CrateNo          
+1  PositionNumberStep          
+1.51230  DistanceFromSample          
+29.38901  ScattAngle          
+2.00000  RotAngle          
+1.5123  DefaultDistanceFromSample          
+29.22  DefaultScattAngle          
+-0.9  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+25.71  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+34  SlotNo          
+S7-M4  ModuleAbbrv          
+8  CrateNo          
+1  PositionNumberStep          
+1.51230  DistanceFromSample          
+29.27655  ScattAngle          
+2.00000  RotAngle          
+1.5123  DefaultDistanceFromSample          
+29.22  DefaultScattAngle          
+-0.9  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+35  SlotNo          
+S7-M5  ModuleAbbrv          
+8  CrateNo          
+1  PositionNumberStep          
+1.51230  DistanceFromSample          
+29.25983  ScattAngle          
+2.00000  RotAngle          
+1.5123  DefaultDistanceFromSample          
+29.22  DefaultScattAngle          
+-0.9  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-25.71  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+36  SlotNo          
+S7-M6  ModuleAbbrv          
+103  CrateNo          
+1  PositionNumberStep          
+1.51230  DistanceFromSample          
+29.29136  ScattAngle          
+2.00000  RotAngle          
+1.5123  DefaultDistanceFromSample          
+29.22  DefaultScattAngle          
+-0.9  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-51.42  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+37  SlotNo          
+S8-M1  ModuleAbbrv          
+101  CrateNo          
+1  PositionNumberStep          
+1.09530  DistanceFromSample          
+41.06399  ScattAngle          
+5.00000  RotAngle          
+1.0953  DefaultDistanceFromSample          
+40.83  DefaultScattAngle          
+0.9  DefaultRotAngle          
+0  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+77.13  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+38  SlotNo          
+S8-M2  ModuleAbbrv          
+106  CrateNo          
+1  PositionNumberStep          
+1.09530  DistanceFromSample          
+40.93969  ScattAngle          
+5.00000  RotAngle          
+1.0953  DefaultDistanceFromSample          
+40.83  DefaultScattAngle          
+0.9  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+51.42  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+39  SlotNo          
+S8-M3  ModuleAbbrv          
+101  CrateNo          
+1  PositionNumberStep          
+1.09530  DistanceFromSample          
+40.86991  ScattAngle          
+5.00000  RotAngle          
+1.0953  DefaultDistanceFromSample          
+40.83  DefaultScattAngle          
+0.9  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+25.71  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+40  SlotNo          
+S8-M4  ModuleAbbrv          
+101  CrateNo          
+1  PositionNumberStep          
+1.09530  DistanceFromSample          
+40.74825  ScattAngle          
+5.00000  RotAngle          
+1.0953  DefaultDistanceFromSample          
+40.83  DefaultScattAngle          
+0.9  DefaultRotAngle          
+8  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+0.0  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+41  SlotNo          
+S8-M5  ModuleAbbrv          
+101  CrateNo          
+1  PositionNumberStep          
+1.09530  DistanceFromSample          
+40.80138  ScattAngle          
+5.00000  RotAngle          
+1.0953  DefaultDistanceFromSample          
+40.83  DefaultScattAngle          
+0.9  DefaultRotAngle          
+12  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-25.71  UserTableValue003          
+2.0  UserTableValue004          
+}
+
+MODULE INSTANCE          {
+NIMROD standard  ModuleTypeTitle          
+NIMROD South  FrameNo          
+42  SlotNo          
+S8-M6  ModuleAbbrv          
+104  CrateNo          
+1  PositionNumberStep          
+1.09530  DistanceFromSample          
+40.79439  ScattAngle          
+5.00000  RotAngle          
+1.0953  DefaultDistanceFromSample          
+40.83  DefaultScattAngle          
+0.9  DefaultRotAngle          
+4  FirstDAEModuleNo          
+0  FirstPositionNumber          
+0.0  UserTableValue000          
+0.0  UserTableValue001          
+0.0  UserTableValue002          
+-51.42  UserTableValue003          
+2.0  UserTableValue004          
+}
+

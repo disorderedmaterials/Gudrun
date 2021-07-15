@@ -1,0 +1,47 @@
+ SLS39631.gud
+
+ D2O 25C Can #30 Pos 2
+
+ A.K.Soper
+
+ 27-Nov-2007 15:24:48
+
+ Number density of this sample (atoms/A**3) =  0.100200E+00
+ Corresponding density in g/cm**3 =    1.11075
+ Average scattering length of the sample (10**-12cm) =    0.63817
+ Average scattering length squared (barns) =  0.407257E+00
+ Average square of the scattering length (barns) =  0.408931E+00
+ Ratio of (coherent) single to interference =  0.100411E+01
+
+ Expected level of DCS [b/sr/atom] =    0.51757
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            0.0750    8.3250        0.50138              3.3205
+    2            0.1250   10.5750        0.49164              0.3480
+    3            0.1250   12.7750        0.53799             -0.8425
+    4            0.1750   15.2750        0.51831             -0.2548
+    5            0.1750   17.6250        0.54322             -0.2720
+    6            0.2250   20.4250        0.55480             -0.4649
+    7            0.2750   23.8750        0.50248             -0.1696
+    8            0.3250   26.4250        0.52417             -0.4451
+    9            0.3250   29.7250        0.53434             -0.2352
+   10            0.3750   32.9250        0.53374             -0.3013
+   11            0.4250   36.8250        0.54401             -0.1731
+   12            0.4750   40.9250        0.55441             -0.3873
+   13            0.5250   44.9750        0.51651             -0.1386
+   14            0.5750   49.9750        0.52722             -0.1701
+   15            0.6250   49.9750        0.52395             -0.1079
+   16            0.7250   49.9750        0.51207             -0.0893
+   17            0.7250   49.9750        0.52965             -0.0503
+   18            0.7750   49.9750        0.51350             -0.0245
+
+ No. of groups accepted for merge =   18
+
+ Average level of merged dcs is    0.50992 b/sr/atom;
+
+ Gradient of merged dcs: -0.0454% of average level.
+
+ This DCS level is   98.5% of expected level
+
+ Suggested tweak factor:    0.97171

@@ -1,0 +1,16 @@
+'  '  '          '  '/'
+
+NIMROD          Instrument name
+/Users/dtb73/Gudrun2014/Gudrun/run/NIMROD/NIMRODsilica/          Gudrun input file directory:
+/Users/dtb73/Gudrun2014/Gudrun/run/NIMROD/NIMRODsilica/NIMRODsilicadata/          Data file directory
+/Users/dtb73/Gudrun2014/Gudrun/StartupFiles/NIMROD/NIMROD61modules+9monitors(correct)+LAB8Nov2009Detector.dat          Detector calibration file name
+/Users/dtb73/Gudrun2014/Gudrun/StartupFiles/NIMROD/NIMROD61modules+9monitors(correct)+LAB8Nov2009Groups.dat          Groups file name
+4 5          Spectrum number(s) for incident beam monitor
+0  0          Channel numbers for spike analysis
+5          Spike analysis acceptance factor
+10  10          Specify the number of standard deviations allowed above and below the mean ratio. Specify the range of std's allowed around the mean standard deviation.
+1          Ignore any existing bad spectrum and spike files (spec.bad, spike.dat)?
+NIMROD00001118.raw  1          
+NIMROD00001119.raw  1          
+NIMROD00001119.raw  1          
+NIMROD00001122.raw  1          

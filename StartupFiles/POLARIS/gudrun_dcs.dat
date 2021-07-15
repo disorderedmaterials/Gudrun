@@ -1,0 +1,136 @@
+'  '  '          '  '\'
+
+INSTRUMENT          {
+
+POLARIS          Instrument name
+C:\Gudrun4\StartupFiles\POLARIS\          Gudrun input file directory:
+X:\\          Data file directory
+raw          Data file type
+StartupFiles\POLARIS\polaris438_calib.dat          Detector calibration file name
+6          User table column number for phi values
+StartupFiles\POLARIS\groups_def_4.dat          Groups file name
+*          Deadtime constants file name
+2          Spectrum number(s) for incident beam monitor
+0  0          Wavelength range [Å] for monitor normalisation
+3          Spectrum number(s) for transmission monitor
+0.0          Incident monitor quiet count constant
+0.0          Transmission monitor quiet count constant
+20  6300          Channel numbers for spike analysis
+4          Spike analysis acceptance factor
+0.1  4.0  0.1          Wavelength range to use [Å] and step size
+100            No. of smooths on monitor
+0.01  60.0  0.02          Min, Max and step in x-scale (-ve for logarithmic binning)
+0  0  0  0          0 0 0 0 to end input of specified values
+1.0          Groups acceptance factor 
+4          Merge power
+0          Subtract single atom scattering?
+1          Statistical weighting on merge?
+12.0          Incident flight path [m]
+0          Spectrum number to output diagnostic files
+StartupFiles\GEM\sears91_gudrun.dat          Neutron scattering parameters file
+1          Scale selection: 1 = Q, 2 = d-space, 3 = wavelength, 4 = energy, 5 = TOF
+0          Subtract wavelength-binned data?
+C:\Gudrun4          Folder where Gudrun started
+C:\Gudrun4\StartupFiles\SLS          Folder containing the startup file
+0.1          Logarithmic step size
+
+}
+
+BEAM          {
+
+CYLINDRICAL          Sample geometry
+2          Number of beam profile values
+1.0  1.0            Beam profile values (Maximum of 50 allowed currently)
+0.05  0.2  100          Step size for absorption and m.s. calculation and no. of slices
+10          Angular step for corrections [deg.]          
+-0.75  0.75  -2.0  2.0          Incident beam edges relative to centre of sample [cm]
+-2.0  2.0  -2.1  2.1          Scattered beam edges relative to centre of sample [cm]
+StartupFiles\GEM\spectrum000.dat          Filename containing incident beam spectrum parameters
+1.0          Overall background factor 
+0.0          Sample dependent background factor
+0.0          Shielding attenuation coefficient [per m per A] 
+
+}
+
+NORMALISATION          {
+
+1  1          Number of  files and period number
+GEM48543.raw          Data files
+1  1          Number of  files and period number
+GEM48545.raw          Data files
+1          Force calculation of corrections?
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.0  0.417          Inner and outer radii (cm)
+7.0          Sample height (cm)
+-0.07216          Density atoms/Å^3?
+300          Temperature for Placzek correction:
+TABLES          Total cross section source
+*          Normalisation differential cross section filename
+0.01          Lower limit on smoothed normalisation  
+1.05          Normalisation degree of smoothing
+
+}
+
+SAMPLE BACKGROUND          {
+
+1  1          Number of  files and period number
+GEM48545.raw          SAMPLE BACKGROUND data files
+
+}
+
+SAMPLE          {
+
+1  1          Number of  files and period number
+GEM48551.raw          SAMPLE data files
+1          Force calculation of sample corrections?
+Pd  0  1.0          Composition
+O  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.0  0.25          Inner and outer radii (cm)
+5.6          Sample height (cm)
+2.0455          Density Units:  gm/cm^3?
+0          Temperature for Placzek correction:
+TABLES          Total cross section source
+1.0          Tweak factor
+0          Top hat width (1/Å) for cleaning up Fourier Transform
+0.0          Minimum radius for FT  [Å]
+50.0          g(r) broadening at r = 1A [A]
+0  0          0   0          to finish specifying wavelength range of resonance
+0.0  0.0  0          Exponential amplitude and decay [1/A]
+*  0  0          * 0 0 to specify end of exponential parameter input
+1.0          Normalisation correction factor
+*          Name of file containing self scattering as a function of wavelength [A]
+0          Normalise to:Nothing
+20.0          Maximum radius for FT [A]
+0          Output units: b/atom/sr
+0.5          Power for broadening function e.g. 0.5
+0.03          Step size [A] 
+1          Analyse this sample? 
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+CONTAINER 1          {
+
+1  1          Number of  files and period number
+GEM48550.raw          CONTAINER 1 data files
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.25  0.2525          Inner and outer radii (cm)
+6.0          Sample height (cm)
+-0.07216          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+GO          
+
+
+END          
+Date and time last written:  20120403 10:51:43          

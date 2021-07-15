@@ -1,0 +1,15 @@
+# Build objects
+*.a
+*.la
+*.lo
+.libs/
+*.o
+*.cc
+*.hh
+ui_*
+moc_*
+build/
+bin/
+
+# Miscellaneous
+*swp

@@ -1,0 +1,6 @@
+bin\gudrun_dcs.exe;
+bin\purge_det.exe;
+bin\gnuplot\binary\wgnuplot.exe;
+bin\gnuplot\binary\wgnuplot.exe -persist GNUplot.plt -;
+StartupFiles\SLS\SLSstartup.txt;
+;

@@ -1,0 +1,33 @@
+ 008162.gud
+
+ NMA D7
+
+ palleau
+
+ 01-Jul-00 23:27:03
+
+ Number density of this sample (atoms/A**3) =  0.100000E+00
+ Corresponding density in g/cm**3 =    1.10854
+ Average scattering length of the sample (10**-12cm) =    0.63817
+ Average scattering length squared (barns) =  0.407257E+00
+ Average square of the scattering length (barns) =  0.408931E+00
+ Ratio of (coherent) single to interference =  0.100411E+01
+
+ Expected level of DCS [b/sr/atom] =    0.51757
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            0.2750   15.6250        0.59883             -2.6794
+
+ No. of groups accepted for merge =    1
+
+ Average level of merged dcs is    0.59883 b/sr/atom;
+
+ Gradient of merged dcs: -2.6794% of average level.
+
+ WARNING! This DCS level is   15.7% ABOVE expected level.
+
+ Please check sample density, size or thickness, and composition.
+ If all is in order, then refer to your local contact for further advice
+
+ Suggested tweak factor:    0.86430

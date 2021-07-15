@@ -1,0 +1,37 @@
+ GEM57852.gud
+
+ Pos 8 Zn-TCP x=0.100 8.3mm V foil can. ORC down Beam:40x15 Choppers: 0,19800,195
+
+ Holland,Grigg,Alderm
+
+ 27-FEB-2012 23:39:33
+
+ Number density of this sample (atoms/A**3) =  0.275388E-01
+ Corresponding density in g/cm**3 =    1.09999
+ Average scattering length of the sample (10**-12cm) =    0.54658
+ Average scattering length squared (barns) =  0.298755E+00
+ Average square of the scattering length (barns) =  0.300743E+00
+ Ratio of (coherent) single to interference =  0.100665E+01
+
+ Expected level of DCS [b/sr/atom] =    0.30162
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            0.0900    1.3100       -0.05074            201.1821
+    2            0.3900    5.8300        0.17002             16.0285
+    3            0.6500   15.1300        0.30245             -0.0159
+    4            1.3900   27.1500        0.30235              0.0394
+    5            2.1700   53.3100        0.29916              0.0148
+    6            2.8300   59.9900        0.28983             -0.0190
+    7            3.4700   59.9900        0.26511              0.0962
+    8            3.5700   59.9900        0.26753              0.0737
+
+ No. of groups accepted for merge =    8
+
+ Average level of merged dcs is    0.29322 b/sr/atom;
+
+ Gradient of merged dcs: -0.0411% of average level.
+
+ This DCS level is   97.2% of expected level
+
+ Suggested tweak factor:    1.02865

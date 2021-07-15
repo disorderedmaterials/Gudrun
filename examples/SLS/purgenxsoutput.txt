@@ -1,0 +1,835 @@
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\bin\purge_det.exe
+Running C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\bin\purge_det.exe
+Purge_det>  ;          ;\
+Purge_det> SANDALS
+Purge_det> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\run\SLS\
+Purge_det> C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\
+Purge_det> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+Purge_det> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Purge_det>           1
+Purge_det>           0           0
+Purge_det>   5.00000000
+Purge_det>   10.0000000       10.0000000
+Purge_det>           1
+Purge_det> SLS50836.nxs
+Purge_det> SLS50837.nxs
+Purge_det> SLS50875.nxs
+Purge_det> SLS50876.nxs
+Purge_det> SLS50877.nxs
+Purge_det> SLS50994.nxs
+Purge_det> SLS50995.nxs
+Purge_det> nxs
+Purge_det> title : /title
+Purge_det> timechannels : /monitor_1/time_of_flight
+Purge_det> periodspresent : T
+Purge_det>spectrum : /monitor_1/data
+Purge_det>spectrum : /monitor_2/data
+Purge_det>spectrum : /monitor_3/data
+Purge_det>spectrum : /monitor_4/data
+Purge_det>spectrum : /detector_1/counts
+Purge_det> get_run_par> C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.nxs
+Purge_det>Root group and no. of members:  /raw_data_1    37
+Purge_det>Number of datasets in file =   242
+Purge_det>Dataset number, name, class (0, 1 or 3)), precision (no. of characters for class = 3),ndims and dims.
+Purge_det>    1 /beamline    3    7    1    1
+Purge_det>    2 /collection_time    1   32    1    1
+Purge_det>    3 /definition    3    6    1    1
+Purge_det>    4 /definition_local    3   10    1    1
+Purge_det>    5 /detector_1/counts    0   32    3  882  696    1
+Purge_det>    6 /detector_1/period_index    0   32    1    1
+Purge_det>    7 /detector_1/spectrum_index    0   32    1  696
+Purge_det>    8 /detector_1/time_of_flight    1   32    1  883
+Purge_det>    9 /duration    1   32    1    1
+Purge_det>   10 /end_time    3   19    1    1
+Purge_det>   11 /experiment_identifier    3    1    1    1
+Purge_det>   12 /good_frames    0   32    1    1
+Purge_det>   13 /instrument/dae/detector_table_file    3   53    1    1
+Purge_det>   14 /instrument/dae/period_index    0   32    1    1
+Purge_det>   15 /instrument/dae/spectra_table_file    3   52    1    1
+Purge_det>   16 /instrument/dae/time_channels_1/time_of_flight    1   32    1  883
+Purge_det>   17 /instrument/dae/time_channels_1/time_of_flight_raw    0   32    1  883
+Purge_det>   18 /instrument/dae/vetos/ISIS_50Hz    0   32    1    1
+Purge_det>   19 /instrument/dae/vetos/TS2_pulse    0   32    1    1
+Purge_det>   20 /instrument/dae/vetos/ext0    0   32    1    1
+Purge_det>   21 /instrument/dae/vetos/ext1    0   32    1    1
+Purge_det>   22 /instrument/dae/vetos/ext2    0   32    1    1
+Purge_det>   23 /instrument/dae/vetos/ext3    0   32    1    1
+Purge_det>   24 /instrument/dae/vetos/fermi_chopper    0   32    1    1
+Purge_det>   25 /instrument/dae/vetos/fifo    0   32    1    1
+Purge_det>   26 /instrument/dae/vetos/internal    0   32    1    1
+Purge_det>   27 /instrument/dae/vetos/msmode    0   32    1    1
+Purge_det>   28 /instrument/dae/vetos/smp    0   32    1    1
+Purge_det>   29 /instrument/dae/wiring_table_file    3   51    1    1
+Purge_det>   30 /instrument/detector_1/azimuthal_angle    1   32    1  696
+Purge_det>   31 /instrument/detector_1/counts    0   32    3  882  696    1
+Purge_det>   32 /instrument/detector_1/delt    1   32    1  696
+Purge_det>   33 /instrument/detector_1/distance    1   32    1  696
+Purge_det>   34 /instrument/detector_1/period_index    0   32    1    1
+Purge_det>   35 /instrument/detector_1/polar_angle    1   32    1  696
+Purge_det>   36 /instrument/detector_1/source_detector_distance    1   32    1    1
+Purge_det>   37 /instrument/detector_1/spectrum_index    0   32    1  696
+Purge_det>   38 /instrument/detector_1/time_of_flight    1   32    1  883
+Purge_det>   39 /instrument/detector_1/time_of_flight_raw    0   32    1  883
+Purge_det>   40 /instrument/detector_1/user_table01    1   32    1  696
+Purge_det>   41 /instrument/detector_1/user_table02    1   32    1  696
+Purge_det>   42 /instrument/detector_1/user_table03    1   32    1  696
+Purge_det>   43 /instrument/detector_1/user_table04    1   32    1  696
+Purge_det>   44 /instrument/detector_1/user_table05    1   32    1  696
+Purge_det>   45 /instrument/moderator/distance    1   32    1    1
+Purge_det>   46 /instrument/name    3    7    1    1
+Purge_det>   47 /instrument/source/name    3    4    1    1
+Purge_det>   48 /instrument/source/probe    3    8    1    1
+Purge_det>   49 /instrument/source/type    3   21    1    1
+Purge_det>   50 /isis_vms_compat/ADD    0   32    1    9
+Purge_det>   51 /isis_vms_compat/CODE    0   32    1  700
+Purge_det>   52 /isis_vms_compat/CRAT    0   32    1  700
+Purge_det>   53 /isis_vms_compat/CRPB    3    4    2    1   32
+Purge_det>   54 /isis_vms_compat/CSPB    3    4    2    1   64
+Purge_det>   55 /isis_vms_compat/DAEP    0   32    1   64
+Purge_det>   56 /isis_vms_compat/DELT    1   32    1  700
+Purge_det>   57 /isis_vms_compat/FORM    0   32    1    1
+Purge_det>   58 /isis_vms_compat/HDR    3   80    1    1
+Purge_det>   59 /isis_vms_compat/IRPB    0   32    1   32
+Purge_det>   60 /isis_vms_compat/ISPB    0   32    1   64
+Purge_det>   61 /isis_vms_compat/IVPB    0   32    1   64
+Purge_det>   62 /isis_vms_compat/LEN2    1   32    1  700
+Purge_det>   63 /isis_vms_compat/MDET    0   32    1    4
+Purge_det>   64 /isis_vms_compat/MODN    0   32    1  700
+Purge_det>   65 /isis_vms_compat/MONP    0   32    1    4
+Purge_det>   66 /isis_vms_compat/MPOS    0   32    1  700
+Purge_det>   67 /isis_vms_compat/NAME    3    8    1    1
+Purge_det>   68 /isis_vms_compat/NDET    0   32    1    1
+Purge_det>   69 /isis_vms_compat/NFPP    0   32    1    1
+Purge_det>   70 /isis_vms_compat/NMON    0   32    1    1
+Purge_det>   71 /isis_vms_compat/NOTE    3   19    1    1
+Purge_det>   72 /isis_vms_compat/NPER    0   32    1    1
+Purge_det>   73 /isis_vms_compat/NSEP    0   32    1    1
+Purge_det>   74 /isis_vms_compat/NSP1    0   32    1    1
+Purge_det>   75 /isis_vms_compat/NTC1    0   32    1    1
+Purge_det>   76 /isis_vms_compat/NTLL    0   32    1    1
+Purge_det>   77 /isis_vms_compat/NTNL    0   32    1    1
+Purge_det>   78 /isis_vms_compat/NTRG    0   32    1    1
+Purge_det>   79 /isis_vms_compat/NUSE    0   32    1    1
+Purge_det>   80 /isis_vms_compat/PMAP    0   32    1  256
+Purge_det>   81 /isis_vms_compat/PRE1    0   32    1    1
+Purge_det>   82 /isis_vms_compat/RRPB    1   32    1   32
+Purge_det>   83 /isis_vms_compat/RSPB    1   32    1   64
+Purge_det>   84 /isis_vms_compat/RUN    0   32    1    1
+Purge_det>   85 /isis_vms_compat/RVPB    1   32    1   64
+Purge_det>   86 /isis_vms_compat/SPB    0   32    1   64
+Purge_det>   87 /isis_vms_compat/SPEC    0   32    1  700
+Purge_det>   88 /isis_vms_compat/TCM1    0   32    1    5
+Purge_det>   89 /isis_vms_compat/TCP1    1   32    1   20
+Purge_det>   90 /isis_vms_compat/TIMR    0   32    1  700
+Purge_det>   91 /isis_vms_compat/TITL    3   80    1    1
+Purge_det>   92 /isis_vms_compat/TTHE    1   32    1  700
+Purge_det>   93 /isis_vms_compat/UDET    0   32    1  700
+Purge_det>   94 /isis_vms_compat/ULEN    0   32    1    1
+Purge_det>   95 /isis_vms_compat/USER    3  160    1    1
+Purge_det>   96 /isis_vms_compat/UT01    1   32    1  700
+Purge_det>   97 /isis_vms_compat/UT02    1   32    1  700
+Purge_det>   98 /isis_vms_compat/UT03    1   32    1  700
+Purge_det>   99 /isis_vms_compat/UT04    1   32    1  700
+Purge_det>  100 /isis_vms_compat/UT05    1   32    1  700
+Purge_det>  101 /isis_vms_compat/VER1    0   32    1    1
+Purge_det>  102 /isis_vms_compat/VER2    0   32    1    1
+Purge_det>  103 /isis_vms_compat/VER3    0   32    1    1
+Purge_det>  104 /isis_vms_compat/VER4    0   32    1    1
+Purge_det>  105 /isis_vms_compat/VER5    0   32    1    1
+Purge_det>  106 /isis_vms_compat/VER6    0   32    1    1
+Purge_det>  107 /isis_vms_compat/VER7    0   32    1    1
+Purge_det>  108 /isis_vms_compat/VER8    0   32    1    1
+Purge_det>  109 /isis_vms_compat/VER9    0   32    1    1
+Purge_det>  110 /measurement_first_run    0   32    1    1
+Purge_det>  111 /measurement_id    3    1    1    1
+Purge_det>  112 /measurement_label    3    1    1    1
+Purge_det>  113 /measurement_subid    3    1    1    1
+Purge_det>  114 /measurement_type    3    1    1    1
+Purge_det>  115 /monitor_1/data    0   32    3  882    1    1
+Purge_det>  116 /monitor_1/monitor_number    0   32    1    1
+Purge_det>  117 /monitor_1/period_index    0   32    1    1
+Purge_det>  118 /monitor_1/spectrum_index    0   32    1    1
+Purge_det>  119 /monitor_1/time_of_flight    1   32    1  883
+Purge_det>  120 /monitor_2/data    0   32    3  882    1    1
+Purge_det>  121 /monitor_2/monitor_number    0   32    1    1
+Purge_det>  122 /monitor_2/period_index    0   32    1    1
+Purge_det>  123 /monitor_2/spectrum_index    0   32    1    1
+Purge_det>  124 /monitor_2/time_of_flight    1   32    1  883
+Purge_det>  125 /monitor_3/data    0   32    3  882    1    1
+Purge_det>  126 /monitor_3/monitor_number    0   32    1    1
+Purge_det>  127 /monitor_3/period_index    0   32    1    1
+Purge_det>  128 /monitor_3/spectrum_index    0   32    1    1
+Purge_det>  129 /monitor_3/time_of_flight    1   32    1  883
+Purge_det>  130 /monitor_4/data    0   32    3  882    1    1
+Purge_det>  131 /monitor_4/monitor_number    0   32    1    1
+Purge_det>  132 /monitor_4/period_index    0   32    1    1
+Purge_det>  133 /monitor_4/spectrum_index    0   32    1    1
+Purge_det>  134 /monitor_4/time_of_flight    1   32    1  883
+Purge_det>  135 /name    3    7    1    1
+Purge_det>  136 /notes    3    1    1    1
+Purge_det>  137 /periods/frames_requested    0   32    1    1
+Purge_det>  138 /periods/good_frames    0   32    1    1
+Purge_det>  139 /periods/good_frames_daq    0   32    1    1
+Purge_det>  140 /periods/labels    3    8    1    1
+Purge_det>  141 /periods/number    0   32    1    1
+Purge_det>  142 /periods/output    0   32    1    1
+Purge_det>  143 /periods/proton_charge    1   32    1    1
+Purge_det>  144 /periods/proton_charge_raw    1   32    1    1
+Purge_det>  145 /periods/raw_frames    0   32    1    1
+Purge_det>  146 /periods/sequences    0   32    1    1
+Purge_det>  147 /periods/total_counts    1   32    1    1
+Purge_det>  148 /periods/type    0   32    1    1
+Purge_det>  149 /program_name    3   11    1    1
+Purge_det>  150 /proton_charge    1   32    1    1
+Purge_det>  151 /proton_charge_raw    1   32    1    1
+Purge_det>  152 /raw_frames    0   32    1    1
+Purge_det>  153 /run_cycle    3    4    1    1
+Purge_det>  154 /run_number    0   32    1    1
+Purge_det>  155 /runlog/count_rate/time    1   32    1 ****
+Purge_det>  156 /runlog/count_rate/value    1   32    1 ****
+Purge_det>  157 /runlog/dae_beam_current/time    1   32    1 ****
+Purge_det>  158 /runlog/dae_beam_current/value    1   32    1 ****
+Purge_det>  159 /runlog/good_frames/time    1   32    1 ****
+Purge_det>  160 /runlog/good_frames/value    0   32    1 ****
+Purge_det>  161 /runlog/icp_event/time    1   32    1   19
+Purge_det>  162 /runlog/icp_event/value    3   70    2    1   19
+Purge_det>  163 /runlog/is_running/time    1   32    1 ****
+Purge_det>  164 /runlog/is_running/value    0   32    1 ****
+Purge_det>  165 /runlog/is_waiting/time    1   32    1 ****
+Purge_det>  166 /runlog/is_waiting/value    0   32    1 ****
+Purge_det>  167 /runlog/monitor_sum_1/time    1   32    1 ****
+Purge_det>  168 /runlog/monitor_sum_1/value    0   32    1 ****
+Purge_det>  169 /runlog/np_ratio/time    1   32    1 ****
+Purge_det>  170 /runlog/np_ratio/value    1   32    1 ****
+Purge_det>  171 /runlog/period/time    1   32    1 ****
+Purge_det>  172 /runlog/period/value    0   32    1 ****
+Purge_det>  173 /runlog/proton_charge/time    1   32    1 ****
+Purge_det>  174 /runlog/proton_charge/value    1   32    1 ****
+Purge_det>  175 /runlog/proton_charge_raw/time    1   32    1 ****
+Purge_det>  176 /runlog/proton_charge_raw/value    1   32    1 ****
+Purge_det>  177 /runlog/raw_frames/time    1   32    1 ****
+Purge_det>  178 /runlog/raw_frames/value    0   32    1 ****
+Purge_det>  179 /runlog/run_status/time    1   32    1 ****
+Purge_det>  180 /runlog/run_status/value    0   32    1 ****
+Purge_det>  181 /runlog/total_counts/time    1   32    1 ****
+Purge_det>  182 /runlog/total_counts/value    0   32    1 ****
+Purge_det>  183 /sample/distance    1   64    1    1
+Purge_det>  184 /sample/height    1   32    1    1
+Purge_det>  185 /sample/id    3    1    1    1
+Purge_det>  186 /sample/name    3    1    1    1
+Purge_det>  187 /sample/shape    3    1    1    1
+Purge_det>  188 /sample/thickness    1   32    1    1
+Purge_det>  189 /sample/type    3    1    1    1
+Purge_det>  190 /sample/width    1   32    1    1
+Purge_det>  191 /script_name    3    1    1    1
+Purge_det>  192 /seci_config    3   19    1    1
+Purge_det>  193 /selog/ExternalTemp/read_control    3   20    1    1
+Purge_det>  194 /selog/ExternalTemp/set_control    3   13    1    1
+Purge_det>  195 /selog/ExternalTemp/setpoint    1   32    1    1
+Purge_det>  196 /selog/ExternalTemp/value    1   32    1    1
+Purge_det>  197 /selog/ExternalTemp/value_log/name    3    1    1    1
+Purge_det>  198 /selog/ExternalTemp/value_log/time    1   32    1 ****
+Purge_det>  199 /selog/ExternalTemp/value_log/value    1   32    1 ****
+Purge_det>  200 /selog/ExternalTemp/vi_name    3   64    1    1
+Purge_det>  201 /selog/Sample/read_control    3    6    1    1
+Purge_det>  202 /selog/Sample/set_control    3    1    1    1
+Purge_det>  203 /selog/Sample/setpoint    3    3    2    1    1
+Purge_det>  204 /selog/Sample/value    3    3    2    1    1
+Purge_det>  205 /selog/Sample/value_log/name    3    1    1    1
+Purge_det>  206 /selog/Sample/value_log/time    1   32    1 ****
+Purge_det>  207 /selog/Sample/value_log/value    3   38    2    1 ****
+Purge_det>  208 /selog/Sample/vi_name    3   64    1    1
+Purge_det>  209 /selog/Status/read_control    3    1    1    1
+Purge_det>  210 /selog/Status/set_control    3    1    1    1
+Purge_det>  211 /selog/Status/value_log/name    3    1    1    1
+Purge_det>  212 /selog/Status/value_log/time    1   32    1    7
+Purge_det>  213 /selog/Status/value_log/value    3    7    2    1    7
+Purge_det>  214 /selog/Status/vi_name    3    1    1    1
+Purge_det>  215 /selog/TS1Beam/read_control    3   16    1    1
+Purge_det>  216 /selog/TS1Beam/set_control    3    1    1    1
+Purge_det>  217 /selog/TS1Beam/setpoint    1   32    1    1
+Purge_det>  218 /selog/TS1Beam/value    1   32    1    1
+Purge_det>  219 /selog/TS1Beam/value_log/name    3    1    1    1
+Purge_det>  220 /selog/TS1Beam/value_log/time    1   32    1 ****
+Purge_det>  221 /selog/TS1Beam/value_log/value    1   32    1 ****
+Purge_det>  222 /selog/TS1Beam/vi_name    3   45    1    1
+Purge_det>  223 /selog/Vac_tank/read_control    3   17    1    1
+Purge_det>  224 /selog/Vac_tank/set_control    3    1    1    1
+Purge_det>  225 /selog/Vac_tank/setpoint    1   32    1    1
+Purge_det>  226 /selog/Vac_tank/value    1   32    1    1
+Purge_det>  227 /selog/Vac_tank/value_log/name    3    1    1    1
+Purge_det>  228 /selog/Vac_tank/value_log/time    1   32    1 ****
+Purge_det>  229 /selog/Vac_tank/value_log/value    1   32    1 ****
+Purge_det>  230 /selog/Vac_tank/vi_name    3   92    1    1
+Purge_det>  231 /selog/julabo/read_control    3   20    1    1
+Purge_det>  232 /selog/julabo/set_control    3   13    1    1
+Purge_det>  233 /selog/julabo/setpoint    1   32    1    1
+Purge_det>  234 /selog/julabo/value    1   32    1    1
+Purge_det>  235 /selog/julabo/value_log/name    3    1    1    1
+Purge_det>  236 /selog/julabo/value_log/time    1   32    1 ****
+Purge_det>  237 /selog/julabo/value_log/value    1   32    1 ****
+Purge_det>  238 /selog/julabo/vi_name    3   64    1    1
+Purge_det>  239 /start_time    3   19    1    1
+Purge_det>  240 /title    3   47    1    1
+Purge_det>  241 /user_1/affiliation    3    1    1    1
+Purge_det>  242 /user_1/name    3    1    1    1
+Purge_det>First and last spectra for path: /monitor_1/data      0      1
+Purge_det>First and last spectra for path: /monitor_2/data      1      2
+Purge_det>First and last spectra for path: /monitor_3/data      2      3
+Purge_det>First and last spectra for path: /monitor_4/data      3      4
+Purge_det>First and last spectra for path: /detector_1/counts      4    700
+Purge_det> purge_det> Done get_run_par
+Purge_det>           0 UT0
+Purge_det> get_calibration> Reading calibration from: C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+Purge_det>          91          96
+Purge_det> get_calibration> 1
+Purge_det>         700           5
+Purge_det> Name of groups file being read from: C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Purge_det>          18
+Purge_det>         -20          20
+Purge_det>         -20          20
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -30          30
+Purge_det>         -30          30
+Purge_det>         -50          50
+Purge_det>         -50          50
+Purge_det>   680 spectra in 18 groups from file C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Purge_det> get_groups> Checked input values for group            1
+Purge_det> get_groups> Checked input values for group            2
+Purge_det> get_groups> Checked input values for group            3
+Purge_det> get_groups> Checked input values for group            4
+Purge_det> get_groups> Checked input values for group            5
+Purge_det> get_groups> Checked input values for group            6
+Purge_det> get_groups> Checked input values for group            7
+Purge_det> get_groups> Checked input values for group            8
+Purge_det> get_groups> Checked input values for group            9
+Purge_det> get_groups> Checked input values for group           10
+Purge_det> get_groups> Checked input values for group           11
+Purge_det> get_groups> Checked input values for group           12
+Purge_det> get_groups> Checked input values for group           13
+Purge_det> get_groups> Checked input values for group           14
+Purge_det> get_groups> Checked input values for group           15
+Purge_det> get_groups> Checked input values for group           16
+Purge_det> get_groups> Checked input values for group           17
+Purge_det> get_groups> Checked input values for group           18
+Purge_det>
+Purge_det> Q-ranges for individual groups
+Purge_det>
+Purge_det>           1   9.71418396E-02   0.00000000
+Purge_det>           2  0.121670745       0.00000000
+Purge_det>           3  0.146771774       0.00000000
+Purge_det>           4  0.175801530       0.00000000
+Purge_det>           5  0.202831820       0.00000000
+Purge_det>           6  0.235126451       0.00000000
+Purge_det>           7  0.273460329       0.00000000
+Purge_det>           8  0.302590430       0.00000000
+Purge_det>           9  0.340124339       0.00000000
+Purge_det>          10  0.377420813       0.00000000
+Purge_det>          11  0.422392845       0.00000000
+Purge_det>          12  0.469870239       0.00000000
+Purge_det>          13  0.515651643       0.00000000
+Purge_det>          14  0.578967333       0.00000000
+Purge_det>          15  0.645258546       0.00000000
+Purge_det>          16  0.725621402       0.00000000
+Purge_det>          17  0.707891047       0.00000000
+Purge_det>          18  0.818588912       0.00000000
+Purge_det> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+Purge_det> Done groups
+Purge_det>  Total no. of spectra and time channel boundaries =          700         883
+Purge_det>  No. of blocks of spectra =            1
+Purge_det>  No. of spectra per block =          700
+Purge_det>
+Purge_det>
+Purge_det> Spectra being read:            1         700
+Purge_det>
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.nxs
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50875.nxs
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50876.nxs
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50877.nxs
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50994.nxs
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50995.nxs
+Purge_det>get_ratio> Time spent retrieving data =      31 ms
+Purge_det>get_ratio> Total time taken =     250 ms
+Purge_det> Done get ratio
+Purge_det>  700 good spectra at start
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  1;   656 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.19971E+00, and mean dev.:  0.79725E-01
+Purge_det> Next RMS test values:  0.68059E-01  0.72197E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.10544E+00, and mean dev.:  0.45633E-01
+Purge_det> Next RMS test values:  0.67683E-01  0.70710E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.76229E-01, and mean dev.:  0.27650E-01
+Purge_det> Next RMS test values:  0.67563E-01  0.69411E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.67949E-01, and mean dev.:  0.30146E-01
+Purge_det> Next RMS test values:  0.67512E-01  0.69710E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.56507E-01, and mean dev.:  0.24701E-01
+Purge_det> Next RMS test values:  0.67368E-01  0.69517E-01
+Purge_det> Grp:   6   40 Dets, mean ratio:  0.47953E-01, and mean dev.:  0.21043E-01
+Purge_det> Next RMS test values:  0.67201E-01  0.69066E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.92373E-01, and mean dev.:  0.18365E-01
+Purge_det> Next RMS test values:  0.68034E-01  0.69531E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.77367E-01, and mean dev.:  0.20220E-01
+Purge_det> Next RMS test values:  0.67860E-01  0.69621E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.70127E-01, and mean dev.:  0.14849E-01
+Purge_det> Next RMS test values:  0.67581E-01  0.68744E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.61342E-01, and mean dev.:  0.16010E-01
+Purge_det> Next RMS test values:  0.67482E-01  0.68709E-01
+Purge_det> Grp:  11   40 Dets, mean ratio:  0.48563E-01, and mean dev.:  0.14535E-01
+Purge_det> Next RMS test values:  0.67385E-01  0.68279E-01
+Purge_det> Grp:  12   40 Dets, mean ratio:  0.51545E-01, and mean dev.:  0.48540E-01
+Purge_det> Next RMS test values:  0.67328E-01  0.72070E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.29143E-01, and mean dev.:  0.72901E-02
+Purge_det> Next RMS test values:  0.67211E-01  0.67748E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.23547E-01, and mean dev.:  0.20585E-01
+Purge_det> Next RMS test values:  0.67151E-01  0.69410E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.15436E-01, and mean dev.:  0.55722E-02
+Purge_det> Next RMS test values:  0.67045E-01  0.67590E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.69408E-01, and mean dev.:  0.10793E+00
+Purge_det> Next RMS test values:  0.67056E-01  0.73385E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.22328E-01, and mean dev.:  0.54787E-02
+Purge_det> Next RMS test values:  0.67151E-01  0.67543E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.15411E-01, and mean dev.:  0.47887E-02
+Purge_det> Next RMS test values:  0.67101E-01  0.67449E-01
+Purge_det>   656 spectra in 18 groups to file SLS50837.grp
+Purge_det>  700 good spectra at start
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  1;   632 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.31272E+00, and mean dev.:  0.66823E-01
+Purge_det> Next RMS test values:  0.34388E-01  0.37570E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.23509E+00, and mean dev.:  0.37525E-01
+Purge_det> Next RMS test values:  0.34091E-01  0.36295E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.20609E+00, and mean dev.:  0.21096E-01
+Purge_det> Next RMS test values:  0.34109E-01  0.35421E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.20030E+00, and mean dev.:  0.32238E-01
+Purge_det> Next RMS test values:  0.33941E-01  0.36362E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.19001E+00, and mean dev.:  0.21103E-01
+Purge_det> Next RMS test values:  0.33840E-01  0.35573E-01
+Purge_det> Grp:   6   40 Dets, mean ratio:  0.17726E+00, and mean dev.:  0.25785E-01
+Purge_det> Next RMS test values:  0.32151E-01  0.35038E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.21578E+00, and mean dev.:  0.16831E-01
+Purge_det> Next RMS test values:  0.34199E-01  0.35529E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.20364E+00, and mean dev.:  0.17247E-01
+Purge_det> Next RMS test values:  0.34022E-01  0.35451E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.19947E+00, and mean dev.:  0.13255E-01
+Purge_det> Next RMS test values:  0.33933E-01  0.34949E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.19068E+00, and mean dev.:  0.13878E-01
+Purge_det> Next RMS test values:  0.33795E-01  0.34809E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.18063E+00, and mean dev.:  0.13376E-01
+Purge_det> Next RMS test values:  0.33744E-01  0.34511E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.18037E+00, and mean dev.:  0.60691E-01
+Purge_det> Next RMS test values:  0.33626E-01  0.38126E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.15602E+00, and mean dev.:  0.61154E-02
+Purge_det> Next RMS test values:  0.33526E-01  0.33900E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.15282E+00, and mean dev.:  0.17413E-01
+Purge_det> Next RMS test values:  0.33484E-01  0.35261E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.14592E+00, and mean dev.:  0.60924E-02
+Purge_det> Next RMS test values:  0.33368E-01  0.33902E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.25563E+00, and mean dev.:  0.19542E+00
+Purge_det> Next RMS test values:  0.33064E-01  0.41394E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.14484E+00, and mean dev.:  0.49510E-02
+Purge_det> Next RMS test values:  0.33353E-01  0.33669E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.14523E+00, and mean dev.:  0.38761E-02
+Purge_det> Next RMS test values:  0.33417E-01  0.33714E-01
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  2;   632 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.31272E+00, and mean dev.:  0.66823E-01
+Purge_det> Next RMS test values:  0.34388E-01  0.37570E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.23509E+00, and mean dev.:  0.37525E-01
+Purge_det> Next RMS test values:  0.34091E-01  0.36295E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.20609E+00, and mean dev.:  0.21096E-01
+Purge_det> Next RMS test values:  0.34109E-01  0.35421E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.20030E+00, and mean dev.:  0.32238E-01
+Purge_det> Next RMS test values:  0.33941E-01  0.36362E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.19001E+00, and mean dev.:  0.21103E-01
+Purge_det> Next RMS test values:  0.33840E-01  0.35573E-01
+Purge_det> Grp:   6   40 Dets, mean ratio:  0.17726E+00, and mean dev.:  0.25785E-01
+Purge_det> Next RMS test values:  0.32151E-01  0.35038E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.21578E+00, and mean dev.:  0.16831E-01
+Purge_det> Next RMS test values:  0.34199E-01  0.35529E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.20364E+00, and mean dev.:  0.17247E-01
+Purge_det> Next RMS test values:  0.34022E-01  0.35451E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.19947E+00, and mean dev.:  0.13255E-01
+Purge_det> Next RMS test values:  0.33933E-01  0.34949E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.19068E+00, and mean dev.:  0.13878E-01
+Purge_det> Next RMS test values:  0.33795E-01  0.34809E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.18063E+00, and mean dev.:  0.13376E-01
+Purge_det> Next RMS test values:  0.33744E-01  0.34511E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.18037E+00, and mean dev.:  0.60691E-01
+Purge_det> Next RMS test values:  0.33626E-01  0.38126E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.15602E+00, and mean dev.:  0.61154E-02
+Purge_det> Next RMS test values:  0.33526E-01  0.33900E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.15282E+00, and mean dev.:  0.17413E-01
+Purge_det> Next RMS test values:  0.33484E-01  0.35261E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.14592E+00, and mean dev.:  0.60924E-02
+Purge_det> Next RMS test values:  0.33368E-01  0.33902E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.25563E+00, and mean dev.:  0.19542E+00
+Purge_det> Next RMS test values:  0.33064E-01  0.41394E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.14484E+00, and mean dev.:  0.49510E-02
+Purge_det> Next RMS test values:  0.33353E-01  0.33669E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.14523E+00, and mean dev.:  0.38761E-02
+Purge_det> Next RMS test values:  0.33417E-01  0.33714E-01
+Purge_det>   632 spectra in 18 groups to file SLS50875.grp
+Purge_det>  700 good spectra at start
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  1;   632 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.70016E+00, and mean dev.:  0.39638E-01
+Purge_det> Next RMS test values:  0.42424E-01  0.44322E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.62594E+00, and mean dev.:  0.17784E-01
+Purge_det> Next RMS test values:  0.42023E-01  0.42969E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.60467E+00, and mean dev.:  0.14871E-01
+Purge_det> Next RMS test values:  0.41645E-01  0.42663E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.59085E+00, and mean dev.:  0.19621E-01
+Purge_det> Next RMS test values:  0.41600E-01  0.42865E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.58010E+00, and mean dev.:  0.13070E-01
+Purge_det> Next RMS test values:  0.41460E-01  0.42404E-01
+Purge_det> Grp:   6   40 Dets, mean ratio:  0.56567E+00, and mean dev.:  0.58421E-01
+Purge_det> Next RMS test values:  0.36444E-01  0.42249E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.57771E+00, and mean dev.:  0.13430E-01
+Purge_det> Next RMS test values:  0.41400E-01  0.42305E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.57410E+00, and mean dev.:  0.11890E-01
+Purge_det> Next RMS test values:  0.41340E-01  0.42213E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.56698E+00, and mean dev.:  0.10531E-01
+Purge_det> Next RMS test values:  0.41263E-01  0.41975E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.55884E+00, and mean dev.:  0.10048E-01
+Purge_det> Next RMS test values:  0.41169E-01  0.41808E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.55131E+00, and mean dev.:  0.97412E-02
+Purge_det> Next RMS test values:  0.41057E-01  0.41672E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.55104E+00, and mean dev.:  0.50490E-01
+Purge_det> Next RMS test values:  0.41015E-01  0.44560E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.53209E+00, and mean dev.:  0.65918E-02
+Purge_det> Next RMS test values:  0.40936E-01  0.41313E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.53312E+00, and mean dev.:  0.94791E-02
+Purge_det> Next RMS test values:  0.40945E-01  0.41776E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.54216E+00, and mean dev.:  0.89637E-02
+Purge_det> Next RMS test values:  0.41006E-01  0.41436E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.65340E+00, and mean dev.:  0.20391E+00
+Purge_det> Next RMS test values:  0.40973E-01  0.48924E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.54465E+00, and mean dev.:  0.65350E-02
+Purge_det> Next RMS test values:  0.41075E-01  0.41470E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.55455E+00, and mean dev.:  0.56073E-02
+Purge_det> Next RMS test values:  0.41284E-01  0.41553E-01
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  2;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.70016E+00, and mean dev.:  0.39638E-01
+Purge_det> Next RMS test values:  0.42424E-01  0.44322E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.62594E+00, and mean dev.:  0.17784E-01
+Purge_det> Next RMS test values:  0.42023E-01  0.42969E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.60467E+00, and mean dev.:  0.14871E-01
+Purge_det> Next RMS test values:  0.41645E-01  0.42663E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.59085E+00, and mean dev.:  0.19621E-01
+Purge_det> Next RMS test values:  0.41600E-01  0.42865E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.58010E+00, and mean dev.:  0.13070E-01
+Purge_det> Next RMS test values:  0.41460E-01  0.42404E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.57486E+00, and mean dev.:  0.10916E-01
+Purge_det> Next RMS test values:  0.41401E-01  0.42249E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.57771E+00, and mean dev.:  0.13430E-01
+Purge_det> Next RMS test values:  0.41400E-01  0.42305E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.57410E+00, and mean dev.:  0.11890E-01
+Purge_det> Next RMS test values:  0.41340E-01  0.42213E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.56698E+00, and mean dev.:  0.10531E-01
+Purge_det> Next RMS test values:  0.41263E-01  0.41975E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.55884E+00, and mean dev.:  0.10048E-01
+Purge_det> Next RMS test values:  0.41169E-01  0.41808E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.55131E+00, and mean dev.:  0.97412E-02
+Purge_det> Next RMS test values:  0.41057E-01  0.41672E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.55104E+00, and mean dev.:  0.50490E-01
+Purge_det> Next RMS test values:  0.41015E-01  0.44560E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.53209E+00, and mean dev.:  0.65918E-02
+Purge_det> Next RMS test values:  0.40936E-01  0.41313E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.53312E+00, and mean dev.:  0.94791E-02
+Purge_det> Next RMS test values:  0.40945E-01  0.41776E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.54216E+00, and mean dev.:  0.89637E-02
+Purge_det> Next RMS test values:  0.41006E-01  0.41436E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.65340E+00, and mean dev.:  0.20391E+00
+Purge_det> Next RMS test values:  0.40973E-01  0.48924E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.54465E+00, and mean dev.:  0.65350E-02
+Purge_det> Next RMS test values:  0.41075E-01  0.41470E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.55455E+00, and mean dev.:  0.56073E-02
+Purge_det> Next RMS test values:  0.41284E-01  0.41553E-01
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  3;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.70016E+00, and mean dev.:  0.39638E-01
+Purge_det> Next RMS test values:  0.42424E-01  0.44322E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.62594E+00, and mean dev.:  0.17784E-01
+Purge_det> Next RMS test values:  0.42023E-01  0.42969E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.60467E+00, and mean dev.:  0.14871E-01
+Purge_det> Next RMS test values:  0.41645E-01  0.42663E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.59085E+00, and mean dev.:  0.19621E-01
+Purge_det> Next RMS test values:  0.41600E-01  0.42865E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.58010E+00, and mean dev.:  0.13070E-01
+Purge_det> Next RMS test values:  0.41460E-01  0.42404E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.57486E+00, and mean dev.:  0.10916E-01
+Purge_det> Next RMS test values:  0.41401E-01  0.42249E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.57771E+00, and mean dev.:  0.13430E-01
+Purge_det> Next RMS test values:  0.41400E-01  0.42305E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.57410E+00, and mean dev.:  0.11890E-01
+Purge_det> Next RMS test values:  0.41340E-01  0.42213E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.56698E+00, and mean dev.:  0.10531E-01
+Purge_det> Next RMS test values:  0.41263E-01  0.41975E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.55884E+00, and mean dev.:  0.10048E-01
+Purge_det> Next RMS test values:  0.41169E-01  0.41808E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.55131E+00, and mean dev.:  0.97412E-02
+Purge_det> Next RMS test values:  0.41057E-01  0.41672E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.55104E+00, and mean dev.:  0.50490E-01
+Purge_det> Next RMS test values:  0.41015E-01  0.44560E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.53209E+00, and mean dev.:  0.65918E-02
+Purge_det> Next RMS test values:  0.40936E-01  0.41313E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.53312E+00, and mean dev.:  0.94791E-02
+Purge_det> Next RMS test values:  0.40945E-01  0.41776E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.54216E+00, and mean dev.:  0.89637E-02
+Purge_det> Next RMS test values:  0.41006E-01  0.41436E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.65340E+00, and mean dev.:  0.20391E+00
+Purge_det> Next RMS test values:  0.40973E-01  0.48924E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.54465E+00, and mean dev.:  0.65350E-02
+Purge_det> Next RMS test values:  0.41075E-01  0.41470E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.55455E+00, and mean dev.:  0.56073E-02
+Purge_det> Next RMS test values:  0.41284E-01  0.41553E-01
+Purge_det>   631 spectra in 18 groups to file SLS50876.grp
+Purge_det>  700 good spectra at start
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  1;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.70422E+00, and mean dev.:  0.39168E-01
+Purge_det> Next RMS test values:  0.50050E-01  0.51890E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.63429E+00, and mean dev.:  0.19618E-01
+Purge_det> Next RMS test values:  0.49426E-01  0.50627E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.60786E+00, and mean dev.:  0.11697E-01
+Purge_det> Next RMS test values:  0.49261E-01  0.50126E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.60031E+00, and mean dev.:  0.28085E-01
+Purge_det> Next RMS test values:  0.49210E-01  0.51034E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.58382E+00, and mean dev.:  0.11019E-01
+Purge_det> Next RMS test values:  0.48993E-01  0.49816E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.58075E+00, and mean dev.:  0.10668E-01
+Purge_det> Next RMS test values:  0.49001E-01  0.49668E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.58255E+00, and mean dev.:  0.11412E-01
+Purge_det> Next RMS test values:  0.48995E-01  0.49678E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.57770E+00, and mean dev.:  0.14240E-01
+Purge_det> Next RMS test values:  0.48742E-01  0.49875E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.57239E+00, and mean dev.:  0.10888E-01
+Purge_det> Next RMS test values:  0.48840E-01  0.49500E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.56526E+00, and mean dev.:  0.10042E-01
+Purge_det> Next RMS test values:  0.48760E-01  0.49300E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.55743E+00, and mean dev.:  0.85554E-02
+Purge_det> Next RMS test values:  0.48700E-01  0.49204E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.55413E+00, and mean dev.:  0.52786E-01
+Purge_det> Next RMS test values:  0.48522E-01  0.52414E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.53602E+00, and mean dev.:  0.61667E-02
+Purge_det> Next RMS test values:  0.48393E-01  0.48779E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.53888E+00, and mean dev.:  0.95465E-02
+Purge_det> Next RMS test values:  0.48445E-01  0.49350E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.54844E+00, and mean dev.:  0.10306E-01
+Purge_det> Next RMS test values:  0.48515E-01  0.49040E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.65775E+00, and mean dev.:  0.20329E+00
+Purge_det> Next RMS test values:  0.48516E-01  0.57295E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.54997E+00, and mean dev.:  0.67194E-02
+Purge_det> Next RMS test values:  0.48611E-01  0.48995E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.55923E+00, and mean dev.:  0.58568E-02
+Purge_det> Next RMS test values:  0.48791E-01  0.49137E-01
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  2;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.70422E+00, and mean dev.:  0.39168E-01
+Purge_det> Next RMS test values:  0.50050E-01  0.51890E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.63429E+00, and mean dev.:  0.19618E-01
+Purge_det> Next RMS test values:  0.49426E-01  0.50627E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.60786E+00, and mean dev.:  0.11697E-01
+Purge_det> Next RMS test values:  0.49261E-01  0.50126E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.60031E+00, and mean dev.:  0.28085E-01
+Purge_det> Next RMS test values:  0.49210E-01  0.51034E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.58382E+00, and mean dev.:  0.11019E-01
+Purge_det> Next RMS test values:  0.48993E-01  0.49816E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.58075E+00, and mean dev.:  0.10668E-01
+Purge_det> Next RMS test values:  0.49001E-01  0.49668E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.58255E+00, and mean dev.:  0.11412E-01
+Purge_det> Next RMS test values:  0.48995E-01  0.49678E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.57770E+00, and mean dev.:  0.14240E-01
+Purge_det> Next RMS test values:  0.48742E-01  0.49875E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.57239E+00, and mean dev.:  0.10888E-01
+Purge_det> Next RMS test values:  0.48840E-01  0.49500E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.56526E+00, and mean dev.:  0.10042E-01
+Purge_det> Next RMS test values:  0.48760E-01  0.49300E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.55743E+00, and mean dev.:  0.85554E-02
+Purge_det> Next RMS test values:  0.48700E-01  0.49204E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.55413E+00, and mean dev.:  0.52786E-01
+Purge_det> Next RMS test values:  0.48522E-01  0.52414E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.53602E+00, and mean dev.:  0.61667E-02
+Purge_det> Next RMS test values:  0.48393E-01  0.48779E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.53888E+00, and mean dev.:  0.95465E-02
+Purge_det> Next RMS test values:  0.48445E-01  0.49350E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.54844E+00, and mean dev.:  0.10306E-01
+Purge_det> Next RMS test values:  0.48515E-01  0.49040E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.65775E+00, and mean dev.:  0.20329E+00
+Purge_det> Next RMS test values:  0.48516E-01  0.57295E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.54997E+00, and mean dev.:  0.67194E-02
+Purge_det> Next RMS test values:  0.48611E-01  0.48995E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.55923E+00, and mean dev.:  0.58568E-02
+Purge_det> Next RMS test values:  0.48791E-01  0.49137E-01
+Purge_det>   631 spectra in 18 groups to file SLS50877.grp
+Purge_det>  700 good spectra at start
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  1;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.99044E+00, and mean dev.:  0.19629E-01
+Purge_det> Next RMS test values:  0.70187E-01  0.71128E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.95925E+00, and mean dev.:  0.14317E-01
+Purge_det> Next RMS test values:  0.69844E-01  0.70594E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.95742E+00, and mean dev.:  0.14614E-01
+Purge_det> Next RMS test values:  0.69765E-01  0.70645E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.95602E+00, and mean dev.:  0.18649E-01
+Purge_det> Next RMS test values:  0.69749E-01  0.70769E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.95763E+00, and mean dev.:  0.13006E-01
+Purge_det> Next RMS test values:  0.69960E-01  0.70687E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.96928E+00, and mean dev.:  0.12777E-01
+Purge_det> Next RMS test values:  0.69975E-01  0.70681E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.94401E+00, and mean dev.:  0.11792E-01
+Purge_det> Next RMS test values:  0.69662E-01  0.70315E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.95693E+00, and mean dev.:  0.12350E-01
+Purge_det> Next RMS test values:  0.69843E-01  0.70457E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.96286E+00, and mean dev.:  0.11129E-01
+Purge_det> Next RMS test values:  0.69943E-01  0.70567E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.96451E+00, and mean dev.:  0.10756E-01
+Purge_det> Next RMS test values:  0.70010E-01  0.70666E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.96527E+00, and mean dev.:  0.87107E-02
+Purge_det> Next RMS test values:  0.70021E-01  0.70553E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.96639E+00, and mean dev.:  0.40030E-01
+Purge_det> Next RMS test values:  0.69943E-01  0.73050E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.97343E+00, and mean dev.:  0.11244E-01
+Purge_det> Next RMS test values:  0.70060E-01  0.70681E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.99099E+00, and mean dev.:  0.10504E-01
+Purge_det> Next RMS test values:  0.70333E-01  0.71031E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.10287E+01, and mean dev.:  0.14891E-01
+Purge_det> Next RMS test values:  0.70724E-01  0.71506E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.11679E+01, and mean dev.:  0.26465E+00
+Purge_det> Next RMS test values:  0.69854E-01  0.82333E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.10424E+01, and mean dev.:  0.14899E-01
+Purge_det> Next RMS test values:  0.70950E-01  0.71834E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.10766E+01, and mean dev.:  0.14122E-01
+Purge_det> Next RMS test values:  0.71344E-01  0.72103E-01
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  2;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.99044E+00, and mean dev.:  0.19629E-01
+Purge_det> Next RMS test values:  0.70187E-01  0.71128E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.95925E+00, and mean dev.:  0.14317E-01
+Purge_det> Next RMS test values:  0.69844E-01  0.70594E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.95742E+00, and mean dev.:  0.14614E-01
+Purge_det> Next RMS test values:  0.69765E-01  0.70645E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.95602E+00, and mean dev.:  0.18649E-01
+Purge_det> Next RMS test values:  0.69749E-01  0.70769E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.95763E+00, and mean dev.:  0.13006E-01
+Purge_det> Next RMS test values:  0.69960E-01  0.70687E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.96928E+00, and mean dev.:  0.12777E-01
+Purge_det> Next RMS test values:  0.69975E-01  0.70681E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.94401E+00, and mean dev.:  0.11792E-01
+Purge_det> Next RMS test values:  0.69662E-01  0.70315E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.95693E+00, and mean dev.:  0.12350E-01
+Purge_det> Next RMS test values:  0.69843E-01  0.70457E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.96286E+00, and mean dev.:  0.11129E-01
+Purge_det> Next RMS test values:  0.69943E-01  0.70567E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.96451E+00, and mean dev.:  0.10756E-01
+Purge_det> Next RMS test values:  0.70010E-01  0.70666E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.96527E+00, and mean dev.:  0.87107E-02
+Purge_det> Next RMS test values:  0.70021E-01  0.70553E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.96639E+00, and mean dev.:  0.40030E-01
+Purge_det> Next RMS test values:  0.69943E-01  0.73050E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.97343E+00, and mean dev.:  0.11244E-01
+Purge_det> Next RMS test values:  0.70060E-01  0.70681E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.99099E+00, and mean dev.:  0.10504E-01
+Purge_det> Next RMS test values:  0.70333E-01  0.71031E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.10287E+01, and mean dev.:  0.14891E-01
+Purge_det> Next RMS test values:  0.70724E-01  0.71506E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.11679E+01, and mean dev.:  0.26465E+00
+Purge_det> Next RMS test values:  0.69854E-01  0.82333E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.10424E+01, and mean dev.:  0.14899E-01
+Purge_det> Next RMS test values:  0.70950E-01  0.71834E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.10766E+01, and mean dev.:  0.14122E-01
+Purge_det> Next RMS test values:  0.71344E-01  0.72103E-01
+Purge_det>   631 spectra in 18 groups to file SLS50994.grp
+Purge_det>  700 good spectra at start
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  1;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.99227E+00, and mean dev.:  0.21671E-01
+Purge_det> Next RMS test values:  0.70211E-01  0.71296E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.96366E+00, and mean dev.:  0.12018E-01
+Purge_det> Next RMS test values:  0.69976E-01  0.70590E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.95696E+00, and mean dev.:  0.18990E-01
+Purge_det> Next RMS test values:  0.69607E-01  0.70909E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.96123E+00, and mean dev.:  0.22637E-01
+Purge_det> Next RMS test values:  0.69740E-01  0.71516E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.95531E+00, and mean dev.:  0.11102E-01
+Purge_det> Next RMS test values:  0.69871E-01  0.70461E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.97249E+00, and mean dev.:  0.10586E-01
+Purge_det> Next RMS test values:  0.70061E-01  0.70673E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.94286E+00, and mean dev.:  0.11081E-01
+Purge_det> Next RMS test values:  0.69670E-01  0.70255E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.95272E+00, and mean dev.:  0.12454E-01
+Purge_det> Next RMS test values:  0.69754E-01  0.70428E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.96320E+00, and mean dev.:  0.11706E-01
+Purge_det> Next RMS test values:  0.69921E-01  0.70547E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.96297E+00, and mean dev.:  0.11281E-01
+Purge_det> Next RMS test values:  0.69978E-01  0.70594E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.96453E+00, and mean dev.:  0.95027E-02
+Purge_det> Next RMS test values:  0.70022E-01  0.70497E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.96869E+00, and mean dev.:  0.39121E-01
+Purge_det> Next RMS test values:  0.69899E-01  0.72944E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.97115E+00, and mean dev.:  0.10122E-01
+Purge_det> Next RMS test values:  0.69992E-01  0.70666E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.98937E+00, and mean dev.:  0.11360E-01
+Purge_det> Next RMS test values:  0.70289E-01  0.70939E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.10282E+01, and mean dev.:  0.16591E-01
+Purge_det> Next RMS test values:  0.70480E-01  0.71448E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.11683E+01, and mean dev.:  0.26560E+00
+Purge_det> Next RMS test values:  0.69956E-01  0.82414E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.10429E+01, and mean dev.:  0.15254E-01
+Purge_det> Next RMS test values:  0.70869E-01  0.71756E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.10752E+01, and mean dev.:  0.13811E-01
+Purge_det> Next RMS test values:  0.71342E-01  0.72045E-01
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  2;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.99227E+00, and mean dev.:  0.21671E-01
+Purge_det> Next RMS test values:  0.70211E-01  0.71296E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.96366E+00, and mean dev.:  0.12018E-01
+Purge_det> Next RMS test values:  0.69976E-01  0.70590E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.95696E+00, and mean dev.:  0.18990E-01
+Purge_det> Next RMS test values:  0.69607E-01  0.70909E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.96123E+00, and mean dev.:  0.22637E-01
+Purge_det> Next RMS test values:  0.69740E-01  0.71516E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.95531E+00, and mean dev.:  0.11102E-01
+Purge_det> Next RMS test values:  0.69871E-01  0.70461E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.97249E+00, and mean dev.:  0.10586E-01
+Purge_det> Next RMS test values:  0.70061E-01  0.70673E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.94286E+00, and mean dev.:  0.11081E-01
+Purge_det> Next RMS test values:  0.69670E-01  0.70255E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.95272E+00, and mean dev.:  0.12454E-01
+Purge_det> Next RMS test values:  0.69754E-01  0.70428E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.96320E+00, and mean dev.:  0.11706E-01
+Purge_det> Next RMS test values:  0.69921E-01  0.70547E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.96297E+00, and mean dev.:  0.11281E-01
+Purge_det> Next RMS test values:  0.69978E-01  0.70594E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.96453E+00, and mean dev.:  0.95027E-02
+ExitValue: 0
+Purge_det> Next RMS test values:  0.70022E-01  0.70497E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.96869E+00, and mean dev.:  0.39121E-01
+Purge_det> Next RMS test values:  0.69899E-01  0.72944E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.97115E+00, and mean dev.:  0.10122E-01
+Purge_det> Next RMS test values:  0.69992E-01  0.70666E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.98937E+00, and mean dev.:  0.11360E-01
+Purge_det> Next RMS test values:  0.70289E-01  0.70939E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.10282E+01, and mean dev.:  0.16591E-01
+Purge_det> Next RMS test values:  0.70480E-01  0.71448E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.11683E+01, and mean dev.:  0.26560E+00
+Purge_det> Next RMS test values:  0.69956E-01  0.82414E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.10429E+01, and mean dev.:  0.15254E-01
+Purge_det> Next RMS test values:  0.70869E-01  0.71756E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.10752E+01, and mean dev.:  0.13811E-01
+Purge_det> Next RMS test values:  0.71342E-01  0.72045E-01
+Purge_det>   631 spectra in 18 groups to file SLS50995.grp
+Purge_det>purge_det> Total run time =         641 ms

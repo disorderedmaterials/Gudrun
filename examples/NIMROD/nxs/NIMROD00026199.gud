@@ -1,0 +1,57 @@
+ NIMROD00026199.gud
+
+ PEO no-nano at 20C in 2mm Can N22
+
+ T.Youngs and M.Falkowska
+
+ 0004-**-00 **:00:00
+
+ Number density of this sample (atoms/A**3) =  0.110043E+00
+ Corresponding density in g/cm**3 =    1.14999
+ Average scattering length of the sample (10**-12cm) =    0.05913
+ Average scattering length squared (barns) =  0.349619E-02
+ Average square of the scattering length (barns) =  0.254191E+00
+ Ratio of (coherent) single to interference =  0.727053E+02
+
+ Expected level of DCS [b/sr/atom] =    3.90400
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            0.0000    0.0000        0.00000              0.0000
+    2            0.0000    0.0000        0.00000              0.0000
+    3            0.0000    0.0000        0.00000              0.0000
+    4            0.0000    0.0000        0.00000              0.0000
+    5            0.0000    0.0000        0.00000              0.0000
+    6            0.0118    2.6643        4.89200            -22.0399
+    7            0.0130    2.9643        3.23351            -10.9664
+    8            0.0143    3.2643        3.50621            -11.0338
+    9            0.0157    3.5643        3.18530             -7.3531
+   10            0.0172    3.8643        3.28048             -6.5415
+   11            0.0190    4.1443        3.03453             -1.0146
+   12            0.0305    8.7643        3.15188             -1.2319
+   13            0.0405   10.6844        3.07534             -0.1925
+   14            0.0536   13.2444        3.23391             -0.1412
+   15            0.0646   15.0845        3.34730             -0.4634
+   16            0.0850   19.6046        3.28225             -0.3351
+   17            0.0930   22.2047        3.23328             -0.3045
+   18            0.1017   25.3247        3.32853             -0.1092
+   19            0.1212   28.3048        3.39204             -0.2361
+   20            0.1690   38.0450        3.33676             -0.1069
+   21            0.1827   42.8251        3.26926              0.0158
+   22            0.2123   49.8253        3.31205             -0.0197
+   23            0.2443   49.9853        3.29661             -0.0076
+   24            0.2784   49.9853        3.44384             -0.0877
+   25            0.3141   49.9853        3.10813             -0.0299
+
+ No. of groups accepted for merge =   25
+
+ Average level of merged dcs is    3.29607 b/sr/atom;
+
+ Gradient of merged dcs: -0.0548% of average level.
+
+ WARNING! This DCS level is   15.6% BELOW expected level.
+
+ Please check sample density, size or thickness, and composition.
+ If all is in order, then refer to your local contact for further advice
+
+ Suggested tweak factor:    1.36338

@@ -1,0 +1,41 @@
+ 014775_10steps.gudw
+
+ unknown
+
+ NVA
+
+ 2018-11-08 06:57:31
+
+ Number density of this sample (atoms/A**3) =  0.939000E-01
+ Corresponding density in g/cm**3 =    1.06401
+ Average scattering length of the sample (10**-12cm) =    0.47066
+ Average scattering length squared (barns) =  0.221523E+00
+ Average square of the scattering length (barns) =  0.386129E+00
+ Ratio of (coherent) single to interference =  0.174306E+01
+
+ Expected level of DCS [b/sr/atom] =    1.63466
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            0.1250    8.2957        4.29711              9.4941
+    2            0.1250    8.2957        4.68316             10.4069
+    3            0.1250    8.2857        4.31363              9.4497
+    4            0.1250    8.2657        4.38767              9.1261
+    5            0.1250    8.2957        5.18710             11.0929
+    6            0.1250    8.2657        5.00850             10.8074
+    7            0.1250    8.2957        3.11427              5.8290
+    8            0.1250    8.2957        2.58791              2.9937
+    9            0.1250    8.2857        2.31920              1.0362
+
+ No. of groups accepted for merge =    9
+
+ Average level of merged dcs is    2.77261 b/sr/atom;
+
+ Gradient of merged dcs:  3.3402% of average level.
+
+ WARNING! This DCS level is   69.6% ABOVE expected level.
+
+ Please check sample density, size or thickness, and composition.
+ If all is in order, then refer to your local contact for further advice
+
+ Suggested tweak factor:    0.58957

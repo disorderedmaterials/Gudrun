@@ -1,0 +1,42 @@
+ 225923.gud
+
+ mXylene_100_T179K
+
+ zysis
+
+ 24-Feb-13 16:22:53
+
+ Number density of this sample (atoms/A**3) =  0.100000E+00
+ Corresponding density in g/cm**3 =    0.99717
+ Average scattering length of the sample (10**-12cm) =   -0.05583
+ Average scattering length squared (barns) =  0.311736E-02
+ Average square of the scattering length (barns) =  0.205450E+00
+ Ratio of (coherent) single to interference =  0.659052E+02
+
+ Expected level of DCS [b/sr/atom] =    4.46355
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            1.7250    2.8250       33.37199              1.7264
+    2            4.0250   15.6250       37.03765             -5.6436
+    3            1.5750   15.5750       37.91864             -5.7186
+    4            1.3750   15.4750       38.75753             -5.7503
+    5            1.0250   15.9250       37.96887             -5.6847
+    6            0.7250   15.9250       38.18412             -5.6915
+    7            0.4250   15.9250       37.91183             -5.6512
+    8            0.1250   15.9250       37.68945             -5.6151
+    9            0.0250   15.8250       37.19857             -5.6373
+   10            0.0000    0.0000        0.00000              0.0000
+
+ No. of groups accepted for merge =   10
+
+ Average level of merged dcs is   37.81335 b/sr/atom;
+
+ Gradient of merged dcs: -5.6740% of average level.
+
+ WARNING! This DCS level is  747.2% ABOVE expected level.
+
+ Please check sample density, size or thickness, and composition.
+ If all is in order, then refer to your local contact for further advice
+
+ Suggested tweak factor:    0.11804

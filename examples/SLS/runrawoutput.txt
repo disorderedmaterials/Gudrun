@@ -1,0 +1,165 @@
+Gudrun_dcs> Let us begin: Gudrun_dcs NeXus dynamic allocation version GUI_4: November 2013
+Gudrun_dcs> gudrun_dcs.dat opened correctly
+Gudrun_dcs>  ;          ;\
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: INSTRUMENT
+Gudrun_dcs> SANDALS
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\run\SLS\
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\
+Gudrun_dcs> StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+Gudrun_dcs>           4
+Gudrun_dcs> StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Gudrun_dcs> StartupFiles\SLS\SLSdeadtime.cor
+Gudrun_dcs>           2
+Gudrun_dcs>           1           3
+Gudrun_dcs>           2
+Gudrun_dcs>           2           4
+Gudrun_dcs>           0   0.00000000       0.00000000       0.00000000
+Gudrun_dcs> StartupFiles\SLS\sears91_gudrun.dat
+Gudrun_dcs>           1
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: BEAM
+Gudrun_dcs>  0.431648999      0.794129014       1.28953001E-02   2.58185005       2.01264000       7.80806017      0.840768993       4.55159321E-02  0.285984248
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: NORMALISATION
+Gudrun_dcs> get_run_par> C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_run_par> Closed data file
+Gudrun_dcs> get_run_par> Set up detector and spectrum numbers
+Gudrun_dcs> gudrun_dcs> Got run parameters
+Gudrun_dcs> Deadtime filename: StartupFiles\SLS\SLSdeadtime.cor           29
+Gudrun_dcs>           0           1   14.0000000       0.00000000       0.00000000
+Gudrun_dcs>         141  -1.48069465E+36   1.72650733E-38          -1
+Gudrun_dcs> gudrun_dcs> Got deadtimes
+Gudrun_dcs> gudrun_dcs> Got time channel boundaries
+Gudrun_dcs>           4 UT4
+Gudrun_dcs>           5           4
+Gudrun_dcs> get_calibration> Reading calibration from: C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+Gudrun_dcs>          46          96
+Gudrun_dcs> get_calibration> 1
+Gudrun_dcs>         700           5
+Gudrun_dcs> gudrun_dcs> Got calibration
+Gudrun_dcs> Name of groups file being read from: StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Gudrun_dcs>          18
+Gudrun_dcs>         -20          20
+Gudrun_dcs>         -20          20
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -30          30
+Gudrun_dcs>         -30          30
+Gudrun_dcs>         -50          50
+Gudrun_dcs>         -50          50
+Gudrun_dcs>   680 spectra in 18 groups from file C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Gudrun_dcs> get_groups> Checked input values for group            1
+Gudrun_dcs> get_groups> Checked input values for group            2
+Gudrun_dcs> get_groups> Checked input values for group            3
+Gudrun_dcs> get_groups> Checked input values for group            4
+Gudrun_dcs> get_groups> Checked input values for group            5
+Gudrun_dcs> get_groups> Checked input values for group            6
+Gudrun_dcs> get_groups> Checked input values for group            7
+Gudrun_dcs> get_groups> Checked input values for group            8
+Gudrun_dcs> get_groups> Checked input values for group            9
+Gudrun_dcs> get_groups> Checked input values for group           10
+Gudrun_dcs> get_groups> Checked input values for group           11
+Gudrun_dcs> get_groups> Checked input values for group           12
+Gudrun_dcs> get_groups> Checked input values for group           13
+Gudrun_dcs> get_groups> Checked input values for group           14
+Gudrun_dcs> get_groups> Checked input values for group           15
+Gudrun_dcs> get_groups> Checked input values for group           16
+Gudrun_dcs> get_groups> Checked input values for group           17
+Gudrun_dcs> get_groups> Checked input values for group           18
+Gudrun_dcs>
+Gudrun_dcs> Q-ranges for individual groups
+Gudrun_dcs>
+Gudrun_dcs>           1   0.00000000       20.0000000
+Gudrun_dcs>           2   0.00000000       20.0000000
+Gudrun_dcs>           3   0.00000000       20.0000000
+Gudrun_dcs>           4   0.00000000       20.0000000
+Gudrun_dcs>           5   0.00000000       20.0000000
+Gudrun_dcs>           6   0.00000000       20.0000000
+Gudrun_dcs>           7   0.00000000       20.0000000
+Gudrun_dcs>           8   0.00000000       20.0000000
+Gudrun_dcs>           9   0.00000000       20.0000000
+Gudrun_dcs>          10   0.00000000       20.0000000
+Gudrun_dcs>          11   0.00000000       20.0000000
+Gudrun_dcs>          12   0.00000000       20.0000000
+Gudrun_dcs>          13   0.00000000       20.0000000
+Gudrun_dcs>          14   0.00000000       20.0000000
+Gudrun_dcs>          15   0.00000000       20.0000000
+Gudrun_dcs>          16   0.00000000       20.0000000
+Gudrun_dcs>          17   0.00000000       20.0000000
+Gudrun_dcs>          18   0.00000000       20.0000000
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+Gudrun_dcs> gudrun_dcs> Got groups
+Gudrun_dcs> get_amutshield>    0.00000000
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> Incident>            1           1           1   8.77400017
+Gudrun_dcs> get_mon> Relative monitor sums            1   1.00000000
+Gudrun_dcs> form_smoo_mon>            2  smoothings used for monitor in run SLS50836.raw with chisq ratio    1.13713932
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.raw
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.raw
+Gudrun_dcs> Incident>            1           1           1   8.77400017
+Gudrun_dcs> get_mon> Relative monitor sums            1   1.00000000
+Gudrun_dcs> form_smoo_mon>            2  smoothings used for monitor in run SLS50837.raw with chisq ratio    1.13426650
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> Trans>            2           2           2   15.6949997
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.raw
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.raw
+Gudrun_dcs> Trans>            2           2           2   15.6949997
+Gudrun_dcs> gudrun_dcs> Got vanadium tranmission monitors
+Gudrun_dcs>
+Gudrun_dcs> No of elements found for vanadium:            1
+Gudrun_dcs> V            0
+Gudrun_dcs>
+Gudrun_dcs> get_van_par>            1           1          10
+Gudrun_dcs> gudrun_dcs> Got vanadium parameters
+Gudrun_dcs> gudrun_dcs> NORMALISATION geometry =            2
+Gudrun_dcs> get_trans> nwav,nwavb,mcorrwavmax           48          49         883
+Gudrun_dcs> SLS50836.rebinq
+Gudrun_dcs> get_trans> SLS50836.transnofit01           1
+Gudrun_dcs>          48           3           0
+Gudrun_dcs> polyfit_nofix> No. of iterations       310000
+Gudrun_dcs> get_trans> Time for polyfit>                   873
+Gudrun_dcs> get_trans> SLS50836.trans01           1
+Gudrun_dcs>  0.500000000     -0.500000000       2.00000000      -2.00000000
+Gudrun_dcs>  -1.50000000       1.50000000      -2.09999990       2.09999990
+Gudrun_dcs> calc_mul>            1  0.150000006      0.150000006       7.20999986E-02   5.07999992       5.38253593       5.00000000
+Gudrun_dcs> set_corr_ang>    0.00000000
+Gudrun_dcs> set_corr_ang>    38.0167313       0.00000000       0.00000000       0.00000000
+Gudrun_dcs>           4   0.00000000       12.6722441       25.3444881       38.0167313
+Gudrun_dcs>           1   0.00000000
+Gudrun_dcs> calc_mul> Set up correction angles
+Gudrun_dcs>
+Gudrun_dcs> fltmultof> Total thickness (cm):    0.30000 No. of cos theta values:     0
+Gudrun_dcs> calc_mul> Calculated flat plate corrections
+Gudrun_dcs> (003(1x,e12.5))
+Gudrun_dcs> gudrun_dcs> Got vanadium total scattering correction
+Gudrun_dcs> gudrun_dcs> Got vanadium Placzek correction
+Gudrun_dcs> StartupFiles\SLS\slsvanadiummod.bragg
+Gudrun_dcs>
+Gudrun_dcs> vdcs_read>   9 Bragg peaks to be defined
+Gudrun_dcs> gudrun_dcs> Got vanadium DCS data
+Gudrun_dcs> vdcs_bragg>         1993  Q values to be generated in vdcs_bragg
+Gudrun_dcs> get_summed_data> Reading data file: SLS50836.raw period            1  factor    1.00000000
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_goodframes> Retrieved      226310  goodframes from:- C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_module_sum> Total of       226310  goodframes read from SLS50836.raw
+Gudrun_dcs> get_module_sum>       226310  good frames found for run SLS50836.raw period            1
+Gudrun_dcs>
+Gudrun_dcs> get_module_sum> Overall DAE count rate (cts/musec):  0.294815E+03
+ERROR>Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Gudrun_dcs>
+Gudrun_dcs> get_module_sum> Detector deadtime:   14.00000 is too large for observed count rate 0.243846E+00 at time channel    1 in module    1
+ExitValue: 0

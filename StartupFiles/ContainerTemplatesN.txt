@@ -1,0 +1,204 @@
+'  '  '          '  '/'
+
+CONTAINER 1mm TiZr flat plate cell          {
+
+0  1          Number of  files and period number
+Ti  0  7.16          Composition
+Zr  0  3.438          Composition
+*  0  0          * 0 0 to specify end of composition input
+FLATPLATE          Geometry
+0.1  0.1          Inner and outer dimensions (cm)
+0  5          Angle of rotation and sample width (cm)
+-0.0542          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 2mm TiZr flat plate cell          {
+
+0  1          Number of  files and period number
+Ti  0  7.16          Composition
+Zr  0  3.438          Composition
+*  0  0          * 0 0 to specify end of composition input
+FLATPLATE          Geometry
+0.1  0.1          Inner and outer dimensions (cm)
+0  5          Angle of rotation and sample width (cm)
+-0.0542          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 4mm TiZr flat plate cell          {
+
+0  1          Number of  files and period number
+Ti  0  7.16          Composition
+Zr  0  3.438          Composition
+*  0  0          * 0 0 to specify end of composition input
+FLATPLATE          Geometry
+0.1  0.1          Inner and outer dimensions (cm)
+0  5          Angle of rotation and sample width (cm)
+-0.0542          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 1mm Hellma flat plate cell          {
+
+0  1          Number of  files and period number
+Si  0  1.0          Composition
+O  0  2.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+FLATPLATE          Geometry
+0.2  0.2          Inner and outer dimensions (cm)
+0  5          Angle of rotation and sample width (cm)
+-0.0663          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 2mm Hellma flat plate cell          {
+
+0  1          Number of  files and period number
+Si  0  1.0          Composition
+O  0  2.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+FLATPLATE          Geometry
+0.2  0.2          Inner and outer dimensions (cm)
+0  5          Angle of rotation and sample width (cm)
+-0.0663          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 4mm Hellma flat plate cell          {
+
+0  1          Number of  files and period number
+Si  0  1.0          Composition
+O  0  2.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+FLATPLATE          Geometry
+0.2  0.2          Inner and outer dimensions (cm)
+0  5          Angle of rotation and sample width (cm)
+-0.0663          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 6mm drawn vanadium Cylinder          {
+
+0  1          Number of  files and period number
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.29855  0.3175          Inner and outer dimensions (cm)
+4.6          Angle of rotation and sample width (cm)
+-0.0721          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 8mm drawn vanadium Cylinder          {
+
+0  1          Number of  files and period number
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.381  0.394          Inner and outer dimensions (cm)
+6.35          Angle of rotation and sample width (cm)
+-0.0721          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 11mm drawn vanadium Cylinder          {
+
+0  1          Number of  files and period number
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.541  0.557          Inner and outer dimensions (cm)
+5          Angle of rotation and sample width (cm)
+-0.0721          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 15mm drawn vanadium Cylinder          {
+
+0  1          Number of  files and period number
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.775  0.790          Inner and outer dimensions (cm)
+7.55          Angle of rotation and sample width (cm)
+-0.0721          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 8mm Harwell vanadium Cylinder          {
+
+0  1          Number of  files and period number
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.4  0.4065          Inner and outer dimensions (cm)
+5.145          Angle of rotation and sample width (cm)
+-0.0721          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 5mm thin vanadium foil Cylinder          {
+
+0  1          Number of  files and period number
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.25  0.2525          Inner and outer dimensions (cm)
+5          Angle of rotation and sample width (cm)
+-0.0721          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 8mm thin vanadium foil Cylinder          {
+
+0  1          Number of  files and period number
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.40  0.4025          Inner and outer dimensions (cm)
+5          Angle of rotation and sample width (cm)
+-0.0721          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+
+CONTAINER 8.3mm thin vanadium foil Cylinder          {
+
+0  1          Number of  files and period number
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.415  0.4175          Inner and outer dimensions (cm)
+5          Angle of rotation and sample width (cm)
+-0.0721          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+
+}
+

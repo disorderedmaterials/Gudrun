@@ -1,0 +1,30 @@
+ 178745.gud
+
+ h-water
+
+ triolo
+
+ 01-May-11 17:08:11
+
+ Number density of this sample (atoms/A**3) =  0.100000E+00
+ Corresponding density in g/cm**3 =    0.99717
+ Average scattering length of the sample (10**-12cm) =   -0.05583
+ Average scattering length squared (barns) =  0.311736E-02
+ Average square of the scattering length (barns) =  0.205450E+00
+ Ratio of (coherent) single to interference =  0.659052E+02
+
+ Expected level of DCS [b/sr/atom] =    4.46355
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            0.3500   15.7900        4.48814             -4.9623
+
+ No. of groups accepted for merge =    1
+
+ Average level of merged dcs is    4.48816 b/sr/atom;
+
+ Gradient of merged dcs: -4.9623% of average level.
+
+ This DCS level is  100.6% of expected level
+
+ Suggested tweak factor:    0.99452

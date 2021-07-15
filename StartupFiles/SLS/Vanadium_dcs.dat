@@ -1,0 +1,106 @@
+'  '  '          '  '\'
+
+INSTRUMENT          {
+
+SANDALS          Instrument name
+C:\GudrunDT\Run\Cycle083\Parker\          Gudrun input file directory
+Z:\cycle_08_3\          Raw file directory
+raw          Raw file type
+SANDALS_065_detector.dat          Detector calibration file name
+4          User table column number for phi values
+groups_18_clean2.dat          Groups file name
+SLSdeadtime.cor          Deadtime constants file name
+1          Spectrum number(s) for incident beam monitor
+0  0          Wavelength range [Å] for monitor normalisation
+2          Spectrum number(s) for transmission monitor
+0.0006          Incident monitor quiet count constant
+0.0006          Transmission monitor quiet count constant
+0  0          Channel numbers for spike analysis
+5          Spike analysis acceptance factor
+0.05  4.95  0.1          Wavelength range to use [Å] and step size
+100  25          No. of smooths on monitor and vanadium
+0.025  50.0  0.05          Q-range [1/Å] for final DCS
+0  0  0  0          0 0 0 0 to end input of specified values
+1.0          Groups acceptance factor 
+0          Merge power
+0          Single atom scattering to be subtracted?
+0          Statistical weighting for merge?
+11.016          Incident flight path [m]
+0          Spectrum number to output diagnostic files
+
+}
+
+BEAM          {
+
+FLATPLATE          Sample geometry
+2          Number of beam profile values
+1.0  1.0            Beam profile values (Maximum of 50 allowed currently)
+0.05  0.2  100          Step size for absorption and m.s. calculation and no. of slices
+10          No. of scattering angles to calculate corrections at           
+-1.5  1.5  -1.5  1.5          Incident beam edges relative to centre of sample [cm]
+-2.0  2.0  -2.1  2.1          Scattered beam edges relative to centre of sample [cm]
+spectrum000.dat          Filename containing incident beam spectrum parameters
+1.0          Overall background factor 
+
+}
+
+VANADIUM          {
+
+0  1          Number of vanadium files and period number
+0  1          Number of vanadium background files and period number
+1          Force calculation of vanadium corrections
+V  0  1.0          Vanadium atomic composition
+*  0  0          * 0 0 to specify end of composition input
+0.0  0.15          Vanadium inner and outer dimensions (cm)
+0  5          Angle of rotation and width of vanadium (cm)
+-0.0721          Vanadium density atoms/Å^3?
+300          Vanadium temperature (for Placzek correction)
+TABLES          Vanadium total cross section source
+slsvanadium.bragg          Vanadium differential cross section filename
+
+}
+
+SAMPLE BACKGROUND          {
+
+0  1          Number of sample background files and period number
+
+}
+
+SAMPLE          {
+
+0  1          Number of sample files and period number
+1          Force calculation of sample corrections
+C  0  6.0          Sample atomic composition
+H  2  10.0          Sample atomic composition
+*  0  0          * 0 0 to specify end of composition input
+0.0  0.05          Sample inner and outer dimensions (cm)
+0  5          Angle of rotation and width of sample (cm)
+-0.095          Sample density atoms/Å^3?
+0          Sample temperature (for Placzek correction)
+TRANSMISSION          Sample total cross section source
+1.0          Sample tweak factor
+0          Top hat width (1/Å) for cleaning up Fourier Transform
+0.0          Minimum radius for Fourier Transform [Å]
+50.0          Qmax for Lorch window function [1/Å]
+0  0          0   0          to finish specifying wavelength range of resonance
+0.0  0.0  1.0          Exponential amplitude, decay [Å] and stretch
+
+}
+
+CONTAINER 1          {
+
+0  1          Number of can data files and period number
+Ti  0  7.16          Container 1 atomic composition
+Zr  0  3.438          Container 1 atomic composition
+*  0  0          * 0 0 to specify end of composition input
+0.05  0.15          Container 1 inner and outer dimensions (cm)
+0  5          Angle of rotation and width of container 1 (cm)
+-0.0541          Container 1 density atoms/Å^3?
+TRANSMISSION          Container 1 total cross section source
+1.0          Container 1 tweak factor
+
+}
+
+GO          
+
+END          

@@ -1,0 +1,148 @@
+'  '  '          '  '\'
+
+INSTRUMENT          {
+
+NIMROD          Instrument name
+C:\Users\aks45\Gudrun\Gudrun2014\Gudrun\run\NIMROD\raw\          Gudrun input file directory:
+C:\Users\aks45\Gudrun\Gudrun2014\RawData\NIMROD\          Data file directory
+raw          Data file type
+StartupFiles\NIMROD\NIMROD84modules+9monitors+LAB5Oct2012Detector.calib          Detector calibration file name
+4          User table column number for phi values
+StartupFiles\NIMROD\NIMROD84modules+9monitors+LAB5Oct2012Groups.dat          Groups file name
+StartupFiles\NIMROD\NIMRODdeadtime.cor          Deadtime constants file name
+4 5          Spectrum number(s) for incident beam monitor
+0  0          Wavelength range [Å] for monitor normalisation
+8 9          Spectrum number(s) for transmission monitor
+0.0001          Incident monitor quiet count constant
+0.0001          Transmission monitor quiet count constant
+0  0          Channel numbers for spike analysis
+5          Spike analysis acceptance factor
+0.05  12  0.05          Wavelength range to use [Å] and step size
+2000            No. of smooths on monitor
+0.005  50.0  -0.02          Min, Max and step in x-scale (-ve for logarithmic binning)
+0  0  0  0          0 0 0 0 to end input of specified values
+1.2          Groups acceptance factor 
+4          Merge power
+0          Subtract single atom scattering?
+2          By channel?
+20.0          Incident flight path [m]
+0          Spectrum number to output diagnostic files
+StartupFiles\NIMROD\sears91_gudrun.dat          Neutron scattering parameters file
+1          Scale selection: 1 = Q, 2 = d-space, 3 = wavelength, 4 = energy, 5 = TOF
+1          Subtract wavelength-binned data?
+C:\Users\aks45\Gudrun\Gudrun2014\Gudrun          Folder where Gudrun started
+C:\Users\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS          Folder containing the startup file
+0.1          Logarithmic step size
+1          Hard group edges?
+4          Number of iterations
+0          Tweak the tweak factor(s)?
+
+}
+
+BEAM          {
+
+FLATPLATE          Sample geometry
+2          Number of beam profile values
+1.0  1.0            Beam profile values (Maximum of 50 allowed currently)
+0.05  0.2  100          Step size for absorption and m.s. calculation and no. of slices
+10          Angular step for corrections [deg.]          
+-0.5  0.5  -1.5  1.5          Incident beam edges relative to centre of sample [cm]
+-2.0  2.0  -2.1  2.1          Scattered beam edges relative to centre of sample [cm]
+StartupFiles\NIMROD\spectrum000.dat          Filename containing incident beam spectrum parameters
+1.0          Overall background factor 
+0.0          Sample dependent background factor
+0.0          Shielding attenuation coefficient [per m per A] 
+
+}
+
+NORMALISATION          {
+
+2  1          Number of  files and period number
+NIMROD00026180.raw          Data files
+NIMROD00026162.raw          Data files
+2  1          Number of  files and period number
+NIMROD00026181.raw          Data files
+NIMROD00026163.raw          Data files
+1          Force calculation of corrections?
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.15  0.15          Upstream and downstream thicknesses [cm]
+0.0  5          Angle of rotation and sample width (cm)
+-0.0721          Density atoms/Å^3?
+200          Temperature for Placzek correction:
+TABLES          Total cross section source
+StartupFiles\NIMROD\nimrodvanadium_10Dec2010_nosmooth.bragg          Normalisation differential cross section filename
+0.001          Lower limit on smoothed normalisation  
+1.0          Normalisation degree of smoothing
+0.0          Minimum normalisation signal to background ratio
+
+}
+
+SAMPLE BACKGROUND          {
+
+2  1          Number of  files and period number
+NIMROD00026181.raw          SAMPLE BACKGROUND data files
+NIMROD00026163.raw          SAMPLE BACKGROUND data files
+
+}
+
+SAMPLE PEO no-nano          {
+
+2  1          Number of  files and period number
+NIMROD00026199.raw          SAMPLE PEO no-nano data files
+NIMROD00026201.raw          SAMPLE PEO no-nano data files
+1          Force calculation of sample corrections?
+C  0  2.0          Composition
+O  0  1.0          Composition
+H  0  4.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.05  0.05          Upstream and downstream thicknesses [cm]
+0  5          Angle of rotation and sample width (cm)
+1.15          Density Units:  gm/cm^3?
+0          Temperature for Placzek correction:
+TRANSMISSION          Total cross section source
+1.15107          Tweak factor
+-10          Top hat width (1/Å) for cleaning up Fourier Transform
+0.7          Minimum radius for FT  [Å]
+0.1          g(r) broadening at r = 1A [A]
+0  0          0   0          to finish specifying wavelength range of resonance
+0.0  1.0  0          Exponential amplitude and decay [1/A]
+*  0  0          * 0 0 to specify end of exponential parameter input
+1.0          Normalisation correction factor
+NIMROD00026199.msubw01          Name of file containing self scattering as a function of wavelength [A]
+0          Normalise to:Nothing
+20.0          Maximum radius for FT [A]
+0          Output units: b/atom/sr
+0.2          Power for broadening function e.g. 0.5
+0.03          Step size [A] 
+1          Analyse this sample? 
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+CONTAINER 2mm TiZr flat plate cell N22          {
+
+1  1          Number of  files and period number
+NIMROD00026197.raw          CONTAINER 2mm TiZr flat plate cell N22 data files
+Ti  0  7.16          Composition
+Zr  0  3.438          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.1  0.1          Upstream and downstream thicknesses [cm]
+0  5          Angle of rotation and sample width (cm)
+-0.0542          Density atoms/Å^3?
+TRANSMISSION          Total cross section source
+1.0          Tweak factor
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+GO          
+
+
+END          
+1 2 3 4 5 6 7 8 9 10 11 12
+Date and time last written:  20140310 15:24:43          
+N

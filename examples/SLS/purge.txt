@@ -1,0 +1,394 @@
+  ;          ;\
+ SANDALS 
+ C:\aks45\Gudrun\Gudrun2014\Gudrun\run\SLS\
+ C:\aks45\Gudrun\Gudrun2014\RawData\SLS\
+ C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+ C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+           1
+           0           0
+   5.00000000    
+   10.0000000       10.0000000    
+           1
+ SLS50852.nxs
+ SLS50854.nxs
+ nxs
+ title : /title                                            
+ timechannels : /monitor_1/time_of_flight                         
+ periodspresent : T
+spectrum : /monitor_1/data                                   
+spectrum : /monitor_2/data                                   
+spectrum : /monitor_3/data                                   
+spectrum : /monitor_4/data                                   
+spectrum : /detector_1/counts                                
+ get_run_par> C:\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50852.nxs
+Root group and no. of members:  /raw_data_1    37
+Number of datasets in file =   242
+Dataset number, name, class (0, 1 or 3)), precision (no. of characters for class = 3),ndims and dims.
+    1 /beamline    3    7    1    1
+    2 /collection_time    1   32    1    1
+    3 /definition    3    6    1    1
+    4 /definition_local    3   10    1    1
+    5 /detector_1/counts    0   32    3  882  696    1
+    6 /detector_1/period_index    0   32    1    1
+    7 /detector_1/spectrum_index    0   32    1  696
+    8 /detector_1/time_of_flight    1   32    1  883
+    9 /duration    1   32    1    1
+   10 /end_time    3   19    1    1
+   11 /experiment_identifier    3    1    1    1
+   12 /good_frames    0   32    1    1
+   13 /instrument/dae/detector_table_file    3   53    1    1
+   14 /instrument/dae/period_index    0   32    1    1
+   15 /instrument/dae/spectra_table_file    3   52    1    1
+   16 /instrument/dae/time_channels_1/time_of_flight    1   32    1  883
+   17 /instrument/dae/time_channels_1/time_of_flight_raw    0   32    1  883
+   18 /instrument/dae/vetos/ISIS_50Hz    0   32    1    1
+   19 /instrument/dae/vetos/TS2_pulse    0   32    1    1
+   20 /instrument/dae/vetos/ext0    0   32    1    1
+   21 /instrument/dae/vetos/ext1    0   32    1    1
+   22 /instrument/dae/vetos/ext2    0   32    1    1
+   23 /instrument/dae/vetos/ext3    0   32    1    1
+   24 /instrument/dae/vetos/fermi_chopper    0   32    1    1
+   25 /instrument/dae/vetos/fifo    0   32    1    1
+   26 /instrument/dae/vetos/internal    0   32    1    1
+   27 /instrument/dae/vetos/msmode    0   32    1    1
+   28 /instrument/dae/vetos/smp    0   32    1    1
+   29 /instrument/dae/wiring_table_file    3   51    1    1
+   30 /instrument/detector_1/azimuthal_angle    1   32    1  696
+   31 /instrument/detector_1/counts    0   32    3  882  696    1
+   32 /instrument/detector_1/delt    1   32    1  696
+   33 /instrument/detector_1/distance    1   32    1  696
+   34 /instrument/detector_1/period_index    0   32    1    1
+   35 /instrument/detector_1/polar_angle    1   32    1  696
+   36 /instrument/detector_1/source_detector_distance    1   32    1    1
+   37 /instrument/detector_1/spectrum_index    0   32    1  696
+   38 /instrument/detector_1/time_of_flight    1   32    1  883
+   39 /instrument/detector_1/time_of_flight_raw    0   32    1  883
+   40 /instrument/detector_1/user_table01    1   32    1  696
+   41 /instrument/detector_1/user_table02    1   32    1  696
+   42 /instrument/detector_1/user_table03    1   32    1  696
+   43 /instrument/detector_1/user_table04    1   32    1  696
+   44 /instrument/detector_1/user_table05    1   32    1  696
+   45 /instrument/moderator/distance    1   32    1    1
+   46 /instrument/name    3    7    1    1
+   47 /instrument/source/name    3    4    1    1
+   48 /instrument/source/probe    3    8    1    1
+   49 /instrument/source/type    3   21    1    1
+   50 /isis_vms_compat/ADD    0   32    1    9
+   51 /isis_vms_compat/CODE    0   32    1  700
+   52 /isis_vms_compat/CRAT    0   32    1  700
+   53 /isis_vms_compat/CRPB    3    4    2    1   32
+   54 /isis_vms_compat/CSPB    3    4    2    1   64
+   55 /isis_vms_compat/DAEP    0   32    1   64
+   56 /isis_vms_compat/DELT    1   32    1  700
+   57 /isis_vms_compat/FORM    0   32    1    1
+   58 /isis_vms_compat/HDR    3   80    1    1
+   59 /isis_vms_compat/IRPB    0   32    1   32
+   60 /isis_vms_compat/ISPB    0   32    1   64
+   61 /isis_vms_compat/IVPB    0   32    1   64
+   62 /isis_vms_compat/LEN2    1   32    1  700
+   63 /isis_vms_compat/MDET    0   32    1    4
+   64 /isis_vms_compat/MODN    0   32    1  700
+   65 /isis_vms_compat/MONP    0   32    1    4
+   66 /isis_vms_compat/MPOS    0   32    1  700
+   67 /isis_vms_compat/NAME    3    8    1    1
+   68 /isis_vms_compat/NDET    0   32    1    1
+   69 /isis_vms_compat/NFPP    0   32    1    1
+   70 /isis_vms_compat/NMON    0   32    1    1
+   71 /isis_vms_compat/NOTE    3   19    1    1
+   72 /isis_vms_compat/NPER    0   32    1    1
+   73 /isis_vms_compat/NSEP    0   32    1    1
+   74 /isis_vms_compat/NSP1    0   32    1    1
+   75 /isis_vms_compat/NTC1    0   32    1    1
+   76 /isis_vms_compat/NTLL    0   32    1    1
+   77 /isis_vms_compat/NTNL    0   32    1    1
+   78 /isis_vms_compat/NTRG    0   32    1    1
+   79 /isis_vms_compat/NUSE    0   32    1    1
+   80 /isis_vms_compat/PMAP    0   32    1  256
+   81 /isis_vms_compat/PRE1    0   32    1    1
+   82 /isis_vms_compat/RRPB    1   32    1   32
+   83 /isis_vms_compat/RSPB    1   32    1   64
+   84 /isis_vms_compat/RUN    0   32    1    1
+   85 /isis_vms_compat/RVPB    1   32    1   64
+   86 /isis_vms_compat/SPB    0   32    1   64
+   87 /isis_vms_compat/SPEC    0   32    1  700
+   88 /isis_vms_compat/TCM1    0   32    1    5
+   89 /isis_vms_compat/TCP1    1   32    1   20
+   90 /isis_vms_compat/TIMR    0   32    1  700
+   91 /isis_vms_compat/TITL    3   80    1    1
+   92 /isis_vms_compat/TTHE    1   32    1  700
+   93 /isis_vms_compat/UDET    0   32    1  700
+   94 /isis_vms_compat/ULEN    0   32    1    1
+   95 /isis_vms_compat/USER    3  160    1    1
+   96 /isis_vms_compat/UT01    1   32    1  700
+   97 /isis_vms_compat/UT02    1   32    1  700
+   98 /isis_vms_compat/UT03    1   32    1  700
+   99 /isis_vms_compat/UT04    1   32    1  700
+  100 /isis_vms_compat/UT05    1   32    1  700
+  101 /isis_vms_compat/VER1    0   32    1    1
+  102 /isis_vms_compat/VER2    0   32    1    1
+  103 /isis_vms_compat/VER3    0   32    1    1
+  104 /isis_vms_compat/VER4    0   32    1    1
+  105 /isis_vms_compat/VER5    0   32    1    1
+  106 /isis_vms_compat/VER6    0   32    1    1
+  107 /isis_vms_compat/VER7    0   32    1    1
+  108 /isis_vms_compat/VER8    0   32    1    1
+  109 /isis_vms_compat/VER9    0   32    1    1
+  110 /measurement_first_run    0   32    1    1
+  111 /measurement_id    3    1    1    1
+  112 /measurement_label    3    1    1    1
+  113 /measurement_subid    3    1    1    1
+  114 /measurement_type    3    1    1    1
+  115 /monitor_1/data    0   32    3  882    1    1
+  116 /monitor_1/monitor_number    0   32    1    1
+  117 /monitor_1/period_index    0   32    1    1
+  118 /monitor_1/spectrum_index    0   32    1    1
+  119 /monitor_1/time_of_flight    1   32    1  883
+  120 /monitor_2/data    0   32    3  882    1    1
+  121 /monitor_2/monitor_number    0   32    1    1
+  122 /monitor_2/period_index    0   32    1    1
+  123 /monitor_2/spectrum_index    0   32    1    1
+  124 /monitor_2/time_of_flight    1   32    1  883
+  125 /monitor_3/data    0   32    3  882    1    1
+  126 /monitor_3/monitor_number    0   32    1    1
+  127 /monitor_3/period_index    0   32    1    1
+  128 /monitor_3/spectrum_index    0   32    1    1
+  129 /monitor_3/time_of_flight    1   32    1  883
+  130 /monitor_4/data    0   32    3  882    1    1
+  131 /monitor_4/monitor_number    0   32    1    1
+  132 /monitor_4/period_index    0   32    1    1
+  133 /monitor_4/spectrum_index    0   32    1    1
+  134 /monitor_4/time_of_flight    1   32    1  883
+  135 /name    3    7    1    1
+  136 /notes    3    1    1    1
+  137 /periods/frames_requested    0   32    1    1
+  138 /periods/good_frames    0   32    1    1
+  139 /periods/good_frames_daq    0   32    1    1
+  140 /periods/labels    3    8    1    1
+  141 /periods/number    0   32    1    1
+  142 /periods/output    0   32    1    1
+  143 /periods/proton_charge    1   32    1    1
+  144 /periods/proton_charge_raw    1   32    1    1
+  145 /periods/raw_frames    0   32    1    1
+  146 /periods/sequences    0   32    1    1
+  147 /periods/total_counts    1   32    1    1
+  148 /periods/type    0   32    1    1
+  149 /program_name    3   11    1    1
+  150 /proton_charge    1   32    1    1
+  151 /proton_charge_raw    1   32    1    1
+  152 /raw_frames    0   32    1    1
+  153 /run_cycle    3    4    1    1
+  154 /run_number    0   32    1    1
+  155 /runlog/count_rate/time    1   32    1  208
+  156 /runlog/count_rate/value    1   32    1  208
+  157 /runlog/dae_beam_current/time    1   32    1  208
+  158 /runlog/dae_beam_current/value    1   32    1  208
+  159 /runlog/good_frames/time    1   32    1  208
+  160 /runlog/good_frames/value    0   32    1  208
+  161 /runlog/icp_event/time    1   32    1   16
+  162 /runlog/icp_event/value    3   69    2    1   16
+  163 /runlog/is_running/time    1   32    1  208
+  164 /runlog/is_running/value    0   32    1  208
+  165 /runlog/is_waiting/time    1   32    1  208
+  166 /runlog/is_waiting/value    0   32    1  208
+  167 /runlog/monitor_sum_1/time    1   32    1  208
+  168 /runlog/monitor_sum_1/value    0   32    1  208
+  169 /runlog/np_ratio/time    1   32    1  208
+  170 /runlog/np_ratio/value    1   32    1  208
+  171 /runlog/period/time    1   32    1  208
+  172 /runlog/period/value    0   32    1  208
+  173 /runlog/proton_charge/time    1   32    1  208
+  174 /runlog/proton_charge/value    1   32    1  208
+  175 /runlog/proton_charge_raw/time    1   32    1  208
+  176 /runlog/proton_charge_raw/value    1   32    1  208
+  177 /runlog/raw_frames/time    1   32    1  208
+  178 /runlog/raw_frames/value    0   32    1  208
+  179 /runlog/run_status/time    1   32    1  208
+  180 /runlog/run_status/value    0   32    1  208
+  181 /runlog/total_counts/time    1   32    1  208
+  182 /runlog/total_counts/value    0   32    1  208
+  183 /sample/distance    1   64    1    1
+  184 /sample/height    1   32    1    1
+  185 /sample/id    3    1    1    1
+  186 /sample/name    3    1    1    1
+  187 /sample/shape    3    1    1    1
+  188 /sample/thickness    1   32    1    1
+  189 /sample/type    3    1    1    1
+  190 /sample/width    1   32    1    1
+  191 /script_name    3    1    1    1
+  192 /seci_config    3   19    1    1
+  193 /selog/ExternalTemp/read_control    3   20    1    1
+  194 /selog/ExternalTemp/set_control    3   13    1    1
+  195 /selog/ExternalTemp/setpoint    1   32    1    1
+  196 /selog/ExternalTemp/value    1   32    1    1
+  197 /selog/ExternalTemp/value_log/name    3    1    1    1
+  198 /selog/ExternalTemp/value_log/time    1   32    1  210
+  199 /selog/ExternalTemp/value_log/value    1   32    1  210
+  200 /selog/ExternalTemp/vi_name    3   64    1    1
+  201 /selog/Sample/read_control    3    6    1    1
+  202 /selog/Sample/set_control    3    1    1    1
+  203 /selog/Sample/setpoint    3    3    2    1    1
+  204 /selog/Sample/value    3    3    2    1    1
+  205 /selog/Sample/value_log/name    3    1    1    1
+  206 /selog/Sample/value_log/time    1   32    1 1183
+  207 /selog/Sample/value_log/value    3   17    2    1 1183
+  208 /selog/Sample/vi_name    3   64    1    1
+  209 /selog/Status/read_control    3    1    1    1
+  210 /selog/Status/set_control    3    1    1    1
+  211 /selog/Status/value_log/name    3    1    1    1
+  212 /selog/Status/value_log/time    1   32    1    8
+  213 /selog/Status/value_log/value    3    7    2    1    8
+  214 /selog/Status/vi_name    3    1    1    1
+  215 /selog/TS1Beam/read_control    3   16    1    1
+  216 /selog/TS1Beam/set_control    3    1    1    1
+  217 /selog/TS1Beam/setpoint    1   32    1    1
+  218 /selog/TS1Beam/value    1   32    1    1
+  219 /selog/TS1Beam/value_log/name    3    1    1    1
+  220 /selog/TS1Beam/value_log/time    1   32    1  211
+  221 /selog/TS1Beam/value_log/value    1   32    1  211
+  222 /selog/TS1Beam/vi_name    3   45    1    1
+  223 /selog/Vac_tank/read_control    3   17    1    1
+  224 /selog/Vac_tank/set_control    3    1    1    1
+  225 /selog/Vac_tank/setpoint    1   32    1    1
+  226 /selog/Vac_tank/value    1   32    1    1
+  227 /selog/Vac_tank/value_log/name    3    1    1    1
+  228 /selog/Vac_tank/value_log/time    1   32    1  211
+  229 /selog/Vac_tank/value_log/value    1   32    1  211
+  230 /selog/Vac_tank/vi_name    3   92    1    1
+  231 /selog/julabo/read_control    3   20    1    1
+  232 /selog/julabo/set_control    3   13    1    1
+  233 /selog/julabo/setpoint    1   32    1    1
+  234 /selog/julabo/value    1   32    1    1
+  235 /selog/julabo/value_log/name    3    1    1    1
+  236 /selog/julabo/value_log/time    1   32    1  210
+  237 /selog/julabo/value_log/value    1   32    1  210
+  238 /selog/julabo/vi_name    3   64    1    1
+  239 /start_time    3   19    1    1
+  240 /title    3   47    1    1
+  241 /user_1/affiliation    3    1    1    1
+  242 /user_1/name    3    1    1    1
+First and last spectra for path: /monitor_1/data      0      1
+First and last spectra for path: /monitor_2/data      1      2
+First and last spectra for path: /monitor_3/data      2      3
+First and last spectra for path: /monitor_4/data      3      4
+First and last spectra for path: /detector_1/counts      4    700
+ purge_det> Done get_run_par
+           0 UT0 
+ get_calibration> Reading calibration from: C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+          80          85
+ get_calibration> 1
+         700           5
+ Name of groups file being read from: C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+          18
+         -20          20
+         -20          20
+         -40          40
+         -40          40
+         -40          40
+         -40          40
+         -40          40
+         -40          40
+         -40          40
+         -40          40
+         -40          40
+         -40          40
+         -40          40
+         -40          40
+         -30          30
+         -30          30
+         -50          50
+         -50          50
+   680 spectra in 18 groups from file C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+ get_groups> Checked input values for group            1
+ get_groups> Checked input values for group            2
+ get_groups> Checked input values for group            3
+ get_groups> Checked input values for group            4
+ get_groups> Checked input values for group            5
+ get_groups> Checked input values for group            6
+ get_groups> Checked input values for group            7
+ get_groups> Checked input values for group            8
+ get_groups> Checked input values for group            9
+ get_groups> Checked input values for group           10
+ get_groups> Checked input values for group           11
+ get_groups> Checked input values for group           12
+ get_groups> Checked input values for group           13
+ get_groups> Checked input values for group           14
+ get_groups> Checked input values for group           15
+ get_groups> Checked input values for group           16
+ get_groups> Checked input values for group           17
+ get_groups> Checked input values for group           18
+
+ Q-ranges for individual groups
+
+           1   9.71418321E-02   0.00000000    
+           2  0.121670738       0.00000000    
+           3  0.146771774       0.00000000    
+           4  0.175801530       0.00000000    
+           5  0.202831820       0.00000000    
+           6  0.235126451       0.00000000    
+           7  0.273460329       0.00000000    
+           8  0.302590430       0.00000000    
+           9  0.340124339       0.00000000    
+          10  0.377420843       0.00000000    
+          11  0.422392845       0.00000000    
+          12  0.469870269       0.00000000    
+          13  0.515651643       0.00000000    
+          14  0.578967333       0.00000000    
+          15  0.645258546       0.00000000    
+          16  0.725621402       0.00000000    
+          17  0.707891047       0.00000000    
+          18  0.818588972       0.00000000    
+ C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal                                                                                                                                                                               
+ Done groups
+  Total no. of spectra and time channel boundaries =          700         883
+  No. of blocks of spectra =            1
+  No. of spectra per block =          700
+
+
+ Spectra being read:            1         700
+
+ get_data> Filename: C:\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50852.nxs
+ get_data> Filename: C:\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50854.nxs
+get_ratio> Time spent retrieving data =      11 ms
+get_ratio> Total time taken =     392 ms
+ Done get ratio
+  700 good spectra at start
+   0.00000000       0.00000000    
+ Pass  1;     0 good spectra. 
+ Grp:   1    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   2    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   3    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   4    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   5    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   6    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   7    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   8    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   9    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  10    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  11    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  12    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  13    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  14    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  15    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  16    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  17    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  18    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+    18 spectra in 18 groups to file SLS50854.grp                                      
+purge_det> Total run time =         458 ms

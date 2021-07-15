@@ -1,0 +1,2830 @@
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\bin\gudrun_dcs.exe
+Running C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\bin\gudrun_dcs.exe
+Gudrun_dcs> Let us begin: Gudrun_dcs NeXus dynamic allocation version GUI_4: November 2013
+Gudrun_dcs> gudrun_dcs.dat opened correctly
+Gudrun_dcs>  ;          ;\
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: INSTRUMENT
+Gudrun_dcs> SANDALS
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\run\SLS\
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\
+Gudrun_dcs> StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+Gudrun_dcs>           4
+Gudrun_dcs> StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Gudrun_dcs> StartupFiles\SLS\SLSdeadtime.cor
+Gudrun_dcs>           2
+Gudrun_dcs>           1           3
+Gudrun_dcs>           2
+Gudrun_dcs>           2           4
+Gudrun_dcs>           0   0.00000000       0.00000000       0.00000000
+Gudrun_dcs> StartupFiles\SLS\sears91_gudrun.dat
+Gudrun_dcs>           1
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: BEAM
+Gudrun_dcs>  0.431648999      0.794129014       1.28953001E-02   2.58185005       2.01264000       7.80806017      0.840768993       4.55159321E-02  0.285984248
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: NORMALISATION
+Gudrun_dcs> get_run_par> C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_run_par> Closed data file
+Gudrun_dcs> get_run_par> Set up detector and spectrum numbers
+Gudrun_dcs> gudrun_dcs> Got run parameters
+Gudrun_dcs> Deadtime filename: StartupFiles\SLS\SLSdeadtime.cor           29
+Gudrun_dcs>           0           1   14.0000000       0.00000000       0.00000000
+Gudrun_dcs>         141  -1.48069465E+36   2.14895061E-38          -1
+Gudrun_dcs> gudrun_dcs> Got deadtimes
+Gudrun_dcs> gudrun_dcs> Got time channel boundaries
+Gudrun_dcs>           4 UT4
+Gudrun_dcs>           5           4
+Gudrun_dcs> get_calibration> Reading calibration from: C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+Gudrun_dcs>          46          96
+Gudrun_dcs> get_calibration> 1
+Gudrun_dcs>         700           5
+Gudrun_dcs> gudrun_dcs> Got calibration
+Gudrun_dcs> Name of groups file being read from: StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Gudrun_dcs>          18
+Gudrun_dcs>         -20          20
+Gudrun_dcs>         -20          20
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -30          30
+Gudrun_dcs>         -30          30
+Gudrun_dcs>         -50          50
+Gudrun_dcs>         -50          50
+Gudrun_dcs>   680 spectra in 18 groups from file C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Gudrun_dcs> get_groups> Checked input values for group            1
+Gudrun_dcs> get_groups> Checked input values for group            2
+Gudrun_dcs> get_groups> Checked input values for group            3
+Gudrun_dcs> get_groups> Checked input values for group            4
+Gudrun_dcs> get_groups> Checked input values for group            5
+Gudrun_dcs> get_groups> Checked input values for group            6
+Gudrun_dcs> get_groups> Checked input values for group            7
+Gudrun_dcs> get_groups> Checked input values for group            8
+Gudrun_dcs> get_groups> Checked input values for group            9
+Gudrun_dcs> get_groups> Checked input values for group           10
+Gudrun_dcs> get_groups> Checked input values for group           11
+Gudrun_dcs> get_groups> Checked input values for group           12
+Gudrun_dcs> get_groups> Checked input values for group           13
+Gudrun_dcs> get_groups> Checked input values for group           14
+Gudrun_dcs> get_groups> Checked input values for group           15
+Gudrun_dcs> get_groups> Checked input values for group           16
+Gudrun_dcs> get_groups> Checked input values for group           17
+Gudrun_dcs> get_groups> Checked input values for group           18
+Gudrun_dcs>
+Gudrun_dcs> Q-ranges for individual groups
+Gudrun_dcs>
+Gudrun_dcs>           1   0.00000000       20.0000000
+Gudrun_dcs>           2   0.00000000       20.0000000
+Gudrun_dcs>           3   0.00000000       20.0000000
+Gudrun_dcs>           4   0.00000000       20.0000000
+Gudrun_dcs>           5   0.00000000       20.0000000
+Gudrun_dcs>           6   0.00000000       20.0000000
+Gudrun_dcs>           7   0.00000000       20.0000000
+Gudrun_dcs>           8   0.00000000       20.0000000
+Gudrun_dcs>           9   0.00000000       20.0000000
+Gudrun_dcs>          10   0.00000000       20.0000000
+Gudrun_dcs>          11   0.00000000       20.0000000
+Gudrun_dcs>          12   0.00000000       20.0000000
+Gudrun_dcs>          13   0.00000000       20.0000000
+Gudrun_dcs>          14   0.00000000       20.0000000
+Gudrun_dcs>          15   0.00000000       20.0000000
+Gudrun_dcs>          16   0.00000000       20.0000000
+Gudrun_dcs>          17   0.00000000       20.0000000
+Gudrun_dcs>          18   0.00000000       20.0000000
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+Gudrun_dcs> gudrun_dcs> Got groups
+Gudrun_dcs> get_amutshield>    0.00000000
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> Incident>            1           1           1   8.77400017
+Gudrun_dcs> get_mon> Relative monitor sums            1   1.00000000
+Gudrun_dcs> form_smoo_mon>            2  smoothings used for monitor in run SLS50836.raw with chisq ratio    1.13713932
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.raw
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.raw
+Gudrun_dcs> Incident>            1           1           1   8.77400017
+Gudrun_dcs> get_mon> Relative monitor sums            1   1.00000000
+Gudrun_dcs> form_smoo_mon>            2  smoothings used for monitor in run SLS50837.raw with chisq ratio    1.13426650
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> Trans>            2           2           2   15.6949997
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.raw
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.raw
+Gudrun_dcs> Trans>            2           2           2   15.6949997
+Gudrun_dcs> gudrun_dcs> Got vanadium tranmission monitors
+Gudrun_dcs>
+Gudrun_dcs> No of elements found for vanadium:            1
+Gudrun_dcs> V            0
+Gudrun_dcs>
+Gudrun_dcs> get_van_par>            1           1          10
+Gudrun_dcs> gudrun_dcs> Got vanadium parameters
+Gudrun_dcs> gudrun_dcs> NORMALISATION geometry =            2
+Gudrun_dcs> get_trans> nwav,nwavb,mcorrwavmax           48          49         883
+Gudrun_dcs> SLS50836.rebinq
+Gudrun_dcs> get_trans> SLS50836.transnofit01           1
+Gudrun_dcs>          48           3           0
+Gudrun_dcs> polyfit_nofix> No. of iterations       320000
+Gudrun_dcs> get_trans> Time for polyfit>                   942
+Gudrun_dcs> get_trans> SLS50836.trans01           1
+Gudrun_dcs>  0.500000000     -0.500000000       2.00000000      -2.00000000
+Gudrun_dcs>  -1.50000000       1.50000000      -2.09999990       2.09999990
+Gudrun_dcs> calc_mul>            1  0.150000006      0.150000006       7.20999986E-02   5.07999992       5.38253593       5.00000000
+Gudrun_dcs> set_corr_ang>    0.00000000
+Gudrun_dcs> set_corr_ang>    36.7288094       0.00000000       0.00000000       0.00000000
+Gudrun_dcs>           4   0.00000000       12.2429361       24.4858723       36.7288094
+Gudrun_dcs>           1   0.00000000
+Gudrun_dcs> calc_mul> Set up correction angles
+Gudrun_dcs>
+Gudrun_dcs> fltmultof> Total thickness (cm):    0.30000 No. of cos theta values:     0
+Gudrun_dcs> calc_mul> Calculated flat plate corrections
+Gudrun_dcs> (003(1x,e12.5))
+Gudrun_dcs> gudrun_dcs> Got vanadium total scattering correction
+Gudrun_dcs> gudrun_dcs> Got vanadium Placzek correction
+Gudrun_dcs> StartupFiles\SLS\slsvanadiummod.bragg
+Gudrun_dcs>
+Gudrun_dcs> vdcs_read>   9 Bragg peaks to be defined
+Gudrun_dcs> gudrun_dcs> Got vanadium DCS data
+Gudrun_dcs> vdcs_bragg>         1993  Q values to be generated in vdcs_bragg
+Gudrun_dcs> get_summed_data> Reading data file: SLS50836.raw period            1  factor    1.00000000
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_goodframes> Retrieved      226310  goodframes from:- C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_module_sum> Total of       226310  goodframes read from SLS50836.raw
+Gudrun_dcs> get_module_sum>       226310  good frames found for run SLS50836.raw period            1
+Gudrun_dcs>
+Gudrun_dcs> get_module_sum> Overall DAE count rate (cts/musec):  0.292318E+03
+ERROR>Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Gudrun_dcs>
+Gudrun_dcs> get_module_sum> Detector deadtime:   14.00000 is too large for observed count rate 0.243846E+00 at time channel    1 in module    1
+ExitValue: 0
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\run\SLS StartupFiles\SLS\SLSdeadtime.cor
+4 0 4 -1
+5 1 6 0
+7 2 8 1
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+0
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+StartupFiles\SLS\SANDALSMarch2011Groups.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+0
+StartupFiles\SLS\SANDALSMarch2011Groups.dat
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+StartupFiles\SLS\SLSdeadtime.cor C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLSdeadtime.cor
+0
+StartupFiles\SLS\SLSdeadtime.cor
+StartupFiles\SLS\sears91_gudrun.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\sears91_gudrun.dat
+0
+StartupFiles\SLS\sears91_gudrun.dat
+StartupFiles\SLS\spectrum000.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+0
+StartupFiles\SLS\spectrum000.dat
+StartupFiles\SLS\slsvanadiummod.bragg C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\slsvanadiummod.bragg
+0
+StartupFiles\SLS\slsvanadiummod.bragg
+0 false true
+1 false true
+2 false true
+10041 9959
+4 0 4 -1
+5 1 6 0
+7 2 8 1
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+0
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+StartupFiles\SLS\SANDALSMarch2011Groups.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+0
+StartupFiles\SLS\SANDALSMarch2011Groups.dat
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+StartupFiles\SLS\SLSdeadtime.cor C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLSdeadtime.cor
+0
+StartupFiles\SLS\SLSdeadtime.cor
+StartupFiles\SLS\sears91_gudrun.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\sears91_gudrun.dat
+0
+StartupFiles\SLS\sears91_gudrun.dat
+StartupFiles\SLS\spectrum000.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+0
+StartupFiles\SLS\spectrum000.dat
+StartupFiles\SLS\slsvanadiummod.bragg C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\slsvanadiummod.bragg
+0
+StartupFiles\SLS\slsvanadiummod.bragg
+0 false true
+1 false true
+2 false true
+21 22 \
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+3551 17
+0
+0
+0
+10031 10040
+Runflag status: false
+21 22 \
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+3687 17
+0
+0
+0
+10129 10138
+Runflag status: false
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+1
+1
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\bin\purge_det.exe
+Running C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\bin\purge_det.exe
+Purge_det>  ;          ;\
+Purge_det> SANDALS
+Purge_det> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\run\SLS\
+Purge_det> C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\
+Purge_det> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+Purge_det> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Purge_det>           1
+Purge_det>           0           0
+Purge_det>   5.00000000
+Purge_det>   10.0000000       10.0000000
+Purge_det>           1
+Purge_det> SLS50836.nxs
+Purge_det> SLS50837.nxs
+Purge_det> SLS50875.nxs
+Purge_det> SLS50876.nxs
+Purge_det> SLS50877.nxs
+Purge_det> SLS50994.nxs
+Purge_det> SLS50995.nxs
+Purge_det> nxs
+Purge_det> title : /title
+Purge_det> timechannels : /monitor_1/time_of_flight
+Purge_det> periodspresent : T
+Purge_det>spectrum : /monitor_1/data
+Purge_det>spectrum : /monitor_2/data
+Purge_det>spectrum : /monitor_3/data
+Purge_det>spectrum : /monitor_4/data
+Purge_det>spectrum : /detector_1/counts
+Purge_det> get_run_par> C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.nxs
+Purge_det>Root group and no. of members:  /raw_data_1    37
+Purge_det>Number of datasets in file =   242
+Purge_det>Dataset number, name, class (0, 1 or 3)), precision (no. of characters for class = 3),ndims and dims.
+Purge_det>    1 /beamline    3    7    1    1
+Purge_det>    2 /collection_time    1   32    1    1
+Purge_det>    3 /definition    3    6    1    1
+Purge_det>    4 /definition_local    3   10    1    1
+Purge_det>    5 /detector_1/counts    0   32    3  882  696    1
+Purge_det>    6 /detector_1/period_index    0   32    1    1
+Purge_det>    7 /detector_1/spectrum_index    0   32    1  696
+Purge_det>    8 /detector_1/time_of_flight    1   32    1  883
+Purge_det>    9 /duration    1   32    1    1
+Purge_det>   10 /end_time    3   19    1    1
+Purge_det>   11 /experiment_identifier    3    1    1    1
+Purge_det>   12 /good_frames    0   32    1    1
+Purge_det>   13 /instrument/dae/detector_table_file    3   53    1    1
+Purge_det>   14 /instrument/dae/period_index    0   32    1    1
+Purge_det>   15 /instrument/dae/spectra_table_file    3   52    1    1
+Purge_det>   16 /instrument/dae/time_channels_1/time_of_flight    1   32    1  883
+Purge_det>   17 /instrument/dae/time_channels_1/time_of_flight_raw    0   32    1  883
+Purge_det>   18 /instrument/dae/vetos/ISIS_50Hz    0   32    1    1
+Purge_det>   19 /instrument/dae/vetos/TS2_pulse    0   32    1    1
+Purge_det>   20 /instrument/dae/vetos/ext0    0   32    1    1
+Purge_det>   21 /instrument/dae/vetos/ext1    0   32    1    1
+Purge_det>   22 /instrument/dae/vetos/ext2    0   32    1    1
+Purge_det>   23 /instrument/dae/vetos/ext3    0   32    1    1
+Purge_det>   24 /instrument/dae/vetos/fermi_chopper    0   32    1    1
+Purge_det>   25 /instrument/dae/vetos/fifo    0   32    1    1
+Purge_det>   26 /instrument/dae/vetos/internal    0   32    1    1
+Purge_det>   27 /instrument/dae/vetos/msmode    0   32    1    1
+Purge_det>   28 /instrument/dae/vetos/smp    0   32    1    1
+Purge_det>   29 /instrument/dae/wiring_table_file    3   51    1    1
+Purge_det>   30 /instrument/detector_1/azimuthal_angle    1   32    1  696
+Purge_det>   31 /instrument/detector_1/counts    0   32    3  882  696    1
+Purge_det>   32 /instrument/detector_1/delt    1   32    1  696
+Purge_det>   33 /instrument/detector_1/distance    1   32    1  696
+Purge_det>   34 /instrument/detector_1/period_index    0   32    1    1
+Purge_det>   35 /instrument/detector_1/polar_angle    1   32    1  696
+Purge_det>   36 /instrument/detector_1/source_detector_distance    1   32    1    1
+Purge_det>   37 /instrument/detector_1/spectrum_index    0   32    1  696
+Purge_det>   38 /instrument/detector_1/time_of_flight    1   32    1  883
+Purge_det>   39 /instrument/detector_1/time_of_flight_raw    0   32    1  883
+Purge_det>   40 /instrument/detector_1/user_table01    1   32    1  696
+Purge_det>   41 /instrument/detector_1/user_table02    1   32    1  696
+Purge_det>   42 /instrument/detector_1/user_table03    1   32    1  696
+Purge_det>   43 /instrument/detector_1/user_table04    1   32    1  696
+Purge_det>   44 /instrument/detector_1/user_table05    1   32    1  696
+Purge_det>   45 /instrument/moderator/distance    1   32    1    1
+Purge_det>   46 /instrument/name    3    7    1    1
+Purge_det>   47 /instrument/source/name    3    4    1    1
+Purge_det>   48 /instrument/source/probe    3    8    1    1
+Purge_det>   49 /instrument/source/type    3   21    1    1
+Purge_det>   50 /isis_vms_compat/ADD    0   32    1    9
+Purge_det>   51 /isis_vms_compat/CODE    0   32    1  700
+Purge_det>   52 /isis_vms_compat/CRAT    0   32    1  700
+Purge_det>   53 /isis_vms_compat/CRPB    3    4    2    1   32
+Purge_det>   54 /isis_vms_compat/CSPB    3    4    2    1   64
+Purge_det>   55 /isis_vms_compat/DAEP    0   32    1   64
+Purge_det>   56 /isis_vms_compat/DELT    1   32    1  700
+Purge_det>   57 /isis_vms_compat/FORM    0   32    1    1
+Purge_det>   58 /isis_vms_compat/HDR    3   80    1    1
+Purge_det>   59 /isis_vms_compat/IRPB    0   32    1   32
+Purge_det>   60 /isis_vms_compat/ISPB    0   32    1   64
+Purge_det>   61 /isis_vms_compat/IVPB    0   32    1   64
+Purge_det>   62 /isis_vms_compat/LEN2    1   32    1  700
+Purge_det>   63 /isis_vms_compat/MDET    0   32    1    4
+Purge_det>   64 /isis_vms_compat/MODN    0   32    1  700
+Purge_det>   65 /isis_vms_compat/MONP    0   32    1    4
+Purge_det>   66 /isis_vms_compat/MPOS    0   32    1  700
+Purge_det>   67 /isis_vms_compat/NAME    3    8    1    1
+Purge_det>   68 /isis_vms_compat/NDET    0   32    1    1
+Purge_det>   69 /isis_vms_compat/NFPP    0   32    1    1
+Purge_det>   70 /isis_vms_compat/NMON    0   32    1    1
+Purge_det>   71 /isis_vms_compat/NOTE    3   19    1    1
+Purge_det>   72 /isis_vms_compat/NPER    0   32    1    1
+Purge_det>   73 /isis_vms_compat/NSEP    0   32    1    1
+Purge_det>   74 /isis_vms_compat/NSP1    0   32    1    1
+Purge_det>   75 /isis_vms_compat/NTC1    0   32    1    1
+Purge_det>   76 /isis_vms_compat/NTLL    0   32    1    1
+Purge_det>   77 /isis_vms_compat/NTNL    0   32    1    1
+Purge_det>   78 /isis_vms_compat/NTRG    0   32    1    1
+Purge_det>   79 /isis_vms_compat/NUSE    0   32    1    1
+Purge_det>   80 /isis_vms_compat/PMAP    0   32    1  256
+Purge_det>   81 /isis_vms_compat/PRE1    0   32    1    1
+Purge_det>   82 /isis_vms_compat/RRPB    1   32    1   32
+Purge_det>   83 /isis_vms_compat/RSPB    1   32    1   64
+Purge_det>   84 /isis_vms_compat/RUN    0   32    1    1
+Purge_det>   85 /isis_vms_compat/RVPB    1   32    1   64
+Purge_det>   86 /isis_vms_compat/SPB    0   32    1   64
+Purge_det>   87 /isis_vms_compat/SPEC    0   32    1  700
+Purge_det>   88 /isis_vms_compat/TCM1    0   32    1    5
+Purge_det>   89 /isis_vms_compat/TCP1    1   32    1   20
+Purge_det>   90 /isis_vms_compat/TIMR    0   32    1  700
+Purge_det>   91 /isis_vms_compat/TITL    3   80    1    1
+Purge_det>   92 /isis_vms_compat/TTHE    1   32    1  700
+Purge_det>   93 /isis_vms_compat/UDET    0   32    1  700
+Purge_det>   94 /isis_vms_compat/ULEN    0   32    1    1
+Purge_det>   95 /isis_vms_compat/USER    3  160    1    1
+Purge_det>   96 /isis_vms_compat/UT01    1   32    1  700
+Purge_det>   97 /isis_vms_compat/UT02    1   32    1  700
+Purge_det>   98 /isis_vms_compat/UT03    1   32    1  700
+Purge_det>   99 /isis_vms_compat/UT04    1   32    1  700
+Purge_det>  100 /isis_vms_compat/UT05    1   32    1  700
+Purge_det>  101 /isis_vms_compat/VER1    0   32    1    1
+Purge_det>  102 /isis_vms_compat/VER2    0   32    1    1
+Purge_det>  103 /isis_vms_compat/VER3    0   32    1    1
+Purge_det>  104 /isis_vms_compat/VER4    0   32    1    1
+Purge_det>  105 /isis_vms_compat/VER5    0   32    1    1
+Purge_det>  106 /isis_vms_compat/VER6    0   32    1    1
+Purge_det>  107 /isis_vms_compat/VER7    0   32    1    1
+Purge_det>  108 /isis_vms_compat/VER8    0   32    1    1
+Purge_det>  109 /isis_vms_compat/VER9    0   32    1    1
+Purge_det>  110 /measurement_first_run    0   32    1    1
+Purge_det>  111 /measurement_id    3    1    1    1
+Purge_det>  112 /measurement_label    3    1    1    1
+Purge_det>  113 /measurement_subid    3    1    1    1
+Purge_det>  114 /measurement_type    3    1    1    1
+Purge_det>  115 /monitor_1/data    0   32    3  882    1    1
+Purge_det>  116 /monitor_1/monitor_number    0   32    1    1
+Purge_det>  117 /monitor_1/period_index    0   32    1    1
+Purge_det>  118 /monitor_1/spectrum_index    0   32    1    1
+Purge_det>  119 /monitor_1/time_of_flight    1   32    1  883
+Purge_det>  120 /monitor_2/data    0   32    3  882    1    1
+Purge_det>  121 /monitor_2/monitor_number    0   32    1    1
+Purge_det>  122 /monitor_2/period_index    0   32    1    1
+Purge_det>  123 /monitor_2/spectrum_index    0   32    1    1
+Purge_det>  124 /monitor_2/time_of_flight    1   32    1  883
+Purge_det>  125 /monitor_3/data    0   32    3  882    1    1
+Purge_det>  126 /monitor_3/monitor_number    0   32    1    1
+Purge_det>  127 /monitor_3/period_index    0   32    1    1
+Purge_det>  128 /monitor_3/spectrum_index    0   32    1    1
+Purge_det>  129 /monitor_3/time_of_flight    1   32    1  883
+Purge_det>  130 /monitor_4/data    0   32    3  882    1    1
+Purge_det>  131 /monitor_4/monitor_number    0   32    1    1
+Purge_det>  132 /monitor_4/period_index    0   32    1    1
+Purge_det>  133 /monitor_4/spectrum_index    0   32    1    1
+Purge_det>  134 /monitor_4/time_of_flight    1   32    1  883
+Purge_det>  135 /name    3    7    1    1
+Purge_det>  136 /notes    3    1    1    1
+Purge_det>  137 /periods/frames_requested    0   32    1    1
+Purge_det>  138 /periods/good_frames    0   32    1    1
+Purge_det>  139 /periods/good_frames_daq    0   32    1    1
+Purge_det>  140 /periods/labels    3    8    1    1
+Purge_det>  141 /periods/number    0   32    1    1
+Purge_det>  142 /periods/output    0   32    1    1
+Purge_det>  143 /periods/proton_charge    1   32    1    1
+Purge_det>  144 /periods/proton_charge_raw    1   32    1    1
+Purge_det>  145 /periods/raw_frames    0   32    1    1
+Purge_det>  146 /periods/sequences    0   32    1    1
+Purge_det>  147 /periods/total_counts    1   32    1    1
+Purge_det>  148 /periods/type    0   32    1    1
+Purge_det>  149 /program_name    3   11    1    1
+Purge_det>  150 /proton_charge    1   32    1    1
+Purge_det>  151 /proton_charge_raw    1   32    1    1
+Purge_det>  152 /raw_frames    0   32    1    1
+Purge_det>  153 /run_cycle    3    4    1    1
+Purge_det>  154 /run_number    0   32    1    1
+Purge_det>  155 /runlog/count_rate/time    1   32    1 ****
+Purge_det>  156 /runlog/count_rate/value    1   32    1 ****
+Purge_det>  157 /runlog/dae_beam_current/time    1   32    1 ****
+Purge_det>  158 /runlog/dae_beam_current/value    1   32    1 ****
+Purge_det>  159 /runlog/good_frames/time    1   32    1 ****
+Purge_det>  160 /runlog/good_frames/value    0   32    1 ****
+Purge_det>  161 /runlog/icp_event/time    1   32    1   19
+Purge_det>  162 /runlog/icp_event/value    3   70    2    1   19
+Purge_det>  163 /runlog/is_running/time    1   32    1 ****
+Purge_det>  164 /runlog/is_running/value    0   32    1 ****
+Purge_det>  165 /runlog/is_waiting/time    1   32    1 ****
+Purge_det>  166 /runlog/is_waiting/value    0   32    1 ****
+Purge_det>  167 /runlog/monitor_sum_1/time    1   32    1 ****
+Purge_det>  168 /runlog/monitor_sum_1/value    0   32    1 ****
+Purge_det>  169 /runlog/np_ratio/time    1   32    1 ****
+Purge_det>  170 /runlog/np_ratio/value    1   32    1 ****
+Purge_det>  171 /runlog/period/time    1   32    1 ****
+Purge_det>  172 /runlog/period/value    0   32    1 ****
+Purge_det>  173 /runlog/proton_charge/time    1   32    1 ****
+Purge_det>  174 /runlog/proton_charge/value    1   32    1 ****
+Purge_det>  175 /runlog/proton_charge_raw/time    1   32    1 ****
+Purge_det>  176 /runlog/proton_charge_raw/value    1   32    1 ****
+Purge_det>  177 /runlog/raw_frames/time    1   32    1 ****
+Purge_det>  178 /runlog/raw_frames/value    0   32    1 ****
+Purge_det>  179 /runlog/run_status/time    1   32    1 ****
+Purge_det>  180 /runlog/run_status/value    0   32    1 ****
+Purge_det>  181 /runlog/total_counts/time    1   32    1 ****
+Purge_det>  182 /runlog/total_counts/value    0   32    1 ****
+Purge_det>  183 /sample/distance    1   64    1    1
+Purge_det>  184 /sample/height    1   32    1    1
+Purge_det>  185 /sample/id    3    1    1    1
+Purge_det>  186 /sample/name    3    1    1    1
+Purge_det>  187 /sample/shape    3    1    1    1
+Purge_det>  188 /sample/thickness    1   32    1    1
+Purge_det>  189 /sample/type    3    1    1    1
+Purge_det>  190 /sample/width    1   32    1    1
+Purge_det>  191 /script_name    3    1    1    1
+Purge_det>  192 /seci_config    3   19    1    1
+Purge_det>  193 /selog/ExternalTemp/read_control    3   20    1    1
+Purge_det>  194 /selog/ExternalTemp/set_control    3   13    1    1
+Purge_det>  195 /selog/ExternalTemp/setpoint    1   32    1    1
+Purge_det>  196 /selog/ExternalTemp/value    1   32    1    1
+Purge_det>  197 /selog/ExternalTemp/value_log/name    3    1    1    1
+Purge_det>  198 /selog/ExternalTemp/value_log/time    1   32    1 ****
+Purge_det>  199 /selog/ExternalTemp/value_log/value    1   32    1 ****
+Purge_det>  200 /selog/ExternalTemp/vi_name    3   64    1    1
+Purge_det>  201 /selog/Sample/read_control    3    6    1    1
+Purge_det>  202 /selog/Sample/set_control    3    1    1    1
+Purge_det>  203 /selog/Sample/setpoint    3    3    2    1    1
+Purge_det>  204 /selog/Sample/value    3    3    2    1    1
+Purge_det>  205 /selog/Sample/value_log/name    3    1    1    1
+Purge_det>  206 /selog/Sample/value_log/time    1   32    1 ****
+Purge_det>  207 /selog/Sample/value_log/value    3   38    2    1 ****
+Purge_det>  208 /selog/Sample/vi_name    3   64    1    1
+Purge_det>  209 /selog/Status/read_control    3    1    1    1
+Purge_det>  210 /selog/Status/set_control    3    1    1    1
+Purge_det>  211 /selog/Status/value_log/name    3    1    1    1
+Purge_det>  212 /selog/Status/value_log/time    1   32    1    7
+Purge_det>  213 /selog/Status/value_log/value    3    7    2    1    7
+Purge_det>  214 /selog/Status/vi_name    3    1    1    1
+Purge_det>  215 /selog/TS1Beam/read_control    3   16    1    1
+Purge_det>  216 /selog/TS1Beam/set_control    3    1    1    1
+Purge_det>  217 /selog/TS1Beam/setpoint    1   32    1    1
+Purge_det>  218 /selog/TS1Beam/value    1   32    1    1
+Purge_det>  219 /selog/TS1Beam/value_log/name    3    1    1    1
+Purge_det>  220 /selog/TS1Beam/value_log/time    1   32    1 ****
+Purge_det>  221 /selog/TS1Beam/value_log/value    1   32    1 ****
+Purge_det>  222 /selog/TS1Beam/vi_name    3   45    1    1
+Purge_det>  223 /selog/Vac_tank/read_control    3   17    1    1
+Purge_det>  224 /selog/Vac_tank/set_control    3    1    1    1
+Purge_det>  225 /selog/Vac_tank/setpoint    1   32    1    1
+Purge_det>  226 /selog/Vac_tank/value    1   32    1    1
+Purge_det>  227 /selog/Vac_tank/value_log/name    3    1    1    1
+Purge_det>  228 /selog/Vac_tank/value_log/time    1   32    1 ****
+Purge_det>  229 /selog/Vac_tank/value_log/value    1   32    1 ****
+Purge_det>  230 /selog/Vac_tank/vi_name    3   92    1    1
+Purge_det>  231 /selog/julabo/read_control    3   20    1    1
+Purge_det>  232 /selog/julabo/set_control    3   13    1    1
+Purge_det>  233 /selog/julabo/setpoint    1   32    1    1
+Purge_det>  234 /selog/julabo/value    1   32    1    1
+Purge_det>  235 /selog/julabo/value_log/name    3    1    1    1
+Purge_det>  236 /selog/julabo/value_log/time    1   32    1 ****
+Purge_det>  237 /selog/julabo/value_log/value    1   32    1 ****
+Purge_det>  238 /selog/julabo/vi_name    3   64    1    1
+Purge_det>  239 /start_time    3   19    1    1
+Purge_det>  240 /title    3   47    1    1
+Purge_det>  241 /user_1/affiliation    3    1    1    1
+Purge_det>  242 /user_1/name    3    1    1    1
+Purge_det>First and last spectra for path: /monitor_1/data      0      1
+Purge_det>First and last spectra for path: /monitor_2/data      1      2
+Purge_det>First and last spectra for path: /monitor_3/data      2      3
+Purge_det>First and last spectra for path: /monitor_4/data      3      4
+Purge_det>First and last spectra for path: /detector_1/counts      4    700
+Purge_det> purge_det> Done get_run_par
+Purge_det>           0 UT0
+Purge_det> get_calibration> Reading calibration from: C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+Purge_det>          91          96
+Purge_det> get_calibration> 1
+Purge_det>         700           5
+Purge_det> Name of groups file being read from: C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Purge_det>          18
+Purge_det>         -20          20
+Purge_det>         -20          20
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -40          40
+Purge_det>         -30          30
+Purge_det>         -30          30
+Purge_det>         -50          50
+Purge_det>         -50          50
+Purge_det>   680 spectra in 18 groups from file C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Purge_det> get_groups> Checked input values for group            1
+Purge_det> get_groups> Checked input values for group            2
+Purge_det> get_groups> Checked input values for group            3
+Purge_det> get_groups> Checked input values for group            4
+Purge_det> get_groups> Checked input values for group            5
+Purge_det> get_groups> Checked input values for group            6
+Purge_det> get_groups> Checked input values for group            7
+Purge_det> get_groups> Checked input values for group            8
+Purge_det> get_groups> Checked input values for group            9
+Purge_det> get_groups> Checked input values for group           10
+Purge_det> get_groups> Checked input values for group           11
+Purge_det> get_groups> Checked input values for group           12
+Purge_det> get_groups> Checked input values for group           13
+Purge_det> get_groups> Checked input values for group           14
+Purge_det> get_groups> Checked input values for group           15
+Purge_det> get_groups> Checked input values for group           16
+Purge_det> get_groups> Checked input values for group           17
+Purge_det> get_groups> Checked input values for group           18
+Purge_det>
+Purge_det> Q-ranges for individual groups
+Purge_det>
+Purge_det>           1   9.71418396E-02   0.00000000
+Purge_det>           2  0.121670745       0.00000000
+Purge_det>           3  0.146771774       0.00000000
+Purge_det>           4  0.175801530       0.00000000
+Purge_det>           5  0.202831820       0.00000000
+Purge_det>           6  0.235126451       0.00000000
+Purge_det>           7  0.273460329       0.00000000
+Purge_det>           8  0.302590430       0.00000000
+Purge_det>           9  0.340124339       0.00000000
+Purge_det>          10  0.377420813       0.00000000
+Purge_det>          11  0.422392845       0.00000000
+Purge_det>          12  0.469870239       0.00000000
+Purge_det>          13  0.515651643       0.00000000
+Purge_det>          14  0.578967333       0.00000000
+Purge_det>          15  0.645258546       0.00000000
+Purge_det>          16  0.725621402       0.00000000
+Purge_det>          17  0.707891047       0.00000000
+Purge_det>          18  0.818588912       0.00000000
+Purge_det> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+Purge_det> Done groups
+Purge_det>  Total no. of spectra and time channel boundaries =          700         883
+Purge_det>  No. of blocks of spectra =            1
+Purge_det>  No. of spectra per block =          700
+Purge_det>
+Purge_det>
+Purge_det> Spectra being read:            1         700
+Purge_det>
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.nxs
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50875.nxs
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50876.nxs
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50877.nxs
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50994.nxs
+Purge_det> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50995.nxs
+Purge_det>get_ratio> Time spent retrieving data =      31 ms
+Purge_det>get_ratio> Total time taken =     313 ms
+Purge_det> Done get ratio
+Purge_det>  700 good spectra at start
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  1;   656 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.19971E+00, and mean dev.:  0.79725E-01
+Purge_det> Next RMS test values:  0.68059E-01  0.72197E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.10544E+00, and mean dev.:  0.45633E-01
+Purge_det> Next RMS test values:  0.67683E-01  0.70710E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.76229E-01, and mean dev.:  0.27650E-01
+Purge_det> Next RMS test values:  0.67563E-01  0.69411E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.67949E-01, and mean dev.:  0.30146E-01
+Purge_det> Next RMS test values:  0.67512E-01  0.69710E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.56507E-01, and mean dev.:  0.24701E-01
+Purge_det> Next RMS test values:  0.67368E-01  0.69517E-01
+Purge_det> Grp:   6   40 Dets, mean ratio:  0.47953E-01, and mean dev.:  0.21043E-01
+Purge_det> Next RMS test values:  0.67201E-01  0.69066E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.92373E-01, and mean dev.:  0.18365E-01
+Purge_det> Next RMS test values:  0.68034E-01  0.69531E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.77367E-01, and mean dev.:  0.20220E-01
+Purge_det> Next RMS test values:  0.67860E-01  0.69621E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.70127E-01, and mean dev.:  0.14849E-01
+Purge_det> Next RMS test values:  0.67581E-01  0.68744E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.61342E-01, and mean dev.:  0.16010E-01
+Purge_det> Next RMS test values:  0.67482E-01  0.68709E-01
+Purge_det> Grp:  11   40 Dets, mean ratio:  0.48563E-01, and mean dev.:  0.14535E-01
+Purge_det> Next RMS test values:  0.67385E-01  0.68279E-01
+Purge_det> Grp:  12   40 Dets, mean ratio:  0.51545E-01, and mean dev.:  0.48540E-01
+Purge_det> Next RMS test values:  0.67328E-01  0.72070E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.29143E-01, and mean dev.:  0.72901E-02
+Purge_det> Next RMS test values:  0.67211E-01  0.67748E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.23547E-01, and mean dev.:  0.20585E-01
+Purge_det> Next RMS test values:  0.67151E-01  0.69410E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.15436E-01, and mean dev.:  0.55722E-02
+Purge_det> Next RMS test values:  0.67045E-01  0.67590E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.69408E-01, and mean dev.:  0.10793E+00
+Purge_det> Next RMS test values:  0.67056E-01  0.73385E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.22328E-01, and mean dev.:  0.54787E-02
+Purge_det> Next RMS test values:  0.67151E-01  0.67543E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.15411E-01, and mean dev.:  0.47887E-02
+Purge_det> Next RMS test values:  0.67101E-01  0.67449E-01
+Purge_det>   656 spectra in 18 groups to file SLS50837.grp
+Purge_det>  700 good spectra at start
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  1;   632 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.31272E+00, and mean dev.:  0.66823E-01
+Purge_det> Next RMS test values:  0.34388E-01  0.37570E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.23509E+00, and mean dev.:  0.37525E-01
+Purge_det> Next RMS test values:  0.34091E-01  0.36295E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.20609E+00, and mean dev.:  0.21096E-01
+Purge_det> Next RMS test values:  0.34109E-01  0.35421E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.20030E+00, and mean dev.:  0.32238E-01
+Purge_det> Next RMS test values:  0.33941E-01  0.36362E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.19001E+00, and mean dev.:  0.21103E-01
+Purge_det> Next RMS test values:  0.33840E-01  0.35573E-01
+Purge_det> Grp:   6   40 Dets, mean ratio:  0.17726E+00, and mean dev.:  0.25785E-01
+Purge_det> Next RMS test values:  0.32151E-01  0.35038E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.21578E+00, and mean dev.:  0.16831E-01
+Purge_det> Next RMS test values:  0.34199E-01  0.35529E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.20364E+00, and mean dev.:  0.17247E-01
+Purge_det> Next RMS test values:  0.34022E-01  0.35451E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.19947E+00, and mean dev.:  0.13255E-01
+Purge_det> Next RMS test values:  0.33933E-01  0.34949E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.19068E+00, and mean dev.:  0.13878E-01
+Purge_det> Next RMS test values:  0.33795E-01  0.34809E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.18063E+00, and mean dev.:  0.13376E-01
+Purge_det> Next RMS test values:  0.33744E-01  0.34511E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.18037E+00, and mean dev.:  0.60691E-01
+Purge_det> Next RMS test values:  0.33626E-01  0.38126E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.15602E+00, and mean dev.:  0.61154E-02
+Purge_det> Next RMS test values:  0.33526E-01  0.33900E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.15282E+00, and mean dev.:  0.17413E-01
+Purge_det> Next RMS test values:  0.33484E-01  0.35261E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.14592E+00, and mean dev.:  0.60924E-02
+Purge_det> Next RMS test values:  0.33368E-01  0.33902E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.25563E+00, and mean dev.:  0.19542E+00
+Purge_det> Next RMS test values:  0.33064E-01  0.41394E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.14484E+00, and mean dev.:  0.49510E-02
+Purge_det> Next RMS test values:  0.33353E-01  0.33669E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.14523E+00, and mean dev.:  0.38761E-02
+Purge_det> Next RMS test values:  0.33417E-01  0.33714E-01
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  2;   632 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.31272E+00, and mean dev.:  0.66823E-01
+Purge_det> Next RMS test values:  0.34388E-01  0.37570E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.23509E+00, and mean dev.:  0.37525E-01
+Purge_det> Next RMS test values:  0.34091E-01  0.36295E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.20609E+00, and mean dev.:  0.21096E-01
+Purge_det> Next RMS test values:  0.34109E-01  0.35421E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.20030E+00, and mean dev.:  0.32238E-01
+Purge_det> Next RMS test values:  0.33941E-01  0.36362E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.19001E+00, and mean dev.:  0.21103E-01
+Purge_det> Next RMS test values:  0.33840E-01  0.35573E-01
+Purge_det> Grp:   6   40 Dets, mean ratio:  0.17726E+00, and mean dev.:  0.25785E-01
+Purge_det> Next RMS test values:  0.32151E-01  0.35038E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.21578E+00, and mean dev.:  0.16831E-01
+Purge_det> Next RMS test values:  0.34199E-01  0.35529E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.20364E+00, and mean dev.:  0.17247E-01
+Purge_det> Next RMS test values:  0.34022E-01  0.35451E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.19947E+00, and mean dev.:  0.13255E-01
+Purge_det> Next RMS test values:  0.33933E-01  0.34949E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.19068E+00, and mean dev.:  0.13878E-01
+Purge_det> Next RMS test values:  0.33795E-01  0.34809E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.18063E+00, and mean dev.:  0.13376E-01
+Purge_det> Next RMS test values:  0.33744E-01  0.34511E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.18037E+00, and mean dev.:  0.60691E-01
+Purge_det> Next RMS test values:  0.33626E-01  0.38126E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.15602E+00, and mean dev.:  0.61154E-02
+Purge_det> Next RMS test values:  0.33526E-01  0.33900E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.15282E+00, and mean dev.:  0.17413E-01
+Purge_det> Next RMS test values:  0.33484E-01  0.35261E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.14592E+00, and mean dev.:  0.60924E-02
+Purge_det> Next RMS test values:  0.33368E-01  0.33902E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.25563E+00, and mean dev.:  0.19542E+00
+Purge_det> Next RMS test values:  0.33064E-01  0.41394E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.14484E+00, and mean dev.:  0.49510E-02
+Purge_det> Next RMS test values:  0.33353E-01  0.33669E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.14523E+00, and mean dev.:  0.38761E-02
+Purge_det> Next RMS test values:  0.33417E-01  0.33714E-01
+Purge_det>   632 spectra in 18 groups to file SLS50875.grp
+Purge_det>  700 good spectra at start
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  1;   632 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.70016E+00, and mean dev.:  0.39638E-01
+Purge_det> Next RMS test values:  0.42424E-01  0.44322E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.62594E+00, and mean dev.:  0.17784E-01
+Purge_det> Next RMS test values:  0.42023E-01  0.42969E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.60467E+00, and mean dev.:  0.14871E-01
+Purge_det> Next RMS test values:  0.41645E-01  0.42663E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.59085E+00, and mean dev.:  0.19621E-01
+Purge_det> Next RMS test values:  0.41600E-01  0.42865E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.58010E+00, and mean dev.:  0.13070E-01
+Purge_det> Next RMS test values:  0.41460E-01  0.42404E-01
+Purge_det> Grp:   6   40 Dets, mean ratio:  0.56567E+00, and mean dev.:  0.58421E-01
+Purge_det> Next RMS test values:  0.36444E-01  0.42249E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.57771E+00, and mean dev.:  0.13430E-01
+Purge_det> Next RMS test values:  0.41400E-01  0.42305E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.57410E+00, and mean dev.:  0.11890E-01
+Purge_det> Next RMS test values:  0.41340E-01  0.42213E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.56698E+00, and mean dev.:  0.10531E-01
+Purge_det> Next RMS test values:  0.41263E-01  0.41975E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.55884E+00, and mean dev.:  0.10048E-01
+Purge_det> Next RMS test values:  0.41169E-01  0.41808E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.55131E+00, and mean dev.:  0.97412E-02
+Purge_det> Next RMS test values:  0.41057E-01  0.41672E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.55104E+00, and mean dev.:  0.50490E-01
+Purge_det> Next RMS test values:  0.41015E-01  0.44560E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.53209E+00, and mean dev.:  0.65918E-02
+Purge_det> Next RMS test values:  0.40936E-01  0.41313E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.53312E+00, and mean dev.:  0.94791E-02
+Purge_det> Next RMS test values:  0.40945E-01  0.41776E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.54216E+00, and mean dev.:  0.89637E-02
+Purge_det> Next RMS test values:  0.41006E-01  0.41436E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.65340E+00, and mean dev.:  0.20391E+00
+Purge_det> Next RMS test values:  0.40973E-01  0.48924E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.54465E+00, and mean dev.:  0.65350E-02
+Purge_det> Next RMS test values:  0.41075E-01  0.41470E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.55455E+00, and mean dev.:  0.56073E-02
+Purge_det> Next RMS test values:  0.41284E-01  0.41553E-01
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  2;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.70016E+00, and mean dev.:  0.39638E-01
+Purge_det> Next RMS test values:  0.42424E-01  0.44322E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.62594E+00, and mean dev.:  0.17784E-01
+Purge_det> Next RMS test values:  0.42023E-01  0.42969E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.60467E+00, and mean dev.:  0.14871E-01
+Purge_det> Next RMS test values:  0.41645E-01  0.42663E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.59085E+00, and mean dev.:  0.19621E-01
+Purge_det> Next RMS test values:  0.41600E-01  0.42865E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.58010E+00, and mean dev.:  0.13070E-01
+Purge_det> Next RMS test values:  0.41460E-01  0.42404E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.57486E+00, and mean dev.:  0.10916E-01
+Purge_det> Next RMS test values:  0.41401E-01  0.42249E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.57771E+00, and mean dev.:  0.13430E-01
+Purge_det> Next RMS test values:  0.41400E-01  0.42305E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.57410E+00, and mean dev.:  0.11890E-01
+Purge_det> Next RMS test values:  0.41340E-01  0.42213E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.56698E+00, and mean dev.:  0.10531E-01
+Purge_det> Next RMS test values:  0.41263E-01  0.41975E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.55884E+00, and mean dev.:  0.10048E-01
+Purge_det> Next RMS test values:  0.41169E-01  0.41808E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.55131E+00, and mean dev.:  0.97412E-02
+Purge_det> Next RMS test values:  0.41057E-01  0.41672E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.55104E+00, and mean dev.:  0.50490E-01
+Purge_det> Next RMS test values:  0.41015E-01  0.44560E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.53209E+00, and mean dev.:  0.65918E-02
+Purge_det> Next RMS test values:  0.40936E-01  0.41313E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.53312E+00, and mean dev.:  0.94791E-02
+Purge_det> Next RMS test values:  0.40945E-01  0.41776E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.54216E+00, and mean dev.:  0.89637E-02
+Purge_det> Next RMS test values:  0.41006E-01  0.41436E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.65340E+00, and mean dev.:  0.20391E+00
+Purge_det> Next RMS test values:  0.40973E-01  0.48924E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.54465E+00, and mean dev.:  0.65350E-02
+Purge_det> Next RMS test values:  0.41075E-01  0.41470E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.55455E+00, and mean dev.:  0.56073E-02
+Purge_det> Next RMS test values:  0.41284E-01  0.41553E-01
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  3;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.70016E+00, and mean dev.:  0.39638E-01
+Purge_det> Next RMS test values:  0.42424E-01  0.44322E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.62594E+00, and mean dev.:  0.17784E-01
+Purge_det> Next RMS test values:  0.42023E-01  0.42969E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.60467E+00, and mean dev.:  0.14871E-01
+Purge_det> Next RMS test values:  0.41645E-01  0.42663E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.59085E+00, and mean dev.:  0.19621E-01
+Purge_det> Next RMS test values:  0.41600E-01  0.42865E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.58010E+00, and mean dev.:  0.13070E-01
+Purge_det> Next RMS test values:  0.41460E-01  0.42404E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.57486E+00, and mean dev.:  0.10916E-01
+Purge_det> Next RMS test values:  0.41401E-01  0.42249E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.57771E+00, and mean dev.:  0.13430E-01
+Purge_det> Next RMS test values:  0.41400E-01  0.42305E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.57410E+00, and mean dev.:  0.11890E-01
+Purge_det> Next RMS test values:  0.41340E-01  0.42213E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.56698E+00, and mean dev.:  0.10531E-01
+Purge_det> Next RMS test values:  0.41263E-01  0.41975E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.55884E+00, and mean dev.:  0.10048E-01
+Purge_det> Next RMS test values:  0.41169E-01  0.41808E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.55131E+00, and mean dev.:  0.97412E-02
+Purge_det> Next RMS test values:  0.41057E-01  0.41672E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.55104E+00, and mean dev.:  0.50490E-01
+Purge_det> Next RMS test values:  0.41015E-01  0.44560E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.53209E+00, and mean dev.:  0.65918E-02
+Purge_det> Next RMS test values:  0.40936E-01  0.41313E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.53312E+00, and mean dev.:  0.94791E-02
+Purge_det> Next RMS test values:  0.40945E-01  0.41776E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.54216E+00, and mean dev.:  0.89637E-02
+Purge_det> Next RMS test values:  0.41006E-01  0.41436E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.65340E+00, and mean dev.:  0.20391E+00
+Purge_det> Next RMS test values:  0.40973E-01  0.48924E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.54465E+00, and mean dev.:  0.65350E-02
+Purge_det> Next RMS test values:  0.41075E-01  0.41470E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.55455E+00, and mean dev.:  0.56073E-02
+Purge_det> Next RMS test values:  0.41284E-01  0.41553E-01
+Purge_det>   631 spectra in 18 groups to file SLS50876.grp
+Purge_det>  700 good spectra at start
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  1;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.70422E+00, and mean dev.:  0.39168E-01
+Purge_det> Next RMS test values:  0.50050E-01  0.51890E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.63429E+00, and mean dev.:  0.19618E-01
+Purge_det> Next RMS test values:  0.49426E-01  0.50627E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.60786E+00, and mean dev.:  0.11697E-01
+Purge_det> Next RMS test values:  0.49261E-01  0.50126E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.60031E+00, and mean dev.:  0.28085E-01
+Purge_det> Next RMS test values:  0.49210E-01  0.51034E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.58382E+00, and mean dev.:  0.11019E-01
+Purge_det> Next RMS test values:  0.48993E-01  0.49816E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.58075E+00, and mean dev.:  0.10668E-01
+Purge_det> Next RMS test values:  0.49001E-01  0.49668E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.58255E+00, and mean dev.:  0.11412E-01
+Purge_det> Next RMS test values:  0.48995E-01  0.49678E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.57770E+00, and mean dev.:  0.14240E-01
+Purge_det> Next RMS test values:  0.48742E-01  0.49875E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.57239E+00, and mean dev.:  0.10888E-01
+Purge_det> Next RMS test values:  0.48840E-01  0.49500E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.56526E+00, and mean dev.:  0.10042E-01
+Purge_det> Next RMS test values:  0.48760E-01  0.49300E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.55743E+00, and mean dev.:  0.85554E-02
+Purge_det> Next RMS test values:  0.48700E-01  0.49204E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.55413E+00, and mean dev.:  0.52786E-01
+Purge_det> Next RMS test values:  0.48522E-01  0.52414E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.53602E+00, and mean dev.:  0.61667E-02
+Purge_det> Next RMS test values:  0.48393E-01  0.48779E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.53888E+00, and mean dev.:  0.95465E-02
+Purge_det> Next RMS test values:  0.48445E-01  0.49350E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.54844E+00, and mean dev.:  0.10306E-01
+Purge_det> Next RMS test values:  0.48515E-01  0.49040E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.65775E+00, and mean dev.:  0.20329E+00
+Purge_det> Next RMS test values:  0.48516E-01  0.57295E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.54997E+00, and mean dev.:  0.67194E-02
+Purge_det> Next RMS test values:  0.48611E-01  0.48995E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.55923E+00, and mean dev.:  0.58568E-02
+Purge_det> Next RMS test values:  0.48791E-01  0.49137E-01
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  2;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.70422E+00, and mean dev.:  0.39168E-01
+Purge_det> Next RMS test values:  0.50050E-01  0.51890E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.63429E+00, and mean dev.:  0.19618E-01
+Purge_det> Next RMS test values:  0.49426E-01  0.50627E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.60786E+00, and mean dev.:  0.11697E-01
+Purge_det> Next RMS test values:  0.49261E-01  0.50126E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.60031E+00, and mean dev.:  0.28085E-01
+Purge_det> Next RMS test values:  0.49210E-01  0.51034E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.58382E+00, and mean dev.:  0.11019E-01
+Purge_det> Next RMS test values:  0.48993E-01  0.49816E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.58075E+00, and mean dev.:  0.10668E-01
+Purge_det> Next RMS test values:  0.49001E-01  0.49668E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.58255E+00, and mean dev.:  0.11412E-01
+Purge_det> Next RMS test values:  0.48995E-01  0.49678E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.57770E+00, and mean dev.:  0.14240E-01
+Purge_det> Next RMS test values:  0.48742E-01  0.49875E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.57239E+00, and mean dev.:  0.10888E-01
+Purge_det> Next RMS test values:  0.48840E-01  0.49500E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.56526E+00, and mean dev.:  0.10042E-01
+Purge_det> Next RMS test values:  0.48760E-01  0.49300E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.55743E+00, and mean dev.:  0.85554E-02
+Purge_det> Next RMS test values:  0.48700E-01  0.49204E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.55413E+00, and mean dev.:  0.52786E-01
+Purge_det> Next RMS test values:  0.48522E-01  0.52414E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.53602E+00, and mean dev.:  0.61667E-02
+Purge_det> Next RMS test values:  0.48393E-01  0.48779E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.53888E+00, and mean dev.:  0.95465E-02
+Purge_det> Next RMS test values:  0.48445E-01  0.49350E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.54844E+00, and mean dev.:  0.10306E-01
+Purge_det> Next RMS test values:  0.48515E-01  0.49040E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.65775E+00, and mean dev.:  0.20329E+00
+Purge_det> Next RMS test values:  0.48516E-01  0.57295E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.54997E+00, and mean dev.:  0.67194E-02
+Purge_det> Next RMS test values:  0.48611E-01  0.48995E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.55923E+00, and mean dev.:  0.58568E-02
+Purge_det> Next RMS test values:  0.48791E-01  0.49137E-01
+Purge_det>   631 spectra in 18 groups to file SLS50877.grp
+Purge_det>  700 good spectra at start
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  1;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.99044E+00, and mean dev.:  0.19629E-01
+Purge_det> Next RMS test values:  0.70187E-01  0.71128E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.95925E+00, and mean dev.:  0.14317E-01
+Purge_det> Next RMS test values:  0.69844E-01  0.70594E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.95742E+00, and mean dev.:  0.14614E-01
+Purge_det> Next RMS test values:  0.69765E-01  0.70645E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.95602E+00, and mean dev.:  0.18649E-01
+Purge_det> Next RMS test values:  0.69749E-01  0.70769E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.95763E+00, and mean dev.:  0.13006E-01
+Purge_det> Next RMS test values:  0.69960E-01  0.70687E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.96928E+00, and mean dev.:  0.12777E-01
+Purge_det> Next RMS test values:  0.69975E-01  0.70681E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.94401E+00, and mean dev.:  0.11792E-01
+Purge_det> Next RMS test values:  0.69662E-01  0.70315E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.95693E+00, and mean dev.:  0.12350E-01
+Purge_det> Next RMS test values:  0.69843E-01  0.70457E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.96286E+00, and mean dev.:  0.11129E-01
+Purge_det> Next RMS test values:  0.69943E-01  0.70567E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.96451E+00, and mean dev.:  0.10756E-01
+Purge_det> Next RMS test values:  0.70010E-01  0.70666E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.96527E+00, and mean dev.:  0.87107E-02
+Purge_det> Next RMS test values:  0.70021E-01  0.70553E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.96639E+00, and mean dev.:  0.40030E-01
+Purge_det> Next RMS test values:  0.69943E-01  0.73050E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.97343E+00, and mean dev.:  0.11244E-01
+Purge_det> Next RMS test values:  0.70060E-01  0.70681E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.99099E+00, and mean dev.:  0.10504E-01
+Purge_det> Next RMS test values:  0.70333E-01  0.71031E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.10287E+01, and mean dev.:  0.14891E-01
+Purge_det> Next RMS test values:  0.70724E-01  0.71506E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.11679E+01, and mean dev.:  0.26465E+00
+Purge_det> Next RMS test values:  0.69854E-01  0.82333E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.10424E+01, and mean dev.:  0.14899E-01
+Purge_det> Next RMS test values:  0.70950E-01  0.71834E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.10766E+01, and mean dev.:  0.14122E-01
+Purge_det> Next RMS test values:  0.71344E-01  0.72103E-01
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  2;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.99044E+00, and mean dev.:  0.19629E-01
+Purge_det> Next RMS test values:  0.70187E-01  0.71128E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.95925E+00, and mean dev.:  0.14317E-01
+Purge_det> Next RMS test values:  0.69844E-01  0.70594E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.95742E+00, and mean dev.:  0.14614E-01
+Purge_det> Next RMS test values:  0.69765E-01  0.70645E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.95602E+00, and mean dev.:  0.18649E-01
+Purge_det> Next RMS test values:  0.69749E-01  0.70769E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.95763E+00, and mean dev.:  0.13006E-01
+Purge_det> Next RMS test values:  0.69960E-01  0.70687E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.96928E+00, and mean dev.:  0.12777E-01
+Purge_det> Next RMS test values:  0.69975E-01  0.70681E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.94401E+00, and mean dev.:  0.11792E-01
+Purge_det> Next RMS test values:  0.69662E-01  0.70315E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.95693E+00, and mean dev.:  0.12350E-01
+Purge_det> Next RMS test values:  0.69843E-01  0.70457E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.96286E+00, and mean dev.:  0.11129E-01
+Purge_det> Next RMS test values:  0.69943E-01  0.70567E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.96451E+00, and mean dev.:  0.10756E-01
+Purge_det> Next RMS test values:  0.70010E-01  0.70666E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.96527E+00, and mean dev.:  0.87107E-02
+Purge_det> Next RMS test values:  0.70021E-01  0.70553E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.96639E+00, and mean dev.:  0.40030E-01
+Purge_det> Next RMS test values:  0.69943E-01  0.73050E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.97343E+00, and mean dev.:  0.11244E-01
+Purge_det> Next RMS test values:  0.70060E-01  0.70681E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.99099E+00, and mean dev.:  0.10504E-01
+Purge_det> Next RMS test values:  0.70333E-01  0.71031E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.10287E+01, and mean dev.:  0.14891E-01
+Purge_det> Next RMS test values:  0.70724E-01  0.71506E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.11679E+01, and mean dev.:  0.26465E+00
+Purge_det> Next RMS test values:  0.69854E-01  0.82333E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.10424E+01, and mean dev.:  0.14899E-01
+Purge_det> Next RMS test values:  0.70950E-01  0.71834E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.10766E+01, and mean dev.:  0.14122E-01
+Purge_det> Next RMS test values:  0.71344E-01  0.72103E-01
+Purge_det>   631 spectra in 18 groups to file SLS50994.grp
+Purge_det>  700 good spectra at start
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  1;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.99227E+00, and mean dev.:  0.21671E-01
+Purge_det> Next RMS test values:  0.70211E-01  0.71296E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.96366E+00, and mean dev.:  0.12018E-01
+Purge_det> Next RMS test values:  0.69976E-01  0.70590E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.95696E+00, and mean dev.:  0.18990E-01
+Purge_det> Next RMS test values:  0.69607E-01  0.70909E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.96123E+00, and mean dev.:  0.22637E-01
+Purge_det> Next RMS test values:  0.69740E-01  0.71516E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.95531E+00, and mean dev.:  0.11102E-01
+Purge_det> Next RMS test values:  0.69871E-01  0.70461E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.97249E+00, and mean dev.:  0.10586E-01
+Purge_det> Next RMS test values:  0.70061E-01  0.70673E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.94286E+00, and mean dev.:  0.11081E-01
+Purge_det> Next RMS test values:  0.69670E-01  0.70255E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.95272E+00, and mean dev.:  0.12454E-01
+Purge_det> Next RMS test values:  0.69754E-01  0.70428E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.96320E+00, and mean dev.:  0.11706E-01
+Purge_det> Next RMS test values:  0.69921E-01  0.70547E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.96297E+00, and mean dev.:  0.11281E-01
+Purge_det> Next RMS test values:  0.69978E-01  0.70594E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.96453E+00, and mean dev.:  0.95027E-02
+Purge_det> Next RMS test values:  0.70022E-01  0.70497E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.96869E+00, and mean dev.:  0.39121E-01
+Purge_det> Next RMS test values:  0.69899E-01  0.72944E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.97115E+00, and mean dev.:  0.10122E-01
+Purge_det> Next RMS test values:  0.69992E-01  0.70666E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.98937E+00, and mean dev.:  0.11360E-01
+Purge_det> Next RMS test values:  0.70289E-01  0.70939E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.10282E+01, and mean dev.:  0.16591E-01
+Purge_det> Next RMS test values:  0.70480E-01  0.71448E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.11683E+01, and mean dev.:  0.26560E+00
+Purge_det> Next RMS test values:  0.69956E-01  0.82414E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.10429E+01, and mean dev.:  0.15254E-01
+Purge_det> Next RMS test values:  0.70869E-01  0.71756E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.10752E+01, and mean dev.:  0.13811E-01
+Purge_det> Next RMS test values:  0.71342E-01  0.72045E-01
+Purge_det>   0.00000000       0.00000000
+Purge_det> Pass  2;   631 good spectra.
+Purge_det> Grp:   1   20 Dets, mean ratio:  0.99227E+00, and mean dev.:  0.21671E-01
+Purge_det> Next RMS test values:  0.70211E-01  0.71296E-01
+Purge_det> Grp:   2   20 Dets, mean ratio:  0.96366E+00, and mean dev.:  0.12018E-01
+Purge_det> Next RMS test values:  0.69976E-01  0.70590E-01
+Purge_det> Grp:   3   40 Dets, mean ratio:  0.95696E+00, and mean dev.:  0.18990E-01
+Purge_det> Next RMS test values:  0.69607E-01  0.70909E-01
+Purge_det> Grp:   4   38 Dets, mean ratio:  0.96123E+00, and mean dev.:  0.22637E-01
+Purge_det> Next RMS test values:  0.69740E-01  0.71516E-01
+Purge_det> Grp:   5   40 Dets, mean ratio:  0.95531E+00, and mean dev.:  0.11102E-01
+Purge_det> Next RMS test values:  0.69871E-01  0.70461E-01
+Purge_det> Grp:   6   39 Dets, mean ratio:  0.97249E+00, and mean dev.:  0.10586E-01
+Purge_det> Next RMS test values:  0.70061E-01  0.70673E-01
+Purge_det> Grp:   7   40 Dets, mean ratio:  0.94286E+00, and mean dev.:  0.11081E-01
+Purge_det> Next RMS test values:  0.69670E-01  0.70255E-01
+Purge_det> Grp:   8   38 Dets, mean ratio:  0.95272E+00, and mean dev.:  0.12454E-01
+Purge_det> Next RMS test values:  0.69754E-01  0.70428E-01
+Purge_det> Grp:   9   40 Dets, mean ratio:  0.96320E+00, and mean dev.:  0.11706E-01
+Purge_det> Next RMS test values:  0.69921E-01  0.70547E-01
+Purge_det> Grp:  10   40 Dets, mean ratio:  0.96297E+00, and mean dev.:  0.11281E-01
+Purge_det> Next RMS test values:  0.69978E-01  0.70594E-01
+Purge_det> Grp:  11   26 Dets, mean ratio:  0.96453E+00, and mean dev.:  0.95027E-02
+Purge_det> Next RMS test values:  0.70022E-01  0.70497E-01
+Purge_det> Grp:  12   30 Dets, mean ratio:  0.96869E+00, and mean dev.:  0.39121E-01
+ExitValue: 0
+Purge_det> Next RMS test values:  0.69899E-01  0.72944E-01
+Purge_det> Grp:  13   40 Dets, mean ratio:  0.97115E+00, and mean dev.:  0.10122E-01
+Purge_det> Next RMS test values:  0.69992E-01  0.70666E-01
+Purge_det> Grp:  14   40 Dets, mean ratio:  0.98937E+00, and mean dev.:  0.11360E-01
+Purge_det> Next RMS test values:  0.70289E-01  0.70939E-01
+Purge_det> Grp:  15   30 Dets, mean ratio:  0.10282E+01, and mean dev.:  0.16591E-01
+Purge_det> Next RMS test values:  0.70480E-01  0.71448E-01
+Purge_det> Grp:  16   30 Dets, mean ratio:  0.11683E+01, and mean dev.:  0.26560E+00
+Purge_det> Next RMS test values:  0.69956E-01  0.82414E-01
+Purge_det> Grp:  17   40 Dets, mean ratio:  0.10429E+01, and mean dev.:  0.15254E-01
+Purge_det> Next RMS test values:  0.70869E-01  0.71756E-01
+Purge_det> Grp:  18   40 Dets, mean ratio:  0.10752E+01, and mean dev.:  0.13811E-01
+Purge_det> Next RMS test values:  0.71342E-01  0.72045E-01
+Purge_det>   631 spectra in 18 groups to file SLS50995.grp
+Purge_det>purge_det> Total run time =         656 ms
+4 0 4 -1
+5 1 6 0
+7 2 8 1
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+0
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+StartupFiles\SLS\SANDALSMarch2011Groups.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+0
+StartupFiles\SLS\SANDALSMarch2011Groups.dat
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+StartupFiles\SLS\SLSdeadtime.cor C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLSdeadtime.cor
+0
+StartupFiles\SLS\SLSdeadtime.cor
+StartupFiles\SLS\sears91_gudrun.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\sears91_gudrun.dat
+0
+StartupFiles\SLS\sears91_gudrun.dat
+StartupFiles\SLS\SLS.nexus_txt C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLS.nexus_txt
+0
+StartupFiles\SLS\SLS.nexus_txt
+StartupFiles\SLS\spectrum000.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+0
+StartupFiles\SLS\spectrum000.dat
+StartupFiles\SLS\slsvanadiummod.bragg C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\slsvanadiummod.bragg
+0
+StartupFiles\SLS\slsvanadiummod.bragg
+0 false true
+1 false true
+2 false true
+10134 10139
+4 0 4 -1
+5 1 6 0
+7 2 8 1
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+0
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+StartupFiles\SLS\SANDALSMarch2011Groups.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+0
+StartupFiles\SLS\SANDALSMarch2011Groups.dat
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+StartupFiles\SLS\SLSdeadtime.cor C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLSdeadtime.cor
+0
+StartupFiles\SLS\SLSdeadtime.cor
+StartupFiles\SLS\sears91_gudrun.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\sears91_gudrun.dat
+0
+StartupFiles\SLS\sears91_gudrun.dat
+StartupFiles\SLS\SLS.nexus_txt C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLS.nexus_txt
+0
+StartupFiles\SLS\SLS.nexus_txt
+StartupFiles\SLS\spectrum000.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+0
+StartupFiles\SLS\spectrum000.dat
+StartupFiles\SLS\slsvanadiummod.bragg C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\slsvanadiummod.bragg
+0
+StartupFiles\SLS\slsvanadiummod.bragg
+0 false true
+1 false true
+2 false true
+21 22 \
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+3614 17
+0
+0
+0
+10124 10133
+Runflag status: false
+21 22 \
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+3551 17
+0
+0
+0
+10031 10040
+Runflag status: false
+4 0 4 -1
+5 1 6 0
+7 2 8 1
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+0
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+StartupFiles\SLS\SANDALSMarch2011Groups.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+0
+StartupFiles\SLS\SANDALSMarch2011Groups.dat
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+StartupFiles\SLS\SLSdeadtime.cor C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLSdeadtime.cor
+0
+StartupFiles\SLS\SLSdeadtime.cor
+StartupFiles\SLS\sears91_gudrun.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\sears91_gudrun.dat
+0
+StartupFiles\SLS\sears91_gudrun.dat
+StartupFiles\SLS\spectrum000.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+0
+StartupFiles\SLS\spectrum000.dat
+StartupFiles\SLS\slsvanadiummod.bragg C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\slsvanadiummod.bragg
+0
+StartupFiles\SLS\slsvanadiummod.bragg
+0 false true
+1 false true
+2 false true
+10141 10041
+4 0 4 -1
+5 1 6 0
+7 2 8 1
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+0
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+StartupFiles\SLS\SANDALSMarch2011Groups.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+0
+StartupFiles\SLS\SANDALSMarch2011Groups.dat
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+StartupFiles\SLS\SLSdeadtime.cor C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLSdeadtime.cor
+0
+StartupFiles\SLS\SLSdeadtime.cor
+StartupFiles\SLS\sears91_gudrun.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\sears91_gudrun.dat
+0
+StartupFiles\SLS\sears91_gudrun.dat
+StartupFiles\SLS\spectrum000.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+0
+StartupFiles\SLS\spectrum000.dat
+StartupFiles\SLS\slsvanadiummod.bragg C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\slsvanadiummod.bragg
+0
+StartupFiles\SLS\slsvanadiummod.bragg
+0 false true
+1 false true
+2 false true
+21 22 \
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+3624 17
+0
+0
+0
+10131 10140
+Runflag status: false
+21 22 \
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+3614 17
+0
+0
+0
+10124 10133
+Runflag status: false
+4 0 4 -1
+5 1 6 0
+7 2 8 1
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+0
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+StartupFiles\SLS\SANDALSMarch2011Groups.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+0
+StartupFiles\SLS\SANDALSMarch2011Groups.dat
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+StartupFiles\SLS\SLSdeadtime.cor C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLSdeadtime.cor
+0
+StartupFiles\SLS\SLSdeadtime.cor
+StartupFiles\SLS\sears91_gudrun.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\sears91_gudrun.dat
+0
+StartupFiles\SLS\sears91_gudrun.dat
+StartupFiles\SLS\SLS.nexus_txt C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLS.nexus_txt
+0
+StartupFiles\SLS\SLS.nexus_txt
+StartupFiles\SLS\spectrum000.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+0
+StartupFiles\SLS\spectrum000.dat
+StartupFiles\SLS\slsvanadiummod.bragg C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\slsvanadiummod.bragg
+0
+StartupFiles\SLS\slsvanadiummod.bragg
+0 false true
+1 false true
+2 false true
+10237 10134
+4 0 4 -1
+5 1 6 0
+7 2 8 1
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+0
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+StartupFiles\SLS\SANDALSMarch2011Groups.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+0
+StartupFiles\SLS\SANDALSMarch2011Groups.dat
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+StartupFiles\SLS\SLSdeadtime.cor C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLSdeadtime.cor
+0
+StartupFiles\SLS\SLSdeadtime.cor
+StartupFiles\SLS\sears91_gudrun.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\sears91_gudrun.dat
+0
+StartupFiles\SLS\sears91_gudrun.dat
+StartupFiles\SLS\SLS.nexus_txt C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLS.nexus_txt
+0
+StartupFiles\SLS\SLS.nexus_txt
+StartupFiles\SLS\spectrum000.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+0
+StartupFiles\SLS\spectrum000.dat
+StartupFiles\SLS\slsvanadiummod.bragg C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\slsvanadiummod.bragg
+0
+StartupFiles\SLS\slsvanadiummod.bragg
+0 false true
+1 false true
+2 false true
+21 22 \
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+3687 17
+0
+0
+0
+10227 10236
+Runflag status: false
+21 22 \
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+3624 17
+0
+0
+0
+10131 10140
+Runflag status: false
+4 0 4 -1
+5 1 6 0
+7 2 8 1
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+0
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+StartupFiles\SLS\SANDALSMarch2011Groups.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+0
+StartupFiles\SLS\SANDALSMarch2011Groups.dat
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+StartupFiles\SLS\SLSdeadtime.cor C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLSdeadtime.cor
+0
+StartupFiles\SLS\SLSdeadtime.cor
+StartupFiles\SLS\sears91_gudrun.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\sears91_gudrun.dat
+0
+StartupFiles\SLS\sears91_gudrun.dat
+StartupFiles\SLS\spectrum000.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+0
+StartupFiles\SLS\spectrum000.dat
+StartupFiles\SLS\slsvanadiummod.bragg C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\slsvanadiummod.bragg
+0
+StartupFiles\SLS\slsvanadiummod.bragg
+0 false true
+1 false true
+2 false true
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+1
+1
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\bin\gudrun_dcs.exe
+Running C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\bin\gudrun_dcs.exe
+Gudrun_dcs> Let us begin: Gudrun_dcs NeXus dynamic allocation version GUI_4: November 2013
+Gudrun_dcs> gudrun_dcs.dat opened correctly
+Gudrun_dcs>  ;          ;\
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: INSTRUMENT
+Gudrun_dcs> SANDALS
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\run\SLS\
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\
+Gudrun_dcs> StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+Gudrun_dcs>           4
+Gudrun_dcs> StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Gudrun_dcs> StartupFiles\SLS\SLSdeadtime.cor
+Gudrun_dcs>           2
+Gudrun_dcs>           1           3
+Gudrun_dcs>           2
+Gudrun_dcs>           2           4
+Gudrun_dcs>           0   0.00000000       0.00000000       0.00000000
+Gudrun_dcs> StartupFiles\SLS\sears91_gudrun.dat
+Gudrun_dcs>           1
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: BEAM
+Gudrun_dcs>  0.431648999      0.794129014       1.28953001E-02   2.58185005       2.01264000       7.80806017      0.840768993       4.55159321E-02  0.285984248
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: NORMALISATION
+Gudrun_dcs> get_run_par> C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_run_par> Closed data file
+Gudrun_dcs> get_run_par> Set up detector and spectrum numbers
+Gudrun_dcs> gudrun_dcs> Got run parameters
+Gudrun_dcs> Deadtime filename: StartupFiles\SLS\SLSdeadtime.cor           29
+Gudrun_dcs>           0           1   14.0000000       0.00000000       0.00000000
+Gudrun_dcs>         141  -1.48069465E+36   2.11221641E-38          -1
+Gudrun_dcs> gudrun_dcs> Got deadtimes
+Gudrun_dcs> gudrun_dcs> Got time channel boundaries
+Gudrun_dcs>           4 UT4
+Gudrun_dcs>           5           4
+Gudrun_dcs> get_calibration> Reading calibration from: C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+Gudrun_dcs>          46          96
+Gudrun_dcs> get_calibration> 1
+Gudrun_dcs>         700           5
+Gudrun_dcs> gudrun_dcs> Got calibration
+Gudrun_dcs> Name of groups file being read from: StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Gudrun_dcs>          18
+Gudrun_dcs>         -20          20
+Gudrun_dcs>         -20          20
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -30          30
+Gudrun_dcs>         -30          30
+Gudrun_dcs>         -50          50
+Gudrun_dcs>         -50          50
+Gudrun_dcs>   680 spectra in 18 groups from file C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Gudrun_dcs> get_groups> Checked input values for group            1
+Gudrun_dcs> get_groups> Checked input values for group            2
+Gudrun_dcs> get_groups> Checked input values for group            3
+Gudrun_dcs> get_groups> Checked input values for group            4
+Gudrun_dcs> get_groups> Checked input values for group            5
+Gudrun_dcs> get_groups> Checked input values for group            6
+Gudrun_dcs> get_groups> Checked input values for group            7
+Gudrun_dcs> get_groups> Checked input values for group            8
+Gudrun_dcs> get_groups> Checked input values for group            9
+Gudrun_dcs> get_groups> Checked input values for group           10
+Gudrun_dcs> get_groups> Checked input values for group           11
+Gudrun_dcs> get_groups> Checked input values for group           12
+Gudrun_dcs> get_groups> Checked input values for group           13
+Gudrun_dcs> get_groups> Checked input values for group           14
+Gudrun_dcs> get_groups> Checked input values for group           15
+Gudrun_dcs> get_groups> Checked input values for group           16
+Gudrun_dcs> get_groups> Checked input values for group           17
+Gudrun_dcs> get_groups> Checked input values for group           18
+Gudrun_dcs>
+Gudrun_dcs> Q-ranges for individual groups
+Gudrun_dcs>
+Gudrun_dcs>           1   0.00000000       20.0000000
+Gudrun_dcs>           2   0.00000000       20.0000000
+Gudrun_dcs>           3   0.00000000       20.0000000
+Gudrun_dcs>           4   0.00000000       20.0000000
+Gudrun_dcs>           5   0.00000000       20.0000000
+Gudrun_dcs>           6   0.00000000       20.0000000
+Gudrun_dcs>           7   0.00000000       20.0000000
+Gudrun_dcs>           8   0.00000000       20.0000000
+Gudrun_dcs>           9   0.00000000       20.0000000
+Gudrun_dcs>          10   0.00000000       20.0000000
+Gudrun_dcs>          11   0.00000000       20.0000000
+Gudrun_dcs>          12   0.00000000       20.0000000
+Gudrun_dcs>          13   0.00000000       20.0000000
+Gudrun_dcs>          14   0.00000000       20.0000000
+Gudrun_dcs>          15   0.00000000       20.0000000
+Gudrun_dcs>          16   0.00000000       20.0000000
+Gudrun_dcs>          17   0.00000000       20.0000000
+Gudrun_dcs>          18   0.00000000       20.0000000
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+Gudrun_dcs> gudrun_dcs> Got groups
+Gudrun_dcs> get_amutshield>    0.00000000
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> Incident>            1           1           1   8.77400017
+Gudrun_dcs> get_mon> Relative monitor sums            1   1.00000000
+Gudrun_dcs> form_smoo_mon>            2  smoothings used for monitor in run SLS50836.raw with chisq ratio    1.13713932
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.raw
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.raw
+Gudrun_dcs> Incident>            1           1           1   8.77400017
+Gudrun_dcs> get_mon> Relative monitor sums            1   1.00000000
+Gudrun_dcs> form_smoo_mon>            2  smoothings used for monitor in run SLS50837.raw with chisq ratio    1.13426650
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> Trans>            2           2           2   15.6949997
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.raw
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.raw
+Gudrun_dcs> Trans>            2           2           2   15.6949997
+Gudrun_dcs> gudrun_dcs> Got vanadium tranmission monitors
+Gudrun_dcs>
+Gudrun_dcs> No of elements found for vanadium:            1
+Gudrun_dcs> V            0
+Gudrun_dcs>
+Gudrun_dcs> get_van_par>            1           1          10
+Gudrun_dcs> gudrun_dcs> Got vanadium parameters
+Gudrun_dcs> gudrun_dcs> NORMALISATION geometry =            2
+Gudrun_dcs> get_trans> nwav,nwavb,mcorrwavmax           48          49         883
+Gudrun_dcs> SLS50836.rebinq
+Gudrun_dcs> get_trans> SLS50836.transnofit01           1
+Gudrun_dcs>          48           3           0
+Gudrun_dcs> polyfit_nofix> No. of iterations       320000
+Gudrun_dcs> get_trans> Time for polyfit>                   922
+Gudrun_dcs> get_trans> SLS50836.trans01           1
+Gudrun_dcs>  0.500000000     -0.500000000       2.00000000      -2.00000000
+Gudrun_dcs>  -1.50000000       1.50000000      -2.09999990       2.09999990
+Gudrun_dcs> calc_mul>            1  0.150000006      0.150000006       7.20999986E-02   5.07999992       5.38253593       5.00000000
+Gudrun_dcs> set_corr_ang>    0.00000000
+Gudrun_dcs> set_corr_ang>    38.0167313       0.00000000       0.00000000       0.00000000
+Gudrun_dcs>           4   0.00000000       12.6722441       25.3444881       38.0167313
+Gudrun_dcs>           1   0.00000000
+Gudrun_dcs> calc_mul> Set up correction angles
+Gudrun_dcs>
+Gudrun_dcs> fltmultof> Total thickness (cm):    0.30000 No. of cos theta values:     0
+Gudrun_dcs> calc_mul> Calculated flat plate corrections
+Gudrun_dcs> (003(1x,e12.5))
+Gudrun_dcs> gudrun_dcs> Got vanadium total scattering correction
+Gudrun_dcs> gudrun_dcs> Got vanadium Placzek correction
+Gudrun_dcs> StartupFiles\SLS\slsvanadiummod.bragg
+Gudrun_dcs>
+Gudrun_dcs> vdcs_read>   9 Bragg peaks to be defined
+Gudrun_dcs> gudrun_dcs> Got vanadium DCS data
+Gudrun_dcs> vdcs_bragg>         1993  Q values to be generated in vdcs_bragg
+Gudrun_dcs> get_summed_data> Reading data file: SLS50836.raw period            1  factor    1.00000000
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_goodframes> Retrieved      226310  goodframes from:- C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.raw
+Gudrun_dcs> get_module_sum> Total of       226310  goodframes read from SLS50836.raw
+Gudrun_dcs> get_module_sum>       226310  good frames found for run SLS50836.raw period            1
+Gudrun_dcs>
+ERROR>Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Gudrun_dcs> get_module_sum> Overall DAE count rate (cts/musec):  0.294815E+03
+Gudrun_dcs>
+Gudrun_dcs> get_module_sum> Detector deadtime:   14.00000 is too large for observed count rate 0.243846E+00 at time channel    1 in module    1
+ExitValue: 0
+4 0 4 -1
+5 1 6 0
+7 2 8 1
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+0
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+StartupFiles\SLS\SANDALSMarch2011Groups.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+0
+StartupFiles\SLS\SANDALSMarch2011Groups.dat
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+StartupFiles\SLS\SLSdeadtime.cor C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLSdeadtime.cor
+0
+StartupFiles\SLS\SLSdeadtime.cor
+StartupFiles\SLS\sears91_gudrun.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\sears91_gudrun.dat
+0
+StartupFiles\SLS\sears91_gudrun.dat
+StartupFiles\SLS\spectrum000.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+0
+StartupFiles\SLS\spectrum000.dat
+StartupFiles\SLS\slsvanadiummod.bragg C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\slsvanadiummod.bragg
+0
+StartupFiles\SLS\slsvanadiummod.bragg
+0 false true
+1 false true
+2 false true
+10073 10141
+4 0 4 -1
+5 1 6 0
+7 2 8 1
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+0
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+StartupFiles\SLS\SANDALSMarch2011Groups.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+0
+StartupFiles\SLS\SANDALSMarch2011Groups.dat
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+StartupFiles\SLS\SLSdeadtime.cor C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLSdeadtime.cor
+0
+StartupFiles\SLS\SLSdeadtime.cor
+StartupFiles\SLS\sears91_gudrun.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\sears91_gudrun.dat
+0
+StartupFiles\SLS\sears91_gudrun.dat
+StartupFiles\SLS\spectrum000.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+0
+StartupFiles\SLS\spectrum000.dat
+StartupFiles\SLS\slsvanadiummod.bragg C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\slsvanadiummod.bragg
+0
+StartupFiles\SLS\slsvanadiummod.bragg
+0 false true
+1 false true
+2 false true
+21 22 \
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+3624 17
+0
+0
+0
+10063 10072
+Runflag status: false
+21 22 \
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+3687 17
+0
+0
+0
+10227 10236
+Runflag status: false
+4 0 4 -1
+5 1 6 0
+7 2 8 1
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+0
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+StartupFiles\SLS\SANDALSMarch2011Groups.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+0
+StartupFiles\SLS\SANDALSMarch2011Groups.dat
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+StartupFiles\SLS\SLSdeadtime.cor C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLSdeadtime.cor
+0
+StartupFiles\SLS\SLSdeadtime.cor
+StartupFiles\SLS\sears91_gudrun.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\sears91_gudrun.dat
+0
+StartupFiles\SLS\sears91_gudrun.dat
+StartupFiles\SLS\SLS.nexus_txt C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SLS.nexus_txt
+0
+StartupFiles\SLS\SLS.nexus_txt
+StartupFiles\SLS\spectrum000.dat C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+0
+StartupFiles\SLS\spectrum000.dat
+StartupFiles\SLS\slsvanadiummod.bragg C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\slsvanadiummod.bragg
+0
+StartupFiles\SLS\slsvanadiummod.bragg
+0 false true
+1 false false
+2 false false
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+18 4
+1
+1
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\bin\gudrun_dcs.exe
+Running C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\bin\gudrun_dcs.exe
+Gudrun_dcs> Let us begin: Gudrun_dcs NeXus dynamic allocation version GUI_4: November 2013
+Gudrun_dcs> gudrun_dcs.dat opened correctly
+Gudrun_dcs>  ;          ;\
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: INSTRUMENT
+Gudrun_dcs> SANDALS
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\run\SLS\
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\
+Gudrun_dcs> StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+Gudrun_dcs>           4
+Gudrun_dcs> StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Gudrun_dcs> StartupFiles\SLS\SLSdeadtime.cor
+Gudrun_dcs>           2
+Gudrun_dcs>           1           3
+Gudrun_dcs>           2
+Gudrun_dcs>           2           4
+Gudrun_dcs>           0   0.00000000       0.00000000       0.00000000
+Gudrun_dcs> StartupFiles\SLS\sears91_gudrun.dat
+Gudrun_dcs>           1
+Gudrun_dcs> title : /title
+Gudrun_dcs> timechannels : /monitor_1/time_of_flight
+Gudrun_dcs> periodspresent : T
+Gudrun_dcs>spectrum : /monitor_1/data
+Gudrun_dcs>spectrum : /monitor_2/data
+Gudrun_dcs>spectrum : /monitor_3/data
+Gudrun_dcs>spectrum : /monitor_4/data
+Gudrun_dcs>spectrum : /detector_1/counts
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: BEAM
+Gudrun_dcs>  0.431648999      0.794129014       1.28953001E-02   2.58185005       2.01264000       7.80806017      0.840768993       4.55159321E-02  0.285984248
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\spectrum000.dat
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: NORMALISATION
+Gudrun_dcs> get_run_par> C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.nxs
+Gudrun_dcs>Root group and no. of members:  /raw_data_1    37
+Gudrun_dcs>Number of datasets in file =   242
+Gudrun_dcs>Dataset number, name, class (0, 1 or 3)), precision (no. of characters for class = 3),ndims and dims.
+Gudrun_dcs>    1 /beamline    3    7    1    1
+Gudrun_dcs>    2 /collection_time    1   32    1    1
+Gudrun_dcs>    3 /definition    3    6    1    1
+Gudrun_dcs>    4 /definition_local    3   10    1    1
+Gudrun_dcs>    5 /detector_1/counts    0   32    3  882  696    1
+Gudrun_dcs>    6 /detector_1/period_index    0   32    1    1
+Gudrun_dcs>    7 /detector_1/spectrum_index    0   32    1  696
+Gudrun_dcs>    8 /detector_1/time_of_flight    1   32    1  883
+Gudrun_dcs>    9 /duration    1   32    1    1
+Gudrun_dcs>   10 /end_time    3   19    1    1
+Gudrun_dcs>   11 /experiment_identifier    3    1    1    1
+Gudrun_dcs>   12 /good_frames    0   32    1    1
+Gudrun_dcs>   13 /instrument/dae/detector_table_file    3   53    1    1
+Gudrun_dcs>   14 /instrument/dae/period_index    0   32    1    1
+Gudrun_dcs>   15 /instrument/dae/spectra_table_file    3   52    1    1
+Gudrun_dcs>   16 /instrument/dae/time_channels_1/time_of_flight    1   32    1  883
+Gudrun_dcs>   17 /instrument/dae/time_channels_1/time_of_flight_raw    0   32    1  883
+Gudrun_dcs>   18 /instrument/dae/vetos/ISIS_50Hz    0   32    1    1
+Gudrun_dcs>   19 /instrument/dae/vetos/TS2_pulse    0   32    1    1
+Gudrun_dcs>   20 /instrument/dae/vetos/ext0    0   32    1    1
+Gudrun_dcs>   21 /instrument/dae/vetos/ext1    0   32    1    1
+Gudrun_dcs>   22 /instrument/dae/vetos/ext2    0   32    1    1
+Gudrun_dcs>   23 /instrument/dae/vetos/ext3    0   32    1    1
+Gudrun_dcs>   24 /instrument/dae/vetos/fermi_chopper    0   32    1    1
+Gudrun_dcs>   25 /instrument/dae/vetos/fifo    0   32    1    1
+Gudrun_dcs>   26 /instrument/dae/vetos/internal    0   32    1    1
+Gudrun_dcs>   27 /instrument/dae/vetos/msmode    0   32    1    1
+Gudrun_dcs>   28 /instrument/dae/vetos/smp    0   32    1    1
+Gudrun_dcs>   29 /instrument/dae/wiring_table_file    3   51    1    1
+Gudrun_dcs>   30 /instrument/detector_1/azimuthal_angle    1   32    1  696
+Gudrun_dcs>   31 /instrument/detector_1/counts    0   32    3  882  696    1
+Gudrun_dcs>   32 /instrument/detector_1/delt    1   32    1  696
+Gudrun_dcs>   33 /instrument/detector_1/distance    1   32    1  696
+Gudrun_dcs>   34 /instrument/detector_1/period_index    0   32    1    1
+Gudrun_dcs>   35 /instrument/detector_1/polar_angle    1   32    1  696
+Gudrun_dcs>   36 /instrument/detector_1/source_detector_distance    1   32    1    1
+Gudrun_dcs>   37 /instrument/detector_1/spectrum_index    0   32    1  696
+Gudrun_dcs>   38 /instrument/detector_1/time_of_flight    1   32    1  883
+Gudrun_dcs>   39 /instrument/detector_1/time_of_flight_raw    0   32    1  883
+Gudrun_dcs>   40 /instrument/detector_1/user_table01    1   32    1  696
+Gudrun_dcs>   41 /instrument/detector_1/user_table02    1   32    1  696
+Gudrun_dcs>   42 /instrument/detector_1/user_table03    1   32    1  696
+Gudrun_dcs>   43 /instrument/detector_1/user_table04    1   32    1  696
+Gudrun_dcs>   44 /instrument/detector_1/user_table05    1   32    1  696
+Gudrun_dcs>   45 /instrument/moderator/distance    1   32    1    1
+Gudrun_dcs>   46 /instrument/name    3    7    1    1
+Gudrun_dcs>   47 /instrument/source/name    3    4    1    1
+Gudrun_dcs>   48 /instrument/source/probe    3    8    1    1
+Gudrun_dcs>   49 /instrument/source/type    3   21    1    1
+Gudrun_dcs>   50 /isis_vms_compat/ADD    0   32    1    9
+Gudrun_dcs>   51 /isis_vms_compat/CODE    0   32    1  700
+Gudrun_dcs>   52 /isis_vms_compat/CRAT    0   32    1  700
+Gudrun_dcs>   53 /isis_vms_compat/CRPB    3    4    2    1   32
+Gudrun_dcs>   54 /isis_vms_compat/CSPB    3    4    2    1   64
+Gudrun_dcs>   55 /isis_vms_compat/DAEP    0   32    1   64
+Gudrun_dcs>   56 /isis_vms_compat/DELT    1   32    1  700
+Gudrun_dcs>   57 /isis_vms_compat/FORM    0   32    1    1
+Gudrun_dcs>   58 /isis_vms_compat/HDR    3   80    1    1
+Gudrun_dcs>   59 /isis_vms_compat/IRPB    0   32    1   32
+Gudrun_dcs>   60 /isis_vms_compat/ISPB    0   32    1   64
+Gudrun_dcs>   61 /isis_vms_compat/IVPB    0   32    1   64
+Gudrun_dcs>   62 /isis_vms_compat/LEN2    1   32    1  700
+Gudrun_dcs>   63 /isis_vms_compat/MDET    0   32    1    4
+Gudrun_dcs>   64 /isis_vms_compat/MODN    0   32    1  700
+Gudrun_dcs>   65 /isis_vms_compat/MONP    0   32    1    4
+Gudrun_dcs>   66 /isis_vms_compat/MPOS    0   32    1  700
+Gudrun_dcs>   67 /isis_vms_compat/NAME    3    8    1    1
+Gudrun_dcs>   68 /isis_vms_compat/NDET    0   32    1    1
+Gudrun_dcs>   69 /isis_vms_compat/NFPP    0   32    1    1
+Gudrun_dcs>   70 /isis_vms_compat/NMON    0   32    1    1
+Gudrun_dcs>   71 /isis_vms_compat/NOTE    3   19    1    1
+Gudrun_dcs>   72 /isis_vms_compat/NPER    0   32    1    1
+Gudrun_dcs>   73 /isis_vms_compat/NSEP    0   32    1    1
+Gudrun_dcs>   74 /isis_vms_compat/NSP1    0   32    1    1
+Gudrun_dcs>   75 /isis_vms_compat/NTC1    0   32    1    1
+Gudrun_dcs>   76 /isis_vms_compat/NTLL    0   32    1    1
+Gudrun_dcs>   77 /isis_vms_compat/NTNL    0   32    1    1
+Gudrun_dcs>   78 /isis_vms_compat/NTRG    0   32    1    1
+Gudrun_dcs>   79 /isis_vms_compat/NUSE    0   32    1    1
+Gudrun_dcs>   80 /isis_vms_compat/PMAP    0   32    1  256
+Gudrun_dcs>   81 /isis_vms_compat/PRE1    0   32    1    1
+Gudrun_dcs>   82 /isis_vms_compat/RRPB    1   32    1   32
+Gudrun_dcs>   83 /isis_vms_compat/RSPB    1   32    1   64
+Gudrun_dcs>   84 /isis_vms_compat/RUN    0   32    1    1
+Gudrun_dcs>   85 /isis_vms_compat/RVPB    1   32    1   64
+Gudrun_dcs>   86 /isis_vms_compat/SPB    0   32    1   64
+Gudrun_dcs>   87 /isis_vms_compat/SPEC    0   32    1  700
+Gudrun_dcs>   88 /isis_vms_compat/TCM1    0   32    1    5
+Gudrun_dcs>   89 /isis_vms_compat/TCP1    1   32    1   20
+Gudrun_dcs>   90 /isis_vms_compat/TIMR    0   32    1  700
+Gudrun_dcs>   91 /isis_vms_compat/TITL    3   80    1    1
+Gudrun_dcs>   92 /isis_vms_compat/TTHE    1   32    1  700
+Gudrun_dcs>   93 /isis_vms_compat/UDET    0   32    1  700
+Gudrun_dcs>   94 /isis_vms_compat/ULEN    0   32    1    1
+Gudrun_dcs>   95 /isis_vms_compat/USER    3  160    1    1
+Gudrun_dcs>   96 /isis_vms_compat/UT01    1   32    1  700
+Gudrun_dcs>   97 /isis_vms_compat/UT02    1   32    1  700
+Gudrun_dcs>   98 /isis_vms_compat/UT03    1   32    1  700
+Gudrun_dcs>   99 /isis_vms_compat/UT04    1   32    1  700
+Gudrun_dcs>  100 /isis_vms_compat/UT05    1   32    1  700
+Gudrun_dcs>  101 /isis_vms_compat/VER1    0   32    1    1
+Gudrun_dcs>  102 /isis_vms_compat/VER2    0   32    1    1
+Gudrun_dcs>  103 /isis_vms_compat/VER3    0   32    1    1
+Gudrun_dcs>  104 /isis_vms_compat/VER4    0   32    1    1
+Gudrun_dcs>  105 /isis_vms_compat/VER5    0   32    1    1
+Gudrun_dcs>  106 /isis_vms_compat/VER6    0   32    1    1
+Gudrun_dcs>  107 /isis_vms_compat/VER7    0   32    1    1
+Gudrun_dcs>  108 /isis_vms_compat/VER8    0   32    1    1
+Gudrun_dcs>  109 /isis_vms_compat/VER9    0   32    1    1
+Gudrun_dcs>  110 /measurement_first_run    0   32    1    1
+Gudrun_dcs>  111 /measurement_id    3    1    1    1
+Gudrun_dcs>  112 /measurement_label    3    1    1    1
+Gudrun_dcs>  113 /measurement_subid    3    1    1    1
+Gudrun_dcs>  114 /measurement_type    3    1    1    1
+Gudrun_dcs>  115 /monitor_1/data    0   32    3  882    1    1
+Gudrun_dcs>  116 /monitor_1/monitor_number    0   32    1    1
+Gudrun_dcs>  117 /monitor_1/period_index    0   32    1    1
+Gudrun_dcs>  118 /monitor_1/spectrum_index    0   32    1    1
+Gudrun_dcs>  119 /monitor_1/time_of_flight    1   32    1  883
+Gudrun_dcs>  120 /monitor_2/data    0   32    3  882    1    1
+Gudrun_dcs>  121 /monitor_2/monitor_number    0   32    1    1
+Gudrun_dcs>  122 /monitor_2/period_index    0   32    1    1
+Gudrun_dcs>  123 /monitor_2/spectrum_index    0   32    1    1
+Gudrun_dcs>  124 /monitor_2/time_of_flight    1   32    1  883
+Gudrun_dcs>  125 /monitor_3/data    0   32    3  882    1    1
+Gudrun_dcs>  126 /monitor_3/monitor_number    0   32    1    1
+Gudrun_dcs>  127 /monitor_3/period_index    0   32    1    1
+Gudrun_dcs>  128 /monitor_3/spectrum_index    0   32    1    1
+Gudrun_dcs>  129 /monitor_3/time_of_flight    1   32    1  883
+Gudrun_dcs>  130 /monitor_4/data    0   32    3  882    1    1
+Gudrun_dcs>  131 /monitor_4/monitor_number    0   32    1    1
+Gudrun_dcs>  132 /monitor_4/period_index    0   32    1    1
+Gudrun_dcs>  133 /monitor_4/spectrum_index    0   32    1    1
+Gudrun_dcs>  134 /monitor_4/time_of_flight    1   32    1  883
+Gudrun_dcs>  135 /name    3    7    1    1
+Gudrun_dcs>  136 /notes    3    1    1    1
+Gudrun_dcs>  137 /periods/frames_requested    0   32    1    1
+Gudrun_dcs>  138 /periods/good_frames    0   32    1    1
+Gudrun_dcs>  139 /periods/good_frames_daq    0   32    1    1
+Gudrun_dcs>  140 /periods/labels    3    8    1    1
+Gudrun_dcs>  141 /periods/number    0   32    1    1
+Gudrun_dcs>  142 /periods/output    0   32    1    1
+Gudrun_dcs>  143 /periods/proton_charge    1   32    1    1
+Gudrun_dcs>  144 /periods/proton_charge_raw    1   32    1    1
+Gudrun_dcs>  145 /periods/raw_frames    0   32    1    1
+Gudrun_dcs>  146 /periods/sequences    0   32    1    1
+Gudrun_dcs>  147 /periods/total_counts    1   32    1    1
+Gudrun_dcs>  148 /periods/type    0   32    1    1
+Gudrun_dcs>  149 /program_name    3   11    1    1
+Gudrun_dcs>  150 /proton_charge    1   32    1    1
+Gudrun_dcs>  151 /proton_charge_raw    1   32    1    1
+Gudrun_dcs>  152 /raw_frames    0   32    1    1
+Gudrun_dcs>  153 /run_cycle    3    4    1    1
+Gudrun_dcs>  154 /run_number    0   32    1    1
+Gudrun_dcs>  155 /runlog/count_rate/time    1   32    1 ****
+Gudrun_dcs>  156 /runlog/count_rate/value    1   32    1 ****
+Gudrun_dcs>  157 /runlog/dae_beam_current/time    1   32    1 ****
+Gudrun_dcs>  158 /runlog/dae_beam_current/value    1   32    1 ****
+Gudrun_dcs>  159 /runlog/good_frames/time    1   32    1 ****
+Gudrun_dcs>  160 /runlog/good_frames/value    0   32    1 ****
+Gudrun_dcs>  161 /runlog/icp_event/time    1   32    1   19
+Gudrun_dcs>  162 /runlog/icp_event/value    3   70    2    1   19
+Gudrun_dcs>  163 /runlog/is_running/time    1   32    1 ****
+Gudrun_dcs>  164 /runlog/is_running/value    0   32    1 ****
+Gudrun_dcs>  165 /runlog/is_waiting/time    1   32    1 ****
+Gudrun_dcs>  166 /runlog/is_waiting/value    0   32    1 ****
+Gudrun_dcs>  167 /runlog/monitor_sum_1/time    1   32    1 ****
+Gudrun_dcs>  168 /runlog/monitor_sum_1/value    0   32    1 ****
+Gudrun_dcs>  169 /runlog/np_ratio/time    1   32    1 ****
+Gudrun_dcs>  170 /runlog/np_ratio/value    1   32    1 ****
+Gudrun_dcs>  171 /runlog/period/time    1   32    1 ****
+Gudrun_dcs>  172 /runlog/period/value    0   32    1 ****
+Gudrun_dcs>  173 /runlog/proton_charge/time    1   32    1 ****
+Gudrun_dcs>  174 /runlog/proton_charge/value    1   32    1 ****
+Gudrun_dcs>  175 /runlog/proton_charge_raw/time    1   32    1 ****
+Gudrun_dcs>  176 /runlog/proton_charge_raw/value    1   32    1 ****
+Gudrun_dcs>  177 /runlog/raw_frames/time    1   32    1 ****
+Gudrun_dcs>  178 /runlog/raw_frames/value    0   32    1 ****
+Gudrun_dcs>  179 /runlog/run_status/time    1   32    1 ****
+Gudrun_dcs>  180 /runlog/run_status/value    0   32    1 ****
+Gudrun_dcs>  181 /runlog/total_counts/time    1   32    1 ****
+Gudrun_dcs>  182 /runlog/total_counts/value    0   32    1 ****
+Gudrun_dcs>  183 /sample/distance    1   64    1    1
+Gudrun_dcs>  184 /sample/height    1   32    1    1
+Gudrun_dcs>  185 /sample/id    3    1    1    1
+Gudrun_dcs>  186 /sample/name    3    1    1    1
+Gudrun_dcs>  187 /sample/shape    3    1    1    1
+Gudrun_dcs>  188 /sample/thickness    1   32    1    1
+Gudrun_dcs>  189 /sample/type    3    1    1    1
+Gudrun_dcs>  190 /sample/width    1   32    1    1
+Gudrun_dcs>  191 /script_name    3    1    1    1
+Gudrun_dcs>  192 /seci_config    3   19    1    1
+Gudrun_dcs>  193 /selog/ExternalTemp/read_control    3   20    1    1
+Gudrun_dcs>  194 /selog/ExternalTemp/set_control    3   13    1    1
+Gudrun_dcs>  195 /selog/ExternalTemp/setpoint    1   32    1    1
+Gudrun_dcs>  196 /selog/ExternalTemp/value    1   32    1    1
+Gudrun_dcs>  197 /selog/ExternalTemp/value_log/name    3    1    1    1
+Gudrun_dcs>  198 /selog/ExternalTemp/value_log/time    1   32    1 ****
+Gudrun_dcs>  199 /selog/ExternalTemp/value_log/value    1   32    1 ****
+Gudrun_dcs>  200 /selog/ExternalTemp/vi_name    3   64    1    1
+Gudrun_dcs>  201 /selog/Sample/read_control    3    6    1    1
+Gudrun_dcs>  202 /selog/Sample/set_control    3    1    1    1
+Gudrun_dcs>  203 /selog/Sample/setpoint    3    3    2    1    1
+Gudrun_dcs>  204 /selog/Sample/value    3    3    2    1    1
+Gudrun_dcs>  205 /selog/Sample/value_log/name    3    1    1    1
+Gudrun_dcs>  206 /selog/Sample/value_log/time    1   32    1 ****
+Gudrun_dcs>  207 /selog/Sample/value_log/value    3   38    2    1 ****
+Gudrun_dcs>  208 /selog/Sample/vi_name    3   64    1    1
+Gudrun_dcs>  209 /selog/Status/read_control    3    1    1    1
+Gudrun_dcs>  210 /selog/Status/set_control    3    1    1    1
+Gudrun_dcs>  211 /selog/Status/value_log/name    3    1    1    1
+Gudrun_dcs>  212 /selog/Status/value_log/time    1   32    1    7
+Gudrun_dcs>  213 /selog/Status/value_log/value    3    7    2    1    7
+Gudrun_dcs>  214 /selog/Status/vi_name    3    1    1    1
+Gudrun_dcs>  215 /selog/TS1Beam/read_control    3   16    1    1
+Gudrun_dcs>  216 /selog/TS1Beam/set_control    3    1    1    1
+Gudrun_dcs>  217 /selog/TS1Beam/setpoint    1   32    1    1
+Gudrun_dcs>  218 /selog/TS1Beam/value    1   32    1    1
+Gudrun_dcs>  219 /selog/TS1Beam/value_log/name    3    1    1    1
+Gudrun_dcs>  220 /selog/TS1Beam/value_log/time    1   32    1 ****
+Gudrun_dcs>  221 /selog/TS1Beam/value_log/value    1   32    1 ****
+Gudrun_dcs>  222 /selog/TS1Beam/vi_name    3   45    1    1
+Gudrun_dcs>  223 /selog/Vac_tank/read_control    3   17    1    1
+Gudrun_dcs>  224 /selog/Vac_tank/set_control    3    1    1    1
+Gudrun_dcs>  225 /selog/Vac_tank/setpoint    1   32    1    1
+Gudrun_dcs>  226 /selog/Vac_tank/value    1   32    1    1
+Gudrun_dcs>  227 /selog/Vac_tank/value_log/name    3    1    1    1
+Gudrun_dcs>  228 /selog/Vac_tank/value_log/time    1   32    1 ****
+Gudrun_dcs>  229 /selog/Vac_tank/value_log/value    1   32    1 ****
+Gudrun_dcs>  230 /selog/Vac_tank/vi_name    3   92    1    1
+Gudrun_dcs>  231 /selog/julabo/read_control    3   20    1    1
+Gudrun_dcs>  232 /selog/julabo/set_control    3   13    1    1
+Gudrun_dcs>  233 /selog/julabo/setpoint    1   32    1    1
+Gudrun_dcs>  234 /selog/julabo/value    1   32    1    1
+Gudrun_dcs>  235 /selog/julabo/value_log/name    3    1    1    1
+Gudrun_dcs>  236 /selog/julabo/value_log/time    1   32    1 ****
+Gudrun_dcs>  237 /selog/julabo/value_log/value    1   32    1 ****
+Gudrun_dcs>  238 /selog/julabo/vi_name    3   64    1    1
+Gudrun_dcs>  239 /start_time    3   19    1    1
+Gudrun_dcs>  240 /title    3   47    1    1
+Gudrun_dcs>  241 /user_1/affiliation    3    1    1    1
+Gudrun_dcs>  242 /user_1/name    3    1    1    1
+Gudrun_dcs>First and last spectra for path: /monitor_1/data      0      1
+Gudrun_dcs>First and last spectra for path: /monitor_2/data      1      2
+Gudrun_dcs>First and last spectra for path: /monitor_3/data      2      3
+Gudrun_dcs>First and last spectra for path: /monitor_4/data      3      4
+Gudrun_dcs>First and last spectra for path: /detector_1/counts      4    700
+Gudrun_dcs> gudrun_dcs> Got run parameters
+Gudrun_dcs> Deadtime filename: StartupFiles\SLS\SLSdeadtime.cor           29
+Gudrun_dcs>           0           1   14.0000000       0.00000000       0.00000000
+Gudrun_dcs>         145  -1.48069465E+36  -8.26495539E-11          -1
+Gudrun_dcs> gudrun_dcs> Got deadtimes
+Gudrun_dcs> gudrun_dcs> Got time channel boundaries
+Gudrun_dcs>           4 UT4
+Gudrun_dcs> get_calibration> Reading calibration from: C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib
+Gudrun_dcs>          46          96
+Gudrun_dcs> get_calibration> 1
+Gudrun_dcs>         700           5
+Gudrun_dcs> gudrun_dcs> Got calibration
+Gudrun_dcs> Name of groups file being read from: StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Gudrun_dcs>          18
+Gudrun_dcs>         -20          20
+Gudrun_dcs>         -20          20
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -40          40
+Gudrun_dcs>         -30          30
+Gudrun_dcs>         -30          30
+Gudrun_dcs>         -50          50
+Gudrun_dcs>         -50          50
+Gudrun_dcs>   680 spectra in 18 groups from file C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat
+Gudrun_dcs> get_groups> Checked input values for group            1
+Gudrun_dcs> get_groups> Checked input values for group            2
+Gudrun_dcs> get_groups> Checked input values for group            3
+Gudrun_dcs> get_groups> Checked input values for group            4
+Gudrun_dcs> get_groups> Checked input values for group            5
+Gudrun_dcs> get_groups> Checked input values for group            6
+Gudrun_dcs> get_groups> Checked input values for group            7
+Gudrun_dcs> get_groups> Checked input values for group            8
+Gudrun_dcs> get_groups> Checked input values for group            9
+Gudrun_dcs> get_groups> Checked input values for group           10
+Gudrun_dcs> get_groups> Checked input values for group           11
+Gudrun_dcs> get_groups> Checked input values for group           12
+Gudrun_dcs> get_groups> Checked input values for group           13
+Gudrun_dcs> get_groups> Checked input values for group           14
+Gudrun_dcs> get_groups> Checked input values for group           15
+Gudrun_dcs> get_groups> Checked input values for group           16
+Gudrun_dcs> get_groups> Checked input values for group           17
+Gudrun_dcs> get_groups> Checked input values for group           18
+Gudrun_dcs>
+Gudrun_dcs> Q-ranges for individual groups
+Gudrun_dcs>
+Gudrun_dcs>           1   0.00000000       20.0000000
+Gudrun_dcs>           2   0.00000000       20.0000000
+Gudrun_dcs>           3   0.00000000       20.0000000
+Gudrun_dcs>           4   0.00000000       20.0000000
+Gudrun_dcs>           5   0.00000000       20.0000000
+Gudrun_dcs>           6   0.00000000       20.0000000
+Gudrun_dcs>           7   0.00000000       20.0000000
+Gudrun_dcs>           8   0.00000000       20.0000000
+Gudrun_dcs>           9   0.00000000       20.0000000
+Gudrun_dcs>          10   0.00000000       20.0000000
+Gudrun_dcs>          11   0.00000000       20.0000000
+Gudrun_dcs>          12   0.00000000       20.0000000
+Gudrun_dcs>          13   0.00000000       20.0000000
+Gudrun_dcs>          14   0.00000000       20.0000000
+Gudrun_dcs>          15   0.00000000       20.0000000
+Gudrun_dcs>          16   0.00000000       20.0000000
+Gudrun_dcs>          17   0.00000000       20.0000000
+Gudrun_dcs>          18   0.00000000       20.0000000
+Gudrun_dcs> C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat.cal
+Gudrun_dcs> gudrun_dcs> Got groups
+Gudrun_dcs> get_amutshield>    0.00000000
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.nxs
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.nxs
+Gudrun_dcs> Incident>            1           1           1   8.77400017
+Gudrun_dcs> get_mon> Relative monitor sums            1   1.00000000
+Gudrun_dcs> form_smoo_mon>           52  smoothings used for monitor in run SLS50836.nxs with chisq ratio    1.00195491
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Gudrun_dcs> Incident>            1           1           1   8.77400017
+Gudrun_dcs> get_mon> Relative monitor sums            1   1.00000000
+Gudrun_dcs> form_smoo_mon>           79  smoothings used for monitor in run SLS50837.nxs with chisq ratio    1.00188541
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.nxs
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.nxs
+Gudrun_dcs> Trans>            2           2           2   15.6949997
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Gudrun_dcs> Trans>            2           2           2   15.6949997
+Gudrun_dcs> gudrun_dcs> Got vanadium tranmission monitors
+Gudrun_dcs>
+Gudrun_dcs> No of elements found for vanadium:            1
+Gudrun_dcs> V            0
+Gudrun_dcs>
+Gudrun_dcs> get_van_par>            1           1          10
+Gudrun_dcs> gudrun_dcs> Got vanadium parameters
+Gudrun_dcs> gudrun_dcs> NORMALISATION geometry =            2
+Gudrun_dcs> get_trans> nwav,nwavb,mcorrwavmax           48          49         883
+Gudrun_dcs> SLS50836.rebinq
+Gudrun_dcs> get_trans> SLS50836.transnofit01           1
+Gudrun_dcs>          48           3           0
+Gudrun_dcs> polyfit_nofix> No. of iterations       280000
+Gudrun_dcs> get_trans> Time for polyfit>                   734
+Gudrun_dcs> get_trans> SLS50836.trans01           1
+Gudrun_dcs>  0.500000000     -0.500000000       2.00000000      -2.00000000
+Gudrun_dcs>  -1.50000000       1.50000000      -2.09999990       2.09999990
+Gudrun_dcs> calc_mul>            1  0.150000006      0.150000006       7.20999986E-02   5.07999992       5.38253593       5.00000000
+Gudrun_dcs> set_corr_ang>    45.0000000
+Gudrun_dcs> set_corr_ang>    78.3055954       8.95969009       0.00000000       0.00000000
+Gudrun_dcs>           7   8.95969009       20.5173416       32.0749893       43.6326408       55.1902924       66.7479401       78.3055878
+Gudrun_dcs>           1   0.00000000
+Gudrun_dcs> calc_mul> Set up correction angles
+Gudrun_dcs>
+Gudrun_dcs> fltmultof> Total thickness (cm):    0.30000 No. of cos theta values:     0
+Gudrun_dcs> calc_mul> Calculated flat plate corrections
+Gudrun_dcs> (003(1x,e12.5))
+Gudrun_dcs> gudrun_dcs> Got vanadium total scattering correction
+Gudrun_dcs> gudrun_dcs> Got vanadium Placzek correction
+Gudrun_dcs> StartupFiles\SLS\slsvanadiummod.bragg
+Gudrun_dcs>
+Gudrun_dcs> vdcs_read>   9 Bragg peaks to be defined
+Gudrun_dcs> gudrun_dcs> Got vanadium DCS data
+Gudrun_dcs> vdcs_bragg>         1993  Q values to be generated in vdcs_bragg
+Gudrun_dcs> get_summed_data> Reading data file: SLS50836.nxs period            1  factor    1.00000000
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.nxs
+Gudrun_dcs> get_goodframes> Retrieved      226310  goodframes from:- C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50836.nxs
+Gudrun_dcs> get_module_sum> Total of       226310  goodframes read from SLS50836.nxs
+Gudrun_dcs> get_module_sum>       226310  good frames found for run SLS50836.nxs period            1
+Gudrun_dcs>
+Gudrun_dcs> get_module_sum> Overall DAE count rate (cts/musec):  0.166096E+04
+Gudrun_dcs>           0           1   0.00000000       0.00000000
+Gudrun_dcs> get_module_sum> modulecnts(1,nmod,1:ntype)   1.00000000
+Gudrun_dcs> gudrun_dcs> Got module sums for vanadium
+Gudrun_dcs> get_summed_data> Reading data file: SLS50837.nxs period            1  factor    1.00000000
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Gudrun_dcs> get_goodframes> Retrieved      113309  goodframes from:- C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Gudrun_dcs> get_module_sum> Total of       113309  goodframes read from SLS50837.nxs
+Gudrun_dcs> get_module_sum>       113309  good frames found for run SLS50837.nxs period            1
+Gudrun_dcs>
+Gudrun_dcs> get_module_sum> Overall DAE count rate (cts/musec):  0.671351E+02
+Gudrun_dcs>           0           2   0.00000000       0.00000000
+Gudrun_dcs> get_module_sum> modulecnts(1,nmod,1:ntype)   1.00000000       1.00000000
+Gudrun_dcs> gudrun_dcs> Got module sums for vanadium background
+Gudrun_dcs> gudrun_dcs> Normalisation: first spec., last spec., nspecproc           21         680         631
+Gudrun_dcs> do_ddeadtime_corr> Maximum deadtime correction:    1.12523210               1
+Gudrun_dcs> gudrun_dcs> Got vanadium counts
+Gudrun_dcs> gudrun_dcs> Divided vanadium by monitor
+Gudrun_dcs> do_ddeadtime_corr> Maximum deadtime correction:    1.05164194               2
+Gudrun_dcs> gudrun_dcs> Got vanadium background counts
+Gudrun_dcs> gudrun_dcs> Divided vanadium background by monitor
+Gudrun_dcs> gudrun_dcs> Subtracted vanadium background from vanadium
+Gudrun_dcs> gudrun_dcs> Renormalised vanadium data to total scattering
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    21 with   38 smooths and chisq ratio    0.99531
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    22 with   38 smooths and chisq ratio    0.95423
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    23 with   11 smooths and chisq ratio    1.06212
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    24 with   38 smooths and chisq ratio    0.99741
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    25 with   38 smooths and chisq ratio    1.00876
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    26 with   38 smooths and chisq ratio    0.92847
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    27 with   38 smooths and chisq ratio    1.03152
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    28 with   38 smooths and chisq ratio    0.92864
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    29 with   38 smooths and chisq ratio    0.92051
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    30 with   14 smooths and chisq ratio    1.05136
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    31 with   38 smooths and chisq ratio    1.03525
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    32 with   38 smooths and chisq ratio    1.04010
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    33 with   38 smooths and chisq ratio    0.95105
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    34 with    5 smooths and chisq ratio    1.05738
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    35 with   38 smooths and chisq ratio    1.02196
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    36 with   38 smooths and chisq ratio    1.00530
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    37 with   38 smooths and chisq ratio    0.89844
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    38 with   38 smooths and chisq ratio    0.93999
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    39 with   38 smooths and chisq ratio    1.00010
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    40 with   18 smooths and chisq ratio    1.05211
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    41 with   38 smooths and chisq ratio    1.01199
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    42 with    8 smooths and chisq ratio    1.05423
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    43 with   38 smooths and chisq ratio    1.01575
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    44 with   16 smooths and chisq ratio    1.05073
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    45 with   38 smooths and chisq ratio    1.01183
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    46 with   38 smooths and chisq ratio    0.97463
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    47 with   38 smooths and chisq ratio    0.99228
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    48 with   38 smooths and chisq ratio    0.96533
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    49 with    4 smooths and chisq ratio    1.08454
+Gudrun_dcs> form_smoo_van> Group:     2 spectrum:    50 with   38 smooths and chisq ratio    1.00352
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    51 with   38 smooths and chisq ratio    0.93470
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    52 with   38 smooths and chisq ratio    0.95563
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    53 with   38 smooths and chisq ratio    0.99183
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    54 with   38 smooths and chisq ratio    0.97781
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    55 with   38 smooths and chisq ratio    0.99542
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    56 with   38 smooths and chisq ratio    1.03316
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    57 with    4 smooths and chisq ratio    1.05069
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    58 with   38 smooths and chisq ratio    0.96331
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    59 with   38 smooths and chisq ratio    0.94670
+Gudrun_dcs> form_smoo_van> Group:     1 spectrum:    60 with    5 smooths and chisq ratio    1.05535
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    61 with   38 smooths and chisq ratio    1.04470
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    62 with   38 smooths and chisq ratio    1.01579
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    63 with   38 smooths and chisq ratio    0.99975
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    64 with   38 smooths and chisq ratio    1.02195
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    65 with   18 smooths and chisq ratio    1.05403
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    66 with   38 smooths and chisq ratio    0.95830
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    67 with   38 smooths and chisq ratio    0.96650
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    68 with   38 smooths and chisq ratio    0.99565
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    69 with   38 smooths and chisq ratio    1.01537
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    70 with   38 smooths and chisq ratio    0.96361
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    71 with    9 smooths and chisq ratio    1.05194
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    72 with   38 smooths and chisq ratio    1.03954
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    73 with   38 smooths and chisq ratio    1.01707
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    74 with   38 smooths and chisq ratio    0.89352
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    75 with   38 smooths and chisq ratio    1.03431
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    76 with   38 smooths and chisq ratio    1.02110
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    77 with   38 smooths and chisq ratio    1.04484
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    78 with   38 smooths and chisq ratio    0.91063
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    79 with   38 smooths and chisq ratio    1.01610
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    80 with   38 smooths and chisq ratio    1.04316
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    81 with   13 smooths and chisq ratio    1.05364
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    82 with   38 smooths and chisq ratio    1.02725
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    83 with   38 smooths and chisq ratio    0.98488
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    84 with   38 smooths and chisq ratio    0.92325
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    85 with    9 smooths and chisq ratio    1.05854
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    86 with   38 smooths and chisq ratio    0.93852
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    87 with   38 smooths and chisq ratio    0.98563
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    88 with   38 smooths and chisq ratio    0.91862
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    89 with   38 smooths and chisq ratio    1.04625
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:    90 with   38 smooths and chisq ratio    0.97752
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    91 with   38 smooths and chisq ratio    1.02572
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    92 with   14 smooths and chisq ratio    1.05459
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    93 with   38 smooths and chisq ratio    0.93321
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    94 with   38 smooths and chisq ratio    0.96813
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    95 with   38 smooths and chisq ratio    1.04934
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    96 with   38 smooths and chisq ratio    1.00947
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    97 with   15 smooths and chisq ratio    1.05375
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    98 with   38 smooths and chisq ratio    0.91295
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:    99 with   38 smooths and chisq ratio    1.00409
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   100 with   38 smooths and chisq ratio    1.01613
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   101 with   38 smooths and chisq ratio    0.99188
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   102 with   11 smooths and chisq ratio    1.05352
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   103 with   38 smooths and chisq ratio    0.97955
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   104 with   38 smooths and chisq ratio    1.00660
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   105 with   38 smooths and chisq ratio    1.00569
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   106 with   38 smooths and chisq ratio    0.99187
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   109 with   16 smooths and chisq ratio    1.05299
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   110 with   38 smooths and chisq ratio    1.00216
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   111 with   38 smooths and chisq ratio    1.03633
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   112 with   38 smooths and chisq ratio    1.02436
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   113 with   38 smooths and chisq ratio    1.00625
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   114 with   38 smooths and chisq ratio    0.94611
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   115 with   38 smooths and chisq ratio    0.97560
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   116 with   38 smooths and chisq ratio    0.98546
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   117 with   18 smooths and chisq ratio    1.05265
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   118 with   38 smooths and chisq ratio    0.90454
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   119 with    4 smooths and chisq ratio    1.06925
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   120 with   38 smooths and chisq ratio    1.02235
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   121 with   38 smooths and chisq ratio    1.02874
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   122 with    8 smooths and chisq ratio    1.05648
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   123 with   38 smooths and chisq ratio    1.02330
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   124 with    8 smooths and chisq ratio    1.05521
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   125 with   38 smooths and chisq ratio    1.04155
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   126 with   38 smooths and chisq ratio    1.04419
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   127 with   38 smooths and chisq ratio    0.98235
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   128 with   38 smooths and chisq ratio    0.96769
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   129 with   38 smooths and chisq ratio    0.99390
+Gudrun_dcs> form_smoo_van> Group:     4 spectrum:   130 with   38 smooths and chisq ratio    0.97112
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   131 with   38 smooths and chisq ratio    1.00610
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   132 with   38 smooths and chisq ratio    0.91177
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   133 with   16 smooths and chisq ratio    1.05099
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   134 with   38 smooths and chisq ratio    1.00724
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   135 with    7 smooths and chisq ratio    1.05149
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   136 with   38 smooths and chisq ratio    1.04125
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   137 with   38 smooths and chisq ratio    0.99771
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   138 with   38 smooths and chisq ratio    0.95164
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   139 with   38 smooths and chisq ratio    0.93567
+Gudrun_dcs> form_smoo_van> Group:     3 spectrum:   140 with    7 smooths and chisq ratio    1.05660
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   141 with   38 smooths and chisq ratio    0.96932
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   142 with   38 smooths and chisq ratio    0.99831
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   143 with   38 smooths and chisq ratio    0.95106
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   144 with   38 smooths and chisq ratio    0.92206
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   145 with    3 smooths and chisq ratio    1.05143
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   146 with   38 smooths and chisq ratio    0.91884
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   147 with   38 smooths and chisq ratio    1.03878
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   148 with   38 smooths and chisq ratio    0.99028
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   149 with   38 smooths and chisq ratio    1.00381
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   150 with   38 smooths and chisq ratio    0.96448
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   151 with   38 smooths and chisq ratio    1.02622
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   152 with   38 smooths and chisq ratio    0.97963
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   153 with   13 smooths and chisq ratio    1.05287
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   154 with   38 smooths and chisq ratio    0.99863
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   155 with    6 smooths and chisq ratio    1.05049
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   156 with   38 smooths and chisq ratio    0.98353
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   157 with    9 smooths and chisq ratio    1.05428
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   158 with   38 smooths and chisq ratio    1.02627
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   159 with   38 smooths and chisq ratio    1.02726
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   160 with   38 smooths and chisq ratio    0.93899
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   162 with   38 smooths and chisq ratio    1.00687
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   163 with   38 smooths and chisq ratio    1.04766
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   164 with   38 smooths and chisq ratio    0.92818
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   165 with    6 smooths and chisq ratio    1.05054
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   166 with   38 smooths and chisq ratio    0.94940
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   167 with   38 smooths and chisq ratio    1.02082
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   168 with    4 smooths and chisq ratio    1.06449
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   169 with   38 smooths and chisq ratio    0.96382
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   170 with   15 smooths and chisq ratio    1.05227
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   171 with   38 smooths and chisq ratio    1.03410
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   172 with   38 smooths and chisq ratio    1.04325
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   173 with   38 smooths and chisq ratio    0.99141
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   174 with   38 smooths and chisq ratio    0.91804
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   175 with   38 smooths and chisq ratio    0.99874
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   176 with   38 smooths and chisq ratio    0.97533
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   177 with   14 smooths and chisq ratio    1.05315
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   178 with   38 smooths and chisq ratio    0.94935
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   179 with   38 smooths and chisq ratio    1.01478
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   180 with   38 smooths and chisq ratio    0.95448
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   181 with    4 smooths and chisq ratio    1.05889
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   182 with   38 smooths and chisq ratio    1.02399
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   183 with   38 smooths and chisq ratio    0.96492
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   184 with    7 smooths and chisq ratio    1.05621
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   185 with   38 smooths and chisq ratio    1.00043
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   186 with   38 smooths and chisq ratio    1.01385
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   187 with   38 smooths and chisq ratio    1.03288
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   188 with   38 smooths and chisq ratio    1.03891
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   189 with   38 smooths and chisq ratio    1.00025
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   190 with   38 smooths and chisq ratio    0.97984
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   191 with   38 smooths and chisq ratio    0.98732
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   192 with   38 smooths and chisq ratio    1.00026
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   193 with   38 smooths and chisq ratio    0.99215
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   194 with   16 smooths and chisq ratio    1.05268
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   195 with   38 smooths and chisq ratio    1.01626
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   196 with    9 smooths and chisq ratio    1.05199
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   197 with   38 smooths and chisq ratio    0.94497
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   198 with   38 smooths and chisq ratio    1.02868
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   199 with   38 smooths and chisq ratio    0.99494
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   200 with   38 smooths and chisq ratio    1.04259
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   201 with   38 smooths and chisq ratio    1.03424
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   202 with   38 smooths and chisq ratio    0.98427
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   203 with    5 smooths and chisq ratio    1.05178
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   204 with    9 smooths and chisq ratio    1.05146
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   205 with   38 smooths and chisq ratio    1.02467
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   206 with   38 smooths and chisq ratio    1.02925
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   207 with   38 smooths and chisq ratio    0.96205
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   208 with   38 smooths and chisq ratio    0.98779
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   209 with   19 smooths and chisq ratio    1.05086
+Gudrun_dcs> form_smoo_van> Group:     6 spectrum:   210 with   14 smooths and chisq ratio    1.05168
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   211 with   38 smooths and chisq ratio    0.98915
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   212 with   38 smooths and chisq ratio    1.04869
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   213 with   38 smooths and chisq ratio    1.01531
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   214 with   38 smooths and chisq ratio    1.00018
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   215 with   38 smooths and chisq ratio    0.99153
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   216 with   38 smooths and chisq ratio    0.91276
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   217 with    5 smooths and chisq ratio    1.05700
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   218 with    6 smooths and chisq ratio    1.05830
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   219 with   38 smooths and chisq ratio    1.02077
+Gudrun_dcs> form_smoo_van> Group:     5 spectrum:   220 with    8 smooths and chisq ratio    1.05469
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   223 with   11 smooths and chisq ratio    1.05097
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   224 with   38 smooths and chisq ratio    0.98413
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   225 with   38 smooths and chisq ratio    0.98088
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   226 with   38 smooths and chisq ratio    0.95685
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   227 with   38 smooths and chisq ratio    0.99155
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   228 with   38 smooths and chisq ratio    0.95887
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   229 with   38 smooths and chisq ratio    0.95590
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   230 with    7 smooths and chisq ratio    1.05477
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   231 with   38 smooths and chisq ratio    0.95954
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   232 with   38 smooths and chisq ratio    1.02231
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   233 with   13 smooths and chisq ratio    1.05069
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   234 with   38 smooths and chisq ratio    0.94707
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   235 with   38 smooths and chisq ratio    1.00626
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   236 with   18 smooths and chisq ratio    1.05620
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   237 with    3 smooths and chisq ratio    1.05551
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   238 with   38 smooths and chisq ratio    1.00834
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   239 with   38 smooths and chisq ratio    1.04887
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   240 with    9 smooths and chisq ratio    1.05349
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   241 with   38 smooths and chisq ratio    1.02759
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   242 with   38 smooths and chisq ratio    1.02548
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   243 with    4 smooths and chisq ratio    1.08558
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   244 with   38 smooths and chisq ratio    0.98141
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   245 with   38 smooths and chisq ratio    1.03310
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   246 with   38 smooths and chisq ratio    1.03081
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   247 with   38 smooths and chisq ratio    1.00320
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   248 with   38 smooths and chisq ratio    1.04386
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   249 with   38 smooths and chisq ratio    1.04081
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   250 with   38 smooths and chisq ratio    0.98078
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   251 with   38 smooths and chisq ratio    0.96757
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   252 with   38 smooths and chisq ratio    0.96268
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   253 with   38 smooths and chisq ratio    1.02165
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   254 with    6 smooths and chisq ratio    1.05330
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   255 with   38 smooths and chisq ratio    1.03010
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   256 with   13 smooths and chisq ratio    1.05069
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   257 with   38 smooths and chisq ratio    1.01849
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   258 with    4 smooths and chisq ratio    1.05692
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   259 with   38 smooths and chisq ratio    0.97601
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   260 with   38 smooths and chisq ratio    0.93206
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   261 with   38 smooths and chisq ratio    1.01168
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   262 with   38 smooths and chisq ratio    0.94391
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   263 with   38 smooths and chisq ratio    0.98420
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   264 with   14 smooths and chisq ratio    1.05621
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   265 with   38 smooths and chisq ratio    1.01850
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   266 with   18 smooths and chisq ratio    1.05299
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   267 with   38 smooths and chisq ratio    0.86223
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   268 with   38 smooths and chisq ratio    0.98301
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   269 with   38 smooths and chisq ratio    1.02803
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   270 with   38 smooths and chisq ratio    1.02607
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   271 with   38 smooths and chisq ratio    0.95298
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   272 with   38 smooths and chisq ratio    1.02071
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   273 with    5 smooths and chisq ratio    1.05306
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   274 with   38 smooths and chisq ratio    0.95632
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   275 with   38 smooths and chisq ratio    0.94743
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   276 with   38 smooths and chisq ratio    0.94029
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   277 with    6 smooths and chisq ratio    1.05239
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   278 with   38 smooths and chisq ratio    1.04217
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   279 with   38 smooths and chisq ratio    1.04023
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   280 with   38 smooths and chisq ratio    1.01391
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   281 with    4 smooths and chisq ratio    1.06127
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   282 with   38 smooths and chisq ratio    1.00666
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   283 with   10 smooths and chisq ratio    1.05055
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   284 with   38 smooths and chisq ratio    0.98253
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   285 with    4 smooths and chisq ratio    1.06173
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   286 with   38 smooths and chisq ratio    1.00327
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   287 with   38 smooths and chisq ratio    1.00238
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   288 with    5 smooths and chisq ratio    1.05798
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   289 with   38 smooths and chisq ratio    0.91712
+Gudrun_dcs> form_smoo_van> Group:     8 spectrum:   290 with   38 smooths and chisq ratio    0.98983
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   291 with   38 smooths and chisq ratio    0.92331
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   292 with   38 smooths and chisq ratio    0.94666
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   293 with   38 smooths and chisq ratio    1.04721
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   294 with   38 smooths and chisq ratio    1.00466
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   295 with   38 smooths and chisq ratio    0.98666
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   296 with   38 smooths and chisq ratio    0.98846
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   297 with   38 smooths and chisq ratio    0.96481
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   298 with   38 smooths and chisq ratio    1.02238
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   299 with   38 smooths and chisq ratio    0.94653
+Gudrun_dcs> form_smoo_van> Group:     7 spectrum:   300 with   38 smooths and chisq ratio    1.04869
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   301 with    6 smooths and chisq ratio    1.05052
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   302 with   16 smooths and chisq ratio    1.05041
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   303 with   38 smooths and chisq ratio    1.03822
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   304 with   15 smooths and chisq ratio    1.05425
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   305 with   38 smooths and chisq ratio    1.02932
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   306 with   38 smooths and chisq ratio    0.99253
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   307 with   38 smooths and chisq ratio    1.01149
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   308 with   11 smooths and chisq ratio    1.05147
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   309 with   38 smooths and chisq ratio    0.93837
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   310 with    7 smooths and chisq ratio    1.05212
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   311 with   38 smooths and chisq ratio    1.02556
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   312 with   38 smooths and chisq ratio    1.03509
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   313 with   38 smooths and chisq ratio    0.98783
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   314 with   11 smooths and chisq ratio    1.05097
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   315 with   38 smooths and chisq ratio    0.99756
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   316 with   38 smooths and chisq ratio    1.02754
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   317 with   38 smooths and chisq ratio    1.01067
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   318 with   11 smooths and chisq ratio    1.05113
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   319 with   38 smooths and chisq ratio    0.99342
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   320 with   38 smooths and chisq ratio    0.96666
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   321 with   16 smooths and chisq ratio    1.05002
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   322 with   38 smooths and chisq ratio    1.02140
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   323 with   38 smooths and chisq ratio    0.96096
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   324 with   38 smooths and chisq ratio    1.04258
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   325 with   18 smooths and chisq ratio    1.05180
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   326 with    3 smooths and chisq ratio    1.06408
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   327 with   38 smooths and chisq ratio    0.99695
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   328 with   12 smooths and chisq ratio    1.05341
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   329 with   38 smooths and chisq ratio    1.00378
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   330 with   38 smooths and chisq ratio    0.95306
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   331 with   38 smooths and chisq ratio    0.94067
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   332 with   38 smooths and chisq ratio    0.94834
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   333 with    5 smooths and chisq ratio    1.06675
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   334 with    4 smooths and chisq ratio    1.06022
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   335 with    5 smooths and chisq ratio    1.06404
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   336 with   18 smooths and chisq ratio    1.05621
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   337 with   38 smooths and chisq ratio    1.02452
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   338 with   13 smooths and chisq ratio    1.05590
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   339 with   38 smooths and chisq ratio    1.04151
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   340 with   38 smooths and chisq ratio    1.01089
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   341 with   16 smooths and chisq ratio    1.05629
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   342 with    9 smooths and chisq ratio    1.05616
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   343 with   38 smooths and chisq ratio    0.98422
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   344 with   38 smooths and chisq ratio    1.02210
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   345 with   38 smooths and chisq ratio    1.00663
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   346 with    9 smooths and chisq ratio    1.05106
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   347 with   38 smooths and chisq ratio    0.97161
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   348 with   38 smooths and chisq ratio    0.98121
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   349 with    6 smooths and chisq ratio    1.05074
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   350 with   38 smooths and chisq ratio    1.01319
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   351 with   38 smooths and chisq ratio    0.98630
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   352 with    9 smooths and chisq ratio    1.05165
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   353 with   38 smooths and chisq ratio    1.04199
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   354 with   38 smooths and chisq ratio    1.01944
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   355 with   38 smooths and chisq ratio    0.97982
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   356 with   38 smooths and chisq ratio    0.98653
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   357 with   14 smooths and chisq ratio    1.05254
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   358 with    5 smooths and chisq ratio    1.05123
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   359 with   38 smooths and chisq ratio    0.99694
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   360 with    7 smooths and chisq ratio    1.05198
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   361 with   19 smooths and chisq ratio    1.05654
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   362 with    4 smooths and chisq ratio    1.10596
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   363 with   38 smooths and chisq ratio    1.03075
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   364 with    4 smooths and chisq ratio    1.05298
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   365 with   38 smooths and chisq ratio    0.99380
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   366 with   38 smooths and chisq ratio    1.02929
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   367 with    7 smooths and chisq ratio    1.05076
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   368 with   38 smooths and chisq ratio    0.88806
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   369 with   38 smooths and chisq ratio    1.00495
+Gudrun_dcs> form_smoo_van> Group:    10 spectrum:   370 with    6 smooths and chisq ratio    1.05749
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   371 with    9 smooths and chisq ratio    1.05583
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   372 with   38 smooths and chisq ratio    1.04033
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   373 with   38 smooths and chisq ratio    0.97277
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   374 with   38 smooths and chisq ratio    0.90444
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   375 with   38 smooths and chisq ratio    0.89237
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   376 with   16 smooths and chisq ratio    1.05517
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   377 with   38 smooths and chisq ratio    1.02914
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   378 with   38 smooths and chisq ratio    1.00155
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   379 with   38 smooths and chisq ratio    1.04668
+Gudrun_dcs> form_smoo_van> Group:     9 spectrum:   380 with   18 smooths and chisq ratio    1.05192
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   381 with    9 smooths and chisq ratio    1.05327
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   382 with   38 smooths and chisq ratio    1.04640
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   383 with    5 smooths and chisq ratio    1.05488
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   384 with   18 smooths and chisq ratio    1.05570
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   385 with   14 smooths and chisq ratio    1.05275
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   386 with    4 smooths and chisq ratio    1.06222
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   387 with   38 smooths and chisq ratio    1.00905
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   388 with   38 smooths and chisq ratio    0.98643
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   389 with   38 smooths and chisq ratio    1.00739
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   390 with   16 smooths and chisq ratio    1.05236
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   391 with   38 smooths and chisq ratio    1.04141
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   392 with   38 smooths and chisq ratio    0.98256
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   393 with   38 smooths and chisq ratio    0.97469
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   394 with   38 smooths and chisq ratio    1.02212
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   395 with   16 smooths and chisq ratio    1.05078
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   396 with   38 smooths and chisq ratio    1.03971
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   397 with   38 smooths and chisq ratio    1.02423
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   398 with   38 smooths and chisq ratio    1.02277
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   399 with   38 smooths and chisq ratio    1.04957
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   400 with    8 smooths and chisq ratio    1.05203
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   401 with   16 smooths and chisq ratio    1.05054
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   402 with   14 smooths and chisq ratio    1.05174
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   403 with   11 smooths and chisq ratio    1.05485
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   404 with    6 smooths and chisq ratio    1.06096
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   405 with    4 smooths and chisq ratio    1.06466
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   406 with   38 smooths and chisq ratio    1.02020
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   407 with   38 smooths and chisq ratio    1.00861
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   408 with    5 smooths and chisq ratio    1.05428
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   409 with   12 smooths and chisq ratio    1.05233
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   410 with    6 smooths and chisq ratio    1.05087
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   411 with    5 smooths and chisq ratio    1.06210
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   412 with    4 smooths and chisq ratio    1.05879
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   413 with   38 smooths and chisq ratio    0.96587
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   414 with   38 smooths and chisq ratio    0.95939
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   415 with   12 smooths and chisq ratio    1.05409
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   416 with   38 smooths and chisq ratio    0.97234
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   417 with    4 smooths and chisq ratio    1.05765
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   418 with   38 smooths and chisq ratio    1.00305
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   419 with   18 smooths and chisq ratio    1.05563
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   420 with   19 smooths and chisq ratio    1.05304
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   422 with   15 smooths and chisq ratio    1.05030
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   423 with   15 smooths and chisq ratio    1.05488
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   424 with   38 smooths and chisq ratio    0.95725
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   425 with   12 smooths and chisq ratio    1.05354
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   426 with   38 smooths and chisq ratio    1.01144
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   427 with   38 smooths and chisq ratio    1.04128
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   428 with    6 smooths and chisq ratio    1.05714
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   429 with    9 smooths and chisq ratio    1.05090
+Gudrun_dcs> form_smoo_van> Group:    12 spectrum:   430 with   38 smooths and chisq ratio    1.03841
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   431 with    2 smooths and chisq ratio    1.05969
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   456 with    9 smooths and chisq ratio    1.05336
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   457 with   38 smooths and chisq ratio    1.01381
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   458 with   38 smooths and chisq ratio    1.00304
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   459 with   15 smooths and chisq ratio    1.05200
+Gudrun_dcs> form_smoo_van> Group:    11 spectrum:   460 with   38 smooths and chisq ratio    1.03384
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   461 with    4 smooths and chisq ratio    1.05752
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   462 with    6 smooths and chisq ratio    1.05338
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   463 with   14 smooths and chisq ratio    1.05344
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   464 with   38 smooths and chisq ratio    1.03363
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   465 with   12 smooths and chisq ratio    1.05158
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   466 with   38 smooths and chisq ratio    1.03253
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   467 with   38 smooths and chisq ratio    1.02763
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   468 with   13 smooths and chisq ratio    1.05376
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   469 with    3 smooths and chisq ratio    1.05161
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   470 with    9 smooths and chisq ratio    1.05238
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   471 with   18 smooths and chisq ratio    1.06139
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   472 with   38 smooths and chisq ratio    1.00034
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   473 with   16 smooths and chisq ratio    1.05026
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   474 with   15 smooths and chisq ratio    1.05135
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   475 with   38 smooths and chisq ratio    1.03219
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   476 with   38 smooths and chisq ratio    1.04409
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   477 with    7 smooths and chisq ratio    1.05236
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   478 with   18 smooths and chisq ratio    1.05258
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   479 with   38 smooths and chisq ratio    1.04641
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   480 with    7 smooths and chisq ratio    1.05363
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   481 with    7 smooths and chisq ratio    1.05158
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   482 with   38 smooths and chisq ratio    1.00563
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   483 with   16 smooths and chisq ratio    1.05516
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   484 with    7 smooths and chisq ratio    1.06087
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   485 with   13 smooths and chisq ratio    1.05499
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   486 with    8 smooths and chisq ratio    1.05021
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   487 with    5 smooths and chisq ratio    1.05455
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   488 with    3 smooths and chisq ratio    1.05255
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   489 with   12 smooths and chisq ratio    1.05439
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   490 with   16 smooths and chisq ratio    1.05493
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   491 with    6 smooths and chisq ratio    1.05756
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   492 with   12 smooths and chisq ratio    1.05113
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   493 with    2 smooths and chisq ratio    1.07020
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   494 with   12 smooths and chisq ratio    1.06121
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   495 with   38 smooths and chisq ratio    1.00866
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   496 with    8 smooths and chisq ratio    1.05201
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   497 with   16 smooths and chisq ratio    1.05305
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   498 with    3 smooths and chisq ratio    1.05303
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   499 with   14 smooths and chisq ratio    1.05010
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   500 with   38 smooths and chisq ratio    1.04852
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   501 with   19 smooths and chisq ratio    1.05587
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   502 with   38 smooths and chisq ratio    0.97380
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   503 with    3 smooths and chisq ratio    1.05028
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   504 with   38 smooths and chisq ratio    1.04597
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   505 with   19 smooths and chisq ratio    1.05936
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   506 with   18 smooths and chisq ratio    1.06522
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   507 with   15 smooths and chisq ratio    1.05355
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   508 with    5 smooths and chisq ratio    1.06167
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   509 with    3 smooths and chisq ratio    1.05112
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   510 with   14 smooths and chisq ratio    1.05159
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   511 with   38 smooths and chisq ratio    1.02326
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   512 with   38 smooths and chisq ratio    1.03323
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   513 with   13 smooths and chisq ratio    1.05179
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   514 with    7 smooths and chisq ratio    1.06282
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   515 with   38 smooths and chisq ratio    1.02031
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   516 with    6 smooths and chisq ratio    1.05860
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   517 with    6 smooths and chisq ratio    1.05131
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   518 with    6 smooths and chisq ratio    1.05171
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   519 with    2 smooths and chisq ratio    1.07308
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   520 with   38 smooths and chisq ratio    1.03969
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   521 with    8 smooths and chisq ratio    1.05203
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   522 with    4 smooths and chisq ratio    1.05003
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   523 with   18 smooths and chisq ratio    1.05546
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   524 with   38 smooths and chisq ratio    0.97384
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   525 with    7 smooths and chisq ratio    1.05008
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   526 with   11 smooths and chisq ratio    1.05642
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   527 with    5 smooths and chisq ratio    1.05436
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   528 with   38 smooths and chisq ratio    1.04642
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   529 with    9 smooths and chisq ratio    1.05384
+Gudrun_dcs> form_smoo_van> Group:    14 spectrum:   530 with   38 smooths and chisq ratio    1.02931
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   531 with    2 smooths and chisq ratio    1.05150
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   532 with    4 smooths and chisq ratio    1.07105
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   533 with    7 smooths and chisq ratio    1.05018
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   534 with   18 smooths and chisq ratio    1.05371
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   535 with   38 smooths and chisq ratio    1.01594
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   536 with   13 smooths and chisq ratio    1.05510
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   537 with   38 smooths and chisq ratio    1.02648
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   538 with    7 smooths and chisq ratio    1.05433
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   539 with    8 smooths and chisq ratio    1.05904
+Gudrun_dcs> form_smoo_van> Group:    13 spectrum:   540 with   13 smooths and chisq ratio    1.05775
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   541 with    5 smooths and chisq ratio    1.05151
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   542 with    5 smooths and chisq ratio    1.05139
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   543 with    5 smooths and chisq ratio    1.05055
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   544 with    7 smooths and chisq ratio    1.05384
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   545 with    9 smooths and chisq ratio    1.05703
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   546 with    5 smooths and chisq ratio    1.05105
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   547 with    5 smooths and chisq ratio    1.06591
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   548 with    4 smooths and chisq ratio    1.05255
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   549 with    6 smooths and chisq ratio    1.05080
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   550 with    6 smooths and chisq ratio    1.05485
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   551 with   11 smooths and chisq ratio    1.05258
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   552 with    8 smooths and chisq ratio    1.06207
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   553 with   14 smooths and chisq ratio    1.05717
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   554 with   18 smooths and chisq ratio    1.05360
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   555 with    6 smooths and chisq ratio    1.05672
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   556 with    7 smooths and chisq ratio    1.05255
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   557 with   14 smooths and chisq ratio    1.05073
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   558 with    6 smooths and chisq ratio    1.05202
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   559 with    6 smooths and chisq ratio    1.05064
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   560 with   16 smooths and chisq ratio    1.05267
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   561 with   14 smooths and chisq ratio    1.05701
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   562 with   38 smooths and chisq ratio    1.04495
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   563 with   38 smooths and chisq ratio    1.03515
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   564 with    3 smooths and chisq ratio    1.06020
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   565 with    8 smooths and chisq ratio    1.05813
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   566 with    6 smooths and chisq ratio    1.05858
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   567 with    7 smooths and chisq ratio    1.05244
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   568 with   16 smooths and chisq ratio    1.05994
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   569 with    3 smooths and chisq ratio    1.06372
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   570 with   12 smooths and chisq ratio    1.05311
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   571 with    8 smooths and chisq ratio    1.05317
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   572 with    6 smooths and chisq ratio    1.06441
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   573 with    4 smooths and chisq ratio    1.05982
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   574 with    7 smooths and chisq ratio    1.05085
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   575 with    3 smooths and chisq ratio    1.07415
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   576 with    4 smooths and chisq ratio    1.05311
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   577 with    8 smooths and chisq ratio    1.05339
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   578 with    7 smooths and chisq ratio    1.05134
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   579 with   10 smooths and chisq ratio    1.05073
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   580 with    4 smooths and chisq ratio    1.06162
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   581 with   10 smooths and chisq ratio    1.05402
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   582 with   38 smooths and chisq ratio    1.04676
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   583 with    9 smooths and chisq ratio    1.05454
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   584 with    4 smooths and chisq ratio    1.06743
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   585 with    1 smooths and chisq ratio    1.05067
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   586 with   16 smooths and chisq ratio    1.05861
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   587 with    6 smooths and chisq ratio    1.05237
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   588 with    6 smooths and chisq ratio    1.05330
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   589 with    3 smooths and chisq ratio    1.05074
+Gudrun_dcs> form_smoo_van> Group:    16 spectrum:   590 with    7 smooths and chisq ratio    1.05283
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   591 with    2 smooths and chisq ratio    1.07491
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   592 with   14 smooths and chisq ratio    1.05577
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   593 with    7 smooths and chisq ratio    1.05243
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   594 with    4 smooths and chisq ratio    1.05931
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   595 with   11 smooths and chisq ratio    1.06096
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   596 with   38 smooths and chisq ratio    1.01035
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   597 with    9 smooths and chisq ratio    1.05110
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   598 with   16 smooths and chisq ratio    1.05962
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   599 with    3 smooths and chisq ratio    1.05164
+Gudrun_dcs> form_smoo_van> Group:    15 spectrum:   600 with    4 smooths and chisq ratio    1.05084
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   601 with    4 smooths and chisq ratio    1.06380
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   602 with    2 smooths and chisq ratio    1.05550
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   603 with    9 smooths and chisq ratio    1.05796
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   604 with    4 smooths and chisq ratio    1.05138
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   605 with    3 smooths and chisq ratio    1.07937
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   606 with    3 smooths and chisq ratio    1.07205
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   607 with   10 smooths and chisq ratio    1.05234
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   608 with    2 smooths and chisq ratio    1.10018
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   609 with    4 smooths and chisq ratio    1.05249
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   610 with    4 smooths and chisq ratio    1.05739
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   611 with    2 smooths and chisq ratio    1.08185
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   612 with    2 smooths and chisq ratio    1.11689
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   613 with    5 smooths and chisq ratio    1.05517
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   614 with    4 smooths and chisq ratio    1.06432
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   615 with    2 smooths and chisq ratio    1.05517
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   616 with    3 smooths and chisq ratio    1.08596
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   617 with    4 smooths and chisq ratio    1.05115
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   618 with    4 smooths and chisq ratio    1.06407
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   619 with    9 smooths and chisq ratio    1.05398
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   620 with    8 smooths and chisq ratio    1.05132
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   621 with    2 smooths and chisq ratio    1.06407
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   622 with    3 smooths and chisq ratio    1.06720
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   623 with    8 smooths and chisq ratio    1.05699
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   624 with    4 smooths and chisq ratio    1.05020
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   625 with    4 smooths and chisq ratio    1.05812
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   626 with    4 smooths and chisq ratio    1.05554
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   627 with    4 smooths and chisq ratio    1.05723
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   628 with    6 smooths and chisq ratio    1.05769
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   629 with    6 smooths and chisq ratio    1.05785
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   630 with    5 smooths and chisq ratio    1.06265
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   631 with    9 smooths and chisq ratio    1.05485
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   632 with    5 smooths and chisq ratio    1.05474
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   633 with    6 smooths and chisq ratio    1.05893
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   634 with    6 smooths and chisq ratio    1.05102
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   635 with    6 smooths and chisq ratio    1.05563
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   636 with    4 smooths and chisq ratio    1.06046
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   637 with    6 smooths and chisq ratio    1.06322
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   638 with    1 smooths and chisq ratio    1.05117
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   639 with    9 smooths and chisq ratio    1.05488
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   640 with    5 smooths and chisq ratio    1.05260
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   641 with    6 smooths and chisq ratio    1.07113
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   642 with    4 smooths and chisq ratio    1.05184
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   643 with    3 smooths and chisq ratio    1.05396
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   644 with    4 smooths and chisq ratio    1.05130
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   645 with    2 smooths and chisq ratio    1.08947
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   646 with    8 smooths and chisq ratio    1.05574
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   647 with    6 smooths and chisq ratio    1.05555
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   648 with    4 smooths and chisq ratio    1.05193
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   649 with    3 smooths and chisq ratio    1.05483
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   650 with   15 smooths and chisq ratio    1.05804
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   651 with    4 smooths and chisq ratio    1.06470
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   652 with    6 smooths and chisq ratio    1.06559
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   653 with    5 smooths and chisq ratio    1.06452
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   654 with    5 smooths and chisq ratio    1.05811
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   655 with    4 smooths and chisq ratio    1.05547
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   656 with    7 smooths and chisq ratio    1.05010
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   657 with    7 smooths and chisq ratio    1.05153
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   658 with   10 smooths and chisq ratio    1.05694
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   659 with   18 smooths and chisq ratio    1.06418
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   660 with    8 smooths and chisq ratio    1.05564
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   661 with    2 smooths and chisq ratio    1.06783
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   662 with    2 smooths and chisq ratio    1.05224
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   663 with    4 smooths and chisq ratio    1.05794
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   664 with    3 smooths and chisq ratio    1.06955
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   665 with    4 smooths and chisq ratio    1.05073
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   666 with   10 smooths and chisq ratio    1.05462
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   667 with    9 smooths and chisq ratio    1.06037
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   668 with    6 smooths and chisq ratio    1.06050
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   669 with    2 smooths and chisq ratio    1.08499
+Gudrun_dcs> form_smoo_van> Group:    18 spectrum:   670 with    4 smooths and chisq ratio    1.06084
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   671 with    3 smooths and chisq ratio    1.07626
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   672 with   18 smooths and chisq ratio    1.06137
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   673 with    4 smooths and chisq ratio    1.05030
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   674 with    1 smooths and chisq ratio    1.05109
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   675 with   12 smooths and chisq ratio    1.05777
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   676 with    9 smooths and chisq ratio    1.05022
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   677 with    6 smooths and chisq ratio    1.05711
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   678 with    6 smooths and chisq ratio    1.06452
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   679 with    8 smooths and chisq ratio    1.05140
+Gudrun_dcs> form_smoo_van> Group:    17 spectrum:   680 with   11 smooths and chisq ratio    1.05614
+Gudrun_dcs> gudrun_dcs> Finished smoothing vanadium
+Gudrun_dcs> gudrun_dcs> Number of spectra rejected by vanadium smooth =     1
+Gudrun_dcs> gudrun_dcs> Number of spectra tested by vanadium smooth =   631
+Gudrun_dcs> gudrun_dcs> Rejection ratio =    0.00158
+Gudrun_dcs> gudrun_dcs>          630  good spectra left
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: SAMPLE BACKGROUND
+Gudrun_dcs> gudrun_dcs> Got sample background time channel boundaries
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Gudrun_dcs> Incident>            1           1           1   8.77400017
+Gudrun_dcs> get_mon> Relative monitor sums            1   1.00000000
+Gudrun_dcs> form_smoo_mon>           79  smoothings used for monitor in run SLS50837.nxs with chisq ratio    1.00188541
+Gudrun_dcs> gudrun_dcs> Smoothed sample background monitor
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Gudrun_dcs> Trans>            2           2           2   15.6949997
+Gudrun_dcs> get_summed_data> Reading data file: SLS50837.nxs period            1  factor    1.00000000
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Gudrun_dcs> get_goodframes> Retrieved      113309  goodframes from:- C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50837.nxs
+Gudrun_dcs> get_module_sum> Total of       113309  goodframes read from SLS50837.nxs
+Gudrun_dcs> get_module_sum>       113309  good frames found for run SLS50837.nxs period            1
+Gudrun_dcs>
+Gudrun_dcs> get_module_sum> Overall DAE count rate (cts/musec):  0.670709E+02
+Gudrun_dcs>           0           3   0.00000000       0.00000000
+Gudrun_dcs> get_module_sum> modulecnts(1,nmod,1:ntype)   1.00000000       1.00000000       1.00000000
+Gudrun_dcs> gudrun_dcs> Got module sums for sample background
+Gudrun_dcs> gudrun_dcs> Sample Background: first spec., last spec., nspecproc           21         680         630
+Gudrun_dcs> do_ddeadtime_corr> Maximum deadtime correction:    1.05164194               3
+Gudrun_dcs> gudrun_dcs> Got sample background counts
+Gudrun_dcs> Normalised sample background to monitor
+Gudrun_dcs>
+Gudrun_dcs> gudrun_dcs> Got to: SAMPLE
+Gudrun_dcs> gudrun_dcs> Got sample run files
+Gudrun_dcs> get_title> Title retrieved = Empty CCR cooling from:-
+Gudrun_dcs>C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50875.nxs
+Gudrun_dcs> gudrun_dcs> Got sample title
+Gudrun_dcs> gudrun_dcs> Got sample time channel boundaries
+Gudrun_dcs>
+Gudrun_dcs> No of elements found for sample/container            1  :            1
+Gudrun_dcs>
+Gudrun_dcs>           1   1.50300002      0.231000006       6.02621995E-02
+Gudrun_dcs> gudrun_dcs> Got sample parameters
+Gudrun_dcs> gudrun_dcs> Got sample resonances
+Gudrun_dcs> gudrun_dcs> Got sample exponential parameters
+Gudrun_dcs>           1 *
+Gudrun_dcs> gudrun_dcs> Read sample dcs file
+Gudrun_dcs> Number of sample plus containers =            1
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50875.nxs
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50875.nxs
+Gudrun_dcs> Incident>            1           1           1   8.77400017
+Gudrun_dcs> get_mon> Relative monitor sums            1   1.00000000
+Gudrun_dcs> form_smoo_mon>           31  smoothings used for monitor in run SLS50875.nxs with chisq ratio    1.00189853
+Gudrun_dcs> gudrun_dcs> Smoothed sample/container monitor            1
+Gudrun_dcs> get_summed_data> Reading data file: SLS50875.nxs period            1  factor    1.00000000
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50875.nxs
+Gudrun_dcs> get_goodframes> Retrieved      251395  goodframes from:- C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50875.nxs
+Gudrun_dcs> get_module_sum> Total of       251395  goodframes read from SLS50875.nxs
+Gudrun_dcs> get_module_sum>       251395  good frames found for run SLS50875.nxs period            1
+Gudrun_dcs>
+Gudrun_dcs> get_module_sum> Overall DAE count rate (cts/musec):  0.232150E+03
+Gudrun_dcs>           0           4   0.00000000       0.00000000
+Gudrun_dcs> get_module_sum> modulecnts(1,nmod,1:ntype)   1.00000000       1.00000000       1.00000000       1.00000000
+Gudrun_dcs> gudrun_dcs> Got module sums for sample/container            1
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50875.nxs
+Gudrun_dcs> get_data> Filename: C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\SLS50875.nxs
+Gudrun_dcs> Trans>            2           2           2   15.6949997
+Gudrun_dcs> gudrun_dcs> Got sample transmission monitor data
+Gudrun_dcs> get_trans> nwav,nwavb,mcorrwavmax           48          49         883
+Gudrun_dcs> get_trans> SLS50875.transnofit01           4
+Gudrun_dcs>          48           3           1
+Gudrun_dcs> polyfit_nofix> No. of iterations       290000
+Gudrun_dcs> get_trans> Time for polyfit>                   700
+Gudrun_dcs> get_trans> SLS50875.trans01           4
+Gudrun_dcs> gudrun_dcs> Got transmission for sample            1
+Gudrun_dcs> gudrun_dcs> For sample
+Gudrun_dcs>  0.500000000     -0.500000000       2.00000000      -2.00000000
+Gudrun_dcs>  -1.50000000       1.50000000      -2.09999990       2.09999990
+Gudrun_dcs>           1
+Gudrun_dcs>           0
+Gudrun_dcs> calc_mul>            1   5.82000017E-02   5.82000017E-02   6.02621995E-02  0.231000006       1.51584768       5.00000000
+Gudrun_dcs> set_corr_ang>    45.0000000
+Gudrun_dcs> set_corr_ang>    78.3055954       8.95969009       0.00000000       0.00000000
+Gudrun_dcs>           7   8.95969009       20.5173416       32.0749893       43.6326408       55.1902924       66.7479401       78.3055878
+Gudrun_dcs>           1   0.00000000
+Gudrun_dcs> calc_mul> Set up correction angles
+Gudrun_dcs>
+Gudrun_dcs> fltmultof> Total thickness (cm):    0.11640 No. of cos theta values:     0
+Gudrun_dcs> calc_mul> Calculated flat plate corrections
+Gudrun_dcs> (003(1x,e12.5))
+Gudrun_dcs> gudrun_dcs> Got sample multiple scattering correction
+Gudrun_dcs> gudrun_dcs> Got sample Placzek correction
+Gudrun_dcs> Got to Get_ABS_CORR
+Gudrun_dcs> set_corr_ang>    45.0000000
+Gudrun_dcs> set_corr_ang>    78.3055954       8.95969009       0.00000000       0.00000000
+Gudrun_dcs>           7   8.95969009       20.5173416       32.0749893       43.6326408       55.1902924       66.7479401       78.3055878
+Gudrun_dcs>           1   0.00000000
+Gudrun_dcs>           1  attenuation corrections created in calc_abs
+Gudrun_dcs> (002(1x,e12.5))
+Gudrun_dcs> gudrun_dcs> Got absorption corr
+Gudrun_dcs> gudrun_dcs> Sample and containers: first spec., last spec., nspecproc           21         680         630
+Gudrun_dcs> gudrun_dcs> For sample
+Gudrun_dcs> do_ddeadtime_corr> Maximum deadtime correction:    1.05025780               4
+Gudrun_dcs> gudrun_dcs> Got sample or container counts
+Gudrun_dcs> divide_by_mon          882         883           1         883           1
+Gudrun_dcs> gudrun_dcs> Normalised to monitor
+Gudrun_dcs> gudrun_dcs> Subtracted sample background
+Gudrun_dcs> gudrun_dcs> Divided by vanadium
+Gudrun_dcs> gudrun_dcs> Done sample multiple scattering correction
+Gudrun_dcs> gudrun_dcs> Done absorption correction
+Gudrun_dcs> gudrun_dcs> Done merge
+Gudrun_dcs> Run filename and period SLS50875.nxs           1
+Gudrun_dcs>    1            0.1000    9.7042        0.13801              1.1548
+Gudrun_dcs>    2            0.1000   12.1643        0.13792              1.0249
+Gudrun_dcs>    3            0.1237   14.6743        0.13240              0.5333
+Gudrun_dcs>    4            0.1588   17.5744        0.13601              0.5852
+Gudrun_dcs>    5            0.1867   19.9944        0.13861              0.5316
+Gudrun_dcs>    6            0.2156   19.9944        0.12404              0.2620
+Gudrun_dcs>    7            0.2547   19.9944        0.14544              0.7352
+Gudrun_dcs>    8            0.2844   19.9944        0.14446              0.6356
+Gudrun_dcs>    9            0.3143   19.9944        0.14690              0.7116
+Gudrun_dcs>   10            0.3542   19.9944        0.14146              0.6111
+Gudrun_dcs>   11            0.3841   19.9944        0.13912              0.6435
+Gudrun_dcs>   12            0.4341   19.9944        0.12360              0.4489
+Gudrun_dcs>   13            0.4741   19.9944        0.13129              1.2528
+Gudrun_dcs>   14            0.5341   19.9944        0.13462              1.4201
+Gudrun_dcs>   15            0.6041   19.9944        0.12528              1.4489
+Gudrun_dcs>   16            0.6741   19.9944        0.11465              1.4936
+Gudrun_dcs>   17            0.6541   19.9944        0.11431              0.4555
+Gudrun_dcs>   18            0.7441   19.9944        0.13050              0.6062
+Gudrun_dcs> Formed mean DCS for groups
+Gudrun_dcs> (a1,037(1x,e14.7))
+Gudrun_dcs> Writing   1993 points in  18 groups to SLS50875.dcs01
+Gudrun_dcs> (a1,037(1x,e14.7))
+Gudrun_dcs> Writing   1993 points in  18 groups to SLS50875.sub01
+Gudrun_dcs> (a1,003(1x,e14.7))
+Gudrun_dcs> Writing   1993 points in   1 groups to SLS50875.mdcs01
+Gudrun_dcs> (a1,003(1x,e14.7))
+Gudrun_dcs> Writing   1993 points in   1 groups to SLS50875.msub01
+Gudrun_dcs>
+Gudrun_dcs> No. of groups accepted for merge =   18
+Gudrun_dcs>
+Gudrun_dcs> Average level of merged dcs is    0.12415 b/sr/atom;
+Gudrun_dcs>
+Gudrun_dcs> Gradient of merged dcs:  0.7597% of average level.
+Gudrun_dcs>
+Gudrun_dcs> This DCS level is  103.8% of expected level
+Gudrun_dcs>
+Gudrun_dcs> Suggested tweak factor:    0.96343
+Gudrun_dcs> gudrun_dcs> Finished merging data for sample SLS50875.nxs
+Gudrun_dcs> save_amutshield>    0.00000000
+ExitValue: 0

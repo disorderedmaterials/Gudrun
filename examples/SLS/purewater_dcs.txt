@@ -1,0 +1,257 @@
+'  '  '          '  '\'
+
+INSTRUMENT          {
+
+SANDALS          Instrument name
+C:\aks45\Gudrun\Gudrun2014\Gudrun\run\SLS\          Gudrun input file directory:
+C:\aks45\Gudrun\Gudrun2013\RawData\SLS\          Data file directory
+raw          Data file type
+StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib          Detector calibration file name
+4          User table column number for phi values
+StartupFiles\SLS\SANDALSMarch2011Groups.dat          Groups file name
+StartupFiles\SLS\SLSdeadtime.cor          Deadtime constants file name
+1          Spectrum number(s) for incident beam monitor
+0  0          Wavelength range [Å] for monitor normalisation
+2          Spectrum number(s) for transmission monitor
+0.0006          Incident monitor quiet count constant
+0.0006          Transmission monitor quiet count constant
+0  0          Channel numbers for spike analysis
+5          Spike analysis acceptance factor
+0.05  4.5  0.1          Wavelength range to use [Å] and step size
+100            No. of smooths on monitor
+0.1  50.0  0.05          Min, Max and step in x-scale (-ve for logarithmic binning)
+0  0  0  0          0 0 0 0 to end input of specified values
+1.0          Groups acceptance factor 
+4          Merge power
+0          Subtract single atom scattering?
+1          By detector?
+11.016          Incident flight path [m]
+0          Spectrum number to output diagnostic files
+StartupFiles\SLS\sears91_gudrun.dat          Neutron scattering parameters file
+1          Scale selection: 1 = Q, 2 = d-space, 3 = wavelength, 4 = energy, 5 = TOF
+1          Subtract wavelength-binned data?
+C:\aks45\Gudrun\Gudrun2014\Gudrun          Folder where Gudrun started
+C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS          Folder containing the startup file
+0.1          Logarithmic step size
+1          Hard group edges?
+4          Number of iterations
+0          Tweak the tweak factor(s)?
+
+}
+
+BEAM          {
+
+FLATPLATE          Sample geometry
+2          Number of beam profile values
+1.0  1.0            Beam profile values (Maximum of 50 allowed currently)
+0.05  0.2  100          Step size for absorption and m.s. calculation and no. of slices
+10          Angular step for corrections [deg.]          
+-1.5  1.5  -1.5  1.5          Incident beam edges relative to centre of sample [cm]
+-2.0  2.0  -2.1  2.1          Scattered beam edges relative to centre of sample [cm]
+StartupFiles\SLS\spectrum000.dat          Filename containing incident beam spectrum parameters
+1.0          Overall background factor 
+0.0          Sample dependent background factor
+0.0          Shielding attenuation coefficient [per m per A] 
+
+}
+
+NORMALISATION          {
+
+1  1          Number of  files and period number
+SLS39629.RAW          Data files
+1  1          Number of  files and period number
+SLS39630.RAW          Data files
+1          Force calculation of corrections?
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.15  0.15          Upstream and downstream thicknesses [cm]
+0  5          Angle of rotation and sample width (cm)
+-0.0721          Density atoms/Å^3?
+300          Temperature for Placzek correction:
+TABLES          Total cross section source
+StartupFiles\SLS\slsvanadiummod.bragg          Normalisation differential cross section filename
+0.01          Lower limit on smoothed normalisation  
+1.1          Normalisation degree of smoothing
+5          Minimum normalisation signal to background ratio
+
+}
+
+SAMPLE BACKGROUND          {
+
+1  1          Number of  files and period number
+SLS39630.RAW          SAMPLE BACKGROUND data files
+
+}
+
+SAMPLE H2O          {
+
+3  1          Number of  files and period number
+SLS39633.RAW          SAMPLE H2O data files
+SLS39639.RAW          SAMPLE H2O data files
+SLS39643.RAW          SAMPLE H2O data files
+1          Force calculation of sample corrections?
+O  0  1.0          Composition
+H  0  2.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.046  0.046          Upstream and downstream thicknesses [cm]
+0  5          Angle of rotation and sample width (cm)
+-0.1002          Density atoms/Å^3?
+0          Temperature for Placzek correction:
+TRANSMISSION          Total cross section source
+1.03816          Tweak factor
+3          Top hat width (1/Å) for cleaning up Fourier Transform
+0.7          Minimum radius for FT  [Å]
+0.1          g(r) broadening at r = 1A [A]
+0  0          0   0          to finish specifying wavelength range of resonance
+0.0  1.0  0          Exponential amplitude and decay [1/A]
+*  0  0          * 0 0 to specify end of exponential parameter input
+1.0          Normalisation correction factor
+SLS39633.msubw01          Name of file containing self scattering as a function of wavelength [A]
+0          Normalise to:Nothing
+20.0          Maximum radius for FT [A]
+0          Output units: b/atom/sr
+0.2          Power for broadening function e.g. 0.5
+0.03          Step size [A] 
+0          Analyse this sample? 
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+CONTAINER H2O          {
+
+2  1          Number of  files and period number
+SLS39536.RAW          CONTAINER H2O data files
+SLS39544.RAW          CONTAINER H2O data files
+Ti  0  7.16          Composition
+Zr  0  3.438          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.1  0.1          Upstream and downstream thicknesses [cm]
+0  5          Angle of rotation and sample width (cm)
+-0.0542          Density atoms/Å^3?
+TRANSMISSION          Total cross section source
+1.0          Tweak factor
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+GO          
+
+SAMPLE Null          {
+
+3  1          Number of  files and period number
+SLS39632.RAW          SAMPLE Null data files
+SLS39638.RAW          SAMPLE Null data files
+SLS39642.RAW          SAMPLE Null data files
+1          Force calculation of sample corrections?
+O  0  1.0          Composition
+H  0  1.28          Composition
+H  2  0.72          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.046  0.046          Upstream and downstream thicknesses [cm]
+0  5          Angle of rotation and sample width (cm)
+-0.1002          Density atoms/Å^3?
+0          Temperature for Placzek correction:
+TRANSMISSION          Total cross section source
+1.01484          Tweak factor
+3          Top hat width (1/Å) for cleaning up Fourier Transform
+0.7          Minimum radius for FT  [Å]
+0.1          g(r) broadening at r = 1A [A]
+0  0          0   0          to finish specifying wavelength range of resonance
+0.0  1.0  0          Exponential amplitude and decay [1/A]
+*  0  0          * 0 0 to specify end of exponential parameter input
+1.0          Normalisation correction factor
+SLS39632.msubw01          Name of file containing self scattering as a function of wavelength [A]
+0          Normalise to:Nothing
+20.0          Maximum radius for FT [A]
+0          Output units: b/atom/sr
+0.2          Power for broadening function e.g. 0.5
+0.03          Step size [A] 
+1          Analyse this sample? 
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+CONTAINER Null          {
+
+2  1          Number of  files and period number
+SLS39535.RAW          CONTAINER Null data files
+SLS39543.RAW          CONTAINER Null data files
+Ti  0  7.16          Composition
+Zr  0  3.438          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.1  0.1          Upstream and downstream thicknesses [cm]
+0  5          Angle of rotation and sample width (cm)
+-0.0542          Density atoms/Å^3?
+TRANSMISSION          Total cross section source
+1.0          Tweak factor
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+GO          
+
+SAMPLE D2O          {
+
+3  1          Number of  files and period number
+SLS39631.RAW          SAMPLE D2O data files
+SLS39637.RAW          SAMPLE D2O data files
+SLS39641.RAW          SAMPLE D2O data files
+1          Force calculation of sample corrections?
+O  0  1.0          Composition
+H  2  2.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.046  0.046          Upstream and downstream thicknesses [cm]
+0  5          Angle of rotation and sample width (cm)
+-0.1002          Density atoms/Å^3?
+0          Temperature for Placzek correction:
+TRANSMISSION          Total cross section source
+0.95734          Tweak factor
+5          Top hat width (1/Å) for cleaning up Fourier Transform
+0.7          Minimum radius for FT  [Å]
+0.05          g(r) broadening at r = 1A [A]
+0  0          0   0          to finish specifying wavelength range of resonance
+0.0  1.0  0          Exponential amplitude and decay [1/A]
+*  0  0          * 0 0 to specify end of exponential parameter input
+1.0          Normalisation correction factor
+SLS39631.msubw01          Name of file containing self scattering as a function of wavelength [A]
+0          Normalise to:Nothing
+20.0          Maximum radius for FT [A]
+0          Output units: b/atom/sr
+0.0          Power for broadening function e.g. 0.5
+0.03          Step size [A] 
+1          Analyse this sample? 
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+CONTAINER D2O          {
+
+2  1          Number of  files and period number
+SLS39534.RAW          CONTAINER D2O data files
+SLS39542.RAW          CONTAINER D2O data files
+Ti  0  7.16          Composition
+Zr  0  3.438          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.1  0.1          Upstream and downstream thicknesses [cm]
+0  5          Angle of rotation and sample width (cm)
+-0.0542          Density atoms/Å^3?
+TRANSMISSION          Total cross section source
+1.0          Tweak factor
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+GO          
+
+
+END          
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+Date and time last written:  20140221 12:39:46          
+N

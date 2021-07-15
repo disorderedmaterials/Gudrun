@@ -1,0 +1,50 @@
+ SLS50876.gud
+
+ Empty cell in CCR cooling
+
+ Fuller,Kirichek
+
+ 06-DEC-2013 17:07:28
+
+ Number density of this sample (atoms/A**3) =  0.542000E-01
+ Corresponding density in g/cm**3 =    5.57472
+ Average scattering length of the sample (10**-12cm) =    0.00000
+ Average scattering length squared (barns) =  0.222045E-15
+ Average square of the scattering length (barns) =  0.246161E+00
+ Ratio of (coherent) single to interference =  0.110861E+16
+
+ Expected level of DCS [b/sr/atom] =    0.40063
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            0.1000    9.5842        0.27303             -0.9851
+    2            0.1000   12.1643        0.28113             -0.4899
+    3            0.1237   14.6743        0.28378              0.3154
+    4            0.1588   17.5744        0.29038              0.1527
+    5            0.1867   19.9944        0.39410              0.3291
+    6            0.2156   19.9944        0.49654              1.0082
+    7            0.4241   19.9944        0.61953              1.5669
+    8            0.2844   19.9944        0.67760              1.5236
+    9            0.4441   19.9944        0.70168              1.6961
+   10            0.5041   19.9944        0.50255              1.1509
+   11            0.5841   19.9944        0.24447              0.0364
+   12            0.6141   19.9944        0.26593              0.4831
+   13            0.7341   19.9944        0.18868              0.8237
+   14            1.2041   19.9944        0.32627             -2.8068
+   15            0.0000    0.0000        0.00000              0.0000
+   16            9.9942   19.9944        1.40651             -3.3083
+   17            0.0000    0.0000        0.00000              0.0000
+   18            0.0000    0.0000        0.00000              0.0000
+
+ No. of groups accepted for merge =   18
+
+ Average level of merged dcs is    0.33988 b/sr/atom;
+
+ Gradient of merged dcs:  0.2768% of average level.
+
+ WARNING! This DCS level is   15.2% BELOW expected level.
+
+ Please check sample density, size or thickness, and composition.
+ If all is in order, then refer to your local contact for further advice
+
+ Suggested tweak factor:    1.17874

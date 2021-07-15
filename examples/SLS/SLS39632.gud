@@ -1,0 +1,47 @@
+ SLS39632.gud
+
+ Null 25C Can #31 Pos 3
+
+ A.K.Soper
+
+ 27-Nov-2007 16:37:29
+
+ Number density of this sample (atoms/A**3) =  0.100200E+00
+ Corresponding density in g/cm**3 =    1.03934
+ Average scattering length of the sample (10**-12cm) =    0.19401
+ Average scattering length squared (barns) =  0.376386E-01
+ Average square of the scattering length (barns) =  0.278703E+00
+ Ratio of (coherent) single to interference =  0.740472E+01
+
+ Expected level of DCS [b/sr/atom] =    3.04300
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            0.0750    8.3250        2.61700             -0.0383
+    2            0.1250   10.5750        2.92829             -1.1990
+    3            0.1250   12.7750        2.85176             -0.2355
+    4            0.1750   15.2750        3.02574             -0.5825
+    5            0.1750   17.6250        3.13461             -0.3960
+    6            0.2250   20.4250        3.20657             -0.4991
+    7            0.2750   23.8750        2.76294             -0.1590
+    8            0.3250   26.4250        2.91526             -0.4913
+    9            0.3250   29.7250        3.07500             -0.3683
+   10            0.3750   32.9250        3.01712             -0.3627
+   11            0.4250   36.8250        3.09284             -0.2872
+   12            0.4750   40.9250        3.25827             -0.5954
+   13            0.5250   44.9750        2.89274             -0.2154
+   14            0.5750   49.9750        2.94783             -0.2458
+   15            0.6250   49.9750        2.98244             -0.2370
+   16            0.7250   49.9750        2.89963             -0.2759
+   17            0.7250   49.9750        3.07304             -0.2493
+   18            0.7750   49.9750        2.97651             -0.2510
+
+ No. of groups accepted for merge =   18
+
+ Average level of merged dcs is    2.93493 b/sr/atom;
+
+ Gradient of merged dcs: -0.2258% of average level.
+
+ This DCS level is   96.4% of expected level
+
+ Suggested tweak factor:    1.05221

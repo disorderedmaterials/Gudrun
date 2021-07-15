@@ -1,0 +1,67 @@
+#
+# $Id: README.libget,v 1.5 1998/05/08 19:01:50 faa Exp $
+#
+# These routines are part of "Open GENIE" and can be obtained
+# from the ISIS anonymous FTP archive, ftp.nd.rl.ac.uk
+#
+# Please mail comments and problems to genie@isise.rl.ac.uk
+#
+You need to compile all the code (apart from libget_test.f) to make an archive
+library called libget.a (unless the libget.a is compatible with your
+operating system, in which case you may use it directly)
+
+First copy "libget.h" to "geniedefs.h" and then edit "geniedefs.h" as described
+within the file
+
+UNIX:
+	f77 -c io.f ferror_add_dummy.f
+	cc -c float_convert.c int_convert.c getsect.c error_add_dummy.c
+	rm libget.a
+	ar -crs libget.a getsect.o io.o error_add_dummy.o float_convert.o int_convert.o ferror_add_dummy.o
+
+	To run the test program "libget_test" on an ISIS raw file:
+
+	f77 -o libget_test libget_test.f -L. -lget
+	./libget_test
+
+VMS:
+	FORTRAN IO.F,FERROR_ADD_DUMMY.F
+	CC/PREFIX=ALL FLOAT_CONVERT.C,INT_CONVERT.C,GETSECT.C,ERROR_ADD_DUMMY.C
+	LIB/CREATE LIBGET GETSECT,IO,FLOAT_CONVERT,INT_CONVERT,ERROR_ADD_DUMMY,FERROR_ADD_DUMMY
+
+	To run the test program "libget_test" on an ISIS raw file:
+
+	FORTRAN LIBGET_TEST
+	LINK LIBGET_TEST,LIBGET/LIB
+	RUN LIBGET_TEST
+
+WIN:
+
+	(Using Compaq Fortran and Microsoft C compiler)
+
+	DF -c IO.F FERROR_ADD_DUMMY.F
+	CL -c FLOAT_CONVERT.C INT_CONVERT.C GETSECT.C ERROR_ADD_DUMMY.C
+	LIB /OUT:LIBGET GETSECT.OBJ IO.OBJ FLOAT_CONVERT.OBJ INT_CONVERT.OBJ ERROR_ADD_DUMMY.OBJ FERROR_ADD_DUMMY.OBJ
+
+MinGW:
+
+      (It is assumed MinGW has been installed with both Fortran and C compilers, and the name
+      of the bin folder for these executables is in %PATH% environment variable.
+	Remember to edit geniedefs.h as indicated before running this.)
+
+      rm *.o *.a
+      gfortran -c io.f ferror_add_dummy.f
+      gcc -c getsect.c float_convert.c int_convert.c error_add_dummy.c float_convert.c int_convert.c error_add_dummy.c
+      ar -crs libget.a io.o ferror_add_dummy.o getsect.o error_add_dummy.o float_convert.o int_convert.o
+
+N.B. For Linux or "Linux-like" (e.g. MinGW installed) run "nm libget.a > libgetcontents.txt"
+to produce a list of symbols and dependencies in the libget.a file.
+
+See "libget.txt" for more information on calling the GET routines
+
+Freddie Akeroyd
+28/7/97
+Modified by Stuart Campbell 
+14/6/99
+Modified by Alan Soper
+05/4/2012

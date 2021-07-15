@@ -1,0 +1,31 @@
+ form_smoo_van> Group:     1 spectrum:     1 with   39 smooths and chisq ratio    0.86148
+ form_smoo_van> Group:     1 spectrum:     2 with   18 smooths and chisq ratio    1.10712
+ form_smoo_van> Group:     1 spectrum:     3 with   16 smooths and chisq ratio    1.18629
+ form_smoo_van> Group:     2 spectrum:     4 with   14 smooths and chisq ratio    1.13471
+ form_smoo_van> Group:     2 spectrum:     5 with   13 smooths and chisq ratio    1.16672
+ form_smoo_van> Group:     2 spectrum:     6 with   12 smooths and chisq ratio    1.09495
+ form_smoo_van> Group:     3 spectrum:     7 with   12 smooths and chisq ratio    1.11006
+ form_smoo_van> Group:     3 spectrum:     8 with   11 smooths and chisq ratio    1.05511
+ form_smoo_van> Group:     3 spectrum:     9 with   13 smooths and chisq ratio    1.08929
+ form_smoo_van> Group:     3, spectrum:    11 rejected, below limit:  0.000E+00 with    1 smooths and chisq ratio    1.13201
+ form_smoo_van> Group:     4 spectrum:    13 with    8 smooths and chisq ratio    1.10232
+ form_smoo_van> Group:     4 spectrum:    14 with   10 smooths and chisq ratio    1.11060
+ form_smoo_van> Group:     5 spectrum:    15 with    8 smooths and chisq ratio    1.06677
+ form_smoo_van> Group:     5 spectrum:    16 with    7 smooths and chisq ratio    1.05271
+ form_smoo_van> Group:     5 spectrum:    17 with    7 smooths and chisq ratio    1.06667
+ form_smoo_van> Group:     6 spectrum:    18 with    7 smooths and chisq ratio    1.07677
+ form_smoo_van> Group:     6 spectrum:    19 with    7 smooths and chisq ratio    1.05527
+ form_smoo_van> Group:     6 spectrum:    20 with    7 smooths and chisq ratio    1.09098
+ form_smoo_van> Group:     6 spectrum:    21 with    7 smooths and chisq ratio    1.05200
+ form_smoo_van> Group:     7 spectrum:    23 with    5 smooths and chisq ratio    1.17153
+ form_smoo_van> Group:     7 spectrum:    24 with    4 smooths and chisq ratio    1.11333
+ form_smoo_van> Group:     7 spectrum:    25 with    4 smooths and chisq ratio    1.12631
+ form_smoo_van> Group:     8 spectrum:    26 with    3 smooths and chisq ratio    1.06236
+ form_smoo_van> Group:     8 spectrum:    27 with    3 smooths and chisq ratio    1.11864
+ form_smoo_van> Group:     9 spectrum:    28 with    4 smooths and chisq ratio    1.13075
+ form_smoo_van> Group:     9 spectrum:    30 with    2 smooths and chisq ratio    1.20638
+ form_smoo_van> Group:     9 spectrum:    31 with    2 smooths and chisq ratio    1.22965
+ form_smoo_van> Group:     9 spectrum:    32 with    2 smooths and chisq ratio    1.24702
+ gudrun_dcs> Number of spectra rejected by vanadium smooth =     1
+ gudrun_dcs> Number of spectra tested by vanadium smooth =    28
+ gudrun_dcs> Rejection ratio =    0.03571

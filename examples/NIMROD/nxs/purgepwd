@@ -1,0 +1,921 @@
+  ;          ;\
+ NIMROD 
+ C:\aks45\Gudrun\Gudrun2014\Gudrun\run\NIMROD\nxs\
+ C:\aks45\Gudrun\Gudrun2014\RawData\NIMROD\
+ C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\NIMROD\NIMROD84modules+9monitors+LAB5Oct2012Detector.calib
+ C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\NIMROD\NIMROD84modules+9monitors+LAB5Oct2012Groups.dat
+           4
+           0           0
+   5.00000000    
+   10.0000000       10.0000000    
+           1
+ NIMROD00026180.nxs
+ NIMROD00026162.nxs
+ NIMROD00026181.nxs
+ NIMROD00026163.nxs
+ NIMROD00026199.nxs
+ NIMROD00026201.nxs
+ NIMROD00026197.nxs
+ nxs
+ title : /title                                            
+ timechannels : /monitor_1/time_of_flight                         
+ periodspresent : T
+spectrum : /monitor_1/data                                   
+spectrum : /monitor_2/data                                   
+spectrum : /monitor_3/data                                   
+spectrum : /monitor_4/data                                   
+spectrum : /monitor_5/data                                   
+spectrum : /monitor_6/data                                   
+spectrum : /monitor_7/data                                   
+spectrum : /monitor_8/data                                   
+spectrum : /monitor_9/data                                   
+spectrum : /detector_1/counts                                
+ get_run_par> C:\aks45\Gudrun\Gudrun2014\RawData\NIMROD\NIMROD00026180.nxs
+Root group and no. of members:  /raw_data_1    45
+Number of datasets in file =   444
+Dataset number, name, class (0, 1 or 3)), precision (no. of characters for class = 3),ndims and dims.
+    1 /beamline    3    6    1    1
+    2 /collection_time    1   32    1    1
+    3 /definition    3    6    1    1
+    4 /definition_local    3   10    1    1
+    5 /detector_1/counts    0   32    3 3229 2328    1
+    6 /detector_1/period_index    0   32    1    1
+    7 /detector_1/spectrum_index    0   32    1 2328
+    8 /detector_1/time_of_flight    1   32    1 3230
+    9 /duration    1   32    1    1
+   10 /end_time    3   19    1    1
+   11 /experiment_identifier    3    1    1    1
+   12 /good_frames    0   32    1    1
+   13 /instrument/dae/detector_table_file    3   72    1    1
+   14 /instrument/dae/period_index    0   32    1    1
+   15 /instrument/dae/spectra_table_file    3   71    1    1
+   16 /instrument/dae/time_channels_1/time_of_flight    1   32    1 3230
+   17 /instrument/dae/time_channels_1/time_of_flight_raw    0   32    1 3230
+   18 /instrument/dae/time_channels_2/time_of_flight    1   32    1 ****
+   19 /instrument/dae/time_channels_2/time_of_flight_raw    0   32    1 ****
+   20 /instrument/dae/vetos/ISIS_50Hz    0   32    1    1
+   21 /instrument/dae/vetos/TS2_pulse    0   32    1    1
+   22 /instrument/dae/vetos/ext0    0   32    1    1
+   23 /instrument/dae/vetos/ext1    0   32    1    1
+   24 /instrument/dae/vetos/ext2    0   32    1    1
+   25 /instrument/dae/vetos/ext3    0   32    1    1
+   26 /instrument/dae/vetos/fermi_chopper0    0   32    1    1
+   27 /instrument/dae/vetos/fermi_chopper1    0   32    1    1
+   28 /instrument/dae/vetos/fermi_chopper2    0   32    1    1
+   29 /instrument/dae/vetos/fermi_chopper3    0   32    1    1
+   30 /instrument/dae/vetos/fifo    0   32    1    1
+   31 /instrument/dae/vetos/internal    0   32    1    1
+   32 /instrument/dae/vetos/msmode    0   32    1    1
+   33 /instrument/dae/vetos/smp    0   32    1    1
+   34 /instrument/dae/wiring_table_file    3   70    1    1
+   35 /instrument/detector_1/azimuthal_angle    1   32    1 2328
+   36 /instrument/detector_1/counts    0   32    3 3229 2328    1
+   37 /instrument/detector_1/delt    1   32    1 2328
+   38 /instrument/detector_1/distance    1   32    1 2328
+   39 /instrument/detector_1/period_index    0   32    1    1
+   40 /instrument/detector_1/polar_angle    1   32    1 2328
+   41 /instrument/detector_1/source_detector_distance    1   32    1    1
+   42 /instrument/detector_1/spectrum_index    0   32    1 2328
+   43 /instrument/detector_1/time_of_flight    1   32    1 3230
+   44 /instrument/detector_1/time_of_flight_raw    0   32    1 3230
+   45 /instrument/detector_1/user_table01    1   32    1 2328
+   46 /instrument/detector_1/user_table02    1   32    1 2328
+   47 /instrument/detector_1/user_table03    1   32    1 2328
+   48 /instrument/detector_1/user_table04    1   32    1 2328
+   49 /instrument/detector_1/user_table05    1   32    1 2328
+   50 /instrument/moderator/distance    1   32    1    1
+   51 /instrument/name    3    6    1    1
+   52 /instrument/source/name    3    4    1    1
+   53 /instrument/source/probe    3    8    1    1
+   54 /instrument/source/type    3   21    1    1
+   55 /isis_vms_compat/ADD    0   32    1    9
+   56 /isis_vms_compat/CODE    0   32    1 2337
+   57 /isis_vms_compat/CRAT    0   32    1 2337
+   58 /isis_vms_compat/CRPB    3    4    2    1   32
+   59 /isis_vms_compat/CSPB    3    4    2    1   64
+   60 /isis_vms_compat/DAEP    0   32    1   64
+   61 /isis_vms_compat/DELT    1   32    1 2337
+   62 /isis_vms_compat/FORM    0   32    1    1
+   63 /isis_vms_compat/HDR    3   80    1    1
+   64 /isis_vms_compat/IRPB    0   32    1   32
+   65 /isis_vms_compat/ISPB    0   32    1   64
+   66 /isis_vms_compat/IVPB    0   32    1   64
+   67 /isis_vms_compat/LEN2    1   32    1 2337
+   68 /isis_vms_compat/MDET    0   32    1    9
+   69 /isis_vms_compat/MODN    0   32    1 2337
+   70 /isis_vms_compat/MONP    0   32    1    9
+   71 /isis_vms_compat/MPOS    0   32    1 2337
+   72 /isis_vms_compat/NAME    3    8    1    1
+   73 /isis_vms_compat/NDET    0   32    1    1
+   74 /isis_vms_compat/NFPP    0   32    1    1
+   75 /isis_vms_compat/NMON    0   32    1    1
+   76 /isis_vms_compat/NOTE    3   19    1    1
+   77 /isis_vms_compat/NPER    0   32    1    1
+   78 /isis_vms_compat/NSEP    0   32    1    1
+   79 /isis_vms_compat/NSP1    0   32    1    1
+   80 /isis_vms_compat/NTC1    0   32    1    1
+   81 /isis_vms_compat/NTLL    0   32    1    1
+   82 /isis_vms_compat/NTNL    0   32    1    1
+   83 /isis_vms_compat/NTRG    0   32    1    1
+   84 /isis_vms_compat/NUSE    0   32    1    1
+   85 /isis_vms_compat/PMAP    0   32    1  256
+   86 /isis_vms_compat/PRE1    0   32    1    1
+   87 /isis_vms_compat/RRPB    1   32    1   32
+   88 /isis_vms_compat/RSPB    1   32    1   64
+   89 /isis_vms_compat/RUN    0   32    1    1
+   90 /isis_vms_compat/RVPB    1   32    1   64
+   91 /isis_vms_compat/SPB    0   32    1   64
+   92 /isis_vms_compat/SPEC    0   32    1 2337
+   93 /isis_vms_compat/TCM1    0   32    1    5
+   94 /isis_vms_compat/TCP1    1   32    1   20
+   95 /isis_vms_compat/TIMR    0   32    1 2337
+   96 /isis_vms_compat/TITL    3   80    1    1
+   97 /isis_vms_compat/TTHE    1   32    1 2337
+   98 /isis_vms_compat/UDET    0   32    1 2337
+   99 /isis_vms_compat/ULEN    0   32    1    1
+  100 /isis_vms_compat/USER    3  160    1    1
+  101 /isis_vms_compat/UT01    1   32    1 2337
+  102 /isis_vms_compat/UT02    1   32    1 2337
+  103 /isis_vms_compat/UT03    1   32    1 2337
+  104 /isis_vms_compat/UT04    1   32    1 2337
+  105 /isis_vms_compat/UT05    1   32    1 2337
+  106 /isis_vms_compat/VER1    0   32    1    1
+  107 /isis_vms_compat/VER2    0   32    1    1
+  108 /isis_vms_compat/VER3    0   32    1    1
+  109 /isis_vms_compat/VER4    0   32    1    1
+  110 /isis_vms_compat/VER5    0   32    1    1
+  111 /isis_vms_compat/VER6    0   32    1    1
+  112 /isis_vms_compat/VER7    0   32    1    1
+  113 /isis_vms_compat/VER8    0   32    1    1
+  114 /isis_vms_compat/VER9    0   32    1    1
+  115 /measurement_first_run    0   32    1    1
+  116 /measurement_id    3    1    1    1
+  117 /measurement_label    3    1    1    1
+  118 /measurement_subid    3    1    1    1
+  119 /measurement_type    3    1    1    1
+  120 /monitor_1/data    0   32    3 3229    1    1
+  121 /monitor_1/monitor_number    0   32    1    1
+  122 /monitor_1/period_index    0   32    1    1
+  123 /monitor_1/spectrum_index    0   32    1    1
+  124 /monitor_1/time_of_flight    1   32    1 3230
+  125 /monitor_2/data    0   32    3 3229    1    1
+  126 /monitor_2/monitor_number    0   32    1    1
+  127 /monitor_2/period_index    0   32    1    1
+  128 /monitor_2/spectrum_index    0   32    1    1
+  129 /monitor_2/time_of_flight    1   32    1 3230
+  130 /monitor_3/data    0   32    3 3229    1    1
+  131 /monitor_3/monitor_number    0   32    1    1
+  132 /monitor_3/period_index    0   32    1    1
+  133 /monitor_3/spectrum_index    0   32    1    1
+  134 /monitor_3/time_of_flight    1   32    1 3230
+  135 /monitor_4/data    0   32    3 3229    1    1
+  136 /monitor_4/monitor_number    0   32    1    1
+  137 /monitor_4/period_index    0   32    1    1
+  138 /monitor_4/spectrum_index    0   32    1    1
+  139 /monitor_4/time_of_flight    1   32    1 3230
+  140 /monitor_5/data    0   32    3 3229    1    1
+  141 /monitor_5/monitor_number    0   32    1    1
+  142 /monitor_5/period_index    0   32    1    1
+  143 /monitor_5/spectrum_index    0   32    1    1
+  144 /monitor_5/time_of_flight    1   32    1 3230
+  145 /monitor_6/data    0   32    3 3229    1    1
+  146 /monitor_6/monitor_number    0   32    1    1
+  147 /monitor_6/period_index    0   32    1    1
+  148 /monitor_6/spectrum_index    0   32    1    1
+  149 /monitor_6/time_of_flight    1   32    1 3230
+  150 /monitor_7/data    0   32    3 3229    1    1
+  151 /monitor_7/monitor_number    0   32    1    1
+  152 /monitor_7/period_index    0   32    1    1
+  153 /monitor_7/spectrum_index    0   32    1    1
+  154 /monitor_7/time_of_flight    1   32    1 3230
+  155 /monitor_8/data    0   32    3 3229    1    1
+  156 /monitor_8/monitor_number    0   32    1    1
+  157 /monitor_8/period_index    0   32    1    1
+  158 /monitor_8/spectrum_index    0   32    1    1
+  159 /monitor_8/time_of_flight    1   32    1 3230
+  160 /monitor_9/data    0   32    3 3229    1    1
+  161 /monitor_9/monitor_number    0   32    1    1
+  162 /monitor_9/period_index    0   32    1    1
+  163 /monitor_9/spectrum_index    0   32    1    1
+  164 /monitor_9/time_of_flight    1   32    1 3230
+  165 /name    3    6    1    1
+  166 /notes    3    1    1    1
+  167 /periods/frames_requested    0   32    1    1
+  168 /periods/good_frames    0   32    1    1
+  169 /periods/good_frames_daq    0   32    1    1
+  170 /periods/labels    3    8    1    1
+  171 /periods/number    0   32    1    1
+  172 /periods/output    0   32    1    1
+  173 /periods/proton_charge    1   32    1    1
+  174 /periods/proton_charge_raw    1   32    1    1
+  175 /periods/raw_frames    0   32    1    1
+  176 /periods/sequences    0   32    1    1
+  177 /periods/total_counts    1   32    1    1
+  178 /periods/type    0   32    1    1
+  179 /program_name    3   11    1    1
+  180 /proton_charge    1   32    1    1
+  181 /proton_charge_raw    1   32    1    1
+  182 /raw_frames    0   32    1    1
+  183 /run_cycle    3    4    1    1
+  184 /run_number    0   32    1    1
+  185 /runlog/count_rate/time    1   32    1  193
+  186 /runlog/count_rate/value    1   32    1  193
+  187 /runlog/dae_beam_current/time    1   32    1  193
+  188 /runlog/dae_beam_current/value    1   32    1  193
+  189 /runlog/good_frames/time    1   32    1  193
+  190 /runlog/good_frames/value    0   32    1  193
+  191 /runlog/good_uah_log/time    1   32    1  193
+  192 /runlog/good_uah_log/value    1   32    1  193
+  193 /runlog/icp_event/time    1   32    1   11
+  194 /runlog/icp_event/value    3   66    2    1   11
+  195 /runlog/is_running/time    1   32    1  193
+  196 /runlog/is_running/value    0   32    1  193
+  197 /runlog/is_waiting/time    1   32    1  193
+  198 /runlog/is_waiting/value    0   32    1  193
+  199 /runlog/monitor_sum_1/time    1   32    1  193
+  200 /runlog/monitor_sum_1/value    0   32    1  193
+  201 /runlog/np_ratio/time    1   32    1  193
+  202 /runlog/np_ratio/value    1   32    1  193
+  203 /runlog/period/time    1   32    1  193
+  204 /runlog/period/value    0   32    1  193
+  205 /runlog/raw_frames/time    1   32    1  193
+  206 /runlog/raw_frames/value    0   32    1  193
+  207 /runlog/raw_uah_log/time    1   32    1  193
+  208 /runlog/raw_uah_log/value    1   32    1  193
+  209 /runlog/run_status/time    1   32    1  193
+  210 /runlog/run_status/value    0   32    1  193
+  211 /runlog/total_counts/time    1   32    1  193
+  212 /runlog/total_counts/value    0   32    1  193
+  213 /sample/distance    1   64    1    1
+  214 /sample/height    1   32    1    1
+  215 /sample/id    3    1    1    1
+  216 /sample/name    3    1    1    1
+  217 /sample/shape    3    1    1    1
+  218 /sample/thickness    1   32    1    1
+  219 /sample/type    3    1    1    1
+  220 /sample/width    1   32    1    1
+  221 /script_name    3    1    1    1
+  222 /seci_config    3   14    1    1
+  223 /selog/BeamCurrent/read_control    3   12    1    1
+  224 /selog/BeamCurrent/set_control    3    1    1    1
+  225 /selog/BeamCurrent/setpoint    1   32    1    1
+  226 /selog/BeamCurrent/setpoint_spread    1   32    1    1
+  227 /selog/BeamCurrent/value    1   32    1    1
+  228 /selog/BeamCurrent/value_log/name    3    1    1    1
+  229 /selog/BeamCurrent/value_log/time    1   32    1    5
+  230 /selog/BeamCurrent/value_log/value    1   32    1    5
+  231 /selog/BeamCurrent/value_spread    1   32    1    1
+  232 /selog/BeamCurrent/vi_name    3   45    1    1
+  233 /selog/Coupled_Hydrogen/read_control    3   21    1    1
+  234 /selog/Coupled_Hydrogen/set_control    3    1    1    1
+  235 /selog/Coupled_Hydrogen/setpoint    1   32    1    1
+  236 /selog/Coupled_Hydrogen/setpoint_spread    1   32    1    1
+  237 /selog/Coupled_Hydrogen/value    1   32    1    1
+  238 /selog/Coupled_Hydrogen/value_log/name    3    1    1    1
+  239 /selog/Coupled_Hydrogen/value_log/time    1   32    1    9
+  240 /selog/Coupled_Hydrogen/value_log/value    1   32    1    9
+  241 /selog/Coupled_Hydrogen/value_spread    1   32    1    1
+  242 /selog/Coupled_Hydrogen/vi_name    3   45    1    1
+  243 /selog/Coupled_Methane/read_control    3   20    1    1
+  244 /selog/Coupled_Methane/set_control    3    1    1    1
+  245 /selog/Coupled_Methane/setpoint    1   32    1    1
+  246 /selog/Coupled_Methane/setpoint_spread    1   32    1    1
+  247 /selog/Coupled_Methane/value    1   32    1    1
+  248 /selog/Coupled_Methane/value_log/name    3    1    1    1
+  249 /selog/Coupled_Methane/value_log/time    1   32    1  108
+  250 /selog/Coupled_Methane/value_log/value    1   32    1  108
+  251 /selog/Coupled_Methane/value_spread    1   32    1    1
+  252 /selog/Coupled_Methane/vi_name    3   45    1    1
+  253 /selog/ICP_DAE_TD/read_control    3    1    1    1
+  254 /selog/ICP_DAE_TD/set_control    3    1    1    1
+  255 /selog/ICP_DAE_TD/value_log/name    3    1    1    1
+  256 /selog/ICP_DAE_TD/value_log/time    1   32    1  193
+  257 /selog/ICP_DAE_TD/value_log/value    1   32    1  193
+  258 /selog/ICP_DAE_TD/vi_name    3    1    1    1
+  259 /selog/ICP_SYS_TD/read_control    3    1    1    1
+  260 /selog/ICP_SYS_TD/set_control    3    1    1    1
+  261 /selog/ICP_SYS_TD/value_log/name    3    1    1    1
+  262 /selog/ICP_SYS_TD/value_log/time    1   32    1  193
+  263 /selog/ICP_SYS_TD/value_log/value    1   32    1  193
+  264 /selog/ICP_SYS_TD/vi_name    3    1    1    1
+  265 /selog/J5CX/read_control    3   12    1    1
+  266 /selog/J5CX/set_control    3    8    1    1
+  267 /selog/J5CX/setpoint    1   32    1    1
+  268 /selog/J5CX/setpoint_spread    1   32    1    1
+  269 /selog/J5CX/value    1   32    1    1
+  270 /selog/J5CX/value_log/name    3    1    1    1
+  271 /selog/J5CX/value_log/time    1   32    1    7
+  272 /selog/J5CX/value_log/value    1   32    1    7
+  273 /selog/J5CX/value_spread    1   32    1    1
+  274 /selog/J5CX/vi_name    3   79    1    1
+  275 /selog/J5CY/read_control    3   12    1    1
+  276 /selog/J5CY/set_control    3    8    1    1
+  277 /selog/J5CY/setpoint    1   32    1    1
+  278 /selog/J5CY/setpoint_spread    1   32    1    1
+  279 /selog/J5CY/value    1   32    1    1
+  280 /selog/J5CY/value_log/name    3    1    1    1
+  281 /selog/J5CY/value_log/time    1   32    1    7
+  282 /selog/J5CY/value_log/value    1   32    1    7
+  283 /selog/J5CY/value_spread    1   32    1    1
+  284 /selog/J5CY/vi_name    3   79    1    1
+  285 /selog/J6CX/read_control    3   12    1    1
+  286 /selog/J6CX/set_control    3    8    1    1
+  287 /selog/J6CX/setpoint    1   32    1    1
+  288 /selog/J6CX/setpoint_spread    1   32    1    1
+  289 /selog/J6CX/value    1   32    1    1
+  290 /selog/J6CX/value_log/name    3    1    1    1
+  291 /selog/J6CX/value_log/time    1   32    1    7
+  292 /selog/J6CX/value_log/value    1   32    1    7
+  293 /selog/J6CX/value_spread    1   32    1    1
+  294 /selog/J6CX/vi_name    3   79    1    1
+  295 /selog/J6CY/read_control    3   12    1    1
+  296 /selog/J6CY/set_control    3    8    1    1
+  297 /selog/J6CY/setpoint    1   32    1    1
+  298 /selog/J6CY/setpoint_spread    1   32    1    1
+  299 /selog/J6CY/value    1   32    1    1
+  300 /selog/J6CY/value_log/name    3    1    1    1
+  301 /selog/J6CY/value_log/time    1   32    1    7
+  302 /selog/J6CY/value_log/value    1   32    1    7
+  303 /selog/J6CY/value_spread    1   32    1    1
+  304 /selog/J6CY/vi_name    3   79    1    1
+  305 /selog/Julabo_External/read_control    3   22    1    1
+  306 /selog/Julabo_External/set_control    3   20    1    1
+  307 /selog/Julabo_External/setpoint    1   32    1    1
+  308 /selog/Julabo_External/setpoint_spread    1   32    1    1
+  309 /selog/Julabo_External/value    1   32    1    1
+  310 /selog/Julabo_External/value_log/name    3    1    1    1
+  311 /selog/Julabo_External/value_log/time    1   32    1    7
+  312 /selog/Julabo_External/value_log/value    1   32    1    7
+  313 /selog/Julabo_External/value_spread    1   32    1    1
+  314 /selog/Julabo_External/vi_name    3  100    1    1
+  315 /selog/Julabo_Internal/read_control    3   22    1    1
+  316 /selog/Julabo_Internal/set_control    3   20    1    1
+  317 /selog/Julabo_Internal/setpoint    1   32    1    1
+  318 /selog/Julabo_Internal/setpoint_spread    1   32    1    1
+  319 /selog/Julabo_Internal/value    1   32    1    1
+  320 /selog/Julabo_Internal/value_log/name    3    1    1    1
+  321 /selog/Julabo_Internal/value_log/time    1   32    1    7
+  322 /selog/Julabo_Internal/value_log/value    1   32    1    7
+  323 /selog/Julabo_Internal/value_spread    1   32    1    1
+  324 /selog/Julabo_Internal/vi_name    3  100    1    1
+  325 /selog/Moderator_Horizontal/read_control    3   27    1    1
+  326 /selog/Moderator_Horizontal/set_control    3   27    1    1
+  327 /selog/Moderator_Horizontal/setpoint    1   32    1    1
+  328 /selog/Moderator_Horizontal/setpoint_spread    1   32    1    1
+  329 /selog/Moderator_Horizontal/value    1   32    1    1
+  330 /selog/Moderator_Horizontal/value_log/name    3    1    1    1
+  331 /selog/Moderator_Horizontal/value_log/time    1   32    1    7
+  332 /selog/Moderator_Horizontal/value_log/value    1   32    1    7
+  333 /selog/Moderator_Horizontal/value_spread    1   32    1    1
+  334 /selog/Moderator_Horizontal/vi_name    3  106    1    1
+  335 /selog/Moderator_Vertical/read_control    3   25    1    1
+  336 /selog/Moderator_Vertical/set_control    3   25    1    1
+  337 /selog/Moderator_Vertical/setpoint    1   32    1    1
+  338 /selog/Moderator_Vertical/setpoint_spread    1   32    1    1
+  339 /selog/Moderator_Vertical/value    1   32    1    1
+  340 /selog/Moderator_Vertical/value_log/name    3    1    1    1
+  341 /selog/Moderator_Vertical/value_log/time    1   32    1    7
+  342 /selog/Moderator_Vertical/value_log/value    1   32    1    7
+  343 /selog/Moderator_Vertical/value_spread    1   32    1    1
+  344 /selog/Moderator_Vertical/vi_name    3  106    1    1
+  345 /selog/MoveJaws/read_control    3    7    1    1
+  346 /selog/MoveJaws/set_control    3    7    1    1
+  347 /selog/MoveJaws/setpoint    3    5    2    1    1
+  348 /selog/MoveJaws/value    3    5    2    1    1
+  349 /selog/MoveJaws/value_log/name    3    1    1    1
+  350 /selog/MoveJaws/value_log/time    1   32    1    5
+  351 /selog/MoveJaws/value_log/value    3    5    2    1    5
+  352 /selog/MoveJaws/vi_name    3  106    1    1
+  353 /selog/Sample/read_control    3   16    1    1
+  354 /selog/Sample/set_control    3   22    1    1
+  355 /selog/Sample/setpoint    1   32    1    1
+  356 /selog/Sample/setpoint_spread    1   32    1    1
+  357 /selog/Sample/value    1   32    1    1
+  358 /selog/Sample/value_log/name    3    1    1    1
+  359 /selog/Sample/value_log/time    1   32    1  211
+  360 /selog/Sample/value_log/value    1   32    1  211
+  361 /selog/Sample/value_spread    1   32    1    1
+  362 /selog/Sample/vi_name    3  158    1    1
+  363 /selog/Sample_Horizontal/read_control    3   21    1    1
+  364 /selog/Sample_Horizontal/set_control    3   17    1    1
+  365 /selog/Sample_Horizontal/setpoint    1   32    1    1
+  366 /selog/Sample_Horizontal/setpoint_spread    1   32    1    1
+  367 /selog/Sample_Horizontal/value    1   32    1    1
+  368 /selog/Sample_Horizontal/value_log/name    3    1    1    1
+  369 /selog/Sample_Horizontal/value_log/time    1   32    1    7
+  370 /selog/Sample_Horizontal/value_log/value    1   32    1    7
+  371 /selog/Sample_Horizontal/value_spread    1   32    1    1
+  372 /selog/Sample_Horizontal/vi_name    3  106    1    1
+  373 /selog/Sample_Rot/read_control    3   15    1    1
+  374 /selog/Sample_Rot/set_control    3   16    1    1
+  375 /selog/Sample_Rot/setpoint    1   32    1    1
+  376 /selog/Sample_Rot/setpoint_spread    1   32    1    1
+  377 /selog/Sample_Rot/value    1   32    1    1
+  378 /selog/Sample_Rot/value_log/name    3    1    1    1
+  379 /selog/Sample_Rot/value_log/time    1   32    1  211
+  380 /selog/Sample_Rot/value_log/value    1   32    1  211
+  381 /selog/Sample_Rot/value_spread    1   32    1    1
+  382 /selog/Sample_Rot/vi_name    3  158    1    1
+  383 /selog/Sample_Vert/read_control    3   15    1    1
+  384 /selog/Sample_Vert/set_control    3   16    1    1
+  385 /selog/Sample_Vert/setpoint    1   32    1    1
+  386 /selog/Sample_Vert/setpoint_spread    1   32    1    1
+  387 /selog/Sample_Vert/value    1   32    1    1
+  388 /selog/Sample_Vert/value_log/name    3    1    1    1
+  389 /selog/Sample_Vert/value_log/time    1   32    1  211
+  390 /selog/Sample_Vert/value_log/value    1   32    1  211
+  391 /selog/Sample_Vert/value_spread    1   32    1    1
+  392 /selog/Sample_Vert/vi_name    3  158    1    1
+  393 /selog/Sample_Vertical/read_control    3   19    1    1
+  394 /selog/Sample_Vertical/set_control    3   15    1    1
+  395 /selog/Sample_Vertical/setpoint    1   32    1    1
+  396 /selog/Sample_Vertical/setpoint_spread    1   32    1    1
+  397 /selog/Sample_Vertical/value    1   32    1    1
+  398 /selog/Sample_Vertical/value_log/name    3    1    1    1
+  399 /selog/Sample_Vertical/value_log/time    1   32    1    7
+  400 /selog/Sample_Vertical/value_log/value    1   32    1    7
+  401 /selog/Sample_Vertical/value_spread    1   32    1    1
+  402 /selog/Sample_Vertical/vi_name    3  106    1    1
+  403 /selog/Status/read_control    3    1    1    1
+  404 /selog/Status/set_control    3    1    1    1
+  405 /selog/Status/value_log/name    3    1    1    1
+  406 /selog/Status/value_log/time    1   32    1    5
+  407 /selog/Status/value_log/value    3    7    2    1    5
+  408 /selog/Status/vi_name    3    1    1    1
+  409 /selog/TS1BeamCurrent/read_control    3   16    1    1
+  410 /selog/TS1BeamCurrent/set_control    3    1    1    1
+  411 /selog/TS1BeamCurrent/setpoint    1   32    1    1
+  412 /selog/TS1BeamCurrent/setpoint_spread    1   32    1    1
+  413 /selog/TS1BeamCurrent/value    1   32    1    1
+  414 /selog/TS1BeamCurrent/value_log/name    3    1    1    1
+  415 /selog/TS1BeamCurrent/value_log/time    1   32    1    5
+  416 /selog/TS1BeamCurrent/value_log/value    1   32    1    5
+  417 /selog/TS1BeamCurrent/value_spread    1   32    1    1
+  418 /selog/TS1BeamCurrent/vi_name    3   45    1    1
+  419 /selog/TS2BeamCurrent/read_control    3   16    1    1
+  420 /selog/TS2BeamCurrent/set_control    3    1    1    1
+  421 /selog/TS2BeamCurrent/setpoint    1   32    1    1
+  422 /selog/TS2BeamCurrent/setpoint_spread    1   32    1    1
+  423 /selog/TS2BeamCurrent/value    1   32    1    1
+  424 /selog/TS2BeamCurrent/value_log/name    3    1    1    1
+  425 /selog/TS2BeamCurrent/value_log/time    1   32    1  108
+  426 /selog/TS2BeamCurrent/value_log/value    1   32    1  108
+  427 /selog/TS2BeamCurrent/value_spread    1   32    1    1
+  428 /selog/TS2BeamCurrent/vi_name    3   45    1    1
+  429 /selog/Vacuum/read_control    3   17    1    1
+  430 /selog/Vacuum/set_control    3    1    1    1
+  431 /selog/Vacuum/setpoint    1   32    1    1
+  432 /selog/Vacuum/setpoint_spread    1   32    1    1
+  433 /selog/Vacuum/value    1   32    1    1
+  434 /selog/Vacuum/value_log/name    3    1    1    1
+  435 /selog/Vacuum/value_log/time    1   32    1  211
+  436 /selog/Vacuum/value_log/value    1   32    1  211
+  437 /selog/Vacuum/value_spread    1   32    1    1
+  438 /selog/Vacuum/vi_name    3   92    1    1
+  439 /start_time    3   19    1    1
+  440 /title    3   66    1    1
+  441 /total_counts    0   64    1    1
+  442 /total_uncounted_counts    0   32    1    1
+  443 /user_1/affiliation    3   13    1    1
+  444 /user_1/name    3   24    1    1
+First and last spectra for path: /monitor_1/data      0      1
+First and last spectra for path: /monitor_2/data      1      2
+First and last spectra for path: /monitor_3/data      2      3
+First and last spectra for path: /monitor_4/data      3      4
+First and last spectra for path: /monitor_5/data      4      5
+First and last spectra for path: /monitor_6/data      5      6
+First and last spectra for path: /monitor_7/data      6      7
+First and last spectra for path: /monitor_8/data      7      8
+First and last spectra for path: /monitor_9/data      8      9
+First and last spectra for path: /detector_1/counts      9   2337
+ purge_det> Done get_run_par
+           0 UT0 
+ get_calibration> Reading calibration from: C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\NIMROD\NIMROD84modules+9monitors+LAB5Oct2012Detector.calib
+         100         105
+ get_calibration> 1
+        2337           5
+ Name of groups file being read from: C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\NIMROD\NIMROD84modules+9monitors+LAB5Oct2012Groups.dat
+          25
+         -72          72
+         -72          72
+         -72          72
+         -72          72
+         -72          72
+         -72          72
+         -72          72
+         -72          72
+         -72          72
+         -72          72
+         -72          72
+        -120         120
+        -120         120
+        -108         108
+        -108         108
+        -108         108
+        -108         108
+        -108         108
+        -108         108
+        -108         108
+        -108         108
+        -108         108
+        -108         108
+        -108         108
+        -108         108
+  2328 spectra in 25 groups from file C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\NIMROD\NIMROD84modules+9monitors+LAB5Oct2012Groups.dat
+ get_groups> Checked input values for group            1
+ get_groups> Checked input values for group            2
+ get_groups> Checked input values for group            3
+ get_groups> Checked input values for group            4
+ get_groups> Checked input values for group            5
+ get_groups> Checked input values for group            6
+ get_groups> Checked input values for group            7
+ get_groups> Checked input values for group            8
+ get_groups> Checked input values for group            9
+ get_groups> Checked input values for group           10
+ get_groups> Checked input values for group           11
+ get_groups> Checked input values for group           12
+ get_groups> Checked input values for group           13
+ get_groups> Checked input values for group           14
+ get_groups> Checked input values for group           15
+ get_groups> Checked input values for group           16
+ get_groups> Checked input values for group           17
+ get_groups> Checked input values for group           18
+ get_groups> Checked input values for group           19
+ get_groups> Checked input values for group           20
+ get_groups> Checked input values for group           21
+ get_groups> Checked input values for group           22
+ get_groups> Checked input values for group           23
+ get_groups> Checked input values for group           24
+ get_groups> Checked input values for group           25
+
+ Q-ranges for individual groups
+
+           1   1.36449905E-02   0.00000000    
+           2   1.70532316E-02   0.00000000    
+           3   2.04618759E-02   0.00000000    
+           4   2.38707066E-02   0.00000000    
+           5   2.72794887E-02   0.00000000    
+           6   3.06880064E-02   0.00000000    
+           7   3.40962447E-02   0.00000000    
+           8   3.75037640E-02   0.00000000    
+           9   4.09109928E-02   0.00000000    
+          10   4.43174951E-02   0.00000000    
+          11   4.77232523E-02   0.00000000    
+          12  0.100302711       0.00000000    
+          13  0.122357957       0.00000000    
+          14  0.151584908       0.00000000    
+          15  0.175300524       0.00000000    
+          16  0.224371687       0.00000000    
+          17  0.253751546       0.00000000    
+          18  0.289999276       0.00000000    
+          19  0.327651888       0.00000000    
+          20  0.435625017       0.00000000    
+          21  0.489875138       0.00000000    
+          22  0.569795370       0.00000000    
+          23  0.638021708       0.00000000    
+          24  0.753926873       0.00000000    
+          25  0.878505409       0.00000000    
+ C:\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\NIMROD\NIMROD84modules+9monitors+LAB5Oct2012Groups.dat.cal                                                                                                                                                       
+ Done groups
+  Total no. of spectra and time channel boundaries =         2337        3230
+  No. of blocks of spectra =            1
+  No. of spectra per block =         2337
+
+
+ Spectra being read:            1        2337
+
+ get_data> Filename: C:\aks45\Gudrun\Gudrun2014\RawData\NIMROD\NIMROD00026180.nxs
+ get_data> Filename: C:\aks45\Gudrun\Gudrun2014\RawData\NIMROD\NIMROD00026162.nxs
+ get_data> Filename: C:\aks45\Gudrun\Gudrun2014\RawData\NIMROD\NIMROD00026181.nxs
+ get_data> Filename: C:\aks45\Gudrun\Gudrun2014\RawData\NIMROD\NIMROD00026163.nxs
+ get_data> Filename: C:\aks45\Gudrun\Gudrun2014\RawData\NIMROD\NIMROD00026199.nxs
+ get_data> Filename: C:\aks45\Gudrun\Gudrun2014\RawData\NIMROD\NIMROD00026201.nxs
+ get_data> Filename: C:\aks45\Gudrun\Gudrun2014\RawData\NIMROD\NIMROD00026197.nxs
+get_ratio> Time spent retrieving data =      32 ms
+get_ratio> Total time taken =   15560 ms
+ Done get ratio
+ 2337 good spectra at start
+   0.00000000       0.00000000    
+ Pass  1;     0 good spectra. 
+ Grp:   1    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   2    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   3    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   4    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   5    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   6    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   7    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   8    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   9    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  10    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  11    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  12    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  13    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  14    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  15    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  16    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  17    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  18    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  19    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  20    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  21    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  22    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  23    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  24    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  25    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+    25 spectra in 25 groups to file NIMROD00026162.grp                                
+ 2337 good spectra at start
+   0.00000000       0.00000000    
+ Pass  1;     0 good spectra. 
+ Grp:   1    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   2    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   3    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   4    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   5    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   6    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   7    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   8    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   9    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  10    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  11    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  12    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  13    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  14    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  15    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  16    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  17    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  18    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  19    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  20    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  21    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  22    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  23    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  24    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  25    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+    25 spectra in 25 groups to file NIMROD00026181.grp                                
+ 2337 good spectra at start
+   0.00000000       0.00000000    
+ Pass  1;     0 good spectra. 
+ Grp:   1    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   2    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   3    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   4    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   5    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   6    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   7    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   8    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   9    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  10    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  11    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  12    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  13    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  14    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  15    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  16    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  17    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  18    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  19    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  20    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  21    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  22    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  23    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  24    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  25    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+    25 spectra in 25 groups to file NIMROD00026163.grp                                
+ 2337 good spectra at start
+   0.00000000       0.00000000    
+ Pass  1;     0 good spectra. 
+ Grp:   1    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   2    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   3    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   4    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   5    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   6    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   7    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   8    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   9    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  10    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  11    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  12    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  13    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  14    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  15    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  16    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  17    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  18    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  19    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  20    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  21    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  22    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  23    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  24    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  25    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+    25 spectra in 25 groups to file NIMROD00026199.grp                                
+ 2337 good spectra at start
+   0.00000000       0.00000000    
+ Pass  1;     0 good spectra. 
+ Grp:   1    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   2    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   3    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   4    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   5    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   6    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   7    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   8    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   9    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  10    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  11    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  12    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  13    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  14    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  15    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  16    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  17    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  18    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  19    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  20    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  21    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  22    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  23    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  24    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  25    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+    25 spectra in 25 groups to file NIMROD00026201.grp                                
+ 2337 good spectra at start
+   0.00000000       0.00000000    
+ Pass  1;     0 good spectra. 
+ Grp:   1    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   2    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   3    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   4    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   5    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   6    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   7    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   8    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:   9    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  10    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  11    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  12    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  13    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  14    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  15    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  16    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  17    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  18    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  19    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  20    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  21    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  22    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  23    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  24    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+ Grp:  25    0 Dets, mean ratio:  0.00000E+00, and mean dev.:  0.00000E+00
+ Next RMS test values:  0.00000E+00  0.00000E+00
+    25 spectra in 25 groups to file NIMROD00026197.grp                                
+purge_det> Total run time =       15797 ms

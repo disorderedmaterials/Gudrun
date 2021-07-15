@@ -1,0 +1,29 @@
+C
+C $Id: libget_test.f,v 1.3 1998/05/08 19:01:52 faa Exp $
+C
+      PROGRAM LIBGET_TEST
+      IMPLICIT NONE
+      INTEGER MAXTCB, ERRCODE, NTCB, I, ISPEC
+      PARAMETER(MAXTCB=20000)
+      LOGICAL FOUND
+      INTEGER COUNTS(MAXTCB)
+      REAL TCB(MAXTCB)
+      CHARACTER*256 RUNID
+      WRITE(6,*) 'Input data file: '
+c      READ(5,9000) RUNID
+ 9000 FORMAT(A)
+      RUNID='SLS39534.RAW'
+      CALL OPEN_FILE(RUNID,FOUND)
+      IF (.NOT. FOUND) STOP 'File not found'
+      CALL GETPARR(RUNID,'TCB1', TCB, MAXTCB, NTCB, ERRCODE)
+      IF (ERRCODE .NE. 0) STOP 'Error in GETPARR'
+      WRITE(6,*) 'Read ',NTCB, ' time channels'
+      ISPEC=1
+      CALL GETDAT(RUNID,ISPEC,1,COUNTS,MAXTCB,ERRCODE)
+      IF (ERRCODE .NE. 0) STOP 'Error in GETRUN'
+      WRITE(6,*) 'Read spectrum ',ISPEC
+      DO I=1,MIN(10,NTCB)
+          WRITE(6,9010) TCB(I), COUNTS(I)
+      ENDDO
+ 9010 FORMAT('TOF = ', G12.3, ', Counts = ', I7)
+      END

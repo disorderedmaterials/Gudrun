@@ -1,0 +1,50 @@
+ SLS50994.gudw
+
+ CD3OD:D2O in 1mm TiZr cell 270K
+
+ Soper Professor A K
+
+ 2013-12-10T20:53:17
+
+ Number density of this sample (atoms/A**3) =  0.100000E+00
+ Corresponding density in g/cm**3 =    1.10854
+ Average scattering length of the sample (10**-12cm) =    0.63817
+ Average scattering length squared (barns) =  0.407257E+00
+ Average square of the scattering length (barns) =  0.408931E+00
+ Ratio of (coherent) single to interference =  0.100411E+01
+
+ Expected level of DCS [b/sr/atom] =    0.51757
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            0.0500    4.6703        0.33446              9.2027
+    2            0.0500    4.7903        0.35511             11.2748
+    3            0.0500    4.7903        0.34578             10.1718
+    4            0.0500    4.7903        0.34011              9.4232
+    5            0.0500    4.7903        0.34351              9.8926
+    6            0.0500    4.7903        0.35555             10.1066
+    7            0.0596    4.7903        0.32980              8.0752
+    8            0.0707    4.7903        0.33225              8.1287
+    9            0.0767    4.7903        0.33120              7.6435
+   10            0.0832    4.7903        0.32619              6.7778
+   11            0.0900    4.7903        0.31790              5.5505
+   12            0.1047    4.7903        0.30557              2.3620
+   13            0.1125    4.7903        0.31606              1.6730
+   14            0.1289    4.7903        0.35201             -2.5284
+   15            0.1463    4.7903        0.45690             -6.6573
+   16            0.1644    4.7903        0.54602             -9.0512
+   17            0.1553    4.7903        0.54655             -9.3579
+   18            0.1831    4.7903        0.69034            -11.7351
+
+ No. of groups accepted for merge =   18
+
+ Average level of merged dcs is    0.42253 b/sr/atom;
+
+ Gradient of merged dcs: -5.1203% of average level.
+
+ WARNING! This DCS level is   18.4% BELOW expected level.
+
+ Please check sample density, size or thickness, and composition.
+ If all is in order, then refer to your local contact for further advice
+
+ Suggested tweak factor:    1.22494

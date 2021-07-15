@@ -1,0 +1,70 @@
+'  '  '          '  '/'
+
+CONTAINER SiO2 0.5mm capillary          {
+
+1            Number of  files
+090522a_emptycapillary.xrdml          CONTAINER SiO2 capillary data files
+Si  Si  1.0  0.0  0.0          Composition
+O  O  2.0  0.0  0.0          Composition
+*  0  0  0  0          * 0 0 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.025  0.035          Inner and outer thickness (cm)
+2          Sample height (cm)
+-0.0663          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+1.0          Data factor
+
+}
+
+CONTAINER SiO2 1mm capillary          {
+
+1            Number of  files
+090522a_emptycapillary.xrdml          CONTAINER SiO2 capillary data files
+Si  Si  1.0  0.0  0.0          Composition
+O  O  2.0  0.0  0.0          Composition
+*  0  0  0  0          * 0 0 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.05  0.06          Inner and outer thickness (cm)
+2          Sample height (cm)
+-0.0663          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+1.0          Data factor
+
+}
+
+CONTAINER SiO2 2mm capillary          {
+
+1            Number of  files
+090522a_emptycapillary.xrdml          CONTAINER SiO2 capillary data files
+Si  Si  1.0  0.0  0.0          Composition
+O  O  2.0  0.0  0.0          Composition
+*  0  0  0  0          * 0 0 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.1  0.11          Inner and outer thickness (cm)
+2          Sample height (cm)
+-0.0663          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Tweak factor
+1.0          Data factor
+
+}
+
+CONTAINER Air Scatter          {
+
+1            Number of  files
+090523a_background.xrdml          CONTAINER Air Scatter data files
+N  N  4.0  0.0  0.0          Container atomic composition
+O  O  1.0  0.0  0.0          Container atomic composition
+*  0  0  0  0          * 0 0 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.15  0.17          Inner and outer thickness (cm)
+1          Sample height (cm)
+-0.0243          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Container tweak factor
+1.0          Data factor
+
+}
+

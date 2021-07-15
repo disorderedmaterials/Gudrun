@@ -1,0 +1,135 @@
+'  '  '          '  '/'
+
+INSTRUMENT          {
+
+XRD          Instrument name
+/home/aks45/Desktop/Gudrun2013/Gudrun4/run/XRD/          Gudrun input file directory:
+/home/aks45/Gudrun/GudrunX/RawData/XRD/          Data file directory
+xrdml          Data file type
+StartupFiles/Xray/CrossSec_XCOM.txt          X-ray cross sections file
+StartupFiles/Xray/f0_WaasKirf.txt          X-ray form factor file
+StartupFiles/Xray/CrossSec_Compton_Balyuzi.txt          X-ray Compton scattering file
+0.61  21.0  0.05          Q-range [1/Å] for final DCS
+20.0  0.03          r-max and r-step for final g(r)
+
+}
+
+BEAM          {
+
+CYLINDRICAL          Sample geometry
+2          Number of beam profile values
+1.0  1.0            Beam profile values (Maximum of 50 allowed currently)
+0.0060  0.0300  100          Step size for absorption and m.s. calculation and no. of slices
+10          Step in scattering angle to calculate corrections at: [deg.]          
+-0.5  0.5  -0.5  0.5          Incident beam edges relative to centre of sample [cm]
+-2.0  2.0  -2.1  2.1          Scattered beam edges relative to centre of sample [cm]
+*          File containing bremsstrahlung intensity
+10.5          Density of target material [gm/cm^3] 
+0.003          Effective target penetration depth [cm] 
+Rh          K-beta filter 
+12.4          K-beta filter density [gm/cm^3] 
+0.005          K-beta filter thickness [cm] 
+0.96          Bremsstrahlung power 
+36          Detector cutoff [keV]
+3          Cutoff width [keV] 
+*          Lowest scattering angle
+*          Highest scattering angle
+*          Scattering angle step
+0.0          Angle offset [deg.] 
+Ag          Anode material:
+60          Tube voltage [kV]
+ 0.5608849          Wavelength [A]:
+0          Theta-theta scanning?
+0          Fixed slits?
+0.0  0.0  -1.0          Footprint length, sample thickness, and depression (all relative to sample dimension):
+0.0  0.0  -1.0          Position, width and power for low angle cutoff [deg]: 
+35          Tube current [mA]
+0.5594214          kAlpha1 [A] 
+0.5638120          kAlpha2 [A] 
+0.4970810          kBeta [A] 
+0.0  0.00          kAlpha2 and kBeta relative intensities:  
+0.4          Bremsstrahlung scattering amplitude
+10          No. of bremsstrahlung iterations
+
+}
+
+NORMALISATION          {
+
+0.0          Azimuthal angle of detector above scattering plane:
+0          Divide by <F>^2? 
+2          Power for Breit-Dirac factor (2 -3) 
+1          Krogh-Moe & Norman normalisation
+0.0          Overlap factor
+
+}
+
+SAMPLE BACKGROUND          {
+
+1            Number of  files
+090523a_background.xrdml          SAMPLE BACKGROUND data files
+0.0          Sample background factor 
+1.0          Data factor
+0          Exclude scans
+
+}
+
+SAMPLE Amorphous SiO2          {
+
+1            Number of  files
+090523a_SiO2.xrdml          SAMPLE Amorphous SiO2 data files
+1          Force calculation of sample corrections?
+Si  Si  1.0  0.0  0.0          Sample atomic composition
+O  O  2.0  0.0  0.0          Sample atomic composition
+*  0  0  0  0          * 0 0 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.0  0.15          Inner and outer radii (cm)
+5          Sample height (cm)
+-0.0663          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Sample tweak factor
+-10          Top hat width (1/Å) for cleaning up Fourier Transform
+1.1          Minimum radius for Fourier Transform [Å]
+0.1          Width of broadening in r-space [A]
+0  0          0   0          to finish specifying wavelength range of resonance
+0.0  0.0  1.0          Exponential amplitude, decay [�] and stretch
+ 4.144163e-04          Sample calibration factor
+5          No. of iterations
+0.0 0.0 0.0 0.0 0.0           Fluorescence levels
+1          Factor to modify multiple scattering (0 - 1)
+0.0          Incident beam polarization factor (-1 -> +1)
+1.0          Factor for Compton scattering
+0.4          Bremsstrahlung scattering amplitude
+10          No. of bremsstrahlung iterations
+0.2          Broadening power
+0.0  0.00          kAlpha2 and kBeta relative intensities:  
+1.0          Data factor
+1          Analyse this sample? 
+0          Exclude scans
+
+}
+
+CONTAINER Air Scatter          {
+
+1            Number of  files
+090523a_background.xrdml          CONTAINER Air Scatter data files
+N  N  4.0  0.0  0.0          Container atomic composition
+O  O  1.0  0.0  0.0          Container atomic composition
+*  0  0  0  0          * 0 0 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.15  0.17          Inner and outer radii (cm)
+1          Sample height (cm)
+-0.0243          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Container tweak factor
+1.0          Data factor
+0          Exclude scans
+
+}
+
+GO          
+
+
+END          
+1
+Date and time last written:  20130206 19:11:20          
+X

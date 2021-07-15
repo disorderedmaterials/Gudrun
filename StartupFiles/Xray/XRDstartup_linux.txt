@@ -1,0 +1,77 @@
+'  '  '          '  '/'
+
+INSTRUMENT          {
+
+XRD          Instrument name
+/home/aks45/Gudrun/Gudrun2014/Gudrun/StartupFiles/Xray/          Gudrun input file directory:
+/home/aks45/Gudrun4distribution/RawData/XRD/          Data file directory
+xrdml          Data file type
+StartupFiles/Xray/CrossSec_XCOM.txt          X-ray cross sections file
+StartupFiles/Xray/f0_WaasKirf.txt          X-ray form factor file
+StartupFiles/Xray/CrossSec_Compton_Balyuzi.txt          X-ray Compton scattering file
+0.025  50.0  0.05          Q-range [1/Å] for final DCS
+20.0  0.03          r-max and r-step for final g(r)
+
+}
+
+BEAM          {
+
+CYLINDRICAL          Sample geometry
+2          Number of beam profile values
+1.0  1.0            Beam profile values (Maximum of 50 allowed currently)
+0.001  0.005  100          Step size for absorption and m.s. calculation and no. of slices
+10          Step in scattering angle to calculate corrections at: [deg.]          
+-0.5  0.5  -1.5  1.5          Incident beam edges relative to centre of sample [cm]
+-2.0  2.0  -2.1  2.1          Scattered beam edges relative to centre of sample [cm]
+*          File containing bremsstrahlung intensity
+10.5          Density of target material [gm/cm^3] 
+0.003          Effective target penetration depth [cm] 
+Rh          K-beta filter 
+12.4          K-beta filter density [gm/cm^3] 
+0.005          K-beta filter thickness [cm] 
+0.96          Bremsstrahlung power 
+36          Detector cutoff [keV]
+3          Cutoff width [keV] 
+*          Lowest scattering angle
+*          Highest scattering angle
+*          Scattering angle step
+0.0          Angle offset [deg.] 
+*          Anode material:
+*          Tube voltage [kV]
+*          Wavelength [A]:
+0          Theta-theta scanning?
+0          Fixed slits?
+0.0  DeprecatedSpace  -1.0          Beam width at normal incidence and sample depression [cm]:
+0.0  0.0  -1.0          Position, width and power for low angle cutoff [deg]: 
+*          Tube current [mA]
+*          kAlpha1 [A] 
+*          kAlpha2 [A] 
+*          kBeta [A] 
+0.0  0.00          kAlpha2 and kBeta relative intensities:  
+0.0          Bremsstrahlung scattering amplitude
+10          No. of bremsstrahlung iterations
+
+}
+
+NORMALISATION          {
+
+0.0          Azimuthal angle of detector above scattering plane:
+1          Divide by <F^2>? 
+2          Power for Breit-Dirac factor (2 -3) 
+1          Krogh-Moe & Norman normalisation
+0.0          Overlap factor
+
+}
+
+SAMPLE BACKGROUND          {
+
+0            Number of  files
+1.0          Sample background factor 
+
+}
+
+
+END          
+1
+Date and time last written:  20161121 12:59:22          
+X

@@ -1,0 +1,24 @@
+'  '  '          '  '\'
+
+SANDALS          Instrument name
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\run\SLS\          Gudrun input file directory:
+C:\Users\user\aks45\Gudrun\Gudrun2014\RawData\SLS\          Data file directory
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011DetectorVer1.calib          Detector calibration file name
+C:\Users\user\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS\SANDALSMarch2011Groups.dat          Groups file name
+1 3          Spectrum number(s) for incident beam monitor
+0  0          Channel numbers for spike analysis
+5          Spike analysis acceptance factor
+10  10          Specify the number of standard deviations allowed above and below the mean ratio. Specify the range of std's allowed around the mean standard deviation.
+1          Ignore any existing bad spectrum and spike files (spec.bad, spike.dat)?
+SLS50836.raw  1          
+SLS50837.raw  1          
+SLS50837.raw  1          
+SLS50875.raw  1          
+SLS50876.raw  1          
+SLS50877.raw  1          
+SLS50994.raw  1          
+SLS50995.raw  1          
+SLS50875.raw  1          
+SLS50876.raw  1          
+SLS50877.raw  1          
+SLS50875.raw  1          

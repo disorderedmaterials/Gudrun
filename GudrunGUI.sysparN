@@ -1,0 +1,6 @@
+bin/gudrun_dcs;
+bin/purge_det;
+rungnuplotXquartz.sh;
+rungnuplotplotXquartz.sh;
+StartupFiles/SLS/SLSstartup.txt;
+;

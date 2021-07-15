@@ -1,0 +1,87 @@
+'  '  '          '  '/'
+
+INSTRUMENT          {
+
+NOVA          Instrument name
+/home/aks45/Gudrun/Gudrun2014/Gudrun/StartupFiles/NOVA/          Gudrun input file directory:
+/home/aks45/Gudrun/Gudrun2014/RawData/NOVA/          Data file directory
+nxs          Data file type
+StartupFiles/NOVA/CalibrationFileForNOVA.calib          Detector calibration file name
+1          User table column number for phi values
+StartupFiles/NOVA/NOVAgroups3.dat          Groups file name
+StartupFiles/NOVA/NOVAdeadtime.cor          Deadtime constants file name
+6 7          Spectrum number(s) for incident beam monitor
+0  0          Wavelength range [Å] for monitor normalisation
+8 9          Spectrum number(s) for transmission monitor
+0.0001          Incident monitor quiet count constant
+0.0001          Transmission monitor quiet count constant
+0  0          Channel numbers for spike analysis
+5          Spike analysis acceptance factor
+0.1  12  0.1          Wavelength range to use [Å] and step size
+2000            No. of smooths on monitor
+0.025  50.0  -0.05          Min, Max and step in x-scale (-ve for logarithmic binning)
+0  0  0  0          0 0 0 0 to end input of specified values
+1.0          Groups acceptance factor 
+4          Merge power
+0          Subtract single atom scattering?
+1          By detector?
+20.0          Incident flight path [m]
+0          Spectrum number to output diagnostic files
+StartupFiles/NIMROD/sears91_gudrun.dat          Neutron scattering parameters file
+1          Scale selection: 1 = Q, 2 = d-space, 3 = wavelength, 4 = energy, 5 = TOF
+0          Subtract wavelength-binned data?
+/home/aks45/Gudrun/Gudrun2014/Gudrun          Folder where Gudrun started
+/home/aks45/Gudrun/Gudrun2014/Gudrun/StartupFiles/SLS          Folder containing the startup file
+0.6          Logarithmic step size
+1          Hard group edges?
+StartupFiles/NOVA/NOVA.nexus_txt          NeXus definition file
+0          Number of iterations
+0          Tweak the tweak factor(s)?
+
+}
+
+BEAM          {
+
+FLATPLATE          Sample geometry
+2          Number of beam profile values
+1.0  1.0            Beam profile values (Maximum of 50 allowed currently)
+0.05  0.2  100          Step size for absorption and m.s. calculation and no. of slices
+10          Angular step for corrections [deg.]          
+-0.5  0.5  -1.5  1.5          Incident beam edges relative to centre of sample [cm]
+-2.0  2.0  -2.1  2.1          Scattered beam edges relative to centre of sample [cm]
+StartupFiles/NOVA/spectrum000.dat          Filename containing incident beam spectrum parameters
+0.9          Overall background factor 
+0.0          Sample dependent background factor
+0.0          Shielding attenuation coefficient [per m per A] 
+
+}
+
+NORMALISATION          {
+
+0  1          Number of  files and period number
+0  1          Number of  files and period number
+1          Force calculation of corrections?
+V  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.15  0.15          Upstream and downstream thicknesses [cm]
+0.0  5          Angle of rotation and sample width (cm)
+-0.0721          Density atoms/Å^3?
+200          Temperature for Placzek correction:
+TABLES          Total cross section source
+*          Normalisation differential cross section filename
+0.01          Lower limit on smoothed normalisation  
+1.05          Normalisation degree of smoothing
+0.0          Minimum normalisation signal to background ratio
+
+}
+
+SAMPLE BACKGROUND          {
+
+0  1          Number of  files and period number
+
+}
+
+
+END          
+Date and time last written:  20191017 09:45:31          

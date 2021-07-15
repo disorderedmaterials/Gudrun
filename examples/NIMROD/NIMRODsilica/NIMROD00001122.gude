@@ -1,0 +1,68 @@
+ NIMROD00001122.gude
+
+ 3mm SiO2 flat plate in pos 9
+
+ 
+
+ 11-NOV-2009 10:18:19
+
+ Number density of this sample (atoms/A**3) =  0.640000E-01
+ Corresponding density in g/cm**3 =    2.12847
+ Average scattering length of the sample (10**-12cm) =    0.52531
+ Average scattering length squared (barns) =  0.275954E+00
+ Average square of the scattering length (barns) =  0.282001E+00
+ Ratio of (coherent) single to interference =  0.102191E+01
+
+ Expected level of DCS [b/sr/atom] =    0.28210
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            0.0000    0.0000        0.00000              0.0000
+    2            1.0000 *********            NaN              0.0000
+    3            1.0000 *********            NaN              0.0000
+    4            1.0000 *********            NaN              0.0000
+    5            1.0000 *********            NaN              0.0000
+    6            1.0000 *********            NaN              0.0000
+    7            1.0000 *********            NaN              0.0000
+    8            1.0000 *********            NaN              0.0000
+    9            1.0000 *********            NaN              0.0000
+   10            1.0000 *********            NaN              0.0000
+   11            1.0000 *********            NaN              0.0000
+   12            1.0000 *********            NaN              0.0000
+   13            1.0000 *********            NaN              0.0000
+   14            1.0000 *********            NaN              0.0000
+   15            1.0000 *********            NaN              0.0000
+   16            1.0000 *********            NaN              0.0000
+   17            1.0000 *********            NaN              0.0000
+   18            1.0000 *********            NaN              0.0000
+   19            1.0000 *********            NaN              0.0000
+   20            1.0000 *********            NaN              0.0000
+   21            1.0000 *********            NaN              0.0000
+   22            1.0000 *********            NaN              0.0000
+   23            1.0000 *********            NaN              0.0000
+   24            1.0000 *********            NaN              0.0000
+   25            1.0000 *********            NaN              0.0000
+   26            1.0000 *********            NaN              0.0000
+   27            1.0000 *********            NaN              0.0000
+   28            1.0000 *********            NaN              0.0000
+   29            1.0000 *********            NaN              0.0000
+   30            1.0000 *********            NaN              0.0000
+   31            1.0000 *********            NaN              0.0000
+   32            1.0000 *********            NaN              0.0000
+   33            1.0000 *********            NaN              0.0000
+   34            1.0000 *********            NaN              0.0000
+   35            1.0000 *********            NaN              0.0000
+   36            1.0000 *********            NaN              0.0000
+   37            1.0000 *********            NaN              0.0000
+   38            1.0000 *********            NaN              0.0000
+   39            1.0000 *********            NaN              0.0000
+
+ No. of groups accepted for merge =   39
+
+ Average level of merged dcs is        NaN b/sr/atom;
+
+ Gradient of merged dcs:  0.0000% of average level.
+
+ This DCS level is    NaN% of expected level
+
+ Suggested tweak factor:    1.00000

@@ -1,0 +1,158 @@
+'  '  '          '  '\'
+
+INSTRUMENT          {
+
+POLARIS          Instrument name
+C:\Gudrun4\StartupFiles\POLARIS\          Gudrun input file directory:
+\          Data file directory
+raw          Data file type
+StartupFiles\POLARIS\POLARIS_115_det_gudrun.dat          Detector calibration file name
+5          User table column number for phi values
+StartupFiles\polaris\POLARIS_115_5groups_gudrun.dat          Groups file name
+*          Deadtime constants file name
+1          Spectrum number(s) for incident beam monitor
+0  0          Wavelength range [Å] for monitor normalisation
+3          Spectrum number(s) for transmission monitor
+0          Incident monitor quiet count constant
+0          Transmission monitor quiet count constant
+20  6300          Channel numbers for spike analysis
+15          Spike analysis acceptance factor
+0.1  4.0  0.1          Wavelength range to use [Å] and step size
+100            No. of smooths on monitor
+1.0  50.0  0.02          Min, Max and step in x-scale (-ve for logarithmic binning)
+1  0.0  80.0  1.0          Group, Xmin, Xmax, Background factor
+2  0.0  80.0  1.0          Group, Xmin, Xmax, Background factor
+3  0.0  80.0  1.0          Group, Xmin, Xmax, Background factor
+4  0.0  80.0  1.0          Group, Xmin, Xmax, Background factor
+5  0.0  80.0  1.0          Group, Xmin, Xmax, Background factor
+0  0  0  0          0 0 0 0 to end input of specified values
+1.0          Groups acceptance factor 
+4          Merge power
+0          Subtract single atom scattering?
+1          By detector?
+14.0          Incident flight path [m]
+0          Spectrum number to output diagnostic files
+StartupFiles\SLS\sears91_gudrun.dat          Neutron scattering parameters file
+1          Scale selection: 1 = Q, 2 = d-space, 3 = wavelength, 4 = energy, 5 = TOF
+0          Subtract wavelength-binned data?
+C:\Gudrun4          Folder where Gudrun started
+C:\Gudrun4\StartupFiles\SLS          Folder containing the startup file
+0.1          Logarithmic step size
+1          Hard group edges?
+0          Number of iterations
+
+}
+
+BEAM          {
+
+CYLINDRICAL          Sample geometry
+2          Number of beam profile values
+1.0  1.0            Beam profile values (Maximum of 50 allowed currently)
+0.05  0.2  100          Step size for absorption and m.s. calculation and no. of slices
+10          Angular step for corrections [deg.]          
+-0.75  0.75  -2.0  2.0          Incident beam edges relative to centre of sample [cm]
+-2.0  2.0  -2.5  2.5          Scattered beam edges relative to centre of sample [cm]
+StartupFiles\SLS\spectrum000.dat          Filename containing incident beam spectrum parameters
+1.0          Overall background factor 
+0.0          Sample dependent background factor
+0.0          Shielding attenuation coefficient [per m per A] 
+
+}
+
+NORMALISATION          {
+
+1  1          Number of  files and period number
+POL60274.raw          NORMALISATION data files
+1  1          Number of  files and period number
+POL60273.raw          NORMALISATION BACKGROUND data files
+1          Force calculation of corrections?
+V  0  1.0          Normalisation atomic composition
+*  0  0          * 0 0 to specify end of composition input
+CYLINDRICAL          Geometry
+0.0  0.4170          Inner and outer radii (cm)
+6.0          Sample height (cm)
+-0.07216          Density atoms/Å^3?
+300          Temperature for normalisation Placzek correction
+TABLES          Total cross section source
+*          Normalisation differential cross section filename
+0.01          Lower limit on smoothed normalisation  
+1.05          Normalisation degree of smoothing
+
+}
+
+SAMPLE BACKGROUND          {
+
+2  1          Number of  files and period number
+POL60279.raw          SAMPLE BACKGROUND data files
+POL60280.raw          SAMPLE BACKGROUND data files
+
+}
+
+SAMPLE          {
+
+10  1          Number of  files and period number
+POL60315.raw          SAMPLE data files
+POL60316.raw          SAMPLE data files
+POL60317.raw          SAMPLE data files
+POL60318.raw          SAMPLE data files
+POL60319.raw          SAMPLE data files
+POL60320.raw          SAMPLE data files
+POL60321.raw          SAMPLE data files
+POL60322.raw          SAMPLE data files
+POL60323.raw          SAMPLE data files
+POL60324.raw          SAMPLE data files
+1          Force calculation of sample corrections?
+H  2  2.0          Sample atomic composition
+O  0  1.0          Sample atomic composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.0  0.381          Inner and outer radii (cm)
+4.0          Sample height (cm)
+1.0          Density Units:  gm/cm^3?
+300          Temperature for sample Placzek correction
+TABLES          Total cross section source
+2.0          Sample tweak factor
+3          Top hat width (1/Å) for cleaning up Fourier Transform
+.6          Minimum radius for FT  [Å]
+0          g(r) broadening at r = 1A [A]
+0  0          0   0          to finish specifying wavelength range of resonance
+0.0  0.0  0          Exponential amplitude and decay [1/A]
+*  0  0          * 0 0 to specify end of exponential parameter input
+1.0          Normalisation correction factor
+*          Name of file containing self scattering as a function of wavelength [A]
+0          Normalise to:Nothing
+30.0          Maximum radius for FT [A]
+0          Output units: b/atom/sr
+0          Power for broadening function e.g. 0.5
+0.02          Step size [A] 
+1          Analyse this sample? 
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+CONTAINER 1          {
+
+4  1          Number of  files and period number
+POL60275.raw          CONTAINER 1 data files
+POL60276.raw          CONTAINER 1 data files
+POL60277.raw          CONTAINER 1 data files
+POL60278.raw          CONTAINER 1 data files
+V  0  1.0          Container atomic composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.381  0.394          Inner and outer radii (cm)
+4.0          Sample height (cm)
+-0.07216          Density atoms/Å^3?
+TABLES          Total cross section source
+1.0          Container tweak factor
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+GO          
+
+
+END          
+1 2 3 4 5 6
+Date and time last written:  20130123 15:20:02          
+N

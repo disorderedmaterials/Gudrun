@@ -1,0 +1,47 @@
+ SLS39633.gud 
+
+ H2O 25C Can #32 Pos 4                                                           
+
+ A.K.Soper           
+
+ 27-Nov-2007 17:13:22
+
+ Number density of this sample (atoms/A**3) =  0.100200E+00
+ Corresponding density in g/cm**3 =    0.99916
+ Average scattering length of the sample (10**-12cm) =   -0.05583
+ Average scattering length squared (barns) =  0.311736E-02
+ Average square of the scattering length (barns) =  0.205450E+00
+ Ratio of (coherent) single to interference =  0.659052E+02
+
+ Expected level of DCS [b/sr/atom] =    4.46355
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            0.1250    9.3750        4.04210             -0.9532
+    2            0.1250   11.9250        4.33538             -1.3408
+    3            0.1750   14.4250        4.40988             -0.7853
+    4            0.1750   17.2750        4.60561             -0.8467
+    5            0.2250   19.9250        4.76492             -0.5952
+    6            0.2750   23.0750        4.92089             -0.6959
+    7            0.3250   26.8250        4.20849             -0.3430
+    8            0.3250   29.6750        4.47219             -0.6387
+    9            0.3750   33.3750        4.71221             -0.4597
+   10            0.3750   37.0250        4.63365             -0.4384
+   11            0.4250   41.6250        4.77747             -0.3408
+   12            0.4750   46.2250        4.96569             -0.5226
+   13            0.5250   49.9250        4.39433             -0.1902
+   14            0.5750   49.9250        4.44610             -0.1618
+   15            0.6750   49.9250        4.53550             -0.1264
+   16            0.7250   49.9250        4.48878             -0.2114
+   17            0.7250   49.9250        4.71331             -0.1680
+   18            0.8250   49.9250        4.56575             -0.1249
+
+ No. of groups accepted for merge =   18
+
+ Average level of merged dcs is    4.46503 b/sr/atom;
+
+ Gradient of merged dcs: -0.1181% of average level.
+
+ This DCS level is  100.0% of expected level
+
+ Suggested tweak factor:    1.03782

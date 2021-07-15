@@ -1,0 +1,27 @@
+'  '  '          '  '/'
+
+GEM          Instrument name
+/home/aks45/Gudrun/Gudrun2013/Gudrun4/run/GEM/cristobalite/          Gudrun input file directory:
+/home/aks45/Gudrun/Gudrun2013/RawData/GEM/cristobalite/          Data file directory
+/home/aks45/Gudrun/Gudrun2013/Gudrun4/StartupFiles/GEM/ariel_083.dat          Detector calibration file name
+/home/aks45/Gudrun/Gudrun2013/Gudrun4/StartupFiles/GEM/GEMgroups_def.dat          Groups file name
+6 7 8          Spectrum number(s) for incident beam monitor
+30  4980          Channel numbers for spike analysis
+4          Spike analysis acceptance factor
+10  10          Specify the number of standard deviations allowed above and below the mean ratio. Specify the range of std's allowed around the mean standard deviation.
+1          Ignore any existing bad spectrum and spike files (spec.bad, spike.dat)?
+GEM46492.raw  1          
+GEM46493.raw  1          
+GEM46506.raw  1          
+GEM46507.raw  1          
+GEM46508.raw  1          
+GEM46509.raw  1          
+GEM46510.raw  1          
+GEM46511.raw  1          
+GEM46512.raw  1          
+GEM46513.raw  1          
+GEM46514.raw  1          
+GEM46502.raw  1          
+GEM46503.raw  1          
+GEM46504.raw  1          
+GEM46505.raw  1          

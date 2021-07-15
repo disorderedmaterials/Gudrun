@@ -1,0 +1,223 @@
+'  '  '          '  '\'
+
+INSTRUMENT          {
+
+D4C          Instrument name
+C:\Users\aks45\Gudrun\Gudrun2014\Gudrun\run\D4C\xylene\          Gudrun input file directory:
+C:\Users\aks45\Gudrun\Gudrun2014\RawData\D4C\          Data file directory
+*          Data file type
+*          Detector calibration file name
+0          User table column number for phi values
+*          Groups file name
+*          Deadtime constants file name
+1          Spectrum number(s) for incident beam monitor
+0  0          Wavelength range [Å] for monitor normalisation
+-1          Spectrum number(s) for transmission monitor
+0.000          Incident monitor quiet count constant
+0.000          Transmission monitor quiet count constant
+0  0          Channel numbers for spike analysis
+0          Spike analysis acceptance factor
+0.3  0.9  0.1          Wavelength range to use [Å] and step size
+0            No. of smooths on monitor
+0.325  16.0  0.05          Min, Max and step in x-scale (-ve for logarithmic binning)
+10  0.01  0.01  1.0          Group, Xmin, Xmax, Background factor
+0  0  0  0          0 0 0 0 to end input of specified values
+1          Groups acceptance factor 
+0          Merge power
+0          Subtract single atom scattering?
+2          By channel?
+10          Incident flight path [m]
+0.70629          Incident wavelength [Å]
+2890          Spectrum number to output diagnostic files
+StartupFiles\SLS\sears91_gudrun.dat          Neutron scattering parameters file
+1          Scale selection: 1 = Q, 2 = d-space, 3 = wavelength, 4 = energy, 5 = TOF
+0          Subtract wavelength-binned data?
+C:\Users\aks45\Gudrun\Gudrun2014\Gudrun          Folder where Gudrun started
+C:\Users\aks45\Gudrun\Gudrun2014\Gudrun\StartupFiles\SLS          Folder containing the startup file
+0.6          Logarithmic step size
+1          Hard group edges?
+0          Number of iterations
+0          Tweak the tweak factor(s)?
+
+}
+
+BEAM          {
+
+CYLINDRICAL          Sample geometry
+2          Number of beam profile values
+1.0  1.0            Beam profile values (Maximum of 50 allowed currently)
+0.05  0.05  100          Step size for absorption and m.s. calculation and no. of slices
+10          Angular step for corrections [deg.]          
+-0.5  0.5  -1.5  1.5          Incident beam edges relative to centre of sample [cm]
+-2.0  2.0  -2.1  2.1          Scattered beam edges relative to centre of sample [cm]
+StartupFiles\SLS\spectrum000.dat          Filename containing incident beam spectrum parameters
+1.0          Overall background factor 
+0.0          Sample dependent background factor
+0.0          Shielding attenuation coefficient [per m per A] 
+
+}
+
+NORMALISATION          {
+
+9  1          Number of  files and period number
+226283          NORMALISATION data files
+226284          NORMALISATION data files
+226285          NORMALISATION data files
+226286          NORMALISATION data files
+226287          NORMALISATION data files
+226288          NORMALISATION data files
+226289          NORMALISATION data files
+226290          NORMALISATION data files
+226291          NORMALISATION data files
+9  1          Number of  files and period number
+225840          NORMALISATION BACKGROUND data files
+225841          NORMALISATION BACKGROUND data files
+225842          NORMALISATION BACKGROUND data files
+225843          NORMALISATION BACKGROUND data files
+225844          NORMALISATION BACKGROUND data files
+225845          NORMALISATION BACKGROUND data files
+225846          NORMALISATION BACKGROUND data files
+225847          NORMALISATION BACKGROUND data files
+225848          NORMALISATION BACKGROUND data files
+1          Force calculation of corrections?
+V  0  1.0          Normalisation atomic composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.0  0.25          Inner and outer radii (cm)
+5          Sample height (cm)
+-0.0721          Density atoms/Å^3?
+300          Temperature for normalisation Placzek correction
+TABLES          Total cross section source
+*          Normalisation differential cross section filename
+0.01          Lower limit on smoothed normalisation  
+1.05          Normalisation degree of smoothing
+0.0          Minimum normalisation signal to background ratio
+
+}
+
+SAMPLE BACKGROUND          {
+
+23  1          Number of  files and period number
+225840          SAMPLE BACKGROUND data files
+225841          SAMPLE BACKGROUND data files
+225842          SAMPLE BACKGROUND data files
+225843          SAMPLE BACKGROUND data files
+225844          SAMPLE BACKGROUND data files
+225845          SAMPLE BACKGROUND data files
+225846          SAMPLE BACKGROUND data files
+225847          SAMPLE BACKGROUND data files
+225848          SAMPLE BACKGROUND data files
+225849          SAMPLE BACKGROUND data files
+225850          SAMPLE BACKGROUND data files
+225851          SAMPLE BACKGROUND data files
+225852          SAMPLE BACKGROUND data files
+225853          SAMPLE BACKGROUND data files
+225854          SAMPLE BACKGROUND data files
+225855          SAMPLE BACKGROUND data files
+225856          SAMPLE BACKGROUND data files
+225857          SAMPLE BACKGROUND data files
+225858          SAMPLE BACKGROUND data files
+225859          SAMPLE BACKGROUND data files
+225860          SAMPLE BACKGROUND data files
+225861          SAMPLE BACKGROUND data files
+225862          SAMPLE BACKGROUND data files
+
+}
+
+SAMPLE          {
+
+60  1          Number of  files and period number
+225923          SAMPLE data files
+225924          SAMPLE data files
+225925          SAMPLE data files
+225926          SAMPLE data files
+225927          SAMPLE data files
+225928          SAMPLE data files
+225929          SAMPLE data files
+225930          SAMPLE data files
+225931          SAMPLE data files
+225932          SAMPLE data files
+225933          SAMPLE data files
+225934          SAMPLE data files
+225935          SAMPLE data files
+225936          SAMPLE data files
+225937          SAMPLE data files
+225938          SAMPLE data files
+225939          SAMPLE data files
+225940          SAMPLE data files
+225941          SAMPLE data files
+225942          SAMPLE data files
+225943          SAMPLE data files
+225944          SAMPLE data files
+225945          SAMPLE data files
+225946          SAMPLE data files
+225947          SAMPLE data files
+225948          SAMPLE data files
+225949          SAMPLE data files
+225950          SAMPLE data files
+225951          SAMPLE data files
+225952          SAMPLE data files
+225953          SAMPLE data files
+225954          SAMPLE data files
+225955          SAMPLE data files
+225956          SAMPLE data files
+225957          SAMPLE data files
+225958          SAMPLE data files
+225959          SAMPLE data files
+225960          SAMPLE data files
+225961          SAMPLE data files
+225962          SAMPLE data files
+225963          SAMPLE data files
+225964          SAMPLE data files
+225965          SAMPLE data files
+225966          SAMPLE data files
+225967          SAMPLE data files
+225968          SAMPLE data files
+225969          SAMPLE data files
+225970          SAMPLE data files
+225971          SAMPLE data files
+225972          SAMPLE data files
+225973          SAMPLE data files
+225974          SAMPLE data files
+225975          SAMPLE data files
+225976          SAMPLE data files
+225977          SAMPLE data files
+225978          SAMPLE data files
+225979          SAMPLE data files
+225980          SAMPLE data files
+225981          SAMPLE data files
+225982          SAMPLE data files
+1          Force calculation of sample corrections?
+H  0  2.0          Composition
+O  0  1.0          Composition
+*  0  0          * 0 0 to specify end of composition input
+SameAsBeam          Geometry
+0.0  0.5          Inner and outer radii (cm)
+5          Sample height (cm)
+-0.1          Density atoms/Å^3?
+0          Temperature for Placzek correction:
+h2o_per_atom.mut          Total cross section source
+1.0          Tweak factor
+-10          Top hat width (1/Å) for cleaning up Fourier Transform
+0.7          Minimum radius for FT  [Å]
+0.1          g(r) broadening at r = 1A [A]
+0  0          0   0          to finish specifying wavelength range of resonance
+0.0  0.0  0          Exponential amplitude and decay [1/A]
+*  0  0          * 0 0 to specify end of exponential parameter input
+1.0          Normalisation correction factor
+*          Name of file containing self scattering as a function of wavelength [A]
+0          Normalise to:Nothing
+30.0          Maximum radius for FT [A]
+0          Output units: b/atom/sr
+0.2          Power for broadening function e.g. 0.5
+0.03          Step size [A] 
+1          Analyse this sample? 
+1.0  0.0          Sample environment scattering fraction and attenuation coefficient [per A]
+
+}
+
+GO          
+
+
+END          
+Date and time last written:  20140228 11:14:07          

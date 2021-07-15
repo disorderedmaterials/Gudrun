@@ -1,0 +1,37 @@
+ GEM46509.gud
+
+ Crist RT Run #1
+
+ Barney,Hannon
+
+ 09-JUL-2009 18:17:18
+
+ Number density of this sample (atoms/A**3) =  0.700000E-01
+ Corresponding density in g/cm**3 =    2.32801
+ Average scattering length of the sample (10**-12cm) =    0.52531
+ Average scattering length squared (barns) =  0.275954E+00
+ Average square of the scattering length (barns) =  0.282001E+00
+ Ratio of (coherent) single to interference =  0.102191E+01
+
+ Expected level of DCS [b/sr/atom] =    0.28210
+
+ Group number,  first Q,   last Q,   level [b/sr/atom],   gradient in Q (%)
+
+    1            0.0950    1.3250       -0.15852            126.2219
+    2            0.3850    5.6250        0.02796            212.0117
+    3            0.6550   14.9750        0.27321              0.2237
+    4            1.3750   27.2450        0.25961              0.1106
+    5            2.1750   53.0550        0.25488              0.1608
+    6            2.8250   59.9950        0.25305              0.0588
+    7            3.4550   59.9950        0.21241              0.1068
+    8            3.5750   59.9950        0.23366              0.0770
+
+ No. of groups accepted for merge =    8
+
+ Average level of merged dcs is    0.25519 b/sr/atom;
+
+ Gradient of merged dcs: -0.0064% of average level.
+
+ This DCS level is   90.5% of expected level
+
+ Suggested tweak factor:    1.73028
