@@ -6,7 +6,7 @@ steps:
   - bash: |
       set -ex
       sudo apt-get update -q
-      sudo apt-get install gfortran libhdf5-dev
+      sudo apt-get install ninja-build gfortran libhdf5-dev
     displayName: 'Install Prerequisites'
   - bash: |
       set -ex
