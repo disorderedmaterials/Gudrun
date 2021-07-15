@@ -12,7 +12,7 @@ steps:
       set -ex
       mkdir build
       cd build
-      cmake ../ -G Ninja ${{ parameters.extraflags }}
+      cmake ../ -G Ninja -DCMAKE_Fortran_COMPILER:string="gfortran-9" ${{ parameters.extraflags }}
       ninja
       ninja install
     displayName: 'Build'
