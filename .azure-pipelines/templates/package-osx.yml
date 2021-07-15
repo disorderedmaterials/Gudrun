@@ -1,0 +1,22 @@
+steps:
+  - bash: |
+      pip3 install dmgbuild biplist
+    displayName: 'Install Prerequisites'
+  - bash: |
+      set -ex
+      GUDRUN_VERSION=`grep "#define DISSOLVEVERSION" src/main/version.cpp | sed "s/.*\"\(.*\)\"/\1/g"`
+      ci/scripts/prep-dmg -a Gudrun-GUI -v ${VERSION} -b build/bin/dissolve-gui.app/Contents/MacOS/dissolve-gui -d ${Qt5_ROOT} -i icon/icon-1024x1024.png -p build/bin/dissolve-gui.app/Contents/Info.plist
+    displayName: 'Prepare DMG Dirs'
+  - bash: |
+      set -ex
+      VERSION=$(cat version)
+      # Fix icon link
+      sed -i -e "s/Gudrun.icns/Gudrun-GUI.icns/g" Gudrun-GUI-${VERSION}/Gudrun-GUI.app/Contents/Info.plist
+      # Create DMG
+      dmgbuild -s ci/osx/dmgbuild-settings.py -D app=./Gudrun-GUI-${VERSION}/Gudrun-GUI.app -D icon=./Gudrun-GUI-${VERSION}/Gudrun-GUI.app/Contents/Resources/Gudrun-GUI.icns "Gudrun GUI" Gudrun-GUI-${VERSION}.dmg
+    displayName: 'Create Disk Images'
+  - bash: |
+      set -ex
+      mkdir packages
+      mv Gudrun*.dmg packages
+    displayName: 'Move Artifacts'

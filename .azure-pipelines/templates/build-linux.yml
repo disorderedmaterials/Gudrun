@@ -1,0 +1,18 @@
+parameters:
+  - name: extraflags
+    default: ''
+
+steps:
+  - bash: |
+      set -ex
+      sudo apt-get update -q
+      sudo apt-get install gfortran libhdf5-fortran-102 libhdf5-dev
+    displayName: 'Install Prerequisites'
+  - bash: |
+      set -ex
+      mkdir build
+      cd build
+      cmake ../ -G "Ninja" ${{ parameters.extraflags }}
+      ninja
+      ninja install
+    displayName: 'Build'

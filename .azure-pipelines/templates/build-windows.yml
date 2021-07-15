@@ -1,0 +1,19 @@
+parameters:
+  - name: extraflags
+    default: ''
+
+steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '3.x'
+  - script: |
+      choco install -y antlr4
+    displayName: 'Install Prerequisites'
+  - powershell: |
+      $ErrorActionPreference = 'Stop'
+      mkdir build
+      cd build
+      cmake ../ -G "Visual Studio 16 2019" -A "x64"  ${{ parameters.extraflags }}
+      cmake --build . --config Release
+      cmake --install .
+    displayName: 'Build'

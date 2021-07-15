@@ -1,0 +1,22 @@
+steps:
+  - bash: |
+      set -ex
+      ci/scripts/prep-appimage -a Gudrun -v continuous -b bin/gudrun
+    displayName: 'Prepare AppDirs'
+  - bash: |
+      set -ex
+      echo -e "\nRetrieving linuxdeploy...\n"
+      wget -q https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage -O linuxdeploy.AppImage
+      echo -e "\nRetrieving qt plugin for linuxdeploy...\n"
+      wget https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage
+      chmod u+x ./linuxdeploy*.AppImage
+    displayName: 'Download linuxdeploy Tools'
+  - bash: |
+      set -ex
+      ./linuxdeploy.AppImage --appdir Gudrun-continuous.AppDir --output appimage
+    displayName: 'Create AppImages'
+  - bash: |
+      set -ex
+      mkdir packages
+      mv Gudrun-*-x86_64.AppImage packages
+    displayName: 'Move Artifacts'
