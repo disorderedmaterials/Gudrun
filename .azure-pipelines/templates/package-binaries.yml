@@ -1,0 +1,17 @@
+parameters:
+  - name: suffix
+    default: linux
+
+steps:
+  - bash: |
+      set -ex
+      VERSION=$(cat version)
+      mkdir binaries-${VERSION}-${{ parameters.suffix }}
+      cp bin/* binaries-${VERSION}-${{ parameters.suffix }}
+      zip -9rv binaries-${VERSION}-${{ parameters.suffix }}.zip binaries-${VERSION}-${{ parameters.suffix }}/
+    displayName: 'Create Binaries Zip'
+  - bash: |
+      set -ex
+      mkdir packages
+      mv binaries-*.zip packages
+    displayName: 'Move Artifacts'

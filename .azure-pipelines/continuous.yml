@@ -22,12 +22,6 @@ stages:
           - checkout: self
             fetchDepth: 1
           - template: templates/build-linux.yml
-          - template: templates/package-linux.yml
-          - task: PublishBuildArtifacts@1
-            inputs:
-              PathtoPublish: "packages/"
-              ArtifactName: 'linux-artifacts'
-            displayName: 'Publish Linux Artifacts'
       - job: 'osx'
         displayName: 'OSX'
         pool:
@@ -36,12 +30,6 @@ stages:
           - checkout: self
             fetchDepth: 1
           - template: templates/build-osx.yml
-          - template: templates/package-osx.yml
-          - task: PublishBuildArtifacts@1
-            inputs:
-              PathtoPublish: "packages/"
-              ArtifactName: 'osx-artifacts'
-            displayName: 'Publish OSX Artifacts'
       - job: 'windows'
         displayName: 'Windows'
         condition: eq(1,0)
@@ -51,9 +39,3 @@ stages:
           - checkout: self
             fetchDepth: 1
           - template: templates/build-windows.yml
-          - template: templates/package-windows.yml
-          - task: PublishBuildArtifacts@1
-            inputs:
-              PathtoPublish: "packages/"
-              ArtifactName: 'windows-artifacts'
-            displayName: 'Publish Windows Artifacts'
