@@ -8,33 +8,13 @@ steps:
   - bash: |
       set -ex
       brew update-reset
-      brew install ninja szip
+      brew install ninja
     displayName: 'Install Prerequisites'
   - bash: |
       set -ex
-      echo "Tag is: ${{ parameters.hdf5tag }}"
-      wget https://github.com/HDFGroup/hdf5/archive/refs/tags/${{ parameters.hdf5tag }}.zip -O hdf5.zip
-      unzip hdf5.zip
-      rm hdf5.zip
-      HDF5_DIR=$(ls -d hdf5-*)
-      echo "Source dir is: ${HDF5_DIR}"
-    displayName: 'Download HDF5'
-  - bash: |
-      set -ex
-      HDF5_DIR=$(ls -d hdf5-*)
-      HDF5_INSTALL=$(pwd)/hdf5-install
-      mkdir build-hdf5
-      cd build-hdf5
-      cmake ../${HDF5_DIR} -G "Ninja" ${{ parameters.extraflags }} -DHDF5_BUILD_FORTRAN:bool=True -DHDF5_INSTALL_MOD_FORTRAN:bool=True -DHDF5_INSTALL_MOD_FORTRAN:bool=True -DHDF5_ENABLE_SZIP_SUPPORT:bool=True -DHDF5_ENABLE_Z_LIB_SUPPORT:bool=True -DCMAKE_BUILD_TYPE:string=Release -DCMAKE_INSTALL_PREFIX:path=${HDF5_INSTALL} -DCMAKE_Fortran_COMPILER:string="gfortran-9"
-      ninja
-      ninja install
-    displayName: 'Build HDF5'
-  - bash: |
-      set -ex
-      HDF5_INSTALL=$(pwd)/hdf5-install
       mkdir build
       cd build
-      cmake ../ -G Ninja -DHDF5_ROOT:path=${HDF5_INSTALL} -DCMAKE_Fortran_COMPILER:string="gfortran-9" ${{ parameters.extraflags }}
+      cmake ../ -G Ninja -DCMAKE_Fortran_COMPILER:string="gfortran-9" ${{ parameters.extraflags }}
       ninja
       ninja install
     displayName: 'Build Gudrun'
