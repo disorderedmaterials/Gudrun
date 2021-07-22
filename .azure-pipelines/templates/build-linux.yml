@@ -18,7 +18,7 @@ steps:
     displayName: 'Get HDF5'
   - bash: |
       set -ex
-      HDF5_DIR="$(pwd)/${{ parameters.hdftag }}"
+      HDF5_DIR="$(pwd)/${{ parameters.hdf5tag }}"
       mkdir build
       cd build
       cmake ../ -G "Ninja" -DHDF5_DIR:path=${HDF5_DIR} ${{ parameters.extraflags }}
