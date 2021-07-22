@@ -1,4 +1,6 @@
 parameters:
+  - name: hdf5tag
+    default: hdf5-1_10_7
   - name: extraflags
     default: ''
 
