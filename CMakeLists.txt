@@ -35,6 +35,7 @@ ExternalProject_Add(
              -DHDF5_INSTALL_MOD_FORTRAN:string=SHARED
              -DHDF5_ENABLE_SZIP_SUPPORT:bool=True
              -DHDF5_ENABLE_Z_LIB_SUPPORT:bool=True
+             -DCMAKE_Fortran_COMPILER=${CMAKE_Fortran_COMPILER}
              -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>)
 add_library(hdf5fortran SHARED IMPORTED GLOBAL)
 set_property(
