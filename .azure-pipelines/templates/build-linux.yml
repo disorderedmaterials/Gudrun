@@ -8,7 +8,7 @@ steps:
   - bash: |
       set -ex
       sudo apt-get update -q
-      sudo apt-get install ninja-build gfortran
+      sudo apt-get install ninja-build gfortran libsz2 libaec-dev
     displayName: 'Install Prerequisites'
   - bash: |
       set -ex
