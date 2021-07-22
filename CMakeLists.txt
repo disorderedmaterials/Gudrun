@@ -40,6 +40,6 @@ set (CMAKE_INSTALL_PREFIX ${default_prefix} CACHE STRING
 
 # Define compile flags and linker lines for builds
 set (CMAKE_Fortran_FLAGS_RELEASE " -funroll-all-loops -fno-f2c -O2")
-SET(LINK_LIBS "${HDF5_LIBRARIES}" CACHE STRING "Link-time libraries")
+SET(LINK_LIBS "${HDF5_FORTRAN_LIBRARIES}" CACHE STRING "Link-time libraries")
 
 add_subdirectory(src)
