@@ -22,18 +22,19 @@ steps:
   - bash: |
       set -ex
       HDF5_DIR=$(ls -d hdf5-*)
+      HDF5_INSTALL=$(pwd)/hdf5-install
       mkdir build-hdf5
       cd build-hdf5
-      cmake ../${HDF5_DIR} -G "Ninja" ${{ parameters.extraflags }} -DHDF5_BUILD_FORTRAN:bool=True -DHDF5_INSTALL_MOD_FORTRAN:bool=True -DHDF5_INSTALL_MOD_FORTRAN:bool=True -DHDF5_ENABLE_SZIP_SUPPORT:bool=True -DHDF5_ENABLE_Z_LIB_SUPPORT:bool=True -DCMAKE_BUILD_TYPE:string=Release -DCMAKE_INSTALL_PREFIX:path=./${TAG} -DCMAKE_Fortran_COMPILER:string="gfortran-9"
+      cmake ../${HDF5_DIR} -G "Ninja" ${{ parameters.extraflags }} -DHDF5_BUILD_FORTRAN:bool=True -DHDF5_INSTALL_MOD_FORTRAN:bool=True -DHDF5_INSTALL_MOD_FORTRAN:bool=True -DHDF5_ENABLE_SZIP_SUPPORT:bool=True -DHDF5_ENABLE_Z_LIB_SUPPORT:bool=True -DCMAKE_BUILD_TYPE:string=Release -DCMAKE_INSTALL_PREFIX:path=${HDF5_INSTALL} -DCMAKE_Fortran_COMPILER:string="gfortran-9"
       ninja
       ninja install
     displayName: 'Build HDF5'
   - bash: |
       set -ex
-      HDF5_DIR="$(pwd)/build-hdf5/install"
+      HDF5_INSTALL=$(pwd)/hdf5-install
       mkdir build
       cd build
-      cmake ../ -G Ninja -DHDF5_ROOT:path=${HDF5_DIR} -DCMAKE_Fortran_COMPILER:string="gfortran-9" ${{ parameters.extraflags }}
+      cmake ../ -G Ninja -DHDF5_ROOT:path=${HDF5_INSTALL} -DCMAKE_Fortran_COMPILER:string="gfortran-9" ${{ parameters.extraflags }}
       ninja
       ninja install
     displayName: 'Build Gudrun'
