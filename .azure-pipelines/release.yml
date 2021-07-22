@@ -44,6 +44,7 @@ stages:
             displayName: 'Publish OSX Artifacts'
       - job: 'windows'
         displayName: 'Windows'
+        condition: eq(1,0)
         pool:
           vmImage: 'windows-latest'
         steps:
