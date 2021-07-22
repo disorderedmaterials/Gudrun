@@ -37,12 +37,18 @@ ExternalProject_Add(
              -DHDF5_ENABLE_Z_LIB_SUPPORT:bool=True
              -DCMAKE_Fortran_COMPILER=${CMAKE_Fortran_COMPILER}
              -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>)
-add_library(hdf5libs STATIC IMPORTED GLOBAL)
+add_library(hdf5main STATIC IMPORTED GLOBAL)
 set_property(
-  TARGET hdf5libs
+  TARGET hdf5main
   PROPERTY IMPORTED_LOCATION
-           "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5.a" "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_fortran.a")
-add_dependencies(hdf5libs HDF5 szip)
+           "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5.a")
+add_dependencies(hdf5main HDF5 szip)
+add_library(hdf5fortran STATIC IMPORTED GLOBAL)
+set_property(
+  TARGET hdf5fortran
+  PROPERTY IMPORTED_LOCATION
+           "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_fortran.a")
+add_dependencies(hdf5fortran HDF5 szip)
 
 # Set necessary include directories
 include_directories(${CMAKE_BINARY_DIR}/3rdparty/include
