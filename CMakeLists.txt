@@ -30,7 +30,7 @@ ExternalProject_Add(
   URL https://github.com/HDFGroup/hdf5/archive/refs/tags/hdf5-1_10_7.zip
   BUILD_ALWAYS ON
   INSTALL_DIR "${CMAKE_BINARY_DIR}/3rdparty/"
-  BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5.a" "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_fortran.a"
+  BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5.a" "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_fortran.a" "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_f90cstub.a"
   CMAKE_ARGS -DHDF5_BUILD_FORTRAN:bool=True
              -DHDF5_INSTALL_MOD_FORTRAN:string=SHARED
              -DHDF5_ENABLE_SZIP_SUPPORT:bool=True
@@ -49,6 +49,12 @@ set_property(
   PROPERTY IMPORTED_LOCATION
            "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_fortran.a")
 add_dependencies(hdf5fortran HDF5 szip)
+add_library(hdf5f90cstub STATIC IMPORTED GLOBAL)
+set_property(
+  TARGET hdf5f90cstub
+  PROPERTY IMPORTED_LOCATION
+           "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_f90cstub.a")
+add_dependencies(hdf5f90cstub HDF5 szip)
 
 # Set necessary include directories
 include_directories(${CMAKE_BINARY_DIR}/3rdparty/include
