@@ -30,18 +30,18 @@ ExternalProject_Add(
   URL https://github.com/HDFGroup/hdf5/archive/refs/tags/hdf5-1_10_7.zip
   BUILD_ALWAYS ON
   INSTALL_DIR "${CMAKE_BINARY_DIR}/3rdparty/"
-  BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_fortran.so"
+  BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_fortran.a"
   CMAKE_ARGS -DHDF5_BUILD_FORTRAN:bool=True
              -DHDF5_INSTALL_MOD_FORTRAN:string=SHARED
              -DHDF5_ENABLE_SZIP_SUPPORT:bool=True
              -DHDF5_ENABLE_Z_LIB_SUPPORT:bool=True
              -DCMAKE_Fortran_COMPILER=${CMAKE_Fortran_COMPILER}
              -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>)
-add_library(hdf5fortran SHARED IMPORTED GLOBAL)
+add_library(hdf5fortran STATIC IMPORTED GLOBAL)
 set_property(
   TARGET hdf5fortran
   PROPERTY IMPORTED_LOCATION
-           "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_fortran.so")
+           "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_fortran.a")
 add_dependencies(hdf5fortran HDF5 szip)
 
 # Set necessary include directories
