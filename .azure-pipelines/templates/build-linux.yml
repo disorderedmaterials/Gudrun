@@ -11,17 +11,32 @@ steps:
       sudo apt-get install ninja-build gfortran
     displayName: 'Install Prerequisites'
   - bash: |
-      HDF5_ZIP="${{ parameters.hdf5tag }}-linux.zip"
-      echo "HDF5 zip to acquire is ${HDF5_ZIP}"
-      wget https://github.com/disorderedmaterials/HDF5/releases/download/hdf5-1_10_7/${HDF5_ZIP}
-      unzip ${HDF5_ZIP}
-    displayName: 'Get HDF5'
+      set -ex
+      TAG=$(cat tag)
+      echo "Tag is: ${TAG}"
+      wget https://github.com/HDFGroup/hdf5/archive/refs/tags/${TAG}.zip -O hdf5.zip
+      unzip hdf5.zip
+      rm hdf5.zip
+      HDF5_DIR=$(ls -d hdf5-*)
+      echo "Source dir is: ${HDF5_DIR}"
+    displayName: 'Download HDF5'
   - bash: |
       set -ex
-      HDF5_DIR="$(pwd)/${{ parameters.hdf5tag }}"
+      TAG=$(cat tag)
+      HDF5_DIR=$(ls -d hdf5-*)
       mkdir build
       cd build
-      cmake ../ -G "Ninja" -DHDF5_DIR:path=${HDF5_DIR} ${{ parameters.extraflags }}
+      cmake ../${HDF5_DIR} -G "Ninja" ${{ parameters.extraflags }} -DHDF5_BUILD_FORTRAN:bool=True -DHDF5_INSTALL_MOD_FORTRAN:bool=True -DHDF5_ENABLE_SZIP_SUPPORT:bool=True -DHDF5_ENABLE_Z_LIB_SUPPORT:bool=True -DCMAKE_BUILD_TYPE:string=Release -DCMAKE_INSTALL_PREFIX:path=./${TAG}
+      ninja
+      ninja install
+    displayName: 'Build'
+  - bash: |
+      set -ex
+      TAG=$(cat tag)
+      HDF5_DIR="$(pwd)/${{ parameters.hdf5tag }}/build/${TAG}"
+      mkdir build
+      cd build
+      cmake ../ -G "Ninja" -DHDF5_ROOT:path=${HDF5_DIR} ${{ parameters.extraflags }}
       ninja
       ninja install
     displayName: 'Build'
