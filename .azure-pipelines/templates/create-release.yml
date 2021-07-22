@@ -29,6 +29,7 @@ stages:
               artifactName: 'osx-artifacts'
             displayName: 'Download OSX Artifacts'
           - task: DownloadBuildArtifacts@0
+            condition: eq(1,0)
             inputs:
               buildType: 'current'
               specificBuildWithTriggering: true
