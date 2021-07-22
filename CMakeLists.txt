@@ -18,7 +18,7 @@ ExternalProject_Add(
   INSTALL_DIR "${CMAKE_BINARY_DIR}/3rdparty/"
   BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libszip-static.a"
   CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>)
-add_library(sziplib SHARED IMPORTED GLOBAL)
+add_library(sziplib STATIC IMPORTED GLOBAL)
 set_property(
   TARGET sziplib PROPERTY IMPORTED_LOCATION
                            "${CMAKE_BINARY_DIR}/3rdparty/lib/libszip-static.a")
@@ -32,7 +32,7 @@ ExternalProject_Add(
   INSTALL_DIR "${CMAKE_BINARY_DIR}/3rdparty/"
   BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5.a" "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_fortran.a" "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_f90cstub.a"
   CMAKE_ARGS -DHDF5_BUILD_FORTRAN:bool=True
-             -DHDF5_INSTALL_MOD_FORTRAN:string=SHARED
+             -DHDF5_INSTALL_MOD_FORTRAN:string=STATIC
              -DHDF5_ENABLE_SZIP_SUPPORT:bool=True
              -DHDF5_ENABLE_Z_LIB_SUPPORT:bool=True
              -DCMAKE_Fortran_COMPILER=${CMAKE_Fortran_COMPILER}

@@ -7,14 +7,14 @@ add_executable(gudrun_dcs gudrun_dcs.f90)
 target_link_libraries(
   gudrun_dcs
   PUBLIC gudrun get
-  PRIVATE hdf5main hdf5fortran hdf5f90cstub sziplib)
+  PRIVATE hdf5fortran hdf5f90cstub hdf5main sziplib dl z)
 
 # Build purge_det
 add_executable(purge_det purge_det.f90)
 target_link_libraries(
   purge_det
   PUBLIC gudrun get
-  PRIVATE hdf5main hdf5fortran hdf5f90cstub sziplib)
+  PRIVATE hdf5fortran hdf5f90cstub hdf5main sziplib dl z)
 
 # Install targets
 install(TARGETS gudrun_dcs purge_det RUNTIME DESTINATION bin)
