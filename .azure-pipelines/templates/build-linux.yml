@@ -30,11 +30,10 @@ steps:
     displayName: 'Build HDF5'
   - bash: |
       set -ex
-      TAG=$(cat tag)
       HDF5_DIR="$(pwd)/${{ parameters.hdf5tag }}/build/install"
       mkdir build
       cd build
       cmake ../ -G "Ninja" -DHDF5_ROOT:path=${HDF5_DIR} ${{ parameters.extraflags }}
       ninja
       ninja install
-    displayName: 'Build'
+    displayName: 'Build Gudrun'

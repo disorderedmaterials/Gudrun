@@ -30,7 +30,6 @@ stages:
             displayName: 'Publish Linux Artifacts'
       - job: 'osx'
         displayName: 'OSX'
-        condition: eq(1,0)
         pool:
           vmImage: 'macos-latest'
         steps:
