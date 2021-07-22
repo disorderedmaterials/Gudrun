@@ -30,9 +30,9 @@ stages:
             displayName: 'Publish Linux Artifacts'
       - job: 'osx'
         displayName: 'OSX'
-        timeoutInMinutes: 120
+        condition: eq(1,0)
         pool:
-          vmImage: 'macos-latest' 
+          vmImage: 'macos-latest'
         steps:
           - checkout: self
             fetchDepth: 1
@@ -45,9 +45,9 @@ stages:
             displayName: 'Publish OSX Artifacts'
       - job: 'windows'
         displayName: 'Windows'
-        timeoutInMinutes: 120
+        condition: eq(1,0)
         pool:
-          vmImage: 'windows-latest' 
+          vmImage: 'windows-latest'
         steps:
           - checkout: self
             fetchDepth: 1
@@ -58,4 +58,3 @@ stages:
               PathtoPublish: "packages/"
               ArtifactName: 'windows-artifacts'
             displayName: 'Publish Windows Artifacts'
-

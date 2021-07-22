@@ -1,4 +1,6 @@
 parameters:
+  - name: hdf5tag
+    default: hdf5-1_10_7
   - name: extraflags
     default: ''
 
@@ -9,10 +11,17 @@ steps:
       sudo apt-get install ninja-build gfortran libhdf5-dev
     displayName: 'Install Prerequisites'
   - bash: |
+      HDF5_ZIP="${{ parameters.hdf5tag }}-linux.zip"
+      echo "HDF5 zip to acquire is ${HDF5_ZIP}"
+      wget https://github.com/disorderedmaterials/HDF5/releases/download/hdf5-1_10_7/${HDF5_ZIP}
+      unzip ${HDF5_ZIP}
+    displayName: 'Get HDF5'
+  - bash: |
       set -ex
+      HDF5_DIR="$(pwd)/${{ parameters.hdftag }}"
       mkdir build
       cd build
-      cmake ../ -G "Ninja" ${{ parameters.extraflags }}
+      cmake ../ -G "Ninja" -DHDF5_DIR:path=${HDF5_DIR} ${{ parameters.extraflags }}
       ninja
       ninja install
     displayName: 'Build'
