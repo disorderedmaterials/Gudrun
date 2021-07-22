@@ -16,12 +16,12 @@ ExternalProject_Add(
   URL https://support.hdfgroup.org/ftp/lib-external/szip/2.1.1/src/szip-2.1.1.tar.gz
   BUILD_ALWAYS ON
   INSTALL_DIR "${CMAKE_BINARY_DIR}/3rdparty/"
-  BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libszip-shared.so"
+  BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libszip-static.a"
   CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>)
-add_library(szip_lib SHARED IMPORTED GLOBAL)
+add_library(sziplib SHARED IMPORTED GLOBAL)
 set_property(
-  TARGET szip_lib PROPERTY IMPORTED_LOCATION
-                           "${CMAKE_BINARY_DIR}/3rdparty/lib/libszip-shared.so")
+  TARGET sziplib PROPERTY IMPORTED_LOCATION
+                           "${CMAKE_BINARY_DIR}/3rdparty/lib/libszip-static.a")
 
 # Build HDF5 as an external project
 ExternalProject_Add(
