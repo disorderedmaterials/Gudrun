@@ -42,3 +42,4 @@ add_library(gudrun
   van_par.f90
   write_routines.f90
 )
+add_dependencies(gudrun HDF5)

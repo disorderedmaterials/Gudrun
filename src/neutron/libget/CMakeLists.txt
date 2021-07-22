@@ -8,12 +8,12 @@ add_library(get
   float_convert.c
   getsect.c
   int_convert.c
-  
+
   float_convert.h
   geniedefs.h
   int_convert.h
   libget.h
-  
+
   ferror_add_dummy.f
   io.f
 )
