@@ -12,9 +12,8 @@ steps:
     displayName: 'Install Prerequisites'
   - bash: |
       set -ex
-      TAG=$(cat tag)
-      echo "Tag is: ${TAG}"
-      wget https://github.com/HDFGroup/hdf5/archive/refs/tags/${TAG}.zip -O hdf5.zip
+      echo "Tag is: ${{ parameters.hdf5tag }}"
+      wget https://github.com/HDFGroup/hdf5/archive/refs/tags/${{ parameters.hdf5tag }}.zip -O hdf5.zip
       unzip hdf5.zip
       rm hdf5.zip
       HDF5_DIR=$(ls -d hdf5-*)
@@ -22,18 +21,17 @@ steps:
     displayName: 'Download HDF5'
   - bash: |
       set -ex
-      TAG=$(cat tag)
       HDF5_DIR=$(ls -d hdf5-*)
       mkdir build
       cd build
-      cmake ../${HDF5_DIR} -G "Ninja" ${{ parameters.extraflags }} -DHDF5_BUILD_FORTRAN:bool=True -DHDF5_INSTALL_MOD_FORTRAN:bool=True -DHDF5_ENABLE_SZIP_SUPPORT:bool=True -DHDF5_ENABLE_Z_LIB_SUPPORT:bool=True -DCMAKE_BUILD_TYPE:string=Release -DCMAKE_INSTALL_PREFIX:path=./${TAG}
+      cmake ../${HDF5_DIR} -G "Ninja" ${{ parameters.extraflags }} -DHDF5_BUILD_FORTRAN:bool=True -DHDF5_INSTALL_MOD_FORTRAN:bool=True -DHDF5_ENABLE_SZIP_SUPPORT:bool=True -DHDF5_ENABLE_Z_LIB_SUPPORT:bool=True -DCMAKE_BUILD_TYPE:string=Release -DCMAKE_INSTALL_PREFIX:path=./install
       ninja
       ninja install
-    displayName: 'Build'
+    displayName: 'Build HDF5'
   - bash: |
       set -ex
       TAG=$(cat tag)
-      HDF5_DIR="$(pwd)/${{ parameters.hdf5tag }}/build/${TAG}"
+      HDF5_DIR="$(pwd)/${{ parameters.hdf5tag }}/build/install"
       mkdir build
       cd build
       cmake ../ -G "Ninja" -DHDF5_ROOT:path=${HDF5_DIR} ${{ parameters.extraflags }}
