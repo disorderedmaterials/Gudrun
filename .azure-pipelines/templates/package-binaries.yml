@@ -13,5 +13,5 @@ steps:
   - bash: |
       set -ex
       mkdir packages
-      mv binaries-*.zip startupFiles-*.zip packages
+      mv binaries-*.zip packages
     displayName: 'Move Artifacts'
