@@ -1,7 +1,7 @@
-# CMake project file for gudrun
+# CMake project file for Gudrun
 
 cmake_minimum_required(VERSION 3.1)
-project(gudrun)
+project(Gudrun)
 enable_language(Fortran)
 
 # Build release version
