@@ -9,6 +9,31 @@ set(CMAKE_BUILD_TYPE "Release")
 
 include(ExternalProject)
 
+# ZLIB
+# Locate installed library, or build as external version (if BUILD_ZLIB)
+option(BUILD_ZLIB "Build ZLib as an external project" OFF)
+add_library(zliblib STATIC IMPORTED GLOBAL)
+if(BUILD_ZLIB)
+ExternalProject_Add(
+  zlib
+  PREFIX 3rdparty
+  URL https://github.com/madler/zlib/archive/refs/tags/v1.2.11.zip
+  BUILD_ALWAYS ON
+  INSTALL_DIR "${CMAKE_BINARY_DIR}/3rdparty/"
+  BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libz.a"
+  CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>)
+
+  set_property(
+    TARGET zliblib PROPERTY IMPORTED_LOCATION
+                             "${CMAKE_BINARY_DIR}/3rdparty/lib/libz.a")
+else(BUILD_ZLIB)
+  find_package(ZLIB REQUIRED)
+  set_property(
+    TARGET zliblib PROPERTY IMPORTED_LOCATION
+                             "${ZLIB_LIBRARIES}")
+endif(BUILD_ZLIB)
+
+
 # Build SZIP as an external project
 ExternalProject_Add(
   szip
