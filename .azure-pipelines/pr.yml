@@ -7,54 +7,59 @@ pr:
       - "*"
   paths:
     exclude:
-    - examples/*
     - .azure-pipelines/continuous.yml
     - .azure-pipelines/release.yml
 
 stages:
-  # Build Executables
-  - stage: "build"
-    displayName: "Build"
+  # Build and Package Executables
+  - stage: 'build'
+    displayName: 'Build and Package'
     jobs:
-      - job: "linux"
-        displayName: "Ubuntu
+      - job: 'linux'
+        displayName: 'Ubuntu'
         pool:
-          vmImage: "ubuntu-latest"
+          vmImage: 'ubuntu-latest'
         steps:
           - checkout: self
             fetchDepth: 1
           - template: templates/build-linux.yml
+          - template: templates/package-binaries.yml
+            parameters:
+              suffix: 'linux'
           - task: PublishBuildArtifacts@1
             inputs:
-              PathtoPublish: "build/"
-              ArtifactName: "linux-tests"
-            displayName: "Publish Threaded Test Artifacts"
-      - job: "osx"
-        displayName: "OSX"
+              PathtoPublish: "packages/"
+              ArtifactName: 'linux-artifacts'
+            displayName: 'Publish Linux Artifacts'
+      - job: 'osx'
+        displayName: 'OSX'
         pool:
-          vmImage: "macos-latest"
+          vmImage: 'macos-latest'
         steps:
           - checkout: self
             fetchDepth: 1
           - template: templates/build-osx.yml
-          - template: templates/package-osx.yml
+          - template: templates/package-binaries.yml
+            parameters:
+              suffix: 'osx'
           - task: PublishBuildArtifacts@1
             inputs:
               PathtoPublish: "packages/"
-              ArtifactName: "osx-artifacts"
-            displayName: "Publish OSX Artifacts"
-      - job: "windows"
-        displayName: "Windows"
+              ArtifactName: 'osx-artifacts'
+            displayName: 'Publish OSX Artifacts'
+      - job: 'windows'
+        displayName: 'Windows'
         pool:
-          vmImage: "windows-latest"
+          vmImage: 'windows-latest'
         steps:
           - checkout: self
             fetchDepth: 1
           - template: templates/build-windows.yml
-          - template: templates/package-windows.yml
+          - template: templates/package-binaries.yml
+            parameters:
+              suffix: 'windows'
           - task: PublishBuildArtifacts@1
             inputs:
               PathtoPublish: "packages/"
-              ArtifactName: "windows-artifacts"
-            displayName: "Publish Windows Artifacts"
-
+              ArtifactName: 'windows-artifacts'
+            displayName: 'Publish Windows Artifacts'
