@@ -42,7 +42,10 @@ ExternalProject_Add(
   BUILD_ALWAYS ON
   INSTALL_DIR "${CMAKE_BINARY_DIR}/3rdparty/"
   BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libszip-static.a"
-  CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>)
+  CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>
+  INSTALL_COMMAND  ${CMAKE_COMMAND} --install .
+  COMMAND   ${CMAKE_COMMAND} -E remove -f ${CMAKE_BINARY_DIR}/3rdparty/src/szip-build/szip-config.cmake
+  COMMAND   ${CMAKE_COMMAND} -E remove -f ${CMAKE_BINARY_DIR}/3rdparty/src/szip-build/szip-targets.cmake)
 add_library(sziplib STATIC IMPORTED GLOBAL)
 set_property(
   TARGET sziplib PROPERTY IMPORTED_LOCATION
