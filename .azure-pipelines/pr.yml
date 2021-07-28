@@ -58,6 +58,7 @@ stages:
           - template: templates/package-binaries.yml
             parameters:
               suffix: 'windows'
+              zipcommand: "7z a"
           - task: PublishBuildArtifacts@1
             inputs:
               PathtoPublish: "packages/"
