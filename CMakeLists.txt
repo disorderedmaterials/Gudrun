@@ -20,12 +20,12 @@ ExternalProject_Add(
   URL https://github.com/madler/zlib/archive/refs/tags/v1.2.11.zip
   BUILD_ALWAYS ON
   INSTALL_DIR "${CMAKE_BINARY_DIR}/3rdparty/"
-  BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libz.a"
+  BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libzlibstatic.a"
   CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>)
 
   set_property(
     TARGET zliblib PROPERTY IMPORTED_LOCATION
-                             "${CMAKE_BINARY_DIR}/3rdparty/lib/libz.a")
+                             "${CMAKE_BINARY_DIR}/3rdparty/lib/libzlibstatic.a")
 else(BUILD_ZLIB)
   find_package(ZLIB REQUIRED)
   set_property(
