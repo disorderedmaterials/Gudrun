@@ -1,6 +1,8 @@
 parameters:
   - name: suffix
     default: linux
+  - name: zipcommand
+    default: "zip -9rv"
 
 steps:
   - bash: |
@@ -8,7 +10,7 @@ steps:
       VERSION=$(cat version)
       mkdir binaries-${VERSION}-${{ parameters.suffix }}
       cp bin/* binaries-${VERSION}-${{ parameters.suffix }}
-      zip -9rv binaries-${VERSION}-${{ parameters.suffix }}.zip binaries-${VERSION}-${{ parameters.suffix }}/
+      ${{ parameters.zipcommand }} binaries-${VERSION}-${{ parameters.suffix }}.zip binaries-${VERSION}-${{ parameters.suffix }}/
     displayName: 'Create Binaries Zip'
   - bash: |
       set -ex
