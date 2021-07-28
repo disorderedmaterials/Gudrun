@@ -52,6 +52,9 @@ set_property(
                            "${CMAKE_BINARY_DIR}/3rdparty/lib/libszip-static.a")
 
 # Build HDF5 as an external project
+if(WIN32)
+  set(HDF_FORTRAN_LINK_FLAGS "-Wl,--allow-multiple-definition")
+endif(WIN32)
 ExternalProject_Add(
   HDF5
   PREFIX 3rdparty
@@ -63,7 +66,9 @@ ExternalProject_Add(
              -DHDF5_INSTALL_MOD_FORTRAN:string=STATIC
              -DHDF5_ENABLE_SZIP_SUPPORT:bool=True
              -DHDF5_ENABLE_Z_LIB_SUPPORT:bool=True
+	     -DBUILD_TESTING:bool=False
              -DCMAKE_Fortran_COMPILER=${CMAKE_Fortran_COMPILER}
+	     -DCMAKE_Fortran_FLAGS:string=${HDF_FORTRAN_LINK_FLAGS}
              -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>)
 add_library(hdf5main STATIC IMPORTED GLOBAL)
 set_property(
