@@ -10,6 +10,9 @@ pr:
     - .azure-pipelines/continuous.yml
     - .azure-pipelines/release.yml
 
+variables:
+  hdf5tag: hdf5-1_10_7
+
 stages:
   # Build and Package Executables
   - stage: 'build'
@@ -23,6 +26,8 @@ stages:
           - checkout: self
             fetchDepth: 1
           - template: templates/build-linux.yml
+            parameters:
+              hdf5tag: $(hdf5tag)
           - template: templates/package-binaries.yml
             parameters:
               suffix: 'linux'
@@ -39,6 +44,8 @@ stages:
           - checkout: self
             fetchDepth: 1
           - template: templates/build-osx.yml
+            parameters:
+              hdf5tag: $(hdf5tag)
           - template: templates/package-binaries.yml
             parameters:
               suffix: 'osx'
@@ -55,6 +62,8 @@ stages:
           - checkout: self
             fetchDepth: 1
           - template: templates/build-windows.yml
+            parameters:
+              hdf5tag: $(hdf5tag)
           - template: templates/package-binaries.yml
             parameters:
               suffix: 'windows'

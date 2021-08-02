@@ -1,4 +1,6 @@
 parameters:
+  - name: hdf5tag
+    default: hdf5-1_10_7
   - name: extraflags
     default: ''
 
@@ -9,11 +11,16 @@ steps:
   - script: |
       choco install -y mingw
     displayName: 'Install Prerequisites'
+  - bash: |
+      wget https://github.com/disorderedmaterials/HDF5/releases/download/${{ parameters.hdf5tag }}/${{ parameters.hdf5tag }}-windows.zip
+      7z x ${{ parameters.hdf5tag }}-linux.zip
+      ls
+    displayName: 'Download HDF5 Artifacts'
   - powershell: |
       $ErrorActionPreference = 'Stop'
       mkdir build
       cd build
-      cmake ../ -G "MinGW Makefiles" -DBUILD_ZLIB:bool=True ${{ parameters.extraflags }}
+      cmake ../ -G "MinGW Makefiles" -DHDF5_DIR:path=./${{ parameters.hdf5tag }} ${{ parameters.extraflags }}
       cmake --build . --config Release
       cmake --install .
     displayName: 'Build'
