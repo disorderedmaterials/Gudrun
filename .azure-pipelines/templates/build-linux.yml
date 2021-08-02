@@ -19,7 +19,7 @@ steps:
       set -ex
       mkdir build
       cd build
-      cmake ../ -G Ninja ${{ parameters.extraflags }} -DHDF5_DIR:path=./${{ parameters.hdf5tag }}
+      cmake ../ -G Ninja ${{ parameters.extraflags }} -DLOCAL_STATIC_HDF5:bool=true -DHDF5_DIR:path=./${{ parameters.hdf5tag }}
       ninja
       ninja install
     displayName: 'Build'

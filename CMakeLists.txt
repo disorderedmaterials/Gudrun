@@ -9,6 +9,11 @@ set(CMAKE_BUILD_TYPE "Release")
 
 include(ExternalProject)
 
+option(
+  LOCAL_STATIC_HDF5
+  "Use local HDF5 installation (specified with HDF5_DIR) built with static ZLIB and SZIP support (so don't search for them)"
+  OFF)
+
 # ZLIB Locate installed library, or build as external version (if BUILD_ZLIB)
 option(BUILD_ZLIB "Build ZLib as an external project" OFF)
 add_library(zliblib STATIC IMPORTED GLOBAL)
@@ -26,8 +31,10 @@ if(BUILD_ZLIB)
     TARGET zliblib PROPERTY IMPORTED_LOCATION
                             "${CMAKE_BINARY_DIR}/3rdparty/lib/libzlibstatic.a")
 else(BUILD_ZLIB)
-  find_package(ZLIB REQUIRED)
-  set_property(TARGET zliblib PROPERTY IMPORTED_LOCATION "${ZLIB_LIBRARIES}")
+  if(NOT LOCAL_STATIC_HDF5)
+    find_package(ZLIB REQUIRED)
+    set_property(TARGET zliblib PROPERTY IMPORTED_LOCATION "${ZLIB_LIBRARIES}")
+  endif(NOT LOCAL_STATIC_HDF5)
 endif(BUILD_ZLIB)
 
 # Build SZIP as an external project
@@ -51,8 +58,10 @@ if(BUILD_SZIP)
     TARGET sziplib PROPERTY IMPORTED_LOCATION
                             "${CMAKE_BINARY_DIR}/3rdparty/lib/libszip-static.a")
 else(BUILD_SZIP)
-  find_package(SZIP REQUIRED)
-  set_property(TARGET sziplib PROPERTY IMPORTED_LOCATION "${SZIP_LIBRARIES}")
+  if(NOT LOCAL_STATIC_HDF5)
+    find_package(SZIP REQUIRED)
+    set_property(TARGET sziplib PROPERTY IMPORTED_LOCATION "${SZIP_LIBRARIES}")
+  endif(NOT LOCAL_STATIC_HDF5)
 endif(BUILD_SZIP)
 
 # Build HDF5 as an external project
@@ -97,7 +106,7 @@ if(BUILD_HDF)
              "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_f90cstub.a")
   add_dependencies(hdf5f90cstub HDF5 szip)
 else(BUILD_HDF)
-  find_package(HDF REQUIRED)
+  find_package(HDF5 REQUIRED)
   set_property(TARGET hdf5main PROPERTY IMPORTED_LOCATION
                                         "${HDF5_CXX_LIBRARIES}")
   set_property(TARGET hdf5fortran PROPERTY IMPORTED_LOCATION

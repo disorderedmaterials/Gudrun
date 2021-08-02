@@ -19,7 +19,7 @@ steps:
       set -ex
       mkdir build
       cd build
-      cmake ../ -G Ninja -DCMAKE_Fortran_COMPILER:string="gfortran-9" -DHDF5_DIR:path=./${{ parameters.hdf5tag }} ${{ parameters.extraflags }}
+      cmake ../ -G Ninja -DCMAKE_Fortran_COMPILER:string="gfortran-9" -DLOCAL_STATIC_HDF5:bool=True -DHDF5_DIR:path=./${{ parameters.hdf5tag }} ${{ parameters.extraflags }}
       ninja
       ninja install
     displayName: 'Build'
