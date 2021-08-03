@@ -11,16 +11,18 @@ steps:
   - script: |
       choco install -y mingw
     displayName: 'Install Prerequisites'
-  - bash: |
-      wget https://github.com/disorderedmaterials/HDF5/releases/download/${{ parameters.hdf5tag }}/${{ parameters.hdf5tag }}-windows.zip
-      7z x ${{ parameters.hdf5tag }}-linux.zip
-      ls
-    displayName: 'Download HDF5 Artifacts'
   - powershell: |
       $ErrorActionPreference = 'Stop'
+      $HDF5_ARTIFACTS = "https://github.com/disorderedmaterials/HDF5/releases/download/" + "${{ parameters.hdf5tag }}/${{ parameters.hdf5tag }}-windows.zip"
+      wget $HDF5_ARTIFACTS -O hdf5.zip
+      7z x hdf5.zip
+    displayName: 'Download HDF5 Artifacts'
+  - bash: |
+      set -ex
+      HDF5_DIR="$(pwd)/${{ parameters.hdf5tag }}"
       mkdir build
       cd build
-      cmake ../ -G "MinGW Makefiles" -DLOCAL_STATIC_HDF5:bool=True -DHDF5_DIR:path=./${{ parameters.hdf5tag }} ${{ parameters.extraflags }}
+      cmake ../ -G "MinGW Makefiles" -DLOCAL_STATIC_HDF5:bool=True -DHDF5_DIR:path=${HDF5_DIR} ${{ parameters.extraflags }}
       cmake --build . --config Release
       cmake --install .
     displayName: 'Build'

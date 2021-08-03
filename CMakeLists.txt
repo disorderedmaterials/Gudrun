@@ -16,7 +16,6 @@ option(
 
 # ZLIB Locate installed library, or build as external version (if BUILD_ZLIB)
 option(BUILD_ZLIB "Build ZLib as an external project" OFF)
-add_library(zliblib STATIC IMPORTED GLOBAL)
 if(BUILD_ZLIB)
   ExternalProject_Add(
     zlib
@@ -27,19 +26,20 @@ if(BUILD_ZLIB)
     BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libzlibstatic.a"
     CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>)
 
+  add_library(zliblib STATIC IMPORTED GLOBAL)
   set_property(
     TARGET zliblib PROPERTY IMPORTED_LOCATION
                             "${CMAKE_BINARY_DIR}/3rdparty/lib/libzlibstatic.a")
+  list(APPEND LINK_LIBS "zliblib")
 else(BUILD_ZLIB)
   if(NOT LOCAL_STATIC_HDF5)
     find_package(ZLIB REQUIRED)
-    set_property(TARGET zliblib PROPERTY IMPORTED_LOCATION "${ZLIB_LIBRARIES}")
+    list(APPEND LINK_LIBS "${ZLIB_LIBRARIES}")
   endif(NOT LOCAL_STATIC_HDF5)
 endif(BUILD_ZLIB)
 
 # Build SZIP as an external project
 option(BUILD_SZIP "Build SZIP as an external project" OFF)
-add_library(sziplib STATIC IMPORTED GLOBAL)
 if(BUILD_SZIP)
   ExternalProject_Add(
     szip
@@ -54,21 +54,20 @@ if(BUILD_SZIP)
             ${CMAKE_BINARY_DIR}/3rdparty/src/szip-build/szip-config.cmake
     COMMAND ${CMAKE_COMMAND} -E remove -f
             ${CMAKE_BINARY_DIR}/3rdparty/src/szip-build/szip-targets.cmake)
+  add_library(sziplib STATIC IMPORTED GLOBAL)
   set_property(
     TARGET sziplib PROPERTY IMPORTED_LOCATION
                             "${CMAKE_BINARY_DIR}/3rdparty/lib/libszip-static.a")
+  list(APPEND LINK_LIBS "sziplib")
 else(BUILD_SZIP)
   if(NOT LOCAL_STATIC_HDF5)
     find_package(SZIP REQUIRED)
-    set_property(TARGET sziplib PROPERTY IMPORTED_LOCATION "${SZIP_LIBRARIES}")
+    list(APPEND LINK_LIBS "${SZIP_LIBRARIES}")
   endif(NOT LOCAL_STATIC_HDF5)
 endif(BUILD_SZIP)
 
 # Build HDF5 as an external project
 option(BUILD_HDF "Build HDF as an external project" OFF)
-add_library(hdf5main STATIC IMPORTED GLOBAL)
-add_library(hdf5fortran STATIC IMPORTED GLOBAL)
-add_library(hdf5f90cstub STATIC IMPORTED GLOBAL)
 if(BUILD_HDF)
   if(WIN32)
     set(HDF_FORTRAN_LINK_FLAGS "-Wl,--allow-multiple-definition")
@@ -91,31 +90,49 @@ if(BUILD_HDF)
                -DCMAKE_Fortran_COMPILER=${CMAKE_Fortran_COMPILER}
                -DCMAKE_Fortran_FLAGS:string=${HDF_FORTRAN_LINK_FLAGS}
                -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>)
+  add_library(hdf5main STATIC IMPORTED GLOBAL)
   set_property(
     TARGET hdf5main PROPERTY IMPORTED_LOCATION
                              "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5.a")
-  add_dependencies(hdf5main HDF5 szip)
+  add_library(hdf5fortran STATIC IMPORTED GLOBAL)
   set_property(
     TARGET hdf5fortran
     PROPERTY IMPORTED_LOCATION
              "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_fortran.a")
-  add_dependencies(hdf5fortran HDF5 szip)
+  add_library(hdf5f90cstub STATIC IMPORTED GLOBAL)
   set_property(
     TARGET hdf5f90cstub
     PROPERTY IMPORTED_LOCATION
              "${CMAKE_BINARY_DIR}/3rdparty/lib/libhdf5_f90cstub.a")
-  add_dependencies(hdf5f90cstub HDF5 szip)
+  list(APPEND LINK_LIBS "hdf5f90cstub" "hdf5fortran" "hdf5main")
+  if(BUILD_SZIP)
+    add_dependencies(hdf5main HDF5 szip)
+    add_dependencies(hdf5fortran HDF5 szip)
+    add_dependencies(hdf5f90cstub HDF5 szip)
+  endif(BUILD_SZIP)
 else(BUILD_HDF)
-  find_package(HDF5 REQUIRED)
-  set_property(TARGET hdf5main PROPERTY IMPORTED_LOCATION
-                                        "${HDF5_CXX_LIBRARIES}")
-  set_property(TARGET hdf5fortran PROPERTY IMPORTED_LOCATION
-                                           "${HDF5_Fortran_LIBRARIES}")
+  if(LOCAL_STATIC_HDF5)
+    list(APPEND LINK_LIBS "${HDF5_DIR}/lib/libhdf5_fortran.a"
+         "${HDF5_DIR}/lib/libhdf5_f90cstub.a" "${HDF5_DIR}/lib/libhdf5.a"
+         "${HDF5_DIR}/lib/libszip-static.a")
+    if(WIN32)
+      list(APPEND LINK_LIBS "${HDF5_DIR}/lib/libzlibstatic.a")
+    else(WIN32)
+      list(APPEND LINK_LIBS "${HDF5_DIR}/lib/libz.a")
+    endif(WIN32)
+    include_directories(${HDF5_DIR}/include ${HDF5_DIR}/include/static)
+  else(LOCAL_STATIC_HDF5)
+    find_package(HDF5 REQUIRED)
+    list(APPEND LINK_LIBS "${HDF5_CXX_LIBRARIES}" "${HDF5_Fortran_LIBRARIES}")
+    include_directories(${HDF5_INCLUDE_DIRS})
+  endif(LOCAL_STATIC_HDF5)
 endif(BUILD_HDF)
 
 # Set necessary include directories
-include_directories(${CMAKE_BINARY_DIR}/3rdparty/include
-                    ${CMAKE_BINARY_DIR}/src/neutron/libGudrunN)
+if(BUILD_HDF)
+  include_directories(${CMAKE_BINARY_DIR}/3rdparty/include)
+endif(BUILD_HDF)
+include_directories(${CMAKE_BINARY_DIR}/src/neutron/libGudrunN)
 
 # Define installation directory
 get_filename_component(default_prefix "./" ABSOLUTE)
