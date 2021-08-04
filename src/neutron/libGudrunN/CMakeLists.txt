@@ -42,4 +42,6 @@ add_library(gudrun
   van_par.f90
   write_routines.f90
 )
-add_dependencies(gudrun HDF5)
+if(BUILD_HDF5)
+  add_dependencies(gudrun HDF5)
+endif(BUILD_HDF5)
