@@ -63,7 +63,7 @@ stages:
             parameters:
               suffix: 'windows'
               zipcommand: "7z a"
-              useMinGW: true
+              packageMinGWLibs: true
           - task: PublishBuildArtifacts@1
             inputs:
               PathtoPublish: "packages/"
