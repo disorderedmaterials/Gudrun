@@ -3,7 +3,7 @@ parameters:
     default: linux
   - name: zipcommand
     default: "zip -9rv"
-  - name: useMinGW
+  - name: packageMinGWLibs
     default: false
     type: boolean
 
@@ -11,7 +11,7 @@ steps:
   - bash: |
       set -ex
       VERSION=$(cat version)
-      if [[ "${{ parameters.useMinGW }}" == "true" ]]; then
+      if [[ "${{ parameters.packageMinGWLibs }}" == "true" ]]; then
         MINGWLIB="C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\\"
         cp $MINGWLIB\libquadmath-0.dll bin/
         cp $MINGWLIB\libwinpthread-1.dll bin/
