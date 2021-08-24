@@ -5,6 +5,7 @@ parameters:
     default: "zip -9rv"
   - name: useMinGW
     default: false
+    type: boolean
 
 steps:
   - bash: |
