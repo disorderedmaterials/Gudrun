@@ -13,7 +13,7 @@ steps:
       cp $MINGWLIB\libquadmath-0.dll bin/
       cp $MINGWLIB\libwinpthread-1.dll bin/
       cp $MINGWLIB\libgcc_s_seh-1.dll bin/
-    condition: eq('${{ parameters.useMinGW }}', true)
+    condition: eq('${{ parameters.packageMinGWLibs }}', true)
     displayName: 'Package MinGW Libs'
   - bash: |
       set -ex
