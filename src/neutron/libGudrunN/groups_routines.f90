@@ -37,7 +37,7 @@ MODULE groups_routines
     integer, dimension(2)                   :: olddims,newdims
     integer                                 :: oldsize,newsize
     integer, dimension(:), allocatable      :: igroup_in
-    integer                                 :: start !start position to extract calibration filename from
+    integer                                 :: fname_start !start position to extract calibration filename from
 
     CONTAINS
     
@@ -464,14 +464,14 @@ MODULE groups_routines
         close (10)
 !c Write a file to store group calibration suitable to be read by Gudrun_GUI
             fname1=fname1(1:len_trim(fname1))//'.cal'
-            start=INDEX(fname1, "/", BACK=.TRUE.)
-            IF (start == 0 ) THEN
-                start=INDEX(fname1, "\", BACK=.TRUE.)
+            fname_start=INDEX(fname1, "/", BACK=.TRUE.)
+            IF (fname_start == 0 ) THEN
+                fname_start=INDEX(fname1, "\", BACK=.TRUE.)
             END IF
-            IF (start > 0) THEN
-                start=start+1
+            IF (fname_start > 0) THEN
+                fname_start=fname_start+1
             END IF
-            fname1=fname1(start:len_trim(fname1))
+            fname1=fname1(fname_start:len_trim(fname1))
         write(6,*) fname1
         open(10,file=fname1,status='unknown')
         do i=1,ngroup
