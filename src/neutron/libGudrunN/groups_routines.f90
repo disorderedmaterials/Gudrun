@@ -464,14 +464,16 @@ MODULE groups_routines
         close (10)
 !c Write a file to store group calibration suitable to be read by Gudrun_GUI
             fname1=fname1(1:len_trim(fname1))//'.cal'
-            fname_start=INDEX(fname1, "/", BACK=.TRUE.)
-            IF (fname_start == 0 ) THEN
-                fname_start=INDEX(fname1, "\", BACK=.TRUE.)
-            END IF
-            IF (fname_start > 0) THEN
-                fname_start=fname_start+1
-            END IF
-            fname1=fname1(fname_start:len_trim(fname1))
+            #ifdef GUDPY_COMPATIBILITY
+                fname_start=INDEX(fname1, "/", BACK=.TRUE.)
+                IF (fname_start == 0 ) THEN
+                    fname_start=INDEX(fname1, "\", BACK=.TRUE.)
+                END IF
+                IF (fname_start > 0) THEN
+                    fname_start=fname_start+1
+                END IF
+                fname1=fname1(fname_start:len_trim(fname1))
+            #endif
         write(6,*) fname1
         open(10,file=fname1,status='unknown')
         do i=1,ngroup
