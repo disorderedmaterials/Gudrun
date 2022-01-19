@@ -14,6 +14,10 @@ option(
   "Use local HDF5 installation (specified with HDF5_DIR) built with static ZLIB and SZIP support (so don't search for them)"
   OFF)
 
+if(GUDPY)
+  add_definitions(-DGUDPY_COMPATIBILITY)
+endif(GUDPY)
+
 # ZLIB Locate installed library, or build as external version (if BUILD_ZLIB)
 option(BUILD_ZLIB "Build ZLib as an external project" OFF)
 if(BUILD_ZLIB)

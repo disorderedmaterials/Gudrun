@@ -42,6 +42,9 @@ add_library(gudrun
   van_par.f90
   write_routines.f90
 )
+if(GUDPY)
+  target_compile_options(gudrun PUBLIC -cpp)
+endif(GUDPY)
 if(BUILD_HDF5)
   add_dependencies(gudrun HDF5)
 endif(BUILD_HDF5)
