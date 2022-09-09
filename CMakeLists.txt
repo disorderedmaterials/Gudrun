@@ -49,7 +49,7 @@ if(BUILD_SZIP)
     INSTALL_DIR "${CMAKE_BINARY_DIR}/3rdparty/"
     BUILD_BYPRODUCTS "${CMAKE_BINARY_DIR}/3rdparty/lib/libszip-static.a"
     CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>
-    INSTALL_COMMAND ${CMAKE_COMMAND} --install .
+    BUILD_COMMAND ${CMAKE_COMMAND} --build . && ${CMAKE_COMMAND} --install .
     COMMAND ${CMAKE_COMMAND} -E remove -f
             ${CMAKE_BINARY_DIR}/3rdparty/src/szip-build/szip-config.cmake
     COMMAND ${CMAKE_COMMAND} -E remove -f
@@ -58,7 +58,7 @@ if(BUILD_SZIP)
   set_property(
     TARGET sziplib PROPERTY IMPORTED_LOCATION
                             "${CMAKE_BINARY_DIR}/3rdparty/lib/libszip-static.a")
-  list(APPEND LINK_LIBS "sziplib")
+  list(APPEND LINK_LIBS sziplib)
 else(BUILD_SZIP)
   if(NOT LOCAL_STATIC_HDF5)
     find_package(SZIP REQUIRED)
