@@ -1,7 +1,7 @@
 c Program to remove the single atom scattering using a 3D top hat function
 c Copyright Alan Soper April 2005
 
-      program tophatsubtest1
+      program tophatsub
 
       implicit none
 
@@ -22,18 +22,16 @@ c Copyright Alan Soper April 2005
       real qscale(mq),deltaq,qstep,dcsbin(mq),errbin(mq)
       real qshell,smoothdat(mq),dcssave(mq)
       real pi,rho,rstep,rtemp(mq),gr1temp(mq)
-      real gr2temp(mq),grlimit,sqlimit,rshell,leveltest,minfac
-      real sq1temp(mq),sq2temp(mq),sqstart(mq),grstart(mq)
+      real gr2temp(mq),csratio,rshell
       real lentemp(mgroup),tthtemp(mgroup),phitemp(mgroup)
       real factor,rmax,lorchwindow,rpower
       real sumhighq,rstep1,qnext,qfirst,qlast
-      real q,q1,q2,errdat(mq),factor2,r1,r2,rfac
-      real q13,q23,sumq3,sumiq3,term,dwamp,dwarg,exparg
-      real, dimension(:), allocatable     :: dwfactor
+      real q1,q2,errdat(mq),factor2,r1,r2,rfac
+      real q13,q23,sumq3,sumiq3,term
 
       integer*4 ierr,ndata,iq,dataformat,nbroad,nr
       integer*4 xcode,ycode            !used by Genie load command
-      integer*4 nsumhighq,narg,iqsave,idata,iarg,i,iter,niter
+      integer*4 nsumhighq,narg,iqsave,idata,iarg,i
 
 c Set up some values not used in this program
 
@@ -50,6 +48,7 @@ c Set up some values not used in this program
       phitemp(1)=0.0
       ngroupt=1
 
+      pi=4.0*atan(1.0)
       write(6,100)
 100      format(/'tophatsub - remove the single atom scattering '
      *,'using a 3D top hat function'
@@ -129,8 +128,7 @@ c Next is the limit <bavsq>.
       if(iarg.lt.narg.and.ierr.eq.0) then
          iarg=iarg+1
          call getarg(iarg,text)
-         read(text,*,iostat=ierr) grlimit
-         sqlimit=1.0
+         read(text,*,iostat=ierr) csratio
       else
          write(6,129)
       endif
@@ -183,8 +181,9 @@ c Next is broadening power
          read(text,*,iostat=ierr) rpower
       else
          write(6,129)
-         stop
       endif
+
+c 
 
 c Read the data to be processed
 
@@ -310,7 +309,6 @@ c Rebin the data onto this scale and write it out again
       !Infill points below Q=qdata(1)
       q1=qscale(1)
       i=1
-! Fill in data at low Q
       do while (qscale(i).lt.qdata(1).and.i.lt.nq)
          dcsbin(i)=dcsdata(1)
          errbin(i)=dcserr(1)
@@ -318,27 +316,9 @@ c Rebin the data onto this scale and write it out again
       end do
       fnameout=fname(1:index(fname,'.')-1)//'.qbin'
       call w_diag_file(fnameout,nq,qscale,dcsbin,errbin)
-! Set up Debye-Waller factor
-      dwarg=abs(qshell)
-      if(allocated(dwfactor)) deallocate(dwfactor)
-      allocate(dwfactor(nq))
-      q1=qscale(1)
-      do iq=1,nq-1
-         q2=qscale(iq+1)
-         exparg=0.5*(q1+q2)/dwarg
-         exparg=0.5*exparg*exparg
-         if(exparg.lt.30.0) then
-            dwfactor(iq)=exp(-exparg)
-         else
-            dwfactor(iq)=0.0
-         end if
-         q1=q2
-      end do
-      dwfactor(nq)=0.0
 
 c Get the width of the top hat function
 
-      if(rshell.gt.0.0.and.qshell.gt.0.0) qshell=3.142/rshell
       write(6,105) qshell
 105      format(/'tophatsub> Specify the width of top hat function: '
      *,f10.5)
@@ -358,7 +338,7 @@ c Apply the broadening function
          call tophat3d(nbroad,nq,dcsbin,smoothdat)
 
 c Subtract the smooth line from the data and put result in a temporary array
-         !Find the factor best suited to give g(0)=-grlimit
+         !Find the factor best suited to give g(0)=-csratio
          q1=qscale(1)
          q13=q1*q1*q1
          sumq3=0.0
@@ -372,22 +352,17 @@ c Subtract the smooth line from the data and put result in a temporary array
             q1=q2
             q13=q23
          end do
-         sumhighq=(sumiq3+6.0*pi*pi*rho*grlimit)/sumq3
-! Ensure smoothdat does not anywhere drive the corrected s(Q) below the allowed minimum
-         do iq=1,nq-1
-            dcsdata(iq)=sumhighq*smoothdat(iq)
-            if(dcsbin(iq).ne.0.0) then
-               dcssave(iq)=dcsbin(iq)-dcsdata(iq)
-            else
-               dcssave(iq)=0.0
-            end if
+         sumhighq=(sumiq3+6.0*pi*pi*rho*csratio)/sumq3
+         do iq=1,nq
+            dcssave(iq)=dcsbin(iq)-sumhighq*smoothdat(iq)
+            dcsdata(iq)=smoothdat(iq)
          end do
 
       else if(qshell.lt.0.0) then
 
 c If qshell is -ve then need to sum data for Q > -qshell to determine high Q limit
 
-         !Find the constant best suited to give g(0)=-grlimit
+         !Find the constant best suited to give g(0)=-csratio
          q1=qscale(1)
          q13=q1*q1*q1
          sumq3=0.0
@@ -401,7 +376,7 @@ c If qshell is -ve then need to sum data for Q > -qshell to determine high Q lim
             q1=q2
             q13=q23
          end do
-         sumhighq=(sumiq3+6.0*pi*pi*rho*grlimit)/sumq3
+         sumhighq=(sumiq3+6.0*pi*pi*rho*csratio)/sumq3
 
 c Form the average high Q limit and subtract it.
 
@@ -409,7 +384,7 @@ c Form the average high Q limit and subtract it.
             smoothdat(iq)=sumhighq
             dcsdata(iq)=smoothdat(iq)
             if(dcsbin(iq).ne.0.0) then
-               dcssave(iq)=dcsbin(iq)-dcsdata(iq)
+               dcssave(iq)=dcsbin(iq)-smoothdat(iq)
             else
                dcssave(iq)=0.0
             endif
@@ -422,14 +397,13 @@ c Form the average high Q limit and subtract it.
 121      format(/'tophatsub> Broadening data by ',i5,' Q steps.')
 
       fnameout=fname(1:index(fname,'.')-1)//'.qsmooth'
-      call w_diag_file(fnameout,nq,qscale,dcsdata,errbin)
+      call w_diag_file(fnameout,nq,qscale,smoothdat,errbin)
 
       fnameout=fname(1:index(fname,'.')-1)//'.qsub'
       call w_diag_file(fnameout,nq,qscale,dcssave,errbin)
 
 c set the r step value to calculate Fourier Transforms
 
-      pi=3.141592653
       rstep1=pi/qscale(nq)
 
 c set up a radius scale for F.T.
@@ -441,7 +415,7 @@ c set up a radius scale for F.T.
       write(6,106) rho
 106      format(/'tophatsub> Specify the atomic number density '
      *,'[per A**3]: ',f10.5)
-      write(6,107) grlimit
+      write(6,107) csratio
 107      format(/'tophatsub> Specify the value of <b_av>^2: ', f10.6)
       write(6,108) rshell
 108      format(/'tophatsub> Specify a minimum radius [A]: ',f10.5)
@@ -458,17 +432,8 @@ c
 c Correct F.T. for effect of smoothing function, and apply a minimum radius
 c (recommended but only if specified)
 c
-      call tophat3dmod(nq,qshell,rshell,grlimit
+      call tophat3dmod(nq,qshell,rshell,csratio
      1,rtemp,gr1temp,gr2temp,0.0,0.0,1.0)
-      ! Add on bit above rshell that causes g(r) to go below the allowed limit
-!      minfac=0.0
-!      leveltest=-grlimit ! Lowest limit on g(r)
-!      do iq=1,nq
-!         if(rtemp(iq).ge.rshell) then
-!            term=leveltest-gr1temp(iq)
-!            if(term.gt.0.0) gr2temp(iq)=-term
-!         end if
-!      end do
 
       fnameout=fname(1:index(fname,'.')-1)//'.gr2'
       call w_diag_file(fnameout,nq,rtemp,gr2temp,gr2temp)
@@ -476,90 +441,31 @@ c
 c Finally back transform to Q space and subtract the background function
 
       call stogtos(1,rho,nq,rtemp,gr2temp,nq,qscale,smoothdat)
-! Save the total background data
+
+c Save the total background data
+
       do iq=1,nq
+
          dcsdata(iq)=dcsdata(iq)+smoothdat(iq)
-         sqstart(iq)=dcsbin(iq)-dcsdata(iq)
-         sq2temp(iq)=0.0
-         gr2temp(iq)=0.0
+
       end do
+
       fnameout=fname(1:index(fname,'.')-1)//'.qback'
       call w_diag_file(fnameout,nq,qscale,dcsdata,errdat)
-! Now iterate to see if things can be improved
-! Get initial g(r)
-      call stogtos(2,rho,nq,qscale,sqstart,nq,rtemp,grstart)
-      do iq=1,nq
-         gr1temp(iq)=grstart(iq)
-      end do
-! Write diagnostic files
-      fnameout=fname(1:index(fname,'.')-1)//'.gr0'
-      call w_diag_file(fnameout,nq,rtemp,grstart,grstart)
-      fnameout=fname(1:index(fname,'.')-1)//'.sq0'
-      call w_diag_file(fnameout,nq,qscale,sqstart,sqstart)
-      niter=20
-      iter=0
-      do while (iter.lt.niter)
-         iter=iter+1
-! Subtract the current background in Q space and check for limit violations
-         leveltest=-sqlimit
-         do iq=1,nq
-            sq1temp(iq)=sqstart(iq)-sq2temp(iq)
-            term=sq1temp(iq)
-! The project is to generate a background function that does not violate limits in Q and r-space.
-! First find bits in Q-space below limit
-            if(qscale(iq).lt.qdata(1).or.term.lt.leveltest) then
- !              sq1temp(iq)=leveltest
-               sq2temp(iq)=sq2temp(iq)+term-leveltest
-!            else
-!               sq2temp(iq)=0.0
-            end if 
-         end do
-         nbroad=int(0.03/deltaq)+1
-         call tophat3d(nbroad,nq,sq2temp,smoothdat)
-         fnameout=fname(1:index(fname,'.')-1)//'.sq1'
-         call w_diag_file(fnameout,nq,qscale,sq1temp,sq1temp)
-         fnameout=fname(1:index(fname,'.')-1)//'.sq2'
-         call w_diag_file(fnameout,nq,qscale,smoothdat,sq2temp)
- ! Fourier transform residual to r-space
-         call stogtos(2,rho,nq,qscale,smoothdat,nq,rtemp,gr2temp)
-         fnameout=fname(1:index(fname,'.')-1)//'.gr3'
-         call w_diag_file(fnameout,nq,rtemp,gr2temp,gr2temp)
-!! Subtract the curent background in r-space and check for limit violations
-         leveltest=-grlimit
-         do iq=1,nq
-            gr1temp(iq)=grstart(iq)-gr2temp(iq)
-            term=gr1temp(iq)
-            if(rtemp(iq).lt.rshell.or.term.lt.leveltest) then
- !              gr1temp(iq)=leveltest
-               gr2temp(iq)=gr2temp(iq)+term-leveltest
-!            else
-!               gr2temp(iq)=0.0
-            endif
-         end do
-!         nbroad=int(0.1/rstep1)+1
-!         call tophat3d(nbroad,nq,gr2temp,smoothdat)
-! Write diagnostic files
-         fnameout=fname(1:index(fname,'.')-1)//'.gr1'
-         call w_diag_file(fnameout,nq,rtemp,gr1temp,gr1temp)
-         fnameout=fname(1:index(fname,'.')-1)//'.gr2'
-         call w_diag_file(fnameout,nq,rtemp,gr2temp,gr2temp)
-! Fourier transform residual back to Q-space ready for next iteration
-         call stogtos(1,rho,nq,rtemp,gr2temp,nq,qscale,sq2temp)
-         fnameout=fname(1:index(fname,'.')-1)//'.sq3'
-         call w_diag_file(fnameout,nq,qscale,sq2temp,sq2temp)
-      end do
+
 c Prepare data for a standard Gudrun output
+
       iq=0
       iqsave=0
       do while (qscale(iq+1).lt.qfirst.and.iq.lt.nq)
          iq=iq+1
-         dcsbin(iq)=dcsbin(iq)-dcsdata(iq)-sq2temp(iq)
+         dcsbin(iq)=dcsbin(iq)-dcsdata(iq)
       end do
       do while (qscale(iq+1).lt.qlast.and.iq.lt.nq)
          iq=iq+1
          iqsave=iqsave+1
          qbound(iqsave)=qscale(iq)
-         dcsbin(iq)=dcsbin(iq)-dcsdata(iq)-sq2temp(iq)
+         dcsbin(iq)=dcsbin(iq)-dcsdata(iq)
          aggsweights(iqsave,1)=dcsbin(iq)
          if(errbin(iq).gt.0.0) then
             aggeweights(iqsave,1)=sqrt(errbin(iq))
@@ -599,7 +505,6 @@ c Multiply final difference by Lorch function if required
 
       call stogtoslorch(2,rho,nq,qscale,dcsbin,nr,rtemp,gr1temp
      +,lorchwindow,rpower)
-!      call stogtos(2,rho,nq,qscale,dcsbin,nr,rtemp,gr1temp)
 
       fnameout=fname(1:index(fname,'.')-1)//'.gofr'
       call w_diag_file(fnameout,nr,rtemp,gr1temp,gr1temp)
@@ -750,7 +655,6 @@ c             yout(ic)=yout(ic)-cons*pofr
                if(expon.gt.0.and.expon.lt.30.0) then
                   yout(ic)=yout(ic)+expamp*exp(-expon)
                endif
-!               yout(ic)=min(yout(ic),(yin(ic)+cons)) !Ensure the correction does not drive g(r) unphysically negative
             endif
          endif
       end do
@@ -1123,7 +1027,8 @@ c
       real*4 xin(*),yin(*),xout(*),yout(*)
       real*8 j1qr,q1,q2,q,r1,r2,r,sum
       real*8 j1q1r,j1q2r
-      pi=3.141592653
+
+      pi=4.0*atan(1.0)
 c
 c ntype=1 means gtos, otherwise stog
 c
