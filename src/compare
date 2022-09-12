@@ -1,0 +1,95 @@
+#!/bin/bash
+
+# Script to conmpare the official distribution of Gudrun with our GitHub version which has a slightly different layout
+
+# Set up
+SHOWDIFF="FALSE"
+while getopts "s" options
+do
+  case $options in
+    s ) SHOWDIFF="TRUE"
+        echo "Diffs between files will be output.";;
+    \? ) echo "Error: Unrecognised switch '$options'"
+         exit 1;;
+  esac
+done
+
+shift $(expr $OPTIND - 1)
+
+if [ $# -ne "1" ]
+then
+  echo "Full path to target GudrunFiles directory must be specified."
+  exit 1
+fi
+GUDRUNFILES=$1
+
+declare -i NMISSING=0
+declare -i NDIFF=0
+declare -a DIFFS
+
+# Comparison Function
+compare_files () {
+  LOCAL=$1
+  REF=$2
+  EXT=$3
+  for file in ${GUDRUNFILES}/${REF}/*.${EXT}
+  do
+    base=$( basename "${file}" )
+    echo -n "Checking source file ${base}... "
+  
+    # Does the file exist in our local directory?
+    if [ ! -e "${LOCAL}/${base}" ]
+    then
+      echo " MISSING : File exists in reference distribution but not in ours."
+      NMISSING+=1
+      continue
+    fi
+  
+    # Check files for differences, converting LF on-the-fly
+    dos2unix -q < "${file}" | diff -q "${LOCAL}/${base}" - >& /dev/null
+    if [ $? -ne 0 ]
+    then
+      echo " DIFF : Files differ"
+      if [ ${SHOWDIFF} = "TRUE" ]
+      then
+        diff ref.compare "${LOCAL}/${base}"
+      fi
+      DIFFS+=("dos2unix < ${file} | diff ${LOCAL}/${base} -")
+      NDIFF+=1
+    else
+      echo " OK"
+    fi
+  done
+}
+
+# ----------------
+# GudrunN / libget
+# ----------------
+compare_files "neutron/libget" "GudrunSourceN/GetRoutines2021-01-29-ver2" "f"
+compare_files "neutron/libget" "GudrunSourceN/GetRoutines2021-01-29-ver2" "c"
+
+# -------------------
+# GudrunN / libgudrun
+# ----------------
+compare_files "neutron/libGudrunN" "GudrunSourceN/libGudrunN2021-01-29-ver2" "f90"
+
+# -------------------
+# GudrunN / binaries
+# -------------------
+compare_files "neutron" "GudrunSourceN" "f90"
+
+# -----------------
+# GudrunX /binaries 
+# -----------------
+compare_files "xray" "GudrunSourceX" "for"
+
+# ---------
+# Summarise
+# ---------
+echo -e "\nSUMMARY\n"
+echo "There are ${NMISSING} missing files to check."
+echo "There are ${NDIFF} files which differ between distributions."
+for cmd in "${DIFFS[@]}"
+do
+  echo "  ${cmd}"
+done
