@@ -124,7 +124,7 @@ else(BUILD_HDF)
   else(LOCAL_STATIC_HDF5)
     find_package(HDF5 REQUIRED COMPONENTS Fortran)
     list(APPEND LINK_LIBS "${HDF5_CXX_LIBRARIES}" "${HDF5_Fortran_LIBRARIES}")
-    include_directories(${HDF5_INCLUDE_DIRS})
+    include_directories(${HDF5_Fortran_INCLUDE_DIRS})
   endif(LOCAL_STATIC_HDF5)
 endif(BUILD_HDF)
 
