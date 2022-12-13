@@ -10,6 +10,15 @@ set(CMAKE_BUILD_TYPE "Release")
 include(ExternalProject)
 
 option(
+  GUDPY_COMPATIBILITY
+  "Enable some compatibility options with GudPy"
+  OFF)
+
+if(GUDPY_COMPATIBILITY)
+  add_definitions("-DGUDPY_COMPATIBILITY")
+endif(GUDPY_COMPATIBILITY)
+
+option(
   LOCAL_STATIC_HDF5
   "Use local HDF5 installation (specified with HDF5_DIR) built with static ZLIB and SZIP support (so don't search for them)"
   OFF)
