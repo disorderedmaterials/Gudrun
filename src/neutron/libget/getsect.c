@@ -213,7 +213,8 @@ int GENIEMECHANISM fastget_init(const char* name, const int* iunit)
 	FOPEN_BUFFER_SIZE = (getenv("G_FOPEN_BUFFER_SIZE") != 0 ? atol(getenv("G_FOPEN_BUFFER_SIZE")) : BUFSIZ);
     }
 /* First null terminate our FORTRAN string */
-    for(i=119; name[i] == ' '; i--)
+/* Modified 12/22 by TGAY - Change loop limit from 119 to 255 for consistency with string variable declared size */
+    for(i=255; name[i] == ' '; i--)
 	;
     if (i < 0)
     {
