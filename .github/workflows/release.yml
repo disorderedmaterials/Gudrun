@@ -1,0 +1,48 @@
+name: Release
+
+on:
+  push:
+    branches:
+    - 'release/*'
+    paths-ignore:
+    - '.github/workflows/continuous.yml'
+    - '.github/workflows/pr.yml'
+    - 'README.md'
+
+jobs:
+
+  Build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Set Environment Variables
+      uses: "./.github/workflows/setup"
+    - name: "Build (${{ matrix.os }})"
+      uses: "./.github/workflows/build"
+
+  Publish:
+    needs: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Set Environment Variables
+      uses: "./.github/workflows/setup"
+    - name: Publish
+      uses: "./.github/workflows/publish"
+      with:
+        isRelease: true
+      env:
+        HARBOR_USER: ${{ secrets.HARBOR_USER }}
+        HARBOR_SECRET: ${{ secrets.HARBOR_SECRET }}
+    - name: Update Version Information
+      uses: "./.github/workflows/update-release-info"
+      with:
+        createPR: ${{ ! endsWith(github.ref, 'pre') }}
+        releaseVersion: ${{ env.jv2Version }}
+

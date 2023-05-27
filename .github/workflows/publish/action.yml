@@ -1,0 +1,30 @@
+name: Publish
+
+runs:
+  using: "composite"
+  steps:
+
+  - name: Download Artifacts
+    uses: actions/download-artifact@v3
+    with:
+      name: packages
+      path: ${{ github.workspace }}/packages
+
+  - name: Download Prerequisites
+    shell: bash
+    run: |
+      wget https://raw.githubusercontent.com/disorderedmaterials/scripts/master/update-release
+      chmod u+x ./update-release
+
+  - name: Create StartupFiles Artifact
+    shell: bash
+    run: |
+      set -ex
+      zip -9rv startupFiles-${{ env.gudrunVersion }}.zip StartupFiles
+
+  - name: Publish on GitHub (Release)
+    shell: bash
+    run: |
+      set -ex
+      export GITHUB_TOKEN=${{ github.token }}
+      ./update-release -r disorderedmaterials/Gudrun -t ${{ env.gudrunVersion }} -n "${{ env.gudrunVersion }}" -f ReleaseNotes.md packages/*.zip startupFiles-*.zip
