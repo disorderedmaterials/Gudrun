@@ -35,14 +35,3 @@ jobs:
       uses: "./.github/workflows/setup"
     - name: Publish
       uses: "./.github/workflows/publish"
-      with:
-        isRelease: true
-      env:
-        HARBOR_USER: ${{ secrets.HARBOR_USER }}
-        HARBOR_SECRET: ${{ secrets.HARBOR_SECRET }}
-    - name: Update Version Information
-      uses: "./.github/workflows/update-release-info"
-      with:
-        createPR: ${{ ! endsWith(github.ref, 'pre') }}
-        releaseVersion: ${{ env.jv2Version }}
-
