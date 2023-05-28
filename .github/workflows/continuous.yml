@@ -25,18 +25,3 @@ jobs:
     - name: "Build (${{ matrix.os }})"
       uses: "./.github/workflows/build"
 
-  Publish:
-    needs: Build
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-    - name: Set Environment Variables
-      uses: "./.github/workflows/setup"
-    - name: Publish
-      uses: "./.github/workflows/publish"
-      with:
-        isRelease: false
-      env:
-        HARBOR_USER: ${{ secrets.HARBOR_USER }}
-        HARBOR_SECRET: ${{ secrets.HARBOR_SECRET }}
