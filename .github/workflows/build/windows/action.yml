@@ -8,7 +8,7 @@ runs:
   - name: Install Prerequisites
     shell: powershell
     run: |
-      choco install -y mingw
+      choco install -y mingw --version=8.1.0 --allow-downgrade
 
   - name: Download HDF5 Artifacts
     shell: powershell
