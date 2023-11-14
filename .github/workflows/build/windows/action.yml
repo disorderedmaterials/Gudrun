@@ -39,7 +39,7 @@ runs:
       cp $MINGWLIB\libquadmath-0.dll bin/
       cp $MINGWLIB\libwinpthread-1.dll bin/
       cp $MINGWLIB\libgcc_s_seh-1.dll bin/
-      cp $MINGWLIB\libgfortran-3.dll bin/
+      #cp $MINGWLIB\libgfortran-3.dll bin/
       mv bin binaries-${{ env.gudrunVersion }}-windows
       7z a packages/binaries-${{ env.gudrunVersion }}-windows.zip binaries-${{ env.gudrunVersion }}-windows/
 
