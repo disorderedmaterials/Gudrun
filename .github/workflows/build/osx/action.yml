@@ -12,6 +12,7 @@ runs:
       brew update-reset
       brew install ninja
       brew install hdf5
+      brew install zlib
 
   - name: Build
     shell: bash
