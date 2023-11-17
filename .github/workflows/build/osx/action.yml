@@ -13,6 +13,7 @@ runs:
       brew install ninja
       brew install hdf5
       brew install zlib
+      brew install automake
 
   - name: Build
     shell: bash
