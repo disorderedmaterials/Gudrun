@@ -16,6 +16,9 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
+        include:
+          - arch: ${{ matrix.os == macos-latest && 'default' || 'x86_64' }}
+          - arch: ${{ matrix.os == macos-latest && 'default' || 'arm64' }}
     runs-on: ${{ matrix.os }}
     steps:
     - name: Checkout
