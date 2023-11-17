@@ -154,5 +154,6 @@ set(CMAKE_INSTALL_PREFIX
 
 # Define compile flags and linker lines for builds
 set(CMAKE_Fortran_FLAGS_RELEASE " -funroll-all-loops -fno-f2c -O2 -cpp")
+set(CMAKE_C_FLAGS "--disable-asm-optimizations")
 
 add_subdirectory(src)
