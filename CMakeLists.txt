@@ -153,6 +153,10 @@ set(CMAKE_INSTALL_PREFIX
       FORCE)
 
 # Define compile flags and linker lines for builds
-set(CMAKE_Fortran_FLAGS_RELEASE " -funroll-all-loops -fno-f2c -O2 -cpp")
+if(APPLE)
+  set(CMAKE_Fortran_FLAGS_RELEASE " -funroll-all-loops -fno-f2c -O0 -cpp")
+else(APPLE)
+  set(CMAKE_Fortran_FLAGS_RELEASE " -funroll-all-loops -fno-f2c -O2 -cpp")
+endif(APPLE)
 
 add_subdirectory(src)
