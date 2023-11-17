@@ -23,11 +23,13 @@ jobs:
           - os: macos-latest
             target: arm64
     runs-on: ${{ matrix.os }}
+    env:
+      TARGET: ${{ matrix.target }}
     steps:
     - name: Checkout
       uses: actions/checkout@v3
     - name: Set Environment Variables
       uses: "./.github/workflows/setup"
-    - name: "Build (${{ matrix.os }} - ${{ matrix.target }})"
+    - name: "Build (${{ matrix.os }})"
       uses: "./.github/workflows/build"
 
