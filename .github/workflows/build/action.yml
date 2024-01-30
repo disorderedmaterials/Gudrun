@@ -12,6 +12,7 @@ runs:
   - name: Build (OSX)
     if: runner.os == 'MacOS'
     uses: "./.github/workflows/build/osx"
+    uses: "./.github/workflows/build/osx-silicon"
 
   - name: Build (Windows)
     if: runner.os == 'Windows'
