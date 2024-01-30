@@ -10,11 +10,11 @@ runs:
     uses: "./.github/workflows/build/linux"
 
   - name: Build (OSX) Intel
-    if: runner.os == 'MacOS' env.TARGET == 'x86_64'
+    if: runner.os == 'MacOS' && env.TARGET == 'x86_64'
     uses: "./.github/workflows/build/osx"
 
   - name: Build (OSX) Silicon
-    if: runner.os == 'MacOS' env.TARGET == 'arm64'
+    if: runner.os == 'MacOS' && env.TARGET == 'arm64'
     uses: "./.github/workflows/build/osx"
 
   - name: Build (Windows)
