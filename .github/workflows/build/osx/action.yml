@@ -42,3 +42,30 @@ runs:
     with:
       name: packages
       path: ${{ github.workspace }}/packages
+
+  - name: Build
+    shell: bash
+    run: |
+      set -ex
+      cd ..
+      rmdir -rf build
+      HDF5_DIR="$(pwd)/${{ env.hdf5tag }}"
+      mkdir build
+      cd build
+      cmake ../ -G Ninja -DCMAKE_OSX_ARCHITECTURES:string"arm64" -DCMAKE_INSTALL_PREFIX:path=pwd/..
+      ninja
+      ninja install
+
+  - name: Create Zip
+    shell: bash
+    run: |
+      set -ex
+      mkdir packages
+      mv bin binaries-${{ env.gudrunVersion }}-osx-silicon
+      zip -9rv packages/binaries-${{ env.gudrunVersion }}-osx-silicon.zip binaries-${{ env.gudrunVersion }}-osx-silicon/
+
+  - name: Upload Raw Build Artifacts
+    uses: actions/upload-artifact@v3
+    with:
+      name: packages
+      path: ${{ github.workspace }}/packages
