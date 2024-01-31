@@ -32,12 +32,11 @@ runs:
     shell: bash
     run: |
       set -ex
-      mkdir packages
       mv bin binaries-${{ env.gudrunVersion }}-linux
-      zip -9rv packages/binaries-${{ env.gudrunVersion }}-linux.zip binaries-${{ env.gudrunVersion }}-linux/
+      zip -9rv binaries-${{ env.gudrunVersion }}-linux.zip binaries-${{ env.gudrunVersion }}-linux/
 
   - name: Upload Package Artifacts
     uses: actions/upload-artifact@v3
     with:
-      name: packages
-      path: ${{ github.workspace }}/packages
+      name: binaries-${{ env.gudrunVersion }}-linux
+      path: binaries-${{ env.gudrunVersion }}-linux

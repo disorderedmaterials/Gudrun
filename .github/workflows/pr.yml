@@ -20,7 +20,7 @@ jobs:
           - os: windows-latest
           - os: macos-latest
             target: x86_64
-          - os: macos-latest
+          - os: macos-14
             target: arm64
     runs-on: ${{ matrix.os }}
     env:
@@ -32,4 +32,6 @@ jobs:
       uses: "./.github/workflows/setup"
     - name: "Build (${{ matrix.os }})"
       uses: "./.github/workflows/build"
-
+    - name: "Package OSX"
+      if: ${{ matrix.target }} == arm64
+      uses: "./.github/workflows/package"

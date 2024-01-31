@@ -20,7 +20,7 @@ jobs:
           - os: windows-latest
           - os: macos-latest
             target: x86_64
-          - os: macos-latest
+          - os: macos-14
             target: arm64
     runs-on: ${{ matrix.os }}
     steps:
