@@ -39,5 +39,9 @@ jobs:
       fail-fast: false
     runs-on: macos-14
     steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Set Environment Variables
+      uses: "./.github/workflows/setup"
     - name: "Package OSX"
       uses: "./.github/workflows/package"
