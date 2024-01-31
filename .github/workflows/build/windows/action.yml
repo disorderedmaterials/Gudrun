@@ -42,7 +42,7 @@ runs:
       7z a binaries-${{ env.gudrunVersion }}-windows.zip binaries-${{ env.gudrunVersion }}-windows/
 
   - name: Upload Raw Build Artifacts
-    uses: actions/upload-artifact@v3
+    uses: actions/upload-artifact@v4
     with:
       name: binaries-${{ env.gudrunVersion }}-windows
       path: binaries-${{ env.gudrunVersion }}-windows
