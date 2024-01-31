@@ -16,7 +16,6 @@ runs:
       set -ex
       mkdir binaries-${{ env.gudrunVersion }}-osx-fat
       for BINARY in binaries-${{ env.gudrunVersion }}-osx/binaries-${{ env.gudrunVersion }}-osx-silicon/* do
-      do
         BINARY=$(basename $BINARY)
         install_name_tool -change /usr/lib/libz.1.dylib /opt/homebrew/opt/zlib/lib/libz.1.dylib binaries-${{ env.gudrunVersion }}-osx/binaries-${{ env.gudrunVersion }}-osx-silicon/${BINARY}
         lipo -create binaries-${{ env.gudrunVersion }}-osx/binaries-${{ env.gudrunVersion }}-osx-intel/${BINARY} binaries-${{ env.gudrunVersion }}-osx/binaries-${{ env.gudrunVersion }}-osx-silicon/${BINARY} -output binaries-${{ env.gudrunVersion }}-osx-fat/${BINARY}
