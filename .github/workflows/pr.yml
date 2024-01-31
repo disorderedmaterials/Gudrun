@@ -32,6 +32,12 @@ jobs:
       uses: "./.github/workflows/setup"
     - name: "Build (${{ matrix.os }})"
       uses: "./.github/workflows/build"
+
+  PackageOSX:
+    needs: [ Build ]
+        strategy:
+      fail-fast: false
+    runs-on: macos-14
+    steps:
     - name: "Package OSX"
-      if: ${{ matrix.target }} == 'arm64'
       uses: "./.github/workflows/package"
