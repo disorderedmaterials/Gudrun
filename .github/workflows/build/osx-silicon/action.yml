@@ -21,7 +21,7 @@ runs:
       cmake ../ -G Ninja -DCMAKE_Fortran_COMPILER:string="gfortran-11" -DBUILD_SZIP:bool=true -DCMAKE_OSX_ARCHITECTURES:string="${{ env.TARGET }}" -DCMAKE_Fortran_FLAGS:string="-cpp" -DGUDPY_COMPATIBILITY=1 ${{ inputs.extraflags }}
       ninja
       ninja install
-      wait
+      cd ..
       mv bin binaries-${{ env.gudrunVersion }}-osx-silicon
 
   - name: Upload Raw Build Artifacts
