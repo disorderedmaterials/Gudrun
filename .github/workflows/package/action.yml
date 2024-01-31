@@ -7,19 +7,18 @@ runs:
   - name: Download OSX Artifacts
     uses: actions/download-artifact@v4
     with:
-      path: binaries-${{ env.gudrunVersion }}-osx
-      pattern: binaries-${{ env.gudrunVersion }}-osx-*
+      path: osx
 
   - name: Create FAT Binaries
     shell: bash
     run: |
       set -ex
       mkdir binaries-${{ env.gudrunVersion }}-osx-fat
-      for BINARY_PATH in binaries-${{ env.gudrunVersion }}-osx/binaries-${{ env.gudrunVersion }}-osx-silicon/*
+      for BINARY_PATH in osx/binaries-${{ env.gudrunVersion }}-osx-silicon/*
       do
         BINARY=$(basename $BINARY_PATH)
-        install_name_tool -change /usr/lib/libz.1.dylib /opt/homebrew/opt/zlib/lib/libz.1.dylib binaries-${{ env.gudrunVersion }}-osx/binaries-${{ env.gudrunVersion }}-osx-silicon/${BINARY}
-        lipo -create binaries-${{ env.gudrunVersion }}-osx/binaries-${{ env.gudrunVersion }}-osx-intel/${BINARY} binaries-${{ env.gudrunVersion }}-osx/binaries-${{ env.gudrunVersion }}-osx-silicon/${BINARY} -output binaries-${{ env.gudrunVersion }}-osx-fat/${BINARY}
+        install_name_tool -change /usr/lib/libz.1.dylib /opt/homebrew/opt/zlib/lib/libz.1.dylib osx/binaries-${{ env.gudrunVersion }}-osx-silicon/${BINARY}
+        lipo -create osx/binaries-${{ env.gudrunVersion }}-osx-intel/${BINARY} osx/binaries-${{ env.gudrunVersion }}-osx-silicon/${BINARY} -output binaries-${{ env.gudrunVersion }}-osx-fat/${BINARY}
       done
 
   - name: Create Zip

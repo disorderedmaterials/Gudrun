@@ -6,7 +6,10 @@ runs:
 
   - name: Download Artifacts
     uses: actions/download-artifact@v4
-    path: packages
+    with:
+      path: packages
+      pattern: binaries-${{ env.gudrunVersion }}-*
+      merge-multiple: true
 
   - name: Download Prerequisites
     shell: bash
