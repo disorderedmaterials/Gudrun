@@ -35,7 +35,7 @@ jobs:
 
   PackageOSX:
     needs: [ Build ]
-        strategy:
+    strategy:
       fail-fast: false
     runs-on: macos-14
     steps:
