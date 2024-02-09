@@ -14,11 +14,11 @@ runs:
     run: |
       set -ex
       mkdir binaries-${{ env.gudrunVersion }}-osx-fat
-      for BINARY_PATH in osx/binaries-${{ env.gudrunVersion }}-osx-silicon/*
+      for BINARY_PATH in osx/binaries-${{ env.gudrunVersion }}-osx-arm64/*
       do
         BINARY=$(basename $BINARY_PATH)
-        install_name_tool -change /usr/lib/libz.1.dylib /opt/homebrew/opt/zlib/lib/libz.1.dylib osx/binaries-${{ env.gudrunVersion }}-osx-silicon/${BINARY}
-        lipo -create osx/binaries-${{ env.gudrunVersion }}-osx-intel/${BINARY} osx/binaries-${{ env.gudrunVersion }}-osx-silicon/${BINARY} -output binaries-${{ env.gudrunVersion }}-osx-fat/${BINARY}
+        install_name_tool -change /usr/lib/libz.1.dylib /opt/homebrew/opt/zlib/lib/libz.1.dylib osx/binaries-${{ env.gudrunVersion }}-osx-arm64/${BINARY}
+        lipo -create osx/binaries-${{ env.gudrunVersion }}-osx-x86_64/${BINARY} osx/binaries-${{ env.gudrunVersion }}-osx-arm64/${BINARY} -output binaries-${{ env.gudrunVersion }}-osx-fat/${BINARY}
       done
 
   - name: Create Zip
