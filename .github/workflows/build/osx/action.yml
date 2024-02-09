@@ -10,8 +10,7 @@ runs:
     run: |
       set -ex
       brew update-reset
-      brew install ninja
-      brew install hdf5
+      brew install ninja hdf5 zlib
 
   - name: Build
     shell: bash
@@ -24,11 +23,11 @@ runs:
       ninja install
       cd ..
       mkdir osx
-      mv bin osx/binaries-${{ env.gudrunVersion }}-osx-intel
+      mv bin osx/binaries-${{ env.gudrunVersion }}-osx-${{ env.TARGET }}
 
   - name: Upload Raw Build Artifacts
     uses: actions/upload-artifact@v4
     with:
-      name: binaries-${{ env.gudrunVersion }}-osx-intel
-      path: osx/binaries-${{ env.gudrunVersion }}-osx-intel
+      name: binaries-${{ env.gudrunVersion }}-osx-${{ env.TARGET }}
+      path: osx/binaries-${{ env.gudrunVersion }}-osx-${{ env.TARGET }}
       retention-days: 1
