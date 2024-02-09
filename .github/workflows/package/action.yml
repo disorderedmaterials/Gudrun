@@ -22,6 +22,7 @@ runs:
       done
 
       cat > binaries-${{ env.gudrunVersion }}-osx-fat/README.md << -EOM
+      ## Apple Silicon Users:
       After installing the OSX binaries, the following commands must be run to use
       Gudrun:
 
