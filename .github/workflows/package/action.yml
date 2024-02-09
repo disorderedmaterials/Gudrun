@@ -21,17 +21,20 @@ runs:
         lipo -create osx/binaries-${{ env.gudrunVersion }}-osx-x86_64/${BINARY} osx/binaries-${{ env.gudrunVersion }}-osx-arm64/${BINARY} -output binaries-${{ env.gudrunVersion }}-osx-fat/${BINARY}
       done
 
-      cat > binaries-${{ env.gudrunVersion }}-osx-fat/README.md << -EOM
-      ## Apple Silicon Users:
-      After installing the OSX binaries, the following commands must be run to use
-      Gudrun:
+      README=binaries-${{ env.gudrunVersion }}-osx-fat/README.md
+      \
+        cat << 'EOM' > "$README"
+        ## Apple Silicon Users:
+        After installing the OSX binaries, the following commands must be run to use
+        Gudrun:
 
-      ```
-      cd /folder/containing/binaries/
-      chmod +x gudrun_dcs purge_det tophatsub calc_corrsx_in_out
-      xattr -rd gudrun_dcs purge_det tophatsub calc_corrsx_in_out
-      ```
+        ```
+        cd /folder/containing/binaries/
+        chmod +x gudrun_dcs purge_det tophatsub calc_corrsx_in_out
+        xattr -rd gudrun_dcs purge_det tophatsub calc_corrsx_in_out
+        ```
       EOM
+
 
   - name: Create Zip
     shell: bash
