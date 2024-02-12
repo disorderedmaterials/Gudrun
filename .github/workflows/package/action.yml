@@ -14,7 +14,7 @@ runs:
     run: |
       set -ex
       mkdir binaries-${{ env.gudrunVersion }}-osx-fat
-      for BINARY_PATH in osx/binaries-${{ env.gudrunVersion }}-osx-ARM64/*
+      for BINARY_PATH in binaries-${{ env.gudrunVersion }}-osx-ARM64/*
       do
         BINARY=$(basename $BINARY_PATH)
         install_name_tool -change /usr/lib/libz.1.dylib /opt/homebrew/opt/zlib/lib/libz.1.dylib binaries-${{ env.gudrunVersion }}-osx-ARM64/${BINARY}
