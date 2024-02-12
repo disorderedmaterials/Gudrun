@@ -8,7 +8,6 @@ runs:
     uses: actions/download-artifact@v4
     with:
       pattern: binaries-*-osx-*
-      path: osx
 
   - name: Create FAT Binaries
     shell: bash
@@ -18,8 +17,8 @@ runs:
       for BINARY_PATH in osx/binaries-${{ env.gudrunVersion }}-osx-arm64/*
       do
         BINARY=$(basename $BINARY_PATH)
-        install_name_tool -change /usr/lib/libz.1.dylib /opt/homebrew/opt/zlib/lib/libz.1.dylib osx/binaries-${{ env.gudrunVersion }}-osx-arm64/${BINARY}
-        lipo -create osx/binaries-${{ env.gudrunVersion }}-osx-x86_64/${BINARY} osx/binaries-${{ env.gudrunVersion }}-osx-arm64/${BINARY} -output binaries-${{ env.gudrunVersion }}-osx-fat/${BINARY}
+        install_name_tool -change /usr/lib/libz.1.dylib /opt/homebrew/opt/zlib/lib/libz.1.dylib binaries-${{ env.gudrunVersion }}-osx-arm64/${BINARY}
+        lipo -create binaries-${{ env.gudrunVersion }}-osx-x86_64/${BINARY} binaries-${{ env.gudrunVersion }}-osx-arm64/${BINARY} -output binaries-${{ env.gudrunVersion }}-osx-fat/${BINARY}
       done
 
       README=binaries-${{ env.gudrunVersion }}-osx-fat/README.md
