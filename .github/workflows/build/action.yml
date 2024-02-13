@@ -9,7 +9,7 @@ runs:
     if: runner.os == 'Linux'
     uses: "./.github/workflows/build/linux"
 
-  - name: Build (OSX) ${{ env.TARGET }}
+  - name: Build (OSX) ${{ runner.arch }}
     if: runner.os == 'MacOS'
     uses: "./.github/workflows/build/osx"
 

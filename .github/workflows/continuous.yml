@@ -15,13 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - os: ubuntu-latest
-          - os: windows-latest
-          - os: macos-latest
-            target: x86_64
-          - os: macos-14
-            target: arm64
+        os: [ macos-latest, macos-14, windows-latest ]
     runs-on: ${{ matrix.os }}
     steps:
     - name: Checkout
