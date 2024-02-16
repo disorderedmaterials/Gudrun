@@ -5,10 +5,11 @@ runs:
   steps:
 
   - name: Download Artifacts
-    uses: actions/download-artifact@v3
+    uses: actions/download-artifact@v4
     with:
-      name: packages
-      path: ${{ github.workspace }}/packages
+      path: packages
+      pattern: binaries-${{ env.gudrunVersion }}-*
+      merge-multiple: true
 
   - name: Download Prerequisites
     shell: bash

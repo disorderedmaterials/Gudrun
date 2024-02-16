@@ -35,16 +35,15 @@ runs:
     run: |
       set -ex
       MINGWLIB="C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\\"
-      mkdir packages
       cp $MINGWLIB\libquadmath-0.dll bin/
       cp $MINGWLIB\libwinpthread-1.dll bin/
       cp $MINGWLIB\libgcc_s_seh-1.dll bin/
       #cp $MINGWLIB\libgfortran-3.dll bin/
       mv bin binaries-${{ env.gudrunVersion }}-windows
-      7z a packages/binaries-${{ env.gudrunVersion }}-windows.zip binaries-${{ env.gudrunVersion }}-windows/
+      7z a binaries-${{ env.gudrunVersion }}-windows.zip binaries-${{ env.gudrunVersion }}-windows/
 
   - name: Upload Raw Build Artifacts
-    uses: actions/upload-artifact@v3
+    uses: actions/upload-artifact@v4
     with:
-      name: packages
-      path: ${{ github.workspace }}/packages
+      name: binaries-${{ env.gudrunVersion }}-windows
+      path: binaries-${{ env.gudrunVersion }}-windows

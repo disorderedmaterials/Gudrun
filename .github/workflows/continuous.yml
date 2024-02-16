@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [ macos-latest, macos-14, windows-latest ]
     runs-on: ${{ matrix.os }}
     steps:
     - name: Checkout
@@ -25,3 +25,15 @@ jobs:
     - name: "Build (${{ matrix.os }})"
       uses: "./.github/workflows/build"
 
+  PackageOSX:
+    needs: [ Build ]
+    strategy:
+      fail-fast: false
+    runs-on: macos-14
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Set Environment Variables
+      uses: "./.github/workflows/setup"
+    - name: "Package OSX"
+      uses: "./.github/workflows/package"

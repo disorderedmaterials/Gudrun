@@ -3,6 +3,16 @@
 #### Original code &copy; A. Soper 2021
 #### CMake'd / tidied by T. Youngs 2021
 
+#### Note For Apple Silicon Users
+After installing the OSX binaries, the following commands must be run to use
+Gudrun:
+
+```
+cd /folder/containing/binaries/
+chmod +x gudrun_dcs purge_det tophatsub calc_corrsx_in_out
+xattr -rd gudrun_dcs purge_det tophatsub calc_corrsx_in_out
+```
+
 #### Installation instructions for RHEL 7 / CentOS 7 distributions:
 >#install hdf5 library and cmake3 for compilation \
 yum install -y hdf5-devel cmake3 \
