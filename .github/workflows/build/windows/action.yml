@@ -46,4 +46,4 @@ runs:
     uses: actions/upload-artifact@v4
     with:
       name: binaries-${{ env.gudrunVersion }}-windows
-      path: binaries-${{ env.gudrunVersion }}-windows
+      path: binaries-${{ env.gudrunVersion }}-windows.zip
