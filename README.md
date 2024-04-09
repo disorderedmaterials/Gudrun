@@ -6,7 +6,7 @@
 
 #### CMake'd / tidied by T. Youngs 2021
 
-#### Note For Apple Silicon Users
+#### Note For Apple Users
 
 After installing the OSX binaries, the following commands must be run to use
 Gudrun:
