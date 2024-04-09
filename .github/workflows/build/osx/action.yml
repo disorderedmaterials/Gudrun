@@ -29,5 +29,5 @@ runs:
       uses: actions/upload-artifact@v4
       with:
         name: binaries-${{ env.gudrunVersion }}-osx-${{ runner.arch }}
-        path: binaries-${{ env.gudrunVersion }}-osx-${{ runner.arch }}.zip
+        path: binaries-${{ env.gudrunVersion }}-osx-${{ runner.arch }}
         retention-days: 1
