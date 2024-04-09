@@ -6,6 +6,7 @@ runs:
     - name: Download OSX Artifacts
       uses: actions/download-artifact@v4
       with:
+        path: osx
         pattern: binaries-*-osx-*
 
     - name: Create FAT Binaries
