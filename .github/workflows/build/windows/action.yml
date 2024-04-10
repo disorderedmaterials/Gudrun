@@ -4,45 +4,46 @@ description: Build Windows artifacts
 runs:
   using: "composite"
   steps:
-    - name: Install Prerequisites
-      shell: powershell
-      run: |
-        choco install -y mingw --version=8.1.0 --allow-downgrade
 
-    - name: Download HDF5 Artifacts
-      shell: powershell
-      run: |
-        $ErrorActionPreference = 'Stop'
-        $HDF5_ARTIFACTS = "https://github.com/disorderedmaterials/HDF5/releases/download/" + "${{ env.hdf5tag }}/${{ env.hdf5tag }}-windows.zip"
-        wget $HDF5_ARTIFACTS -O hdf5.zip
-        7z x hdf5.zip
+  - name: Install Prerequisites
+    shell: powershell
+    run: |
+      choco install -y mingw --version=8.1.0 --allow-downgrade
 
-    - name: Build
-      shell: bash
-      run: |
-        set -ex
-        MINGWLIB="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin"
-        HDF5_DIR="$(pwd)/${{ env.hdf5tag }}"
-        mkdir build
-        cd build
-        cmake ../ -G "MinGW Makefiles" -DLOCAL_STATIC_HDF5:bool=True -DHDF5_DIR:path=${HDF5_DIR} -DCMAKE_Fortran_FLAGS:string="-cpp" -DGUDPY_COMPATIBILITY=1 ${{ inputs.extraflags }} -DCMAKE_FORTRAN_COMPILER=${MINGWLIB}/gfortran.exe -DCMAKE_C_COMPILER=${MINGWLIB}/gcc.exe
-        cmake --build . --config Release
-        cmake --install .
+  - name: Download HDF5 Artifacts
+    shell: powershell
+    run: |
+      $ErrorActionPreference = 'Stop'
+      $HDF5_ARTIFACTS = "https://github.com/disorderedmaterials/HDF5/releases/download/" + "${{ env.hdf5tag }}/${{ env.hdf5tag }}-windows.zip"
+      wget $HDF5_ARTIFACTS -O hdf5.zip
+      7z x hdf5.zip
 
-    - name: Create Zip
-      shell: bash
-      run: |
-        set -ex
-        MINGWLIB="C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\\"
-        cp $MINGWLIB\libquadmath-0.dll bin/
-        cp $MINGWLIB\libwinpthread-1.dll bin/
-        cp $MINGWLIB\libgcc_s_seh-1.dll bin/
-        #cp $MINGWLIB\libgfortran-3.dll bin/
-        mv bin binaries-${{ env.gudrunVersion }}-windows
-        7z a binaries-${{ env.gudrunVersion }}-windows.zip binaries-${{ env.gudrunVersion }}-windows/
+  - name: Build
+    shell: bash
+    run: |
+      set -ex
+      MINGWLIB="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin"
+      HDF5_DIR="$(pwd)/${{ env.hdf5tag }}"
+      mkdir build
+      cd build
+      cmake ../ -G "MinGW Makefiles" -DLOCAL_STATIC_HDF5:bool=True -DHDF5_DIR:path=${HDF5_DIR} -DCMAKE_Fortran_FLAGS:string="-cpp" -DGUDPY_COMPATIBILITY=1 ${{ inputs.extraflags }} -DCMAKE_FORTRAN_COMPILER=${MINGWLIB}/gfortran.exe -DCMAKE_C_COMPILER=${MINGWLIB}/gcc.exe
+      cmake --build . --config Release
+      cmake --install .
 
-    - name: Upload Raw Build Artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: binaries-${{ env.gudrunVersion }}-windows.zip
-        path: binaries-${{ env.gudrunVersion }}-windows.zip
+  - name: Create Zip
+    shell: bash
+    run: |
+      set -ex
+      MINGWLIB="C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\\"
+      cp $MINGWLIB\libquadmath-0.dll bin/
+      cp $MINGWLIB\libwinpthread-1.dll bin/
+      cp $MINGWLIB\libgcc_s_seh-1.dll bin/
+      #cp $MINGWLIB\libgfortran-3.dll bin/
+      mv bin binaries-${{ env.gudrunVersion }}-windows
+      7z a binaries-${{ env.gudrunVersion }}-windows.zip binaries-${{ env.gudrunVersion }}-windows/
+
+  - name: Upload Raw Build Artifacts
+    uses: actions/upload-artifact@v4
+    with:
+      name: binaries-${{ env.gudrunVersion }}-windows.zip
+      path: binaries-${{ env.gudrunVersion }}-windows.zip

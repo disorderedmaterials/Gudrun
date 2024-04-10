@@ -36,14 +36,3 @@ jobs:
         uses: "./.github/workflows/setup"
       - name: "Package OSX"
         uses: "./.github/workflows/package"
-
-  Publish:
-    needs: [PackageOSX]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Set Environment Variables
-        uses: "./.github/workflows/setup"
-      - name: Publish
-        uses: "./.github/workflows/publish"
