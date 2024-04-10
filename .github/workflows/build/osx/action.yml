@@ -28,6 +28,6 @@ runs:
     - name: Upload Raw Build Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: osx/binaries-${{ env.gudrunVersion }}-osx-${{ runner.arch }}
+        name: binaries-${{ env.gudrunVersion }}-osx-${{ runner.arch }}
         path: binaries-${{ env.gudrunVersion }}-osx-${{ runner.arch }}
         retention-days: 1
