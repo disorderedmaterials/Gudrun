@@ -45,5 +45,5 @@ runs:
   - name: Upload Raw Build Artifacts
     uses: actions/upload-artifact@v4
     with:
-      name: binaries-${{ env.gudrunVersion }}-windows
-      path: binaries-${{ env.gudrunVersion }}-windows
+      name: binaries-${{ env.gudrunVersion }}-windows.zip
+      path: binaries-${{ env.gudrunVersion }}-windows.zip

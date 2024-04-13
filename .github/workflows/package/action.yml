@@ -3,47 +3,45 @@ name: Package OSX
 runs:
   using: "composite"
   steps:
+    - name: Download OSX Artifacts
+      uses: actions/download-artifact@v4
+      with:
+        pattern: binaries-*-osx-*
 
-  - name: Download OSX Artifacts
-    uses: actions/download-artifact@v4
-    with:
-      pattern: binaries-*-osx-*
+    - name: Create FAT Binaries
+      shell: bash
+      run: |
+        set -ex
+        mkdir binaries-${{ env.gudrunVersion }}-osx-fat
+        for BINARY_PATH in binaries-${{ env.gudrunVersion }}-osx-ARM64/*
+        do
+          BINARY=$(basename $BINARY_PATH)
+          install_name_tool -change /usr/lib/libz.1.dylib /opt/homebrew/opt/zlib/lib/libz.1.dylib binaries-${{ env.gudrunVersion }}-osx-ARM64/${BINARY}
+          lipo -create binaries-${{ env.gudrunVersion }}-osx-X64/${BINARY} binaries-${{ env.gudrunVersion }}-osx-ARM64/${BINARY} -output binaries-${{ env.gudrunVersion }}-osx-fat/${BINARY}
+        done
 
-  - name: Create FAT Binaries
-    shell: bash
-    run: |
-      set -ex
-      mkdir binaries-${{ env.gudrunVersion }}-osx-fat
-      for BINARY_PATH in binaries-${{ env.gudrunVersion }}-osx-ARM64/*
-      do
-        BINARY=$(basename $BINARY_PATH)
-        install_name_tool -change /usr/lib/libz.1.dylib /opt/homebrew/opt/zlib/lib/libz.1.dylib binaries-${{ env.gudrunVersion }}-osx-ARM64/${BINARY}
-        lipo -create binaries-${{ env.gudrunVersion }}-osx-X64/${BINARY} binaries-${{ env.gudrunVersion }}-osx-ARM64/${BINARY} -output binaries-${{ env.gudrunVersion }}-osx-fat/${BINARY}
-      done
+        README=binaries-${{ env.gudrunVersion }}-osx-fat/README.md
+        \
+          cat << 'EOM' > "$README"
+          ## Apple Users:
+          After installing the OSX binaries, the following commands must be run to use
+          Gudrun:
 
-      README=binaries-${{ env.gudrunVersion }}-osx-fat/README.md
-      \
-        cat << 'EOM' > "$README"
-        ## Apple Silicon Users:
-        After installing the OSX binaries, the following commands must be run to use
-        Gudrun:
+          ```
+          cd /folder/containing/binaries/
+          chmod +x gudrun_dcs purge_det tophatsub calc_corrsx_in_out
+          xattr -rd com.apple.quarantine gudrun_dcs purge_det tophatsub calc_corrsx_in_out
+          ```
+        EOM
 
-        ```
-        cd /folder/containing/binaries/
-        chmod +x gudrun_dcs purge_det tophatsub calc_corrsx_in_out
-        xattr -rd gudrun_dcs purge_det tophatsub calc_corrsx_in_out
-        ```
-      EOM
+    - name: Create Zip
+      shell: bash
+      run: |
+        set -ex
+        zip -9rv binaries-${{ env.gudrunVersion }}-osx-fat.zip binaries-${{ env.gudrunVersion }}-osx-fat/
 
-
-  - name: Create Zip
-    shell: bash
-    run: |
-      set -ex
-      zip -9rv binaries-${{ env.gudrunVersion }}-osx-fat.zip binaries-${{ env.gudrunVersion }}-osx-fat/
-
-  - name: Upload Raw Build Artifacts
-    uses: actions/upload-artifact@v4
-    with:
-      name: binaries-${{ env.gudrunVersion }}-osx-fat
-      path: binaries-${{ env.gudrunVersion }}-osx-fat
+    - name: Upload Raw Build Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: binaries-${{ env.gudrunVersion }}-osx-fat.zip
+        path: binaries-${{ env.gudrunVersion }}-osx-fat.zip
