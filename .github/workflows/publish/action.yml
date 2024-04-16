@@ -26,4 +26,4 @@ runs:
       run: |
         set -ex
         export GITHUB_TOKEN=${{ github.token }}
-        ./update-release -r disorderedmaterials/Gudrun -t ${{ env.gudrunVersion }} -n "${{ env.gudrunVersion }}" -f ReleaseNotes.md packages/*.zip startupFiles-*.zip
+        ./update-release -r disorderedmaterials/Gudrun -t ${{ env.gudrunVersion }} -n "${{ env.gudrunVersion }}" -f ReleaseNotes.md packages/*/*.zip startupFiles-*.zip
