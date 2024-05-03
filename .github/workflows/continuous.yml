@@ -3,37 +3,36 @@ name: Continuous
 on:
   push:
     branches:
-    - 'main'
+      - "main"
     paths-ignore:
-    - '.github/workflows/pr.yml'
-    - '.github/workflows/release.yml'
-    - 'README.md'
+      - ".github/workflows/pr.yml"
+      - ".github/workflows/release.yml"
+      - "README.md"
 
 jobs:
-
   Build:
     strategy:
       fail-fast: false
       matrix:
-        os: [ macos-latest, macos-14, windows-latest ]
+        os: [macos-latest, macos-13, windows-latest]
     runs-on: ${{ matrix.os }}
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-    - name: Set Environment Variables
-      uses: "./.github/workflows/setup"
-    - name: "Build (${{ matrix.os }})"
-      uses: "./.github/workflows/build"
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set Environment Variables
+        uses: "./.github/workflows/setup"
+      - name: "Build (${{ matrix.os }})"
+        uses: "./.github/workflows/build"
 
   PackageOSX:
-    needs: [ Build ]
+    needs: [Build]
     strategy:
       fail-fast: false
-    runs-on: macos-14
+    runs-on: macos-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-    - name: Set Environment Variables
-      uses: "./.github/workflows/setup"
-    - name: "Package OSX"
-      uses: "./.github/workflows/package"
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set Environment Variables
+        uses: "./.github/workflows/setup"
+      - name: "Package OSX"
+        uses: "./.github/workflows/package"
