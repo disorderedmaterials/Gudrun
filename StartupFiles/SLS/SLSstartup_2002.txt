@@ -5,21 +5,21 @@ INSTRUMENT          {
 SANDALS          Instrument name
 /home/aks45/Gudrun/Gudrun2014/Gudrun/StartupFiles/SLS/          Gudrun input file directory:
 /          Data file directory
-nxs          Data file type
-StartupFiles/SLS/SANDALS34modulesOct2023_Si.calib          Detector calibration file name
+raw          Data file type
+sls_detector_2_jul_2002_azi.dat          Detector calibration file name
 4          User table column number for phi values
 StartupFiles/SLS/groups_18.dat          Groups file name
-StartupFiles/SLS/SLSdeadtime_35us_Oct2023.cor          Deadtime constants file name
-3 4          Spectrum number(s) for incident beam monitor
+StartupFiles/SLS/SLSdeadtime.cor          Deadtime constants file name
+1 3          Spectrum number(s) for incident beam monitor
 0  0          Wavelength range [Å] for monitor normalisation
-5          Spectrum number(s) for transmission monitor
+2          Spectrum number(s) for transmission monitor
 0.0006          Incident monitor quiet count constant
 0.0006          Transmission monitor quiet count constant
 0  0          Channel numbers for spike analysis
 5          Spike analysis acceptance factor
 0.05  4.95  0.1          Wavelength range to use [Å] and step size
 100            No. of smooths on monitor
-0.1  50.0  0.01          Min, Max and step in x-scale (-ve for logarithmic binning)
+0.1  50.0  0.05          Min, Max and step in x-scale (-ve for logarithmic binning)
 0  0  0  0          0 0 0 0 to end input of specified values
 1.0          Groups acceptance factor 
 4          Merge power
@@ -34,8 +34,7 @@ StartupFiles/SLS/sears91_gudrun.dat          Neutron scattering parameters file
 /home/aks45/Gudrun/Gudrun2014/Gudrun/StartupFiles/SLS          Folder containing the startup file
 0.1          Logarithmic step size
 1          Hard group edges?
-StartupFiles/SLS/SLS2023-08-13.nexus_txt          NeXus definition file
-1          Number of iterations
+StartupFiles/SLS/SLS.nexus_txt          Number of iterations
 0          Tweak the tweak factor(s)?
 
 }
