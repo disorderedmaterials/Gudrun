@@ -624,7 +624,7 @@ MODULE normalisation_routines
             else
                 write(nchanout,104) igrp(ispec),ispec,nsmoo,chisqratio
                 write(6,104) igrp(ispec),ispec,nsmoo,chisqratio
-104             format(1x,'form_smoo_van> Group: ',i5, ' spectrum: ',i5 &
+104             format(1x,'form_smoo_van> Group: ',i5, ' spectrum: ',i5, &
                 ' with ',i4,' smooths and chisq ratio ',f10.5)
                 nspecprocgood=nspecprocgood+1
                 specprocgood(nspecprocgood)=ispec
